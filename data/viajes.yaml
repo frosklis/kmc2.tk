@@ -1,9 +1,17 @@
 # Viajes
+- name: la India
+  sanitized: india
+  featured_picture: ''
+  description: Una de las cunas de la civilización
+  date: "Octubre de 2019"
+  countries: [IND]
+  regions: []
+
 - name: Perú
   sanitized: "peru"
   featured_picture: 20190426-092215
   description: "Tierra de los incas"
-  date: "Verano de 2017"
+  date: "Abril de 2019"
   countries: [PER]
   regions: ['PE-PUN', 'PE-ARE', 'PE-CUS', 'PE-LIM']
 
