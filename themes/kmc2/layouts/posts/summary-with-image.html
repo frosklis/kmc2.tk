@@ -1,0 +1,28 @@
+<article class="bb b--black-10">
+  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{ .Permalink }}">
+    <div class="flex flex-column flex-row-ns">
+      <div class="w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">{{ .Title }}</h1>
+        {{ if .Params.featured_picture }}
+        {{/* Get the picture */}}
+        {{ $image := (.Resources.GetMatch (printf "*%s*" (string .Params.featured_picture ))) }}
+        {{ with $image }}
+        {{ $thumb_1x := (.Fit "384x288 q50") }}
+        {{ $thumb_2x := (.Fit "768x576 q50") }}
+        {{ $thumb_3x := (.Fit "1152x864 q50") }}
+        <div class="pr3-ns mb4 mb0-ns w-100">
+          <img style="max-width: 100%; height: auto;" srcset="{{ $thumb_1x.RelPermalink }} 1x, {{ $thumb_2x.RelPermalink }} 2x, {{ $thumb_3x.RelPermalink }} 3x"
+          width="{{ $thumb_1x.Width }}" height="{{ $thumb_1x.Height }}" class="db" alt="image from {{ .Title }}" 
+          width="{{ $thumb_1x.Width }}" height="{{ $thumb_1x.Height }}">
+        </div>
+        {{ end }}
+        {{ end }}
+        <div class="f6 f5-l lh-copy nested-copy-line-height">
+          {{ .Summary }}
+        </div>
+        {{/* TODO: add author
+        <p class="f6 lh-copy mv0">By {{ .Author }}</p> */}}
+      </div>
+    </div>
+  </a>
+</article>

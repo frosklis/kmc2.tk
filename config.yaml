@@ -1,0 +1,48 @@
+baseURL: https://www.kmc2.tk
+languageCode: es-es
+title: km c<sup>2</sup>
+theme: kmc2
+defaultContentLanguage: es
+# SectionPagesMenu: main
+
+taxonomies:
+  # viaje: viaje
+  tag: tags
+
+outputs:
+  home:
+  - HTML
+  - JSON
+  - RSS
+  page:
+  - HTML
+
+menu:
+  main:
+  - identifier: about
+    name: about hugo
+    pre: <i class='fa fa-heart'></i>
+    url: /about/
+    weight: -110
+  - name: galería
+    post: <span class='alert'>New!</span>
+    pre: <i class='fa fa-road'></i>
+    url: ./gallery/
+    weight: -100
+
+params:
+  favicon: favicon.ico
+  logo: /logo_64.png
+  logo_2x: /logo_128.png
+  logo_3x: /logo_384.png
+  description: Los viajes de Ceci y Claudio
+  headtitle: kmc2
+  background_color_class: bg-transparent
+  show_reading_time: true
+  body_classes: bg-transparent helvetica
+  mapbox:
+    token: pk.eyJ1IjoiY2xhdWRpbzg1IiwiYSI6IkhUYTM1c3MifQ.D_EsM3RQWCStl9ldOxDGuQ
+
+# Servicios externos
+disqusShortname: kmc2
+googleAnalytics: UA-267152-9

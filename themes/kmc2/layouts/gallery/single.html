@@ -1,0 +1,32 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+
+{{ $url := .Params.url }}
+{{ range $.Site.Data.viajes }}
+{{ $viaje_url_temp := printf "/viaje/%s/gallery/" .sanitized }}
+{{ if eq $viaje_url_temp $url }}
+{{ $.Scratch.Add "viaje_description" .description }}
+{{ $.Scratch.Add "viaje_title" .name }}
+{{ end }}
+{{ end }}
+{{ $viaje_description := .Scratch.Get "viaje_description" }}
+{{ $viaje_title := default "" (.Scratch.Get "viaje_title") }}
+
+
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+  <header>
+    <h1 class="f1">
+      {{ $viaje_title }}
+    </h1>
+  </header>
+  {{ .Content }}
+
+  {{ partial "gallery.html" . }}
+</article>
+
+{{ end }}
+
+{{ define "footer"  }}
+<p>gallery</p>
+{{ partialCached "site-footer.html" . }}
+{{ end }}

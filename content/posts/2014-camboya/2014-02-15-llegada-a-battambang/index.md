@@ -1,0 +1,14 @@
+---
+viaje: [Camboya]
+date: 2014-02-15 17:00:00
+layout: post
+title: Llegada a Battambang
+---
+<p>El viaje ha empezado movidito. De primeras, la chica que nos atendió de Air Europa no quería mandarnos las maletas directamente a Phnom Penh sino que pretendía que las recogiéramos en Amsterdam y volviéramos a facturar allí con Air China (imposible si tenemos en cuenta que teníamos sólo dos horas de escala y Air China requiere un mínimo de hora y media de adelanto en la facturación). Finalmente la chica fue maja y nos facturó las maletas hasta el destino final.</p>
+<p>En Amsterdam hicimos una escala breve que aprovechamos para desayunar y después nos encontramos con nuestro siguiente problema: primero no nos querían dar los billetes Cantón-Phnom Penh; después sólo me lo daban a mí y luego a Cris sólo le daban el de Cantón-Phnom Penh pero no el de Amsterdam-Cantón. Parecía que todo estaba solucionado pero resultó que nos habían puesto completamente separadas en el avión; afortunadamente un señor se cambió con Cris dejándole su asiento que por cierto era mucho peor que el que tenía.</p>
+<p>El vuelo a Cantón se pasó bien, muy atentos los de South China, que esperábamos que fuese tipo low cost y no nos ofreciera nada. Ahora estamos en Guangzhou, esperando por nuestro vuelo a Phnom Penh... congeladas! En el aeropuerto no hay calefacción y fuera hay 7 grados así que nos hemos puesto una camiseta extra, yo he tenido que ponerme calcetines con las sandalias y Cris acaba de sacar las toallas para taparnos porque ya no podemos más. Esperamos no pillar una neumonía aquí.</p>
+<p>Bueno, la aventura ha continuado. Una vez en Phnom Penh, tras sacarnos la visa, pagarla y pasar el control de pasaporte (hay que pasar por tres mostradores distintos, no vale ir al último directamente como intentamos) fuimos a esperar a nuestras maletas que no llegaron.</p>
+<p>Reclamamos la pérdida de maletas junto con otros tres chicos que venían de Amsterdam que tampoco las tenían y salimos a esperar al taxista. El señor de las maletas nos ha dicho que igual no nos las mandan a Battambang, esperemos que se solucione.</p>
+<p>Tras cinco horas de coche por fin hemos llegado a la Prefectura, de noche. Nos ha recibido Jimena que nos ha llevado a nuestra habitación donde nos esperaban las otras chicas (y Diego). Mañana subiré foto de la habitación y doy descripción de la Prefectura.</p>
+<p>Las cosas parece que van mejorando, han llamado del aeropuerto y nuestras maletas llegan mañana. Irá Jimena a buscarlas porque nosotras estaremos de excursión!!!</p>
+<p>Hemos aprovechado para ir a cenar dando un paseo, se nota mucho el calor húmedo pero estamos encantadas, se agradece la temperatura veraniega. ¡Se nota que estamos de vacaciones!</p>

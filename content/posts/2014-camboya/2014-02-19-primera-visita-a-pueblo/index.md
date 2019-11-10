@@ -1,0 +1,17 @@
+---
+viaje: [Camboya]
+date: 2014-02-19 11:00:54
+layout: post
+title: Primera visita a pueblo
+---
+<p>Cada día algo nuevo, así que hoy es nuestra primera visita a pueblo. Tras el desayuno cargamos las cajas en el jeep y el coche y pusimos rumbo a Khnaromes. 4 fuimos en la parte de atrás del jeep, pasándolo pipa claro, envueltos en nuestros kromás y gafas de sol.</p>
+<p>Nos instalamos en una parroquia con nuestro material y nos dividimos con nuestros traductores para ver pacientes; Ana Big se quedó con los medicamentos y era la encargada de administrar todo a los demás.</p>
+<p>Como llegamos tarde (9:30, aquí la vida comienza a las 6) muchos de nuestros pacientes se habían ido. Al parecer habían aparecido a las 8:15 y estuvieron mucho tiempo esperándonos hasta que al final desistieron y muchos se fueron. Una pena.</p>
+<p>Hasta las 12 fuimos viendo pacientes con tranquilidad, la mayoría casos de artrosis agravados con las condiciones laborales que tienen y muchos eran simplemente curiosos que venían a revisión pero que no eran capaces de decir que lo que querían era una revisión.</p>
+<p>Paramos a comer y nos dividimos en dos mesas con nuestros traductores, para integrarnos un poco. Es bastante común que los camboyanos se aparten para comer, se sienten en la parte de atrás del jeep para dejarte dentro del coche... tienen un complejo de inferioridad pasmoso que intentamos mitigar en la medida de lo posible. La comida nos la hicieron en la guardería que hay junto a la iglesia y que sirvió también de fuente de pacientes para el resto de la tarde.</p>
+<p>Antes de empezar la sesión de la tarde, como no teníamos pacientes, nos echamos una siesta en el altar, en el suelo literalmente. Nada de esterillas ni colchonetas. La tarde se nos fue haciendo cada vez más movida. Mi traductora, Mary, me fue de gran ayuda. La chica ha estudiado contabilidad, tiene 27 años y se mueve en silla de ruedas porque de pequeña tuvo polio. Hoy era su primer día de traductora con médicos y la verdad que ha hecho un trabajo excelente, a pesar de no saber todas las palabras. Creo que hemos revisado a todos los niños de la guardería y a sus madres. Mocos, mocos, más mocos y entre las madres aparecieron unos cuantos casos de ansiedad. Como no teníamos suficientes botes de paracetamol infantil para todos los niños, se los dimos a la profesora para que les diera la medicación en clase en caso de necesidad. A pesar de haber insistido, la mujer hizo un poco lo que le pareció y repartió botes a algunos y otros se quedaron sin nada.</p>
+<p>Tuvimos algún caso serio que pedimos que nos enviaran a Battambang; los diabéticos graves, un prolapso uterino clase III, un niño con adenopatías múltiples...</p>
+<p><img src="https://lh3.ggpht.com/Qm2bKeiJnfsJl4kCPewJcDJ03sS53IQEToNfDJtwvf7qcRfhXqtHr3KfX3MkCkiXYbL60hi1hXi9zQA-jRI" alt="" data-key="2180179"></p>
+<p>Yo creo que acabamos todos con buena sensación.</p>
+<p>La cena hoy ha sido con los chicos de La Paloma (centro que recoge a los chicos con discapacidad física por polio, minas...) donde había una cena especial, para cerrar su workshop de seguridad vial. Para hacerlo más curioso, resulta que éste había sido dado por niños sordomudos en forma de baile. Al principio me ha costado comunicarme con los chicos de mi mesa, porque sólo uno hablaba inglés y no se atrevía a hablar conmigo porque le daba vergüenza. Creo que todos lo hemos pasado genial y hemos salido hablando algo de camboyano de signos (más que camboyano normal por supuesto).</p>
+<p>Mañana más.</p>

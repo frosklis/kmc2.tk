@@ -1,0 +1,195 @@
+# Viajes
+- name: Perú
+  sanitized: "peru"
+  featured_picture: 20190426-092215
+  description: "Tierra de los incas"
+  date: "Verano de 2017"
+  countries: [PER]
+  regions: ['PE-PUN', 'PE-ARE', 'PE-CUS', 'PE-LIM']
+
+- name: Australia
+  sanitized: "australia"
+  featured_picture: 20181003-124152
+  description: "El continente isla"
+  date: "Septiembre de 2018"
+  countries: [AUS]
+  regions: ['AU-NSW', 'AU-NT', 'AU-SA', 'AU-QLD', 'AU-VIC']
+
+- name: Colombia
+  sanitized: "colombia"
+  featured_picture: _DSC1324
+  description: "El país de los tres mares"
+  date: "Verano de 2017"
+  countries: [COL]
+  regions: ['CO-ANT', 'CO-BOL', 'CO-CUN', 'CO-ATL', 'CO-MAG']
+
+- name: Sierra Leona
+  sanitized: "sierra-leona"
+  featured_picture: no picture
+  description: "Haciendo de médico."
+  date: "Verano de 2017"
+  countries: [SLE]
+
+- name: Namibia y Botsuana
+  sanitized: "namibia-y-botsuana"
+  featured_picture: File0262
+  description: "En 4x4 por África. Solos."
+  date: "Verano de 2016"
+  countries: [NAM, BWA, ZMB, ZWE]
+  regions:
+    - NA-OK
+    - NA-CA
+    - NA-ER
+    - NA-KU
+    - NA-KH
+    - NA-OS
+    - NA-ON
+    - NA-OT
+    - BW-NW
+    - ZW-MN
+
+- name: Portugal
+  sanitized: "portugal"
+  featured_picture: 20160325-1735
+  description: "Unos días en el Algarve y Alentejo"
+  date: Semana Santa de 2016
+  countries: [PRT]
+  regions: ['PT-08']
+
+- name: Indonesia
+  sanitized: "indonesia"
+  featured_picture: _DSC5795
+  description: "Naturaleza exuberante. Volcanes y jungla."
+  date: Verano de 2015
+  countries: [IDN]
+  regions: ['ID-YO', 'ID-JK', 'ID-BA', 'ID-KT', 'ID-NB', ID-JI, ID-JT]
+
+- name: Marruecos
+  sanitized: "marruecos"
+  description: "Tiene frontera con España, pero es otro mundo."
+  featured_picture: _DSC2802
+  date: Verano de 2014
+  countries: [MAR]
+
+- name: Chicago
+  sanitized: "chicago"
+  featured_picture: _DSC2043
+  description: "Muy bonita ciudad"
+  date: Julio de 2014
+  countries: [USA]
+
+- name: Italia Sur
+  sanitized: "italia-sur"
+  featured_picture: _DSC0799
+  description: "Arquitectura, paisaje y pizza"
+  date: Abril de 2014
+  countries: [ITA]
+  regions:
+    - IT-BA
+
+- name: Camboya
+  sanitized: "camboya"
+  featured_picture: DSCN1373
+  date: Marzo de 2014
+  countries: [KHM]
+  regions:
+  - 
+
+- name: La Rioja
+  sanitized: "la-rioja"
+  featured_picture: _DSC9675
+  description: "Escapada de fin de semana"
+  date: Octubre de 2013
+  countries: [ESP]
+
+- name: Croacia
+  sanitized: "croacia"
+  featured_picture: _DSC9139
+  description: "Genial lugar para veranear"
+  date: Verano de 2013
+  countries: [HRV,MNE,BIH]
+
+- name: Bolivia
+  sanitized: "bolivia"
+  featured_picture: 20130316_072115
+  date: Marzo de 2013
+  countries: [BOL]
+  regions:
+    - BO-S
+    - BO-P
+
+- name: Transmongoliano
+  sanitized: "transmongoliano"
+  featured_picture: _DSC4957
+  description: "Un viaje con nombre propio"
+  date: Agosto de 2012
+  countries: [RUS,MNG,CHN]
+  regions: ['RU-MOS','RU-MOW', RU-TA, 'RU-KYA', 'RU-SVE', 'RU-TOM', 'RU-IRK', 'RU-BU', 'RU-OMS', 'MN-1', CN-15, CN-11, CN-13]
+
+- name: Normandía
+  sanitized: "normandia"
+  featured_picture: _DSC2802
+  date: Abril de 2012
+  countries: [FRA]
+  regions:
+    - FR-14
+    - FR-76
+    - FR-61
+    - FR-50
+
+- name: Berlín
+  sanitized: "berlin"
+  featured_picture: _DSC2619
+  description: La capital de Alemania. Un fin de semana.
+  date: Febrero de 2012
+  countries: [DEU]
+  regions:
+    - DE-BE
+
+- name: Centroeuropa
+  sanitized: "centroeuropa"
+  featured_picture: _DSC0818
+  description: "El corazón de Europa"
+  date: Verano de 2011
+  countries: [CZE,DEU,POL,SVK,HUN,AUT]
+  regions:
+    - CZ-PR
+    - CZ-US
+    - CZ-KA
+    - CZ-PL
+    - CZ-ST
+    - DE-SN
+    - PO
+    - SV
+    - HU
+    - AU
+
+- name: Sicilia
+  sanitized: "sicilia"
+  description: "La isla más grande del Mediterráneo."
+  featured_picture: SAM_1315
+  date: Verano de 2010
+  countries: [ITA]
+
+- name: Turquía
+  sanitized: "turquia"
+  featured_picture: 4179862402
+  description: "Aquí se juntan oriente y occidente"
+  date: Agosto de 2009
+  countries: [TUR]
+
+- name: Italia Norte
+  sanitized: "italia-norte"
+  featured_picture: 2915528342
+  description: Desde Milán hasta Venecia.
+  date: Verano de 2008
+  countries: [ITA]
+  regions:
+    - IT-VA
+    - IT-CO
+    - IT-LC
+    - IT-BG
+    - IT-BS
+    - IT-VR
+    - IT-VE
+    - IT-MI

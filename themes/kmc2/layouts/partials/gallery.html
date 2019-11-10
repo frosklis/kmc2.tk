@@ -1,0 +1,30 @@
+{{ $dir := .Dir }}
+{{ range .Site.Pages }}
+{{ if hasPrefix .Dir $dir }}
+{{ $.Scratch.Add "resources" .Resources }}
+{{ end }}
+{{ end }}
+{{ $resources := .Scratch.Get "resources" }}
+
+{{ partial "load-photoswipe.html" .}}
+
+<div class="flex flex-wrap w-100">
+
+  {{ range $resources }}
+  <figure class="w-20-ns ma0">
+    {{ if eq .ResourceType "image" }}
+    <a data-size="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
+      {{ $thumb_1x := (.Fill "180x120 q50") }}
+      {{ $thumb_2x := (.Fill "360x240 q50") }}
+      {{ $thumb_3x := (.Fill "540x360 q50") }}
+
+      <img style="max-width: 100%; height: auto;" src="{{ $thumb_1x.RelPermalink }}"
+        srcset="{{ $thumb_1x.RelPermalink }} 1x, {{ $thumb_2x.RelPermalink }} 2x, {{ $thumb_3x.RelPermalink }} 3x"
+        width="{{ $thumb_1x.Width }}" height="{{ $thumb_1x.Height }}">
+    </a>
+    {{ else }}
+    <figcaption>No hay imagen {{ . }}</figcaption>
+    {{ end }}
+  </figure>
+  {{ end }}
+</div>
