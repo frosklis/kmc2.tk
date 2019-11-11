@@ -1,7 +1,7 @@
 # Viajes
-- name: la India
-  sanitized: india
-  featured_picture: ''
+- name: La India
+  sanitized: "india"
+  featured_picture: 20191022-061917
   description: Una de las cunas de la civilización
   date: "Octubre de 2019"
   countries: [IND]
