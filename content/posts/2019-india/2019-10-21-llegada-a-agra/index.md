@@ -11,7 +11,7 @@ Baby Taj Mahal
 
 Vistas sobre el Taj Mahal
 
-Esta mañana Gangiam (tenemso que verificar que se llama así, de mañana no pasa) nos hizo modificar el plan que teníamos inicialmente de ver algo de Old Delhi, porque nos dijo que hasta Agra había 5 horas. No se lo cuestionamos claro, aunque Google Maps decía que eran 3:30h. Lo que pasa es que nuesto conductor, si bien es muy prudente, conduce a velocidad de abuela y por tanto los tiempos se alargan.
+Esta mañana ~~Gangiam~~ Ghan Sian nos hizo modificar el plan que teníamos inicialmente de ver algo de Old Delhi, porque nos dijo que hasta Agra había 5 horas. No se lo cuestionamos claro, aunque Google Maps decía que eran 3:30h. Lo que pasa es que nuesto conductor, si bien es muy prudente, conduce a velocidad de abuela y por tanto los tiempos se alargan.
 
 Las carreteras indias (al menos las de peaje) están razonablemente bien. Una vez en Agra hicimos el check-in en nuestro hotel "The hideout Agra Boutique Hotel" y no podríamos recomendarlo más. Bueno, bonito y barato. Está regentado por un dentista indio formado en Barcelona que entre los servicios de su hotel te ofrece ir a visitar su clínica por si tienes interés en hacer turismo dental. Claro está que no lo recomendamos por esto, sino porque es muy amable, te organiza el tiempo que tengas sin presionarte y te da muchas recomendaciones de sitios para comprar o para comer. Las habitaciones están muy bien, eso sí se seguimos duchándonos con jarra y caldero.
 
