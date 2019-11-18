@@ -2,7 +2,7 @@
 # https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c
 cur="$(pwd)"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-cd $DIR
+cd "$DIR"
 cd ../data-src
 
 echo `ls`
@@ -20,4 +20,5 @@ topojson \
   -- \
   provincias_$1.temp.json
 
+rm provincias_$1.temp.json
 cd $cur

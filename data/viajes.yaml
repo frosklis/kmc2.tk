@@ -5,7 +5,7 @@
   description: Una de las cunas de la civilización
   date: "Octubre de 2019"
   countries: [IND]
-  regions: []
+  regions: ['IN-RJ', 'IN-UP', 'IN-DL']
 
 - name: Perú
   sanitized: "peru"

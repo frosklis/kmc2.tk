@@ -1,0 +1,5 @@
+[words]
+other = "palabras"
+
+[readingTime]
+other = "lectura de {{ .ReadingTime }} minuto{{if gt .ReadingTime 1}}s{{ end }}"

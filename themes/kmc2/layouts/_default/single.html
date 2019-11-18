@@ -20,9 +20,12 @@
       <h1 class="f1 athelas mb1 mt2">
         {{- .Title -}}
       </h1>
-      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+      {{/* Hugo uses Go's date formatting is set by example. Here are two formats 
       <time class="f6 mv2 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{- .Date.Format "January 2, 2006" -}}
+      </time>*/}}
+      <time class="f6 mv2 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+        {{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} de  {{ .Date.Year }} 
       </time>      
       {{/*  
           Show "reading time" and "word count" but only if one of the following are true:
@@ -31,7 +34,7 @@
           3) A page front matter value is set `show_reading_time = true`
         */}}
       {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-        <span class="f6 mv2 dib tracked"> - {{ .ReadingTime}} minutes read</span>
+        <span class="f6 mv2 dib tracked"> - {{ i18n "readingTime" . }} </span>
         <span class="f6 mv2 dib tracked"> - {{ .WordCount}} {{ i18n "words"}}</span>
       {{ end }}
     </header>
@@ -42,13 +45,13 @@
       {{- partial "tags.html" . -}}
       {{ if or .NextInSection .PrevInSection }}
         <ul class="pa0">
-            {{ if .PrevInSection }}
+            {{ if .PrevInSection }} {{ if .PrevInSection.Title }}
             <li class="list dib">
             <a href="{{.PrevInSection.Permalink}}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
                 {{- .PrevInSection.Title -}}
             </a>
             </li>
-            {{ end }}
+            {{ end }}{{ end }}
           {{ if .NextInSection }}
            <li class="list dib">
              <a href="{{.NextInSection.Permalink}}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
