@@ -2,7 +2,7 @@
 viaje: [India]
 title: Llegada a Agra
 layout: post
-date: '2018-09-21'
+date: '2019-10-21'
 ---
 
 Agra Fort

@@ -41,18 +41,18 @@
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       {{ if or .NextInSection .PrevInSection }}
-      <ul class="pa0">
+        <ul class="pa0">
+            {{ if .PrevInSection }}
+            <li class="list dib">
+            <a href="{{.PrevInSection.Permalink}}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+                {{- .PrevInSection.Title -}}
+            </a>
+            </li>
+            {{ end }}
           {{ if .NextInSection }}
            <li class="list dib">
              <a href="{{.NextInSection.Permalink}}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
                {{- .NextInSection.Title -}}
-             </a>
-           </li>
-          {{ end }}
-          {{ if .PrevInSection }}
-           <li class="list dib">
-             <a href="{{.PrevInSection.Permalink}}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
-               {{- .PrevInSection.Title -}}
              </a>
            </li>
           {{ end }}

@@ -2,7 +2,7 @@
 viaje: [India]
 title: Taj Mahal
 layout: post
-date: '2018-09-22'
+date: '2019-10-22'
 ---
 
 Madrugamos mucho para ver el Taj Mahal y fue un acierto. Nuestro billete comprado previamente por internet (otro acierto) era válido para entrar entre las 6 AM y las 9 AM. Antes de las seis y cuarto ya estábamos dentro. Era de día pero todavía no había salido el sol. Ya había mucha gente, aunque se estaba tranquilo; la gran avalancha de turistas que llegan desde Delhi ocurre más tarde.

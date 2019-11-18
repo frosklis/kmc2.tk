@@ -2,7 +2,8 @@
 viaje: [India]
 title: Toma de contacto con Delhi
 layout: post
-date: '2018-09-20'
+date: '2019-10-20'
+featured_picture: 20191020-112637
 ---
 
 El día de hoy ha estado muy bien, completo y cómodo. No nos estamos adaptando del todo a lo de tener un chófer particular, Dangian, con el que estamos muy contentos pero la comunicación es difícil. Eso va a cambiar a partir de ahora porque al final del día hemos conseguido una SIM india.

@@ -1,7 +1,7 @@
 # Viajes
 - name: La India
   sanitized: "india"
-  featured_picture: 20191022-061917
+  featured_picture: 20191022-074917
   description: Una de las cunas de la civilización
   date: "Octubre de 2019"
   countries: [IND]
@@ -25,7 +25,7 @@
 
 - name: Colombia
   sanitized: "colombia"
-  featured_picture: _DSC1324
+  featured_picture: 20170814-1206
   description: "El país de los tres mares"
   date: "Verano de 2017"
   countries: [COL]
@@ -33,14 +33,14 @@
 
 - name: Sierra Leona
   sanitized: "sierra-leona"
-  featured_picture: no picture
+  featured_picture: 20170708-113943
   description: "Haciendo de médico."
   date: "Verano de 2017"
   countries: [SLE]
 
 - name: Namibia y Botsuana
   sanitized: "namibia-y-botsuana"
-  featured_picture: File0262
+  featured_picture: 20160815-1313
   description: "En 4x4 por África. Solos."
   date: "Verano de 2016"
   countries: [NAM, BWA, ZMB, ZWE]
@@ -58,7 +58,7 @@
 
 - name: Portugal
   sanitized: "portugal"
-  featured_picture: 20160325-1735
+  featured_picture: 20160325-1544
   description: "Unos días en el Algarve y Alentejo"
   date: Semana Santa de 2016
   countries: [PRT]
@@ -66,7 +66,7 @@
 
 - name: Indonesia
   sanitized: "indonesia"
-  featured_picture: _DSC5795
+  featured_picture: 20150819-063151
   description: "Naturaleza exuberante. Volcanes y jungla."
   date: Verano de 2015
   countries: [IDN]
@@ -119,7 +119,7 @@
 
 - name: Bolivia
   sanitized: "bolivia"
-  featured_picture: 20130316_072115
+  featured_picture: 20130316-072115
   date: Marzo de 2013
   countries: [BOL]
   regions:

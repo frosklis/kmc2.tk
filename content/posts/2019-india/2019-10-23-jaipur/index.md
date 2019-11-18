@@ -2,7 +2,7 @@
 viaje: [India]
 title: Jaipur
 layout: post
-date: '2018-09-23'
+date: '2019-10-23'
 ---
 
 Jaipur, también como La ciudad rosa, es la capital del estado de Rajastán en la India. La ciudad de Jaipur fue fundada en 1728 por el maharajá Sawai Jai Singh, gobernante de Amber y gran aficionado a la astronomía. Se divide grosso modo en "ciudad rosa o ciudad antigua: dentro de la muralla" y "ciudad moderna: fuera de la muralla". La antigua es la que conserva el color rosado que da nombre a la ciudad y que curiosamente está más cuidada. 
