@@ -3,6 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kmc2.frosklis.tk/viaje/india/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-23-jaipur/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-22-taj-mahal/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-21-llegada-a-agra/</loc>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-20-toma-de-contacto-con-delhi/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/viaje/peru/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
   </url>
@@ -10,12 +41,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2019-peru/2019-04-25/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -134,29 +159,8 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-23/</loc>
-    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/posts/</loc>
-    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kmc2.frosklis.tk/posts/2018-australia/2018-09-22/</loc>
     <lastmod>2018-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-22/</loc>
-    <lastmod>2018-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-21/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -166,11 +170,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2018-australia/2018-09-20/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-20/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -1620,6 +1619,11 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/more_pictures/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/posts/2016-namibia-y-botsuana/2016-08-26/</loc>
     <priority>0</priority>
   </url>
@@ -1669,11 +1673,21 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/posts/2016-namibia-y-botsuana/more_pictures/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/viaje/portugal/</loc>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/viaje/portugal/gallery/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2016-portugal/more_pictures/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1689,12 +1703,16 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/posts/2017-sierra-leona/more_pictures/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/viaje/australia/gallery/</loc>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2019-india/2019-10-24/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/viaje/india/gallery/</loc>
   </url>
   
   <url>
@@ -1704,6 +1722,11 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2019-india/jodhpur/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2019-india/more_pictures/</loc>
     <priority>0</priority>
   </url>
   
@@ -2257,6 +2280,11 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2014-italia-sur/2014-04-24-pompeya/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
