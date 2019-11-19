@@ -3,6 +3,7 @@ viaje: [India]
 title: Llegada a Agra
 layout: post
 date: '2019-10-21'
+featured_picture: 20191021-162835
 ---
 
 Agra Fort
