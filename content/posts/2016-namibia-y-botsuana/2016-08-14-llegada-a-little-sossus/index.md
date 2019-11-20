@@ -1,6 +1,6 @@
 ---
 viaje: [Namibia y Botsuana]
-featured_picture: '29018968026'
+featured_picture: 201608141857
 layout: post
 mapping:
   locations:
@@ -26,10 +26,10 @@ Toda esta explicación que aquí he hecho en unas pocas líneas duró un par de 
 
 Del viaje en sí, poco voy a contar hoy. Sólo las carreteras principales son de asfalto y el resto por las que hemos venido son de pista. Según la categoría la pista es peor, o eso parece, pero en cualquier caso se puede ir cómodamente a unos 70-80 por hora (el límite es 100). Comimos una ensalada a un lado de la carretera y luego seguimos hasta Little Sossus, a donde afortunadamente hemos llegado de día (anochece a las seis). Tenemos baño y fregadero propios, agua corriente y luz, además de un sitio para meter el coche y no estar totalmente a la intemperie; meter el coche a cubierto ha sido una buena decisión porque hace muchísimo viento.
 
-{{% imgproc 28946370882 %}}
+{{% imgproc 201608141602 %}}
 
 Hemos cenado un guiso de carne pimientos y cebolla hecho por nosotros con el camping gas que estaba muy bueno.
 
 Mañana más y mejor, tenemos que mejorar la organización de las cosas dentro del coche para tardar menos en encontrar las cosas y montar y desmontar la tienda. Desmontar la tienda no nos debería llevar más de 10 minutos. Y mañana tenemos que llegar mucho antes aquí, para hacer las cosas con tranquilidad. A ver qué tal la duna 45.
 
-{{% imgproc 29018968026 %}}
+{{% imgproc 201608141857 %}}

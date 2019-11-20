@@ -54,7 +54,7 @@
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
     {{ $js := resources.Get "random_post.js" }}
-    <script src="{{ $js.Permalink }}"></script>
+    <script defer src="{{ $js.Permalink }}"></script>
 </head>
 
 <body

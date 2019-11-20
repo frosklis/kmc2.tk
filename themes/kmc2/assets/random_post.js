@@ -10,12 +10,14 @@ function go_to_random_post() {
 
                 // Obtener la lista de páginas
                 pages = xmlDoc.getElementsByTagName('loc');
-                while(true) {
+                while (true) {
                     random_id = Math.floor(Math.random() * pages.length);
                     url = pages[random_id].textContent;
                     if (url.indexOf("/posts/") > -1) {
+                        if (url.indexOf("/more_pictures") == -1) {
                         location.href = url;
-                        break;
+                            break;
+                        }
                     }
                 }
             }
