@@ -20,16 +20,19 @@ outputs:
 
 menu:
   main:
-  - identifier: about
+  - identifier: menu-about
     name: about hugo
     pre: <i class='fa fa-heart'></i>
     url: /about/
     weight: -110
-  - name: galería
+  - identifier: menu-gallery
+    name: galería
     post: <span class='alert'>New!</span>
     pre: <i class='fa fa-road'></i>
     url: ./gallery/
     weight: -100
+  - identifier: menu-random
+    name: llévame a alguna parte
 
 params:
   favicon: favicon.ico

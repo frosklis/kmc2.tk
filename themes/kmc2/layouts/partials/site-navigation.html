@@ -8,7 +8,7 @@
       {{ if .Site.Menus.main }}
         <ul class="pl0 mh3">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib pr3">
+          <li class="list f5 f4-ns fw4 dib pr3" id="{{ .Identifier }}">
             <a class="hover-blue no-underline black" href="{{ .URL }}" title="{{ .Name }} page">
               {{ .Name }}
             </a>
