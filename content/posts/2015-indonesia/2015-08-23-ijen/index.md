@@ -15,6 +15,7 @@ mapping:
 published: true
 tags: [Ijen]
 title: Ijen
+date: 2015-08-23
 ---
 
 Lo de hoy ha sido algo más que un madrugón. Yo no sé si me llegué a dormir profundamente. El caso es que a las doce y media estábamos en pie y a la una estábamos en ruta hacia Ijen.
