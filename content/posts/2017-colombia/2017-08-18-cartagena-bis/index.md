@@ -48,3 +48,15 @@ Por fin he encontrado los bolsos guayús que me gustan (bolsos tejidos a mano po
 
 Y para cerrar nuestra experiencia cartaginesa, pasamos el resto de tarde y noche en el parque cercano al hotel, con música en directo, relajados y con un ambiente inmejorable. 
 Le hemos cogido cariño a la ciudad.
+
+{{% imgproc 20170817-103426 %}}
+{{% imgproc 20170818-181242 %}}
+{{% imgproc 20170816-134625 %}}
+{{% imgproc 20170817-114029 %}}
+{{% imgproc 20170817-103637 %}}
+{{% imgproc 20170816-130218 %}}
+{{% imgproc 20170818-135611 %}}
+{{% imgproc 20170817-103712 %}}
+{{% imgproc 20170818-182334 %}}
+{{% imgproc 20170817-123313 %}}
+{{% imgproc 20170816-173210 %}}

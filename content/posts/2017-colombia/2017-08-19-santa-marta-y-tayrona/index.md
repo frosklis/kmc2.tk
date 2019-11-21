@@ -31,3 +31,13 @@ Afortunadamente para nosotros, Los Naranjos está más que bien… La playa es d
 {{% imgproc 36732682126 %}}
 
 Nota importante: para nuestra siguiente fase del viaje teníamos que ir al aeropuerto de Barranquilla. Primero, hay aeropuerto en Santa Marta así que uno se puede ahorrar casi dos horas de coche si se coge ahí el avión. Segundo, el aeropuerto de Barranquilla está muy mal señalizado así que lo más probable es que se necesite GPS para poder llegar a él (a nosotros nos llevó casi una hora encontrarlo una vez ya en Barranquilla). Tercero, el aeropuerto de Barranquilla es cutre con ganas, intentad pasar el menor tiempo posible en él. No hay ni una triste cafetería aceptable dentro para poder comer.
+
+{{% imgproc 20170819-062615 %}}
+{{% imgproc 20170821-161455 %}}
+{{% imgproc 20170821-110926 %}}
+{{% imgproc 20170820-113919 %}}
+{{% imgproc 20170821-122821 %}}
+{{% imgproc 20170821-115723 %}}
+{{% imgproc 20170821-103800 %}}
+{{% imgproc 20170819-092847 %}}
+{{% imgproc 20170820-100708 %}}

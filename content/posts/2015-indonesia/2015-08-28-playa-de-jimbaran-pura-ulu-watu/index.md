@@ -29,3 +29,11 @@ Después de ver el templo, nos quedamos con los tropecientos mil guiris más a v
 Para cenar pedimos al conductor que nos llevara a El Kabrón. El sitio es de un vasco y tiene un enclave buenísimo. En pleno acantilado, con una infiniti pool y un chill out muy relajante, ideal para puestas de sol. El sitio perfecto, la comida normalina nivel español, buena y cara nivel indonesio. Probablemente más recomendable para ver el atardecer que para ir a cenar. Aún así nos gustó ir, porque el sitio está estupendo.
 
 Mañana nos vamos a las Gili. ¡Se acabó el tráfico infernal de Bali Sur!
+
+{{% imgproc 20150828-210057 %}}
+{{% imgproc 20150828-073539 %}}
+{{% imgproc 20150828-172635 %}}
+{{% imgproc 20150828-173109 %}}
+{{% imgproc 20150828-173737 %}}
+{{% imgproc 20150828-074000 %}}
+{{% imgproc 20150828-184044 %}}

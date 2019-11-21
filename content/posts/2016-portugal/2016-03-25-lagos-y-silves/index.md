@@ -43,3 +43,26 @@ La última parada del día casi diría que fue la mejor: Silves. Silves está en
 Sobre la gente que vemos, hay mucho español, pero también turismo de otras partes. Por los carteles y los nombres de los negocios se deduce que esto en verano está lleno de ingleses.
 
 Ahora nos disponemos a dar una vuelta nocturna por Faro. Mañana más.
+{{% imgproc 20160325-181057 %}}
+{{% imgproc 20160325-174747 %}}
+{{% imgproc 20160325-191052 %}}
+{{% imgproc 20160325-154455 %}}
+{{% imgproc 20160325-151301 %}}
+{{% imgproc 20160325-123543 %}}
+{{% imgproc 20160325-152354 %}}
+{{% imgproc 20160325-154806 %}}
+{{% imgproc 20160325-162437 %}}
+{{% imgproc 20160325-123735 %}}
+{{% imgproc 20160325-123520 %}}
+{{% imgproc 20160325-125353 %}}
+{{% imgproc 20160325-163909 %}}
+{{% imgproc 20160325-123719 %}}
+{{% imgproc 20160325-163659 %}}
+{{% imgproc 20160325-205151 %}}
+{{% imgproc 20160325-154400 %}}
+{{% imgproc 20160325-123459 %}}
+{{% imgproc 20160325-181012 %}}
+{{% imgproc 20160325-123458 %}}
+{{% imgproc 20160325-190242 %}}
+{{% imgproc 20160325-153722 %}}
+{{% imgproc 20160325-194332 %}}

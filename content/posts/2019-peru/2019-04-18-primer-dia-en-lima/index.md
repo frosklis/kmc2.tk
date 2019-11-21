@@ -26,3 +26,9 @@ Para comer fuimos a Tanta, un local del emporio de Gastón Acurio donde comimos 
 La tarde la dedicamos a visitar el convento de Santo Domingo, que como dijimos antes era muy recomendable y guarda reliquias de los tres principales santos peruanos. A mi la que más me llamó la atención es una silla donde se sientan las mujeres que no se quedan embarazadas, para conseguir embarazo en el plazo de dos años.
 
 Tras una breve parada en el hotel para adecentarnos, fuimos a cenar a Astrid y Gastón. Teníamos la mesa reservada desde hace mucho tiempo para el restaurante, a la carta, porque el menú degustación para cenar el primer día con el jet lag nos parecía demasiado. El restaurante en si está en el barrio de San Isidro, compuesto por grandes mansiones protegidas por grandes muros. El local es una antigua casa colonial espectacular, grande, bonita, blanca, muy bien decorada por dentro con aire contemporáneo y con más personal que comensales (y no porque el restaurante no estuviera lleno). Nos dejamos asesorar por la camarera iniciando con un pisco sour al estilo Astrid y Gaston y seguimos ya con una causa, unos tortos de pato, pez diablo y cordero. De todos los platos, sólo reconocíamos 2 o 3 ingredientes del listado que ponía la carta, así que fue todo una sorpresa. Grata, no obstante, estaba todo buenísimo y excelentemente presentado. Lo más sorprendente quizás, por lo sencillo, fue el postre que consistía en 4 mousses de chocolate hechas única y exclusivamente del grano del cacao, sin leche, mantequilla u otro aditivo. En definitiva, la cena en Astrid y Gastón es altamente recomendable.
+
+{{% imgproc 20190418-163711 %}}
+{{% imgproc 20190418-113647 %}}
+{{% imgproc 20190418-113701 %}}
+{{% imgproc 20190418-161245 %}}
+{{% imgproc 20190418-113955 %}}

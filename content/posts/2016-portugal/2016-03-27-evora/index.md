@@ -39,3 +39,17 @@ Lo que hicimos nosotros fue primero comer, porque llegamos a la hora de comer, y
 Como anécdota del día, en el hotel teníamos la habitación 105, pero la tarjeta de la habitación no abría. Fuimos a recepción a comunicar el problema y sólo pudieron abrir con la llave maestra. Así que nos fuimos a pasear por Évora sin llave de la habitación, dejando a los del hotel encargados de solucionar el problema. Cuando volvimos al hotel, nos dijeron que no habían podido entrar en la habitación, que habían entrado por la ventana rompiendo el cristal para poder acceder a nuestras cosas y cambiárnoslas a la habitación 118, que es desde don escribo esto. En la 105 ahora mismo la puerta está abierta y se pueden ver los cristales rotos por el suelo. Solución muy drástica, pero se han portado bien.
 
 Mañana vuelta a casa. Tenemos cosas que hacer, así que será un viaje puro de A a B todo por autopista. Nada de turismo. Volveremos a escribir cuando sea verano.
+{{% imgproc 20160327-152252 %}}
+{{% imgproc 20160327-162025 %}}
+{{% imgproc 20160327-152532 %}}
+{{% imgproc 20160327-133152 %}}
+{{% imgproc 20160327-124610 %}}
+{{% imgproc 20160327-221722 %}}
+{{% imgproc 20160327-164946 %}}
+{{% imgproc 20160327-165244 %}}
+{{% imgproc 20160327-203633 %}}
+{{% imgproc 20160327-165041 %}}
+{{% imgproc 20160327-131717 %}}
+{{% imgproc 20160327-163440 %}}
+{{% imgproc 20160327-125818 %}}
+{{% imgproc 20160327-131504 %}}

@@ -28,3 +28,5 @@ A la vuelta tuvimos un pequeño incidente con las Jerry Cans, al romperse la cue
 Aún con todas, conseguimos llegar a nuestro camping a una hora más razonable, para poder ducharnos, organizar el campamento y que Claudio hiciera una hoguera para preparar la barbacoa de la cena (cerdo especial para braai). Durante la preparación de la cena, una manada de oryx se paseó por delante de nuestra tienda, camino de un pozo. Todo un desfile de oryx grandes, medianos, pequeños y muy pequeños. A pesar de los grandes cuernos parecen pacíficos, no se acercaron mucho a husmear. Mañana vamos a Walvis Bay y Swakopmund, a ver qué tal.
 
 {{% imgproc 28976428521 %}}
+
+{{% imgproc 20160815-131319 %}}

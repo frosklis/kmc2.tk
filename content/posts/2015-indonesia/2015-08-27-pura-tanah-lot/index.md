@@ -40,3 +40,11 @@ Lo de tráfico horrible es poco, llegar al hotel, en Balangan, nos ha llevado mu
 El hotel en el que nos quedamos (Bangalan Sea View) está... aceptable. Seguramente tuvo mejores años. Las zonas comunes están bien, pero la habitación es un poco cutre, especialmente el baño donde está todo oxidado y la cadena del WC está hecha con las asas de una bolsa de basura.
 
 Para cenar hemos ido a la playa a un chiringuito, eso sí que son vistas y lo demás cuento.
+
+{{% imgproc 20150827-110458 %}}
+{{% imgproc 20150827-175417 %}}
+{{% imgproc 20150827-093756 %}}
+{{% imgproc 20150827-130850 %}}
+{{% imgproc 20150827-110023 %}}
+{{% imgproc 20150827-105951 %}}
+{{% imgproc 20150827-111548 %}}

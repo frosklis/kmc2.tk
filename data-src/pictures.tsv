@@ -1,4 +1,9 @@
 directory	file	datetime	title	description	latitude	longitude
+./posts	20140901-171919.jpg	2014:09:01 17:19:19	-	-	31.57636	-5.58548
+./posts	20130828-195540.jpg	2013:08:28 19:55:40	&iexcl;Taxi!	Este barquito te hace evitar tener que llegar al itsmo.	44.1195366666667	15.2251233333333
+./posts	20130826-152827.jpg	2013:08:26 15:28:27	Puente Viejo	En realidad el Puente Viejo es nuevo, ya que fue destruido en la guerra y reconstruido en los 2000.	43.3427138833333	17.8109388833333
+./posts	20130828-101903.jpg	2013:08:28 10:19:03	Ni&ntilde;os navegando	Ni&ntilde;os aprendiendo a navegar en el puerto de Split.	43.5001216666667	16.4579216666667
+./posts	20140909-194602.jpg	2014:09:09 19:46:02	Se pone el sol en Essaouira	-	31.5076566666667	-9.76594833333333
 ./posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas	20150902-160821.jpg	2015:09:02 16:08:21	Felicidad pos ba&ntilde;o	-	-	-
 ./posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas	20150902-065145.jpg	2015:09:02 06:51:45	Satisfacci&oacute;n	3726 metros. Rinjani conquistado.	-8.41177833333333	116.457566666667
 ./posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas	20150902-181239.jpg	2015:09:02 18:12:39	Despierta la monta&ntilde;a	-	-	-
@@ -27,7 +32,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis	20150830-183235.jpg	2015:08:30 18:32:35	-	-	-8.374605	116.085596666667
 ./posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis	20150830-181032.jpg	2015:08:30 18:10:32	-	-	-8.374605	116.085596666667
 ./posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis	20150830-180926.jpg	2015:08:30 18:09:26	-	-	-8.374605	116.085596666667
-./posts/2015-indonesia/more_pictures	20150906-104758.jpg	2015:09:06 10:47:58	Kuta	Al final de esta playa est&aacute; el Novotel. La playa en s&iacute; no es de las mejores.	-8.90058833333333	116.2926
+./posts/2015-indonesia/2015-09-06-fin-de-lombok	20150906-104758.jpg	2015:09:06 10:47:58	Kuta	Al final de esta playa est&aacute; el Novotel. La playa en s&iacute; no es de las mejores.	-8.90058833333333	116.2926
 ./posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu	20150828-210057.jpg	2015:08:28 21:00:57	Tomando algo en el Kabron	Un restaurante espa&ntilde;ol en una localizaci&oacute;n privilegiada. Eso s&iacute;, la comida es normal pero cara.	-8.80182666666667	115.117001666667
 ./posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu	20150828-073539.jpg	2015:08:28 07:35:39	Playa en Bali	Hay mucha corriente en Bali, esto no es el Caribe	-	-
 ./posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu	20150828-172635.jpg	2015:08:28 17:26:35	Acantilados de Uluwatu	-	-8.826425	115.08439
@@ -118,6 +123,8 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2015-indonesia/2015-08-19-borobudur-prambanan	20150819-063151.jpg	2015:08:19 06:31:51	Templo	Este templo no tiene un interior con techo. Es, como si dij&eacute;ramos, una monta&ntilde;a decorada.	-7.6080361	110.203813883333
 ./posts/2014-camboya/2014-02-14-nos-vamos	20140214-055433.jpg	2014:02:14 05:54:33	En Barajas	Destino: Camboya	40.4636666666667	-3.56971166666667
 ./posts/2014-camboya	20140221-162142.jpg	2014:02:21 16:21:42	-	-	-	-
+./posts	20130830-171849.jpg	2013:08:30 17:18:49	Flores	Flores en Ston	42.8383783333333	17.6952033333333
+./posts	20140905-070106.jpg	2014:09:05 07:01:06	Bereber y dromedario en el desierto	Nuestro gu&iacute;a y cocinero se dirige a por nuestro dromedario, dentro del mar de arena.	31.1563683333333	-3.989125
 ./posts/2018-australia/2018-10-04	20181004-184359.jpg	2018:10:04 18:43:59	-	-	-	-
 ./posts/2018-australia/2018-10-04	20181004-110712.jpg	2018:10:04 11:07:12	-	-	-	-
 ./posts/2018-australia/2018-10-04	20181004-114700.jpg	2018:10:04 11:47:00	-	-	-	-
@@ -219,7 +226,11 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2018-australia/2018-09-28	20180928-102428.jpg	2018:09:28 10:24:28	-	-	-	-
 ./posts/2018-australia/2018-09-28	20180928-101258.jpg	2018:09:28 10:12:58	-	-	-	-
 ./posts/2018-australia/2018-09-28	20180928-115112.jpg	2018:09:28 11:51:12	-	-	-	-
+./posts/2012-transmongoliano/2012-08-12-tomsk	20120812-153210.jpg	2012:08:12 15:32:10	Memorial	Uno de los muchos memoriales que hay por toda Rusia de las v&iacute;ctimas de muchas guerras..Este est&aacute; en Tomsk en un enclave precioso desde el que se ve una gran llanura siberiana con un meandro del r&iacute;o Tom..Adem&aacute;s, est&aacute; justo al final de la avenida Lenin.	-	-
+./posts/2012-transmongoliano/2012-08-08-un-dentista-en-el-tren	20120808-194821.jpg	2012:08:08 19:48:21	Catedral de San Basilio	-	55.7536361	37.6213888833333
+./posts/2012-transmongoliano/2012-08-17-cabo-khoboy	20120817-130936.jpg	2012:08:17 13:09:36	En el fin del mundo	-	53.4115233333333	107.790371666667
 ./posts/2014-italia-sur/2014-04-24-pompeya	20140424-215920.jpg	2014:04:24 21:59:20	-	-	40.85123	14.2581133333333
+./posts	20140901-131518.jpg	2014:09:01 13:15:18	-	-	31.53085	-5.54885166666667
 ./posts/2013-bolivia	20130316-061541.jpg	2013:03:16 06:15:41	-	-	-	-
 ./posts/2013-bolivia	20130309-152225.jpg	2013:03:09 15:22:25	-	-	-	-
 ./posts/2013-bolivia	20130309-084529.jpg	2013:03:09 08:45:29	-	-	-	-
@@ -316,6 +327,9 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2013-bolivia	20130314-105320.jpg	2013:03:14 10:53:20	-	-	-	-
 ./posts/2013-bolivia	20130314-112853.jpg	2013:03:14 11:28:53	-	-	42.4221416666667	18.7749616666667
 ./posts/2013-bolivia	20130322-162328.jpg	2013:03:22 16:23:28	2013-03-22-16.23.28	-	-	-
+./posts	20140829-175650.jpg	2014:08:29 17:56:50	Madraza de Ben Youssef	La Madraza de Ben Youssef, ahora museo / atracci&oacute;n tur&iacute;stica, era antes una escuela cor&aacute;nica. &lt;a href=&quot;http://www.kmc2.tk/2014/08/29/llegada-a-marrakech/&quot; rel=&quot;nofollow&quot;&gt;Est&aacute; en Marrakech.&lt;/a&gt;	31.6320166666667	-7.985675
+./posts	20140829-190145.jpg	2014:08:29 19:01:45	-	-	31.6268533333333	-7.98691666666667
+./posts	20130828-164136.jpg	2013:08:28 16:41:36	Al fondo, Sibenik	-	43.5074083333333	16.4530616666667
 ./posts/2017-colombia	20170822-184548.jpg	2017:08:22 18:45:48	Un grafiti alegre	Curiosamente, este est&aacute; pintado con pintura anti grafiti (cara)	-	-
 ./posts/2017-colombia/2017-08-15-islas-del-rosario	20170815-171919.jpg	2017:08:15 17:19:19	Colores de Cartagena	Coche de caballos	-	-
 ./posts/2017-colombia/2017-08-15-islas-del-rosario	20170815-091600.jpg	2017:08:15 09:16:00	Bocagrande	Vista de Bocagrande desde el mar	-	-
@@ -439,6 +453,9 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-113701.jpg	2019:04:18 11:37:01	-	-	-12.0457216666667	-77.0309
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-161245.jpg	2019:04:18 16:12:45	-	-	-12.043835	-77.0318383333333
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-113955.jpg	2019:04:18 11:39:55	-	-	-12.0453016666667	-77.031645
+./posts	20140901-091242.jpg	2014:09:01 09:12:42	-	-	31.0384833333333	-7.12499
+./posts	20140905-071312.jpg	2014:09:05 07:13:12	El desierto queda atr&aacute;s	Ceci, ataviada como una aut&eacute;ntica bereber, contempla el desierto.	31.1563683333333	-3.989125
+./posts	20140830-201614.jpg	2014:08:30 20:16:14	-	-	31.6263666666667	-7.987335
 ./posts/2019-india/2019-10-22-taj-mahal	20191022-074917.jpg	2019:10:22 07:49:17	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-162938.jpg	2019:10:20 16:29:38	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-164524.jpg	2019:10:20 16:45:24	-	-	-	-
@@ -449,6 +466,8 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-171447.jpg	2019:10:21 17:14:47	-	-	-	-
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-152013.jpg	2019:10:21 15:20:13	-	-	-	-
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-151515.jpg	2019:10:21 15:15:15	-	-	-	-
+./posts	20130830-172650.jpg	2013:08:30 17:26:50	Pinzas	-	42.8383783333333	17.6952033333333
+./posts	20130826-152903.jpg	2013:08:26 15:29:03	-	-	43.3427138833333	17.8109388833333
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-181057.jpg	2016:03:25 18:10:57	Praia da Rocha	-	37.1164033333333	-8.53008
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-174747.jpg	2016:03:25 17:47:47	Portimao	Una de las muchas buenas playas del Algarve. Lo que no vale nada es Portimao en s&iacute;.	37.1164033333333	-8.53008
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-191052.jpg	2016:03:25 19:10:52	Galer&iacute;a de arte	-	37.1904283333333	-8.43842333333333
@@ -472,24 +491,24 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-190242.jpg	2016:03:25 19:02:42	Silves	Agradable lugar	37.19041	-8.43825833333333
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-153722.jpg	2016:03:25 15:37:22	Rocas	La costa del Algarve es de roca blanda, lo que deja que el mar cree formas curiosas	37.1018166666667	-8.67054833333333
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-194332.jpg	2016:03:25 19:43:32	Silves	Un pueblo muy bonito. Como no est&aacute; en la costa, no est&aacute; alterado por el turismo masivo.	37.1886733333333	-8.43957166666667
-./posts/2016-portugal/more_pictures	20160326-164604.jpg	2016:03:26 16:46:04	Tavira	Vista desde el castillo	37.1253633333333	-7.65150833333333
-./posts/2016-portugal/more_pictures	20160326-194645.jpg	2016:03:26 19:46:45	Faro	-	37.0136116666667	-7.93472166666667
-./posts/2016-portugal/more_pictures	20160326-193248.jpg	2016:03:26 19:32:48	Faro	Una de las calles comerciales de Faro	37.1265083333333	-7.64970666666667
-./posts/2016-portugal/more_pictures	20160326-120608.jpg	2016:03:26 12:06:08	Quinta do Lago	-	37.0274433333333	-8.02215333333333
-./posts/2016-portugal/more_pictures	20160326-115105.jpg	2016:03:26 11:51:05	Quinta do Lago	-	37.0281416666667	-8.02110333333333
-./posts/2016-portugal/more_pictures	20160326-165017.jpg	2016:03:26 16:50:17	Tavira	-	37.1253683333333	-7.65184333333333
-./posts/2016-portugal/more_pictures	20160326-180851.jpg	2016:03:26 18:08:51	Plaza de la Rep&uacute;blica	-	37.1265083333333	-7.64970666666667
-./posts/2016-portugal/more_pictures	20160326-130348.jpg	2016:03:26 13:03:48	Latas	-	37.1383616666667	-8.02233833333333
-./posts/2016-portugal/more_pictures	20160326-142318.jpg	2016:03:26 14:23:18	Puerto en el Guadiana	La otra orilla: Espa&ntilde;a	37.1943883333333	-7.41410333333333
-./posts/2016-portugal/more_pictures	20160326-151606.jpg	2016:03:26 15:16:06	Vila Real de Santo Antonio	-	37.1947333333333	-7.41583666666667
-./posts/2016-portugal/more_pictures	20160326-174353.jpg	2016:03:26 17:43:53	Polic&iacute;as espa&ntilde;oles en Portugal	Al parecer, seg&uacute;n contaban los polic&iacute;as, es habitual que polic&iacute;as espa&ntilde;oles vayan a zonas tur&iacute;sticas de Portugal donde suele haber muchos espa&ntilde;oles	37.1265083333333	-7.64970666666667
-./posts/2016-portugal/more_pictures	20160326-120528.jpg	2016:03:26 12:05:28	R&iacute;a Formosa	-	37.0275	-8.02222166666667
-./posts/2016-portugal/more_pictures	20160326-200720.jpg	2016:03:26 20:07:20	Puerto de Faro	-	37.0163883333333	-7.93472166666667
-./posts/2016-portugal/more_pictures	20160326-164551.jpg	2016:03:26 16:45:51	Tavira	Vista desde el castillo	37.1253633333333	-7.65150833333333
-./posts/2016-portugal/more_pictures	20160326-130104.jpg	2016:03:26 13:01:04	Loul&eacute;	Muy animado los s&aacute;bados, d&iacute;a de mercado	37.1383666666667	-8.02259166666667
-./posts/2016-portugal/more_pictures	20160326-151314.jpg	2016:03:26 15:13:14	&iexcl;Platos!	Muy baratos	37.1945033333333	-7.41533
-./posts/2016-portugal/more_pictures	20160326-164740.jpg	2016:03:26 16:47:40	Torre del reloj	En Tavira	37.1253616666667	-7.65143333333333
-./posts/2016-portugal/more_pictures	20160326-160719.jpg	2016:03:26 16:07:19	Con el autom&aacute;tico	-	37.1570266666667	-7.54646666666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-164604.jpg	2016:03:26 16:46:04	Tavira	Vista desde el castillo	37.1253633333333	-7.65150833333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-194645.jpg	2016:03:26 19:46:45	Faro	-	37.0136116666667	-7.93472166666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-193248.jpg	2016:03:26 19:32:48	Faro	Una de las calles comerciales de Faro	37.1265083333333	-7.64970666666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-120608.jpg	2016:03:26 12:06:08	Quinta do Lago	-	37.0274433333333	-8.02215333333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-115105.jpg	2016:03:26 11:51:05	Quinta do Lago	-	37.0281416666667	-8.02110333333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-165017.jpg	2016:03:26 16:50:17	Tavira	-	37.1253683333333	-7.65184333333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-180851.jpg	2016:03:26 18:08:51	Plaza de la Rep&uacute;blica	-	37.1265083333333	-7.64970666666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-130348.jpg	2016:03:26 13:03:48	Latas	-	37.1383616666667	-8.02233833333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-142318.jpg	2016:03:26 14:23:18	Puerto en el Guadiana	La otra orilla: Espa&ntilde;a	37.1943883333333	-7.41410333333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-151606.jpg	2016:03:26 15:16:06	Vila Real de Santo Antonio	-	37.1947333333333	-7.41583666666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-174353.jpg	2016:03:26 17:43:53	Polic&iacute;as espa&ntilde;oles en Portugal	Al parecer, seg&uacute;n contaban los polic&iacute;as, es habitual que polic&iacute;as espa&ntilde;oles vayan a zonas tur&iacute;sticas de Portugal donde suele haber muchos espa&ntilde;oles	37.1265083333333	-7.64970666666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-120528.jpg	2016:03:26 12:05:28	R&iacute;a Formosa	-	37.0275	-8.02222166666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-200720.jpg	2016:03:26 20:07:20	Puerto de Faro	-	37.0163883333333	-7.93472166666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-164551.jpg	2016:03:26 16:45:51	Tavira	Vista desde el castillo	37.1253633333333	-7.65150833333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-130104.jpg	2016:03:26 13:01:04	Loul&eacute;	Muy animado los s&aacute;bados, d&iacute;a de mercado	37.1383666666667	-8.02259166666667
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-151314.jpg	2016:03:26 15:13:14	&iexcl;Platos!	Muy baratos	37.1945033333333	-7.41533
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-164740.jpg	2016:03:26 16:47:40	Torre del reloj	En Tavira	37.1253616666667	-7.65143333333333
+./posts/2016-portugal/2016-03-26-el-este-del-algarve	20160326-160719.jpg	2016:03:26 16:07:19	Con el autom&aacute;tico	-	37.1570266666667	-7.54646666666667
 ./posts/2016-portugal/2016-03-24-llegada-a-faro	20160324-182440.jpg	2016:03:24 18:24:40	Lepe	Nos desviamos para conocer Lepe, lugar de fresas y chistes	37.2539666666667	-7.20661333333333
 ./posts/2016-portugal/2016-03-24-llegada-a-faro	20160324-183049.jpg	2016:03:24 18:30:49	Garaje en Lepe	Lepe existe	37.2553166666667	-7.20790833333333
 ./posts/2016-portugal/2016-03-27-evora	20160327-152252.jpg	2016:03:27 15:22:52	&Eacute;vora	Patrimonio de la Humanidad, un bonito pueblo medieval	38.570475	-7.91108333333333
@@ -506,11 +525,16 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2016-portugal/2016-03-27-evora	20160327-163440.jpg	2016:03:27 16:34:40	Catedral de &Eacute;vora	-	38.5715233333333	-7.91104166666667
 ./posts/2016-portugal/2016-03-27-evora	20160327-125818.jpg	2016:03:27 12:58:18	Alvito	Un cuidad&iacute;simo pueblo en el Alentejo	38.256095	-7.99246666666667
 ./posts/2016-portugal/2016-03-27-evora	20160327-131504.jpg	2016:03:27 13:15:04	Alentejo	-	38.36913	-7.97763833333333
+./posts	20140901-162739.jpg	2014:09:01 16:27:39	-	-	31.5772666666667	-5.58633
+./posts	20140908-155947.jpg	2014:09:08 15:59:47	Cisterna de El Yadida	Esto es patrimonio de la humanidad.	33.2564566666667	-8.50237333333333
+./posts	20140913-113626.jpg	2014:09:13 11:36:26	-	-	32.014085	-6.71881666666667
 ./posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra	20140901-171919.jpg	2014:09:01 17:19:19	-	-	31.57636	-5.58548
 ./posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra	20140901-131518.jpg	2014:09:01 13:15:18	-	-	31.53085	-5.54885166666667
 ./posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra	20140901-091242.jpg	2014:09:01 09:12:42	-	-	31.0384833333333	-7.12499
 ./posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra	20140901-162739.jpg	2014:09:01 16:27:39	-	-	31.5772666666667	-5.58633
 ./posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra	20140901-082534.jpg	2014:09:01 08:25:34	-	-	31.067725	-7.14205833333333
+./posts	20140901-082534.jpg	2014:09:01 08:25:34	-	-	31.067725	-7.14205833333333
+./posts	20140830-153205.jpg	2014:08:30 15:32:05	-	-	31.641595	-8.00335333333333
 ./posts/2016-namibia-y-botsuana	20160604-210832.jpg	2016:06:04 21:08:32	Planificando	Pr&oacute;ximo destino: &Aacute;frica	40.4580683333333	-3.68759166666667
 ./posts/2016-namibia-y-botsuana	20190515-192126.mp4	-	-	-	-	-
 ./posts/2016-namibia-y-botsuana/2016-08-15-sossusvlei	20160815-131319.jpg	2016:08:15 13:13:19	-	-	-	-

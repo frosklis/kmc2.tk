@@ -14,6 +14,7 @@ def move_to_right_folder():
     # Asumimos que todas las que están en un directorio válido son buenas
     for root, dirs, files in os.walk(blog_path):
         path = root.split(os.sep)
+        path_date = None
         try:
             path_date = datetime.datetime.strptime(os.path.basename(root)[:10], '%Y-%m-%d')
             paths[path_date] = root
@@ -23,7 +24,7 @@ def move_to_right_folder():
             for file in files:
                 if file.endswith('jpg'):
                     picture_date = datetime.datetime.strptime(file[:8], '%Y%m%d')
-                    if picture_date != path_date:
+                    if picture_date != path_date or path_date is None:
                         pictures.append((root, file, picture_date))
             # print(len(path) * '---', file, root)
 
@@ -36,19 +37,34 @@ def move_to_right_folder():
                 "%s%s%s" % (to_dir,os.sep,file)
                 )
 
-def check_bad_posts():
+def check_bad_posts(write=False):
     # Asumimos que todas las que están en un directorio válido son buenas
+    counter = 0
     for root, dirs, files in os.walk(blog_path):
         path = root.split(os.sep)
-        print((len(path) - 1) * '---', os.path.basename(root))
-
+        # print((len(path) - 1) * '---', os.path.basename(root))
         if 'index.md' in files:
             pictures_in_dir = [f for f in files if f.endswith('jpg')]
-
-            # buscar {{% imgproc xxxx %}}
-            pictures_in_post = re.findall(r'{{% imgproc (.*) %}}', open('%s%sindex.md' % (root, os.sep)))
-            print(pictures_in_post)
+            with open('%s%sindex.md' % (root, os.sep), 'r') as f:
+                # buscar {{% imgproc xxxx %}}
+                data = f.read()
+                pictures_in_post = re.findall(r'{{% imgproc (.*) %}}', data)
+                correct = True
+                for picture in pictures_in_post:
+                    matched = [p for p in pictures_in_dir if picture in p]
+                    if len(matched) != 1:
+                        correct = False
+                        break
+                if not correct:
+                    counter = counter + 1
+                    print("%4d"%counter,os.path.basename(root), pictures_in_post, pictures_in_dir)
+                    with open('%s%sindex.md' % (root, os.sep), 'a') as f:
+                        for p in pictures_in_dir:
+                            if write:
+                                f.write("\n{{%% imgproc %s %%}}" % p[:-4])
+                            
         # print(len(path) * '---', file, root)
 
 if __name__ == '__main__':
-    check_bad_posts()
+    move_to_right_folder()
+    check_bad_posts(write=False)

@@ -29,3 +29,10 @@ El resto de la tarde hemos aprovechado para disfrutar del mar, la playa y la isl
 Para cenar nos hemos quedado en el hotel. Aunque el precio ha sido mayor que otras comidas indonesias no nos podemos quejar, nos hemos tomado un par de pizzas y una de nutella (NUTELLA) de postre, que vaya gustazo.
 
 {{% imgproc 23794618133 %}}
+
+{{% imgproc 20150829-161119 %}}
+{{% imgproc 20150829-163911 %}}
+{{% imgproc 20150829-120659 %}}
+{{% imgproc 20150829-160436 %}}
+{{% imgproc 20150829-165213 %}}
+{{% imgproc 20150829-160356 %}}

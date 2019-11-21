@@ -40,3 +40,21 @@ Primer día: 10,5 km con 1300 metros de desnivel. No parece gran cosa, el truco 
 Segundo día: desde el campamento base a 2600 metros se sube a la cima, 3726 metros, se vuelve, se baja al cráter al lago, 600 metros por debajo y se vuelve a subir a 2600 metros. 10 horas caminando (eso según el plan).
 
 Tercer día. Descenso de 6 horas y 2000 metros hasta el campamento base.
+{{% imgproc 20150831-164221 %}}
+{{% imgproc 20150831-155827 %}}
+{{% imgproc 20150831-175511 %}}
+{{% imgproc 20150831-164532 %}}
+{{% imgproc 20150831-162551 %}}
+{{% imgproc 20150831-162554 %}}
+{{% imgproc 20150831-120016 %}}
+{{% imgproc 20150831-155446 %}}
+{{% imgproc 20150831-180721 %}}
+{{% imgproc 20150831-164313 %}}
+{{% imgproc 20150831-180647 %}}
+{{% imgproc 20150831-153620 %}}
+{{% imgproc 20150831-155154 %}}
+{{% imgproc 20150831-170855 %}}
+{{% imgproc 20150831-160529 %}}
+{{% imgproc 20150831-165447 %}}
+{{% imgproc 20150831-155345 %}}
+{{% imgproc 20150831-165521 %}}

@@ -32,3 +32,20 @@ Como salimos muy tarde del campamento después de la cima (Justina llegó más d
 Después del baño todavía nos quedaba un buen tramo hasta el campamento, de nuevo a 2670m pero esta vez del otro lado de la caldera. Parte del ascenso lo tuvimos que hacer de noche, cosa que no nos entusiasmaba especialmente dado que el camino era peligroso (un tailandés se había matado no hace mucho en esa zona) y con bastantes zonas de trepar/escalar. Al llegar ya nos estaban esperando los porteadores con las tiendas montadas y la cena lista, seguimos alucinados con las velocidades que llevan estos señores.
 
 {{% imgproc 24325648722 %}}
+
+{{% imgproc 20150902-160821 %}}
+{{% imgproc 20150902-065145 %}}
+{{% imgproc 20150902-181239 %}}
+{{% imgproc 20150902-070607 %}}
+{{% imgproc 20150902-181832 %}}
+{{% imgproc 20150902-070605 %}}
+{{% imgproc 20150902-065737 %}}
+{{% imgproc 20150902-065137 %}}
+{{% imgproc 20150902-051327 %}}
+{{% imgproc 20150902-070859 %}}
+{{% imgproc 20150902-063602 %}}
+{{% imgproc 20150902-060630 %}}
+{{% imgproc 20150902-164046 %}}
+{{% imgproc 20150902-064133 %}}
+{{% imgproc 20150902-160828 %}}
+{{% imgproc 20150902-160829 %}}

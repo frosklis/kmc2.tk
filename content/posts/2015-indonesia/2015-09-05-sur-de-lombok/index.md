@@ -28,3 +28,8 @@ Para la puesta de sol acabamos en Seger Beach. Quizás la peor de todas. Desde u
 {{% imgproc 24394584226 %}}
 
 [ashtari]: https://www.ashtarilombok.com/
+{{% imgproc 20150905-090914 %}}
+{{% imgproc 20150905-095249 %}}
+{{% imgproc 20150905-155904 %}}
+{{% imgproc 20150905-120827 %}}
+{{% imgproc 20150905-180600 %}}

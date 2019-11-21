@@ -49,3 +49,6 @@ Ya en John, otra escena más. Mis zapatos de trekking estaban para tirar (despeg
 Después de eso el día no tuvo más emociones: tres horas de viaje a Kuta y llegamos a un hotel estupendo con una cama comodísima.
 
 A dormir, a ver qué tal las piernas mañana.
+
+{{% imgproc 20150903-123508 %}}
+{{% imgproc 20150903-090806 %}}

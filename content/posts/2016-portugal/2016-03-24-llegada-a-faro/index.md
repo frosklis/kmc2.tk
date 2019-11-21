@@ -23,3 +23,5 @@ La ruta hasta Faro pasa por la provincia de Huelva cerca de Lepe. Yo quería con
 Como vamos sin GPS encontrar el hotel podría haber sido difícil, pero llegamos a él casi directos y aparcamos justo en frente, todo un triunfo.
 
 Para cenar hemos ido a uno de los mejores sitios según TripAdvisor (Tertulia Algarvia) y la verdad es que cenamos bien. Pulpo, bacalao y ensalada en raciones sorprendentemente grandes.
+{{% imgproc 20160324-182440 %}}
+{{% imgproc 20160324-183049 %}}

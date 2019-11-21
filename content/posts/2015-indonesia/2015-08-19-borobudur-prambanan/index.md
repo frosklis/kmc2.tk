@@ -56,3 +56,5 @@ Después nos fuimos, andando, hasta un albergue / restaurante / agencia de viaje
 Ya sin fuerzas, volvimos al hotel... en un becak.
 
 {{% imgproc 20676948333 %}}
+
+{{% imgproc 20150819-063151 %}}

@@ -30,3 +30,15 @@ Tras la visita al castillo, regresamos tranquilamente hasta nuestro hotel pasand
 
 
 Mañana nos vamos de tour a Islas Rosario, dicen que va a diluviar.
+{{% imgproc 20170814-165817 %}}
+{{% imgproc 20170814-172819 %}}
+{{% imgproc 20170814-113410 %}}
+{{% imgproc 20170814-104313 %}}
+{{% imgproc 20170814-103056 %}}
+{{% imgproc 20170814-120658 %}}
+{{% imgproc 20170814-170523 %}}
+{{% imgproc 20170814-105545 %}}
+{{% imgproc 20170814-114851 %}}
+{{% imgproc 20170814-173258 %}}
+{{% imgproc 20170814-155919 %}}
+{{% imgproc 20170814-175820 %}}

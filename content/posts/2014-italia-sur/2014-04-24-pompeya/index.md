@@ -53,3 +53,5 @@ Como estábamos agotados y no nos veíamos con fuerzas para subir al Vesubio o p
 Para cenar fuimos dando un agradable paseo por la Via dei Tribunali hasta la Antica Pizzeria e Friggitoria di Mateo, donde reservamos mesa para las 9:30... ¡qué pizzas! ¡Sublimes! Con razón están entre las mejores de Nápoles. El sitio es cutre a más no poder pero las pizzas están buenísimas y baratísimas, 100% recomendable.
 
 Mañana más.
+
+{{% imgproc 20140424-215920 %}}

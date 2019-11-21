@@ -65,3 +65,14 @@ Y con eso finalizó nuestra estancia en Medellín, paseamos por la zona Rosa y m
 De camino al aeropuerto esta vez pudimos disfrutar de las vistas que no tuvimos cuando llegamos. Es todo muy verde, muy frondoso, lleno de viveros... muy bonito. Por todas partes están edificando casas de lujo: ¡no sabemos de donde sacan tanta gente para tanto edificio!
 
 Seguiremos informando desde Cartagena.
+{{% imgproc 20170813-102806 %}}
+{{% imgproc 20170812-154352 %}}
+{{% imgproc 20170813-145040 %}}
+{{% imgproc 20170813-102535 %}}
+{{% imgproc 20170813-100339 %}}
+{{% imgproc 20170813-101437 %}}
+{{% imgproc 20170813-102111 %}}
+{{% imgproc 20170813-115527 %}}
+{{% imgproc 20170812-100436 %}}
+{{% imgproc 20170812-120408 %}}
+{{% imgproc 20170812-104356 %}}

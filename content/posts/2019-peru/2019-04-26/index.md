@@ -21,3 +21,12 @@ Finalmente llegó el briefing de Alpaca, donde tampoco nos contaron nada especia
 La cena, en Limo, muy recomendable. Restaurante peruano nikkei con vistas a la plaza de armas, el tiradito, las gyozas, el sushi y el dome de chocolate, para repetir.
 
 Mañana empieza la aventura dura de verdad. Yo, lo reconozco, estoy nerviosa.
+
+{{% imgproc 20190426-142039 %}}
+{{% imgproc 20190426-155332 %}}
+{{% imgproc 20190426-103956 %}}
+{{% imgproc 20190426-091746 %}}
+{{% imgproc 20190426-160803 %}}
+{{% imgproc 20190426-100613 %}}
+{{% imgproc 20190426-092215 %}}
+{{% imgproc 20190426-120115 %}}

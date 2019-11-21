@@ -28,3 +28,4 @@ Para comer fuimos a Potato Head, en el Pacific Building, distrito financiero. En
 La tarde se la dedicamos a los centros comerciales, porque con el calor que hacía no estábamos dispuestos ni a ir a Kota (ciudad antigua) ni al puerto. Son descomunales. En concreto el Park Plaza, el que está al lado de nuestro hotel. Para perderse.
 
 [mezquita]: https://en.wikipedia.org/wiki/Istiqlal_Mosque,_Jakarta
+{{% imgproc 20150907-104018 %}}

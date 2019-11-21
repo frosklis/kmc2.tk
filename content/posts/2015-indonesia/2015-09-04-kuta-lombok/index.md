@@ -19,3 +19,4 @@ La playa de Kuta Lombok está bien, sin llegar a ser tan paradisiaca como sus ve
 Para comer hemos ido al [Warung Bule][bule], un restaurante del ex chef del Novotel y nos ha encantado, en concreto el atún. Para la tarde, plan tranquilo: piscina y sol y de noche música en vivo en el hotel, muy buen ambiente para acabar un día tranquilo.
 
 [bule]: https://warungbulelombok.com/
+{{% imgproc 20150904-095015 %}}

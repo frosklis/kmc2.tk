@@ -28,3 +28,15 @@ Después de comer volvimos a hacer dos paradas, la mejor la última, en Gili Air
 Por la tarde ya de vuelta en Gili Air hemos ido a ver la puesta de Sol al lado oeste de la isla y para cenar... hemos ido al top choice de la Lonely Planet: imposible fallar.
 
 {{% imgproc 24408690216 %}}
+{{% imgproc 20150830-183358 %}}
+{{% imgproc 20150830-180518 %}}
+{{% imgproc 20150830-083216 %}}
+{{% imgproc 20150830-180737 %}}
+{{% imgproc 20150830-101809 %}}
+{{% imgproc 20150830-180416 %}}
+{{% imgproc 20150830-183446 %}}
+{{% imgproc 20150830-180819 %}}
+{{% imgproc 20150830-083813 %}}
+{{% imgproc 20150830-183235 %}}
+{{% imgproc 20150830-181032 %}}
+{{% imgproc 20150830-180926 %}}
