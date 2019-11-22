@@ -1,23 +1,32 @@
 <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="{{ .Site.Params.logo }}" srcset="{{ .Site.Params.logo }} 1x, {{ .Site.Params.logo_2x }} 2x, {{ .Site.Params.logo_3x }} 3x" alt="{{ .Site.Title }}" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      {{ partial "i18nlist.html" . }}
-      {{ if .Site.Menus.main }}
-        <ul class="pl0 mh3">
-          {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib pr3" id="{{ .Identifier }}">
-            <a class="hover-blue no-underline black" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
-            </a>
-          </li>
-          {{ end }}
-          <!--<li class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input" class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Search the Docs" name="search-input" style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto"></li>-->
-        </ul>
-      {{ end }}
-      {{ partialCached "social-follow.html" . }}
+    <div class="flex justify-left items-center center">
+        <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="{{ .Site.Params.logo }}"
+                srcset="{{ .Site.Params.logo }} 1x, {{ .Site.Params.logo_2x }} 2x, {{ .Site.Params.logo_3x }} 3x"
+                alt="{{ .Site.Title }}" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            {{ partial "i18nlist.html" . }}
+            {{ if .Site.Menus.main }}
+            <ul class="pl0 mh3">
+                {{ range .Site.Menus.main }}
+                <li class="list f5 f4-ns fw4 dib pr3" id="{{ .Identifier }}">
+                    <a class="hover-blue no-underline black" href="{{ .URL }}" title="{{ .Name }} page">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Search the Docs"
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            {{ partialCached "social-follow.html" . }}
+        </div>
     </div>
-  </div>
 </nav>

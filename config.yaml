@@ -32,7 +32,7 @@ menu:
     url: ./gallery/
     weight: -100
   - identifier: menu-random
-    name: llévame a alguna parte
+    name: cuéntame algo
 
 params:
   favicon: favicon.ico
@@ -44,6 +44,7 @@ params:
   background_color_class: bg-transparent
   show_reading_time: true
   body_classes: bg-transparent helvetica
+  twitter: claudio1985
   mapbox:
     token: pk.eyJ1IjoiY2xhdWRpbzg1IiwiYSI6IkhUYTM1c3MifQ.D_EsM3RQWCStl9ldOxDGuQ
 

@@ -1,6 +1,7 @@
 CUR="$(pwd)"
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-cd $DIR
+DIR=`dirname "$0"`
+echo $DIR
+cd "$DIR"
 
 regiones=$( python create_maps.py )
 echo $regiones
@@ -23,4 +24,4 @@ topojson \
 cp provincias_mundo.json ../static/
 rm provincias_mundo.temp.json
 
-cd $CUR
+cd "$CUR"

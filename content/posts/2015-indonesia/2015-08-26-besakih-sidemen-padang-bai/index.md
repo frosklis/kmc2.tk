@@ -15,6 +15,7 @@ mapping:
 published: true
 tags: []
 title: Besakih, Sidemen, Padang Bai
+date: 2015-08-26
 ---
 
 Cuando Putu (dueña del hotel) se enteró de que íbamos a Besakih, el templo más grande de Bali, nos dijo dos cosas: qué bonito y qué lejos. Como todo en Indonesia, no está lejos en distancia, pero llegar nos llevó dos horas.
