@@ -1,23 +1,23 @@
 {{ define "main" }}
-{{ range .Pages }} {{ $.Scratch.Add "resources" .Resources }} {{ end }}
-{{ $resources := .Scratch.Get "resources" }}
-{{ $image := index $resources 0}}
-{{ range $.Site.Data.viajes }}
-{{ $featured_image := string .featured_picture }}
+    {{ range .Site.Pages }}{{ $.Scratch.Add "resources" .Resources }}{{ end }}
+    {{ $resources := .Scratch.Get "resources" }}
+    {{ range $.Site.Data.viajes }}
+        {{ $featured_image := string .featured_picture }}
+        {{ $original := ($resources.GetMatch (printf "*%s*" $featured_image)) }}
+        {{ $image := $original }}
+        <a class="link white" href="/viaje/{{.sanitized}}">
+        <article class="w-100 vh-100 dt cover bg-black white sticky"
+            {{ with $image }}style="background-image: url({{ $image.RelPermalink }});top:0;left:0;background-position:bottom"
+            {{ end }}>
+            <section class="dtc white ph3 ph4-l">
+            <div class="relative w-100 mb4">
+                <h1 class="f6 f2-m f-subheadline-l fw6">{{ .name }}</h1>
+                <h2>{{ .description }}</h2>
+            </div>
+            </section>
+        </article>
+        </a>
+    {{ end }}
 
-{{ $image = $resources.GetMatch (printf "*%s*" (replace (replace $featured_image "-" "?") "_" "?")) }}
-<a class="link white" href="/viaje/{{.sanitized}}">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    {{ with $image }}style="background-image: url({{ $image.RelPermalink }});top:0;left:0;background-position:bottom"
-    {{ end }}>
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">{{ .name }}</h1>
-        <h2>{{ .description }}</h2>
-      </div>
-    </section>
-  </article>
-</a>
-{{ end }}
-
+    {{ range .Pages }} {{ . }} {{ .RelPermalink }} {{ end }}
 {{ end }}
