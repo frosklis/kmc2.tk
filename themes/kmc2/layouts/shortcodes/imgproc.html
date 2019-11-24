@@ -12,7 +12,7 @@
 {{ .Scratch.Set "image" ($original) }}
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
 	<img style="max-width: 100%; height: auto;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
 	<figcaption>
         <small>
@@ -26,7 +26,9 @@
             {{ $longitude := index $r 6 }}
             {{ with $original }}
             {{ if eq $file $original.Name }}
-                {{ $title | htmlUnescape }} - {{ $description | htmlUnescape }}
+                {{ if ne $title "-"}}
+                    {{ $title | htmlUnescape }}{{ if ne $description "-"}}. {{ $description | htmlUnescape }}{{ end }}
+                {{ end}}
             {{ end }}
             {{ end }}
         {{ end }}

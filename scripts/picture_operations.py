@@ -57,7 +57,8 @@ def check_bad_posts(write=False):
                         break
                 if not correct:
                     counter = counter + 1
-                    print("%4d"%counter,os.path.basename(root), pictures_in_post, pictures_in_dir)
+                    if len(pictures_in_dir) >0:
+                        print("%4d"%counter,os.path.basename(root), pictures_in_post, pictures_in_dir)
                     with open('%s%sindex.md' % (root, os.sep), 'a') as f:
                         for p in pictures_in_dir:
                             if write:
