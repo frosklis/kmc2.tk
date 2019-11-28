@@ -1,6 +1,6 @@
 ---
 viaje: [Italia Sur]
-featured_picture: 20140424-1018'
+featured_picture: 20140424-1018
 layout: post
 mapping:
   locations:
