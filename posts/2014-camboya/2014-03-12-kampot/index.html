@@ -11,17 +11,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -36,9 +36,8 @@
 La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí la segunda." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/posts/2014-camboya/2014-03-12-kampot/" />
-<meta property="article:published_time" content="2014-03-12T17:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2014-03-12T17:00:00&#43;00:00"/>
-
+<meta property="article:published_time" content="2014-03-12T17:00:00+00:00" />
+<meta property="article:modified_time" content="2014-03-12T17:00:00+00:00" />
 <meta itemprop="name" content="Kampot">
 <meta itemprop="description" content="Ayer nos acostamos a las mil buscando por Internet el teléfono de alguna compañía que nos llevase a hacer un tour por la selva. Después de haber hablado con los del primer grupo de médicos nos dimos cuenta que nos apetecía más pasear por allí aunque fuese sólo un día, que ver los campos de pimienta de Kampot.
 La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí la segunda.">
@@ -64,10 +63,12 @@ La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
    
@@ -76,32 +77,65 @@ La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -113,10 +147,9 @@ La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -141,8 +174,14 @@ La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      <p><p>Ayer nos acostamos a las mil buscando por Internet el teléfono de alguna compañía que nos llevase a hacer un tour por la selva. Después de haber hablado con los del primer grupo de médicos nos dimos cuenta que nos apetecía más pasear por allí aunque fuese sólo un día, que ver los campos de pimienta de Kampot.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+  
+   <li class="list">
+     <a href="/viaje/camboya" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Camboya</a>
+   </li>
+  
+</ul>
+<p><p>Ayer nos acostamos a las mil buscando por Internet el teléfono de alguna compañía que nos llevase a hacer un tour por la selva. Después de haber hablado con los del primer grupo de médicos nos dimos cuenta que nos apetecía más pasear por allí aunque fuese sólo un día, que ver los campos de pimienta de Kampot.</p>
 <p>La primera llamada no funcionó porque la compañía cerraba los lunes, pero sí la segunda. El señor Tun, que lleva la Orchid Guesthouse (teléfono: 092-226996, 033-210131) nos dijo que quedaban plazas para el tour del Bokor y aunque llegásemos un poco más tarde de la hora habitual de salida, nos esperaban. Así pues, cogimos un tuktuk por 3USD que nos llevó hasta la puerta del Guesthouse en media hora. Aprovechamos en nuestro recorrido para tragar mucho polvo, temer por nuestras vidas al llegar a la zona de gravilla suelta y finalmente apreciar la ciudad de Kampot, que es preciosa. Es una pena que no le hayamos podido dedicar más tiempo, a diferencia de otros sitios que habíamos visto en Camboya, aquí hay construcciones bonitas y se ve que hay más dinero. &ldquo;Aquí vendría yo a jubilarme&rdquo;, dijo Diego.</p>
 <p>La verdad que esta mañana ha sido un poco rara, primero porque al ir a pagar, Cris y Diego se encontraron con que la habitación valía 15 dólares menos de lo previsto, ¡hemos dormido por 3€ cada uno! ¡más barato que el desayuno!. Llegamos en taxi a Kampot con nuestras mochilas y nos dejaron en el Orchid Guesthouse. Por lo que pudimos ver, hay toda una calle de albergues que organizan los mismos tours, así que si no es con uno, se puede organizar con otro. Nosotros de todas formas recomendamos al señor Tun porque consiguió hacérnoslo a medida.</p>
 <p>Según llegamos nos recibió el dueño, nos dijo que dejásemos nuestras mochilas en recepción y nos llevó a pagar el tour. Al preguntarle si bajaba por la selva (se lo pregunté porque había leído en algunos blogs que ya no se puede caminar por ella a no ser que sobornes a un guardia forestal), nos dijo que no, que estaba prohibido y que el tour era sólo del Bokor. Le dijimos entonces que no estábamos interesados, que preferíamos ver los campos de pimienta típicos de la zona que subir al pueblo fantasma francés pero el tour de la pimienta estaba completo y además es que&hellip; ¡era en Kep! Resulta que los tours de la pimienta de Kampot se hacen en Kep, un sinsentido absoluto. Al final el señor Tun lo arregló todo, un guarda al que sobornamos por 30 dólares para que nos bajara andando desde el Bokor a Kampot a través de la selva (el tour del Bokor eran 13 y nosotros pagamos 23 cada uno), un taxi comunitario que nos recogería a la vuelta de la excursión para llevarnos a Sihanoukville y un lugar donde dejar nuestras maletas mientras hacíamos el recorrido. Creo que es el Camboyano con más iniciativa que he visto en todo el viaje.</p>
@@ -225,7 +264,82 @@ mapping:
   </article>
 
   </main>
-  <p>single default</p>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
+
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
+</footer>
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

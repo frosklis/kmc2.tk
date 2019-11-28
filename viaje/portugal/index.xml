@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>km c&lt;sup&gt;2&lt;/sup&gt;</title>
@@ -6,9 +6,31 @@
     <description>Recent content on km c&lt;sup&gt;2&lt;/sup&gt;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
+    <lastBuildDate>Sun, 27 Mar 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kmc2.frosklis.tk/viaje/portugal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Évora</title>
+      <link>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-27-evora/</link>
+      <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-27-evora/</guid>
+      <description>Casi fin de viaje hoy. Salimos por la mañana de Faro y nos dio tiempo a llegar a comer a Évora pasando y medio parando en Beja y parando del todo en Alvito.
+  Alentejo. Paisaje similar al extremeño, muy bonito    El viaje de Faro a Alvito atraviesa el Alentejo que, seamos honestos, es mucho más bonito que el Algarve. He visto en alguna parte, no recuerdo donde, al Alentejo descrito como rural chic.</description>
+    </item>
+    
+    <item>
+      <title>Lagos y Silves</title>
+      <link>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/</guid>
+      <description>No fue una moneda, pero decidimos ir al oeste hoy y al este mañana. Tengo hecha una lista de pueblos que ver, pero los días son intercambiables.
+Lo primero que hicimos fue ir al Cabo de San Vicente, extremo de la Península Ibérica. Los acantilados están bien, pero nada realmente espectacular comparado con otras costas como, sin ir más lejos, lo que vimos después en el propio Algarve.
+  Praia do Beliche    Visto el cabo, fuimos a Lagos.</description>
+    </item>
     
     <item>
       <title></title>
@@ -39,17 +61,6 @@
     </item>
     
     <item>
-      <title>Lagos y Silves</title>
-      <link>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/</guid>
-      <description>No fue una moneda, pero decidimos ir al oeste hoy y al este mañana. Tengo hecha una lista de pueblos que ver, pero los días son intercambiables.
-Lo primero que hicimos fue ir al Cabo de San Vicente, extremo de la Península Ibérica. Los acantilados están bien, pero nada realmente espectacular comparado con otras costas como, sin ir más lejos, lo que vimos después en el propio Algarve.
-     Visto el cabo, fuimos a Lagos.</description>
-    </item>
-    
-    <item>
       <title>Llegada a Faro</title>
       <link>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-24-llegada-a-faro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,16 +68,6 @@ Lo primero que hicimos fue ir al Cabo de San Vicente, extremo de la Península I
       <guid>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-24-llegada-a-faro/</guid>
       <description>Día largo de viaje hoy, mucho coche. Salida de Semana Santa y Faro está lejos de Madrid, así que simplemente era lo que tocaba.
 En vez de ir por la A-5, como estaba bastante atascada, fuimos por las carreteras nacionales de Castilla la Mancha y Extremadura, hasta retomar la A-5 y luego coger la ruta de la plata (A-66). El camido elegido atraviesa la sierra de Guadalupe (montes de Toledo) y, aunque montañoso y lento, es bonito.</description>
-    </item>
-    
-    <item>
-      <title>Évora</title>
-      <link>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-27-evora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-27-evora/</guid>
-      <description>Casi fin de viaje hoy. Salimos por la mañana de Faro y nos dio tiempo a llegar a comer a Évora pasando y medio parando en Beja y parando del todo en Alvito.
-     El viaje de Faro a Alvito atraviesa el Alentejo que, seamos honestos, es mucho más bonito que el Algarve. He visto en alguna parte, no recuerdo donde, al Alentejo descrito como rural chic.</description>
     </item>
     
   </channel>

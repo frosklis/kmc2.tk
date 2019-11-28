@@ -10,17 +10,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -38,8 +38,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/viaje/indonesia/" />
 
-<meta property="og:updated_time" content="2015-08-18T14:00:00&#43;00:00"/>
-
+<meta property="og:updated_time" content="2015-08-26T00:00:00+00:00" />
 <meta itemprop="name" content="">
 <meta itemprop="description" content="Los viajes de Ceci y Claudio">
 
@@ -55,42 +54,77 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
 
   <header>
     <div class="pb3-m bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -102,10 +136,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -187,47 +220,24 @@
 
 
 
-<article class="pa3 pa4-ns nested-copy-line-height nested-img">
-  <p>manda la de viaje Indonesia Page(/posts/2015-indonesia/_index.md) /viaje/indonesia/ Naturaleza exuberante. Volcanes y jungla.
-  </p>
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    
-  </section>
-  <aside class="flex-ns flex-wrap justify-around mt5">
-    
-    
-    
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
-  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/">
-    <div class="flex flex-column flex-row-ns">
-      <div class="w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">Besakih, Sidemen, Padang Bai</h1>
+<div class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <p>manda la de viaje Indonesia Page(/posts/2015-indonesia/_index.md) /viaje/indonesia/ Naturaleza exuberante. Volcanes y jungla.
+    </p>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+        
+    </section>
+    <div class="flex-ns flex-wrap justify-around mt5">
         
         
         
         
         
-        <div class="f6 f5-l lh-copy nested-copy-line-height">
-          Cuando Putu (dueña del hotel) se enteró de que íbamos a Besakih, el templo más grande de Bali, nos dijo dos cosas: qué bonito y qué lejos. Como todo en Indonesia, no está lejos en distancia, pero llegar nos llevó dos horas.
-Y una vez allí, la verdad es que ni fu ni fa. Es grande, es bonito, no está especialmente bien cuidado y es claramente el más turístico de los que hemos visto en el mal sentido de la palabra turístico.
-        </div>
         
-      </div>
-    </div>
-  </a>
-</article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-19-borobudur-prambanan/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -246,13 +256,13 @@ Llegamos a Borobudur tras una hora de trayecto. El conductor / guía, nos iba ex
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-22-bromo/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -271,13 +281,13 @@ La subida se las traía. En la guía pone que se puede hacer el trayecto andando
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-06-fin-de-lombok/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -296,13 +306,13 @@ Aprovechamos la mañana para hacer maletas e ir a la playa. En vez de quedarnos 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-29-gili-air/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -321,13 +331,13 @@ Hemos tenido suerte porque en Bali estaba empezando a llover pero a nosotros no 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -346,13 +356,13 @@ La subida es dura. Muy dura. Son 1200m por un terreno resbaladizo en el que das 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -372,13 +382,13 @@ La subida es dura. Muy dura. Son 1200m por un terreno resbaladizo en el que das 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -396,13 +406,13 @@ La subida es dura. Muy dura. Son 1200m por un terreno resbaladizo en el que das 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -420,39 +430,13 @@ La subida es dura. Muy dura. Son 1200m por un terreno resbaladizo en el que das 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
-  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-23-ijen/">
-    <div class="flex flex-column flex-row-ns">
-      <div class="w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">Ijen</h1>
-        
-        
-        
-        
-        
-        <div class="f6 f5-l lh-copy nested-copy-line-height">
-          Lo de hoy ha sido algo más que un madrugón. Yo no sé si me llegué a dormir profundamente. El caso es que a las doce y media estábamos en pie y a la una estábamos en ruta hacia Ijen.
-Patético que nos metieron en un minibús con una plaza menos que personas íbamos en él, fue el primer desastre en temas de transporte de hoy.
-Pero llegamos a Ijen. En Ijen te dejan abajo y te dan una máscara.
         </div>
         
-      </div>
-    </div>
-  </a>
-</article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-07-jakarta/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -471,13 +455,13 @@ Pero llegamos a Ijen. En Ijen te dejan abajo y te dan una máscara.
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-25-jardin-botanico/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -496,13 +480,13 @@ A pesar de que apenas hay señalización en la carretera, nos fuimos apañando c
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-04-kuta-lombok/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -520,13 +504,13 @@ A pesar de que apenas hay señalización en la carretera, nos fuimos apañando c
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-21-llegada-a-bromo/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -541,13 +525,13 @@ Por parte de Great Tours no hay ninguna queja. El minibús que nos pusieron desd
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-20-paseo-en-bicicleta/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -566,13 +550,13 @@ Salimos a las 8 de Via Via, con otra pareja de belgas y Tías (ni idea de cómo 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -591,13 +575,13 @@ Salimos a las 8 de Via Via, con otra pareja de belgas y Tías (ni idea de cómo 
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-24-pura-gunung-kawi-y-pura-tirta-empul/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -617,13 +601,13 @@ Primero dimos un paseo por Ubud viendo varios templos hindúes. Me gustaron todo
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-27-pura-tanah-lot/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -643,13 +627,13 @@ Pura Tanah Lot tiene un enclave estupendo, es un templo pequeño en una isla o p
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -668,13 +652,13 @@ Hemos ido con unas 30 personas en un barco con fondo de cristal. Primero hicimos
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-09-05-sur-de-lombok/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -692,13 +676,13 @@ Hemos ido con unas 30 personas en un barco con fondo de cristal. Primero hicimos
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-16-llegada-a-jakarta/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -717,13 +701,13 @@ Salimos a las 22h de Madrid, escala en Dubai y finalmente Jakarta. Nos ha gustad
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-16-borneo/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -743,13 +727,13 @@ El aeropuerto de Jakarta es de lo más curioso. Apenas te controlan el pasaporte
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-18-mas-orangutanes/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -768,57 +752,140 @@ Amaneció sobre las 6 (o un poco antes porque a las 6 que fue cuando me levanté
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
-  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-18-yogyakarta/">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
+  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-23-ijen/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">Yogyakarta</h1>
+        <h1 class="f3 fw1 athelas mt0 lh-title">Ijen</h1>
         
         
         
         
         
         <div class="f6 f5-l lh-copy nested-copy-line-height">
-          Madrugón para coger el vuelo a Semarang, aunque no parece tanto si te levantas con el Sol (5am). Llegamos sin incidencias al aeropuerto y allí cogimos un taxi con Marta y Carlos (dos de los que estaban con nosotros en el klotok) hacia Yogy. Por un viaje cercano a 3 horas pagamos unos 10 euros por cabeza. Probablemente hubiese sido más barato hacer el trayecto en bus pero así ahorramos un montón de tiempo.
+          Lo de hoy ha sido algo más que un madrugón. Yo no sé si me llegué a dormir profundamente. El caso es que a las doce y media estábamos en pie y a la una estábamos en ruta hacia Ijen.
+Patético que nos metieron en un minibús con una plaza menos que personas íbamos en él, fue el primer desastre en temas de transporte de hoy.
+Pero llegamos a Ijen. En Ijen te dejan abajo y te dan una máscara.
         </div>
         
       </div>
     </div>
   </a>
 </article>
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
+  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/">
+    <div class="flex flex-column flex-row-ns">
+      <div class="w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">Besakih, Sidemen, Padang Bai</h1>
+        
+        
+        
+        
+        
+        <div class="f6 f5-l lh-copy nested-copy-line-height">
+          Cuando Putu (dueña del hotel) se enteró de que íbamos a Besakih, el templo más grande de Bali, nos dijo dos cosas: qué bonito y qué lejos. Como todo en Indonesia, no está lejos en distancia, pero llegar nos llevó dos horas.
+Y una vez allí, la verdad es que ni fu ni fa. Es grande, es bonito, no está especialmente bien cuidado y es claramente el más turístico de los que hemos visto en el mal sentido de la palabra turístico.
+        </div>
+        
+      </div>
     </div>
-    
-    
-  </aside>
+  </a>
 </article>
+        </div>
+        
+        
+    </div>
+</div>
 
   </main>
-  <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-blue no-underline white-70 dn dib-ns pv2 ph3" href="https://kmc2.frosklis.tk" >
-    &copy; 2019 km c<sup>2</sup>
-  </a>
-    <div>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
 
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
 </footer>
-
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

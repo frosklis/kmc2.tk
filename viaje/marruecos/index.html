@@ -10,17 +10,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -38,8 +38,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/viaje/marruecos/" />
 
-<meta property="og:updated_time" content="2014-09-08T18:00:00&#43;00:00"/>
-
+<meta property="og:updated_time" content="2014-09-08T18:00:00+00:00" />
 <meta itemprop="name" content="">
 <meta itemprop="description" content="Los viajes de Ceci y Claudio">
 
@@ -55,42 +54,77 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
 
   <header>
     <div class="pb3-m bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -102,10 +136,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -187,20 +220,20 @@
 
 
 
-<article class="pa3 pa4-ns nested-copy-line-height nested-img">
-  <p>manda la de viaje Marruecos Page(/posts/2014-marruecos/_index.md) /viaje/marruecos/ Tiene frontera con España, pero es otro mundo.
-  </p>
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    
-  </section>
-  <aside class="flex-ns flex-wrap justify-around mt5">
-    
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+<div class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <p>manda la de viaje Marruecos Page(/posts/2014-marruecos/_index.md) /viaje/marruecos/ Tiene frontera con España, pero es otro mundo.
+    </p>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+        
+    </section>
+    <div class="flex-ns flex-wrap justify-around mt5">
+        
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-10-essaouira/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -219,13 +252,13 @@
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-11-essaouira-sidi-ifni/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -244,13 +277,13 @@
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-06-fez/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -269,13 +302,13 @@ Como comenzaba en la puerta azul y bajaba por Tala Kbira, que ya habíamos conoc
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-02-gargantas-del-todra-y-del-dades/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -294,13 +327,13 @@ La excursión empezó a las 08:30 de la mañana porque queríamos evitar las hor
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-05-llegada-a-fez/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -319,13 +352,13 @@ La excursión empezó a las 08:30 de la mañana porque queríamos evitar las hor
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-08-29-llegada-a-marrakech/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -343,13 +376,13 @@ La excursión empezó a las 08:30 de la mañana porque queríamos evitar las hor
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-03-llegada-a-merzouga/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -368,37 +401,13 @@ De camino a Merzouga, hemos parado en el Museo de las Fuentes de Laila Minouna (
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
-  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/">
-    <div class="flex flex-column flex-row-ns">
-      <div class="w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">Llegada a las gargantas del Todra</h1>
-        
-        
-        
-        
-        
-        <div class="f6 f5-l lh-copy nested-copy-line-height">
-          Hoy por la mañana tocaba otra vez viaje, aunque relajado. Conocimos a la mujer de Ibrahim, que fue la que nos cobró por nuestra estancia y se encargó de que rellenáramos el papeleo que su marido no nos había hecho rellenar (cada huésped en Marruecos tiene que rellenar individualmente) un papel con su pasaporte, profesión, hacia donde se dirige, etc. ¿El desayuno? Similar al de Marrakech, pero con mejores vistas. Se nota la influencia francesa en los desayunos de aquí.
         </div>
         
-      </div>
-    </div>
-  </a>
-</article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-08-30-marrakech/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -417,13 +426,13 @@ De camino a Merzouga, hemos parado en el Museo de las Fuentes de Laila Minouna (
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-05-merzouga-dromedarios-y-otras-aventuras/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -442,13 +451,13 @@ Con las alforjas bien cargadas salimos en dirección al campamento que tiene Al�
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-13-ouzoud/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -467,13 +476,13 @@ A pesar de todo, el desvío resultó ser bastante bonito, ruta recomendada por l
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-07-rabat/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -492,13 +501,13 @@ El viaje de Fez a Rabat es cómodo, todo por autopista (la primera que utilizamo
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-04-una-vuelta-en-4x4-por-el-desierto/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -517,13 +526,13 @@ El viaje de Fez a Rabat es cómodo, todo por autopista (la primera que utilizamo
     </div>
   </a>
 </article>
-    </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-08-31-ait-ben-haddou/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -542,13 +551,46 @@ Tras unos líos con el GPS que nos quería meter por el medio de la medina para 
     </div>
   </a>
 </article>
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
+  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/">
+    <div class="flex flex-column flex-row-ns">
+      <div class="w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">Llegada a las gargantas del Todra</h1>
+        
+        
+        
+        
+        
+        
+        
+        <div class="pr3-ns mb4 mb0-ns w-100">
+          <img style="max-width: 100%; height: auto;" srcset="/posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/20140901-082534_hu40e7e12a128feb823b5d78e703ecd158_3200194_384x288_fit_q50_box.jpg 1x, /posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/20140901-082534_hu40e7e12a128feb823b5d78e703ecd158_3200194_768x576_fit_q50_box.jpg 2x, /posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/20140901-082534_hu40e7e12a128feb823b5d78e703ecd158_3200194_1152x864_fit_q50_box.jpg 3x"
+          width="384" height="255" class="db" alt="image from 20140901-082534.jpg" 
+          width="384" height="255">
+        </div>
+        
+        
+        <div class="f6 f5-l lh-copy nested-copy-line-height">
+          Hoy por la mañana tocaba otra vez viaje, aunque relajado. Conocimos a la mujer de Ibrahim, que fue la que nos cobró por nuestra estancia y se encargó de que rellenáramos el papeleo que su marido no nos había hecho rellenar (cada huésped en Marruecos tiene que rellenar individualmente) un papel con su pasaporte, profesión, hacia donde se dirige, etc. ¿El desayuno? Similar al de Marrakech, pero con mejores vistas. Se nota la influencia francesa en los desayunos de aquí.
+        </div>
+        
+      </div>
     </div>
-    
-    
-    
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      
-      <article class="bb b--black-10">
+  </a>
+</article>
+        </div>
+        
+        
+        
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            
+            <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia/">
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
@@ -567,33 +609,89 @@ Finalmente llegamos a la necrópolis. Aquello en realidad es una ciudad amuralla
     </div>
   </a>
 </article>
+        </div>
+        
+        
     </div>
-    
-    
-  </aside>
-</article>
+</div>
 
   </main>
-  <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-blue no-underline white-70 dn dib-ns pv2 ph3" href="https://kmc2.frosklis.tk" >
-    &copy; 2019 km c<sup>2</sup>
-  </a>
-    <div>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
 
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
 </footer>
-
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

@@ -10,17 +10,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -34,7 +34,6 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/viaje/bolivia/gallery/" />
-
 
 <meta itemprop="name" content="">
 <meta itemprop="description" content="">
@@ -58,42 +57,77 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
 
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -105,10 +139,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -1321,6 +1354,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
@@ -1379,174 +1424,6 @@
 
 <div class="flex flex-wrap w-100">
 
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130302-181049.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130302-181056.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130303-141631.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-095010.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-095017.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-100835.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-102359.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-102406.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-105912.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-121640.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-153858.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130307-154816.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
   
   <figure class="w-20-ns ma0">
     
@@ -1725,258 +1602,6 @@
 
       <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130309-175351_hu67383166a12ad11048670ae9a86acd16_1876816_180x120_fill_q50_box_smart1.jpg"
         srcset="/viaje/bolivia/20130309-175351_hu67383166a12ad11048670ae9a86acd16_1876816_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130309-175351_hu67383166a12ad11048670ae9a86acd16_1876816_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130309-175351_hu67383166a12ad11048670ae9a86acd16_1876816_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130310-122834.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130310-122842.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130310-130519.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130310-130934.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130311-112822.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130311-112832.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-132922.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-134653.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130311-134707.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130311-134726.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-134816.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-134826.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-134953.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-135003.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-135011.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="1920x2560" href="/viaje/bolivia/20130311-135145.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130311-135701.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
-    <a data-size="2560x1920" href="/viaje/bolivia/20130313-075508.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2656,20 +2281,6 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2560x1920" href="/viaje/bolivia/20130328-221117.jpg">
-      
-      
-      
-
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_540x360_fill_q50_box_smart1.jpg 3x"
-        width="180" height="120">
-    </a>
-    
-  </figure>
-  
-  <figure class="w-20-ns ma0">
-    
     <a data-size="2560x1920" href="/viaje/bolivia/20130329-190055.jpg">
       
       
@@ -2712,13 +2323,447 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2560x1920" href="/viaje/bolivia/20130331-122530.jpg">
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-28-jueves-santo/20130328-221117.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/viaje/bolivia/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_180x120_fill_q50_box_smart1.jpg"
-        srcset="/viaje/bolivia/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_180x120_fill_q50_box_smart1.jpg 1x, /viaje/bolivia/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_360x240_fill_q50_box_smart1.jpg 2x, /viaje/bolivia/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-28-jueves-santo/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-28-jueves-santo/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-28-jueves-santo/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-28-jueves-santo/20130328-221117_hu6e996d6011dddc350d578a05722ed9ca_781611_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-31-ya-es-fin-de-semana/20130331-122530.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-31-ya-es-fin-de-semana/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-31-ya-es-fin-de-semana/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-31-ya-es-fin-de-semana/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-31-ya-es-fin-de-semana/20130331-122530_hua572ce814f7d47b17435705f559d2b58_1517918_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-13-no-llueve-sino-diluvia/20130313-075508.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-13-no-llueve-sino-diluvia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-13-no-llueve-sino-diluvia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-13-no-llueve-sino-diluvia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-13-no-llueve-sino-diluvia/20130313-075508_huda1357d82cf054a6392f39a1896b1e2f_906606_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112822.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112822_hu482df3f8cfa1d5c65853a390047883d6_757177_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112832.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-112832_hu7e4245a5455fb2bec59710aef3a6bf09_769467_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-132922.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-132922_hudbfc39b76de8f25eaf83629424ed1198_1337321_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134653.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134653_hu991e7a4853239236cad0f20310bbfe17_1336951_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134707.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134707_hu9dd1c28c199cd7b8965cc44eeb7cf4d0_1512734_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134726.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134726_hu76e1a8900494f553b3cfdea157255f66_1512943_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134816.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134816_huadd5fcff6d4b329cf71037e2bda2942c_1205244_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134826.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134826_hu9d40aa6de5880bba5493f6fc11d16964_1250371_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134953.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-134953_hu8d9645476679279c6e4e8683a15f8f9e_1446006_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135003.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135003_hub15f2551f9c906dce5bfeeded4adb2e9_658545_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135011.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135011_hu78b2cc1bc06fac26aa3e764a5bc0d796_761497_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135145.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135145_hu64d3b3e791c287a30135bd1521d8d8eb_987217_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135701.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-11-chiquitania-dia-2/20130311-135701_hu530a293bf8b68b416c9a5deac8004080_962705_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122834.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122834_hucb17939ebf826e3db5ae8d82c4a2c5bc_1703442_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122842.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-122842_hu7376fbdfc5d38ba4ffcacc43087b342a_1499803_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130519.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130519_hu9e5ff5f94e8a0d48662bc507d964259c_1502614_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="1920x2560" href="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130934.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-10-visita-a-chiquitania-dia-1/20130310-130934_hude9638bb2f4b6032bd81713c00efacd3_822728_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-095010.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-095010_hub5222bb60046bedb84334acf2277ff22_939750_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-095017.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-095017_huc708981c90682c860447fa4c4d57e2bf_744921_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-100835.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-100835_hu4d27f1f521b340bea7f34241a7ebbc73_951372_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-102359.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-102359_huded737aa498cae2ffd94fa408fb4e770_699315_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-102406.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-102406_hu3a84d6f2be59da85d95f86732ed5c0dc_719779_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-105912.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-105912_hu943ebc3208e1abff321170cf5736593f_783621_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-121640.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-121640_hu37124f8ede3f1dcf6c83788e84fcac53_969662_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-153858.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-153858_hu56c02fd3bc1267e59cd9280a02fbdf38_1054349_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-07-dia-7/20130307-154816.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-07-dia-7/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-07-dia-7/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-07-dia-7/20130307-154816_huc6af79bd3f9508630f57f9ea47b2cac6_723346_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-03-dia-3-1/20130303-141631.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-03-dia-3-1/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-03-dia-3-1/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-03-dia-3-1/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-03-dia-3-1/20130303-141631_huf1fa63e5b6521de246c03ad48b848646_1057110_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181049.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181049_hucde6cec8871f9c849059b2f4d8252281_796381_540x360_fill_q50_box_smart1.jpg 3x"
+        width="180" height="120">
+    </a>
+    
+  </figure>
+  
+  <figure class="w-20-ns ma0">
+    
+    <a data-size="2560x1920" href="/posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181056.jpg">
+      
+      
+      
+
+      <img style="max-width: 100%; height: auto;" src="/posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_180x120_fill_q50_box_smart1.jpg 1x, /posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_360x240_fill_q50_box_smart1.jpg 2x, /posts/2013-bolivia/2013-03-02-dia-2-1/20130302-181056_hu4fb05343f40e406ef7b07e49a6726a1a_735965_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2731,26 +2776,82 @@
   </main>
   
 <p>gallery</p>
-<footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-blue no-underline white-70 dn dib-ns pv2 ph3" href="https://kmc2.frosklis.tk" >
-    &copy; 2019 km c<sup>2</sup>
-  </a>
-    <div>
+<footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
 
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
 </footer>
-
 
   
 

@@ -10,17 +10,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -38,8 +38,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/" />
 
-<meta property="og:updated_time" content="2019-10-23T00:00:00&#43;00:00"/>
-
+<meta property="og:updated_time" content="2019-10-23T00:00:00+00:00" />
 <meta itemprop="name" content="km c&lt;sup&gt;2&lt;/sup&gt;">
 <meta itemprop="description" content="Los viajes de Ceci y Claudio">
 
@@ -55,42 +54,77 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
 
   <header>
     <div class="pb3-m bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -102,381 +136,307 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
 
   <main role="main">
     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
 
-
-
-
-
-<a class="link white" href="/viaje/india">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2019-india/more_pictures/20191022-074917.jpg);top:0;left:0;background-position:bottom"
+<div class="flex flex-wrap justify-center content-center bg-black pt4 pb4">
+    
+    
+<a href="/posts/2019-india/2019-10-23-jaipur/" class="no-underline">
+    <div class="tile ma1" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">La India</h1>
-        <h2>Una de las cunas de la civilización</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Jaipur</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/peru">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2019-peru/2019-04-26/20190426-092215.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-india/2019-10-22-taj-mahal/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-india/2019-10-22-taj-mahal/20191022-074917_hufe4b02afa39365855c287b6e31fc4dbf_3604770_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-india/2019-10-22-taj-mahal/20191022-074917_hufe4b02afa39365855c287b6e31fc4dbf_3604770_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-india/2019-10-22-taj-mahal/20191022-074917_hufe4b02afa39365855c287b6e31fc4dbf_3604770_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Perú</h1>
-        <h2>Tierra de los incas</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Taj Mahal</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/australia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2018-australia/2018-10-03/20181003-124152.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-india/2019-10-21-llegada-a-agra/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-india/2019-10-21-llegada-a-agra/20191021-162835_hueb7b8e3618be36f3d889c6666f604c55_3723497_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-india/2019-10-21-llegada-a-agra/20191021-162835_hueb7b8e3618be36f3d889c6666f604c55_3723497_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-india/2019-10-21-llegada-a-agra/20191021-162835_hueb7b8e3618be36f3d889c6666f604c55_3723497_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Australia</h1>
-        <h2>El continente isla</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Llegada a Agra</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/colombia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2017-colombia/2017-08-14-cartagena-de-indias/20170814-120658.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-india/2019-10-20-toma-de-contacto-con-delhi/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-india/2019-10-20-toma-de-contacto-con-delhi/20191020-112637_hu9f384cee088ed68b1eef3b68e382d587_5871438_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-india/2019-10-20-toma-de-contacto-con-delhi/20191020-112637_hu9f384cee088ed68b1eef3b68e382d587_5871438_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-india/2019-10-20-toma-de-contacto-con-delhi/20191020-112637_hu9f384cee088ed68b1eef3b68e382d587_5871438_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Colombia</h1>
-        <h2>El país de los tres mares</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Toma de contacto con Delhi</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/sierra-leona">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2017-sierra-leona/more_pictures/20170708-113943.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-peru/2019-04-25/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-25/20190425-165813_hud13e403d1030fa449b1ebc8238257728_3730048_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-25/20190425-165813_hud13e403d1030fa449b1ebc8238257728_3730048_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-25/20190425-165813_hud13e403d1030fa449b1ebc8238257728_3730048_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Sierra Leona</h1>
-        <h2>Haciendo de médico.</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Puno a Cusco</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/namibia-y-botsuana">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2016-namibia-y-botsuana/more_pictures/20160815-131319.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-peru/2019-04-26/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-26/20190426-142039_hua7c202fbbca38049c7ceb19dec51658f_3594782_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-26/20190426-142039_hua7c202fbbca38049c7ceb19dec51658f_3594782_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-26/20190426-142039_hua7c202fbbca38049c7ceb19dec51658f_3594782_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Namibia y Botsuana</h1>
-        <h2>En 4x4 por África. Solos.</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Cusco</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/portugal">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2016-portugal/more_pictures/20160325-154400.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-peru/2019-04-24/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-24/20190424-111044_hu9df07f7d1c2ed4b6d77eb50b44b622c9_8617944_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-24/20190424-111044_hu9df07f7d1c2ed4b6d77eb50b44b622c9_8617944_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-24/20190424-111044_hu9df07f7d1c2ed4b6d77eb50b44b622c9_8617944_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Portugal</h1>
-        <h2>Unos días en el Algarve y Alentejo</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">De vuelta a Puno</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/indonesia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    style="background-image: url(/posts/2015-indonesia/more_pictures/20150819-063151.jpg);top:0;left:0;background-position:bottom"
+    
+    
+<a href="/posts/2019-peru/2019-04-23-taquile/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-23-taquile/20190423-084741_hue1701b98186cf8a22addcfa9693a30f6_4562260_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-23-taquile/20190423-084741_hue1701b98186cf8a22addcfa9693a30f6_4562260_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-23-taquile/20190423-084741_hue1701b98186cf8a22addcfa9693a30f6_4562260_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Indonesia</h1>
-        <h2>Naturaleza exuberante. Volcanes y jungla.</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Taquile</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/marruecos">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
+    
+    
+<a href="/posts/2019-peru/2019-04-22-el-condor-es-magestuoso/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-22-el-condor-es-magestuoso/20190422-090336_hu6d38b77afb35221ddee93836ecda5c53_2947003_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-22-el-condor-es-magestuoso/20190422-090336_hu6d38b77afb35221ddee93836ecda5c53_2947003_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-22-el-condor-es-magestuoso/20190422-090336_hu6d38b77afb35221ddee93836ecda5c53_2947003_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Marruecos</h1>
-        <h2>Tiene frontera con España, pero es otro mundo.</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">El cóndor es magestuoso</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/chicago">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
+    
+    
+<a href="/posts/2019-peru/2019-04-21/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-21/20190421-164013_hu87dc02f70d67dd5979bbd4087cf1b728_4478488_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-21/20190421-164013_hu87dc02f70d67dd5979bbd4087cf1b728_4478488_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-21/20190421-164013_hu87dc02f70d67dd5979bbd4087cf1b728_4478488_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Chicago</h1>
-        <h2>Muy bonita ciudad</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Valle del Colca</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/italia-sur">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
+    
+    
+<a href="/posts/2019-peru/2019-04-20-arequipa/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-20-arequipa/20190420-154804_hu86bc14f5a2c00313b25f2547d43295cc_3476483_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-20-arequipa/20190420-154804_hu86bc14f5a2c00313b25f2547d43295cc_3476483_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-20-arequipa/20190420-154804_hu86bc14f5a2c00313b25f2547d43295cc_3476483_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Italia Sur</h1>
-        <h2>Arquitectura, paisaje y pizza</h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Arequipa</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/camboya">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
+    
+    
+<a href="/posts/2019-peru/2019-04-19-segundo-dia-en-lima/" class="no-underline">
+    <div class="tile ma1" 
+     
+     
+        
+     
+    style="background-image: -webkit-image-set( 
+        url(/posts/2019-peru/2019-04-19-segundo-dia-en-lima/20190419-102628_hu1498e68b4dd85d4e2a4e7082ffa235be_7129572_320x0_resize_q50_box.jpg) 1x, 
+        url(/posts/2019-peru/2019-04-19-segundo-dia-en-lima/20190419-102628_hu1498e68b4dd85d4e2a4e7082ffa235be_7129572_640x0_resize_q50_box.jpg) 2x, 
+        url(/posts/2019-peru/2019-04-19-segundo-dia-en-lima/20190419-102628_hu1498e68b4dd85d4e2a4e7082ffa235be_7129572_960x0_resize_q50_box.jpg) 3x 
+        );" 
     >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Camboya</h1>
-        <h2></h2>
-      </div>
-    </section>
-  </article>
+        <h1 class="white f3 fw2 athelas ml2 mt3">Segundo día en Lima</h1>
+    </div>
 </a>
 
-
-
-
-<a class="link white" href="/viaje/la-rioja">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">La Rioja</h1>
-        <h2>Escapada de fin de semana</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/croacia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Croacia</h1>
-        <h2>Genial lugar para veranear</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/bolivia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Bolivia</h1>
-        <h2></h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/transmongoliano">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Transmongoliano</h1>
-        <h2>Un viaje con nombre propio</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/normandia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Normandía</h1>
-        <h2></h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/berlin">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Berlín</h1>
-        <h2>La capital de Alemania. Un fin de semana.</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/centroeuropa">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Centroeuropa</h1>
-        <h2>El corazón de Europa</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/sicilia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Sicilia</h1>
-        <h2>La isla más grande del Mediterráneo.</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/turquia">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Turquía</h1>
-        <h2>Aquí se juntan oriente y occidente</h2>
-      </div>
-    </section>
-  </article>
-</a>
-
-
-
-
-<a class="link white" href="/viaje/italia-norte">
-  <article class="w-100 vh-100 dt cover bg-black white sticky"
-    >
-    <section class="dtc white ph3 ph4-l">
-      <div class="relative w-100 mb4">
-        <h1 class="f6 f2-m f-subheadline-l fw6">Italia Norte</h1>
-        <h2>Desde Milán hasta Venecia.</h2>
-      </div>
-    </section>
-  </article>
-</a>
+    
+</div>
 
 
 
   </main>
-  <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-blue no-underline white-70 dn dib-ns pv2 ph3" href="https://kmc2.frosklis.tk" >
-    &copy; 2019 km c<sup>2</sup>
-  </a>
-    <div>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
 
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
 </footer>
-
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

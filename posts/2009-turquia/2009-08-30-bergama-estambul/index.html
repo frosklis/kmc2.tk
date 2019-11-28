@@ -11,17 +11,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -35,7 +35,6 @@
 <meta property="og:description" content="Nos levantamos pronto para salir lo antes posible hacia Yalova. Coincidimos con unos alemanes desayunando. El desayuno fue un espectáculo curioso. Nos recibió del dueño en bañador sin camiseta (al más puro estilo pecho lobo) y nos hizo sentarnos en unas de las mesas del patio que tenía dispuestas a modo de buffet. El desayuno empezó con tostadas con mermeladas variadas, una lata que contenia miel de verdad (un cacho de panal) y los frutos que toman aquí normalmente para desayunar." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/posts/2009-turquia/2009-08-30-bergama-estambul/" />
-
 
 <meta itemprop="name" content="Bergama... ¿Estambul?">
 <meta itemprop="description" content="Nos levantamos pronto para salir lo antes posible hacia Yalova. Coincidimos con unos alemanes desayunando. El desayuno fue un espectáculo curioso. Nos recibió del dueño en bañador sin camiseta (al más puro estilo pecho lobo) y nos hizo sentarnos en unas de las mesas del patio que tenía dispuestas a modo de buffet. El desayuno empezó con tostadas con mermeladas variadas, una lata que contenia miel de verdad (un cacho de panal) y los frutos que toman aquí normalmente para desayunar.">
@@ -59,10 +58,12 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
    
@@ -71,32 +72,65 @@
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -108,10 +142,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -136,8 +169,14 @@
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      <p>Nos levantamos pronto para salir lo antes posible hacia Yalova. Coincidimos con unos alemanes desayunando. El desayuno fue un espectáculo curioso. Nos recibió del dueño en bañador sin camiseta (al más puro estilo<em> pecho lobo</em>) y nos hizo sentarnos en unas de las mesas del patio que tenía dispuestas a modo de buffet. El desayuno empezó con tostadas con mermeladas variadas, una lata que contenia miel de verdad (un cacho de panal) y los frutos que toman aquí normalmente para desayunar. Luego nos preguntó si preferíamos café o té y nos obligó a entrar a la cocina y elegir una taza porque tenía gran variedad. La composición de la mesa resultaba de lo más curiosa; era una mezcla de cubiertos elegantes antiguos con unas tazas modernas (de nescafé, otomana o dorada que fue la que cogí yo, lo cual pareció hacer muy feliz al dueño). Nos trajo una tarta de chocolate mientras Claudio se ausentaba con el Fortasec. Cuando ya no podíamos más (ni nosotros ni los alemanes) trajo un plato con fruta y luego nos preguntó que si queríamos tortilla. Todos dijimos que no, pero el dijo que la iba a hacer de todas formas para que la viéramos. Los alemanes intentaron repetidas veces largarse pero no lo consiguieron y tuvieron que esperar a que sacara la tortilla de huevo con tomate y queso, que la verdad es que estaba buena.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+  
+   <li class="list">
+     <a href="/viaje/turqu%C3%ADa" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Turquía</a>
+   </li>
+  
+</ul>
+<p>Nos levantamos pronto para salir lo antes posible hacia Yalova. Coincidimos con unos alemanes desayunando. El desayuno fue un espectáculo curioso. Nos recibió del dueño en bañador sin camiseta (al más puro estilo<em> pecho lobo</em>) y nos hizo sentarnos en unas de las mesas del patio que tenía dispuestas a modo de buffet. El desayuno empezó con tostadas con mermeladas variadas, una lata que contenia miel de verdad (un cacho de panal) y los frutos que toman aquí normalmente para desayunar. Luego nos preguntó si preferíamos café o té y nos obligó a entrar a la cocina y elegir una taza porque tenía gran variedad. La composición de la mesa resultaba de lo más curiosa; era una mezcla de cubiertos elegantes antiguos con unas tazas modernas (de nescafé, otomana o dorada que fue la que cogí yo, lo cual pareció hacer muy feliz al dueño). Nos trajo una tarta de chocolate mientras Claudio se ausentaba con el Fortasec. Cuando ya no podíamos más (ni nosotros ni los alemanes) trajo un plato con fruta y luego nos preguntó que si queríamos tortilla. Todos dijimos que no, pero el dijo que la iba a hacer de todas formas para que la viéramos. Los alemanes intentaron repetidas veces largarse pero no lo consiguieron y tuvieron que esperar a que sacara la tortilla de huevo con tomate y queso, que la verdad es que estaba buena.</p>
 <p>Una vez nos fuimos del hotel, tomamos rumbo a Çesme Çiftlikkoy, cerca de Yalova. Después de 5 horas de viaje y media buscando el hotel, Claudio decidió conectarse con el móvil a internet y descubrió que el hotel que había reservado estaba a unos 700 km de distancia, en otro Çesme, en otro Çiftlikkoy. Ups.</p>
 <p>Aunque suene mal, la verdad es que nos alegramos porque el Mármara está muy sucio y ya habíamos comentado que nos venía mejor una noche más en Estambul y nos sobraba esta, así que tuvimos la excusa perfecta para ir a Estambul.</p>
 <p>Fuimos a coger un ferry sin idea alguna de los horarios, ni del idioma turco, ni nada... de paletos totales vamos. Logramos enterarnos de que los ferrys a la parte europea de Estambul estaban completos y no habría más hasta el día siguiente, así que sacamos un pase para la parte asiática, todo por señas casi.</p>
@@ -196,7 +235,82 @@
   </article>
 
   </main>
-  <p>single default</p>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
+
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
+</footer>
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

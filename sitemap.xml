@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -15,7 +15,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -239,7 +238,7 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2016-namibia-y-botsuana/2016-08-20-game-drive-por-etosha-con-gui%CC%81a/</loc>
+    <loc>https://kmc2.frosklis.tk/posts/2016-namibia-y-botsuana/2016-08-20-game-drive-por-etosha-con-gu%C3%ADa/</loc>
     <lastmod>2016-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -284,13 +283,43 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/viaje/indonesia/</loc>
-    <lastmod>2015-08-18T14:00:00+00:00</lastmod>
+    <loc>https://kmc2.frosklis.tk/viaje/portugal/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-18-yogyakarta/</loc>
-    <lastmod>2015-08-18T14:00:00+00:00</lastmod>
+    <loc>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-27-evora/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/</loc>
+    <lastmod>2016-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/viaje/indonesia/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/ijen/</loc>
+    <lastmod>2015-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-23-ijen/</loc>
+    <lastmod>2015-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/</loc>
+    <lastmod>2015-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -319,14 +348,23 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/viaje/italia-sur/</loc>
+    <lastmod>2014-04-26T22:09:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/museo/</loc>
     <lastmod>2014-04-26T22:09:56+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/n%C3%A1poles/</loc>
     <lastmod>2014-04-26T22:09:56+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -335,33 +373,28 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/</loc>
-    <lastmod>2014-04-26T22:09:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/museo/</loc>
-    <lastmod>2014-04-26T22:09:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kmc2.frosklis.tk/tags/paseo/</loc>
     <lastmod>2014-04-26T22:09:56+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/herculano/</loc>
     <lastmod>2014-04-25T18:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/romanos/</loc>
+    <lastmod>2014-04-25T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/ruinas/</loc>
+    <lastmod>2014-04-25T18:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/vesubio/</loc>
     <lastmod>2014-04-25T18:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -370,21 +403,8 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/romanos/</loc>
-    <lastmod>2014-04-25T18:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/ruinas/</loc>
-    <lastmod>2014-04-25T18:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kmc2.frosklis.tk/tags/volc%C3%A1n/</loc>
     <lastmod>2014-04-25T18:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -395,19 +415,16 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/costa-amalfitana/</loc>
     <lastmod>2014-04-23T22:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/alberobello/</loc>
     <lastmod>2014-04-20T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/bari/</loc>
     <lastmod>2014-04-20T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -418,7 +435,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/trulli/</loc>
     <lastmod>2014-04-20T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -429,25 +445,21 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/castel-del-monte/</loc>
     <lastmod>2014-04-19T21:00:25+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/trani/</loc>
     <lastmod>2014-04-19T21:00:25+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/caserta/</loc>
     <lastmod>2014-04-18T22:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/casertavecchia/</loc>
     <lastmod>2014-04-18T22:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -461,14 +473,13 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2014-camboya/2014-04-08-jemeres-rojos/</loc>
+    <loc>https://kmc2.frosklis.tk/tags/jemeres/</loc>
     <lastmod>2014-04-08T17:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/jemeres/</loc>
+    <loc>https://kmc2.frosklis.tk/posts/2014-camboya/2014-04-08-jemeres-rojos/</loc>
     <lastmod>2014-04-08T17:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -484,7 +495,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/phnom-penh/</loc>
     <lastmod>2014-03-19T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -510,7 +520,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/koh-rong/</loc>
     <lastmod>2014-03-15T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -526,7 +535,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/kampot/</loc>
     <lastmod>2014-03-12T17:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -537,7 +545,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/kep/</loc>
     <lastmod>2014-03-11T17:00:01+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -598,7 +605,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/angkor-wat/</loc>
     <lastmod>2014-03-01T16:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -607,14 +613,13 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2014-camboya/2014-02-28-fabada-camboyana/</loc>
+    <loc>https://kmc2.frosklis.tk/tags/fabada/</loc>
     <lastmod>2014-02-28T17:00:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/fabada/</loc>
+    <loc>https://kmc2.frosklis.tk/posts/2014-camboya/2014-02-28-fabada-camboyana/</loc>
     <lastmod>2014-02-28T17:00:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -675,19 +680,16 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/phnom-sampeu/</loc>
     <lastmod>2014-02-17T07:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/prefectura/</loc>
     <lastmod>2014-02-17T07:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/tuktuk/</loc>
     <lastmod>2014-02-17T07:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -708,7 +710,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/preparativos/</loc>
     <lastmod>2014-02-08T12:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -739,7 +740,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/elciego/</loc>
     <lastmod>2013-10-06T22:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -770,7 +770,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/dubrovnik/</loc>
     <lastmod>2013-08-31T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -901,7 +900,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/cochabamba/</loc>
     <lastmod>2013-03-18T18:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -912,7 +910,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/sucre/</loc>
     <lastmod>2013-03-18T18:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -923,7 +920,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/montero/</loc>
     <lastmod>2013-03-18T03:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -939,19 +935,16 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/chiquitan%C3%ADa/</loc>
     <lastmod>2013-03-12T03:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/choch%C3%ADs/</loc>
     <lastmod>2013-03-12T03:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/san-jos%C3%A9/</loc>
     <lastmod>2013-03-12T03:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -960,14 +953,13 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2013-bolivia/2013-03-12-educacion-en-bolivia/</loc>
+    <loc>https://kmc2.frosklis.tk/tags/educaci%C3%B3n/</loc>
     <lastmod>2013-03-12T02:00:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/educaci%C3%B3n/</loc>
+    <loc>https://kmc2.frosklis.tk/posts/2013-bolivia/2013-03-12-educacion-en-bolivia/</loc>
     <lastmod>2013-03-12T02:00:38+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1013,13 +1005,11 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/jerga/</loc>
     <lastmod>2013-03-02T17:00:41+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/lenguaje/</loc>
     <lastmod>2013-03-02T17:00:41+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1065,7 +1055,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/presa/</loc>
     <lastmod>2012-09-15T21:00:35+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1076,7 +1065,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/pek%C3%ADn/</loc>
     <lastmod>2012-08-27T21:00:23+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1087,7 +1075,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/gran-muralla/</loc>
     <lastmod>2012-08-26T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1106,14 +1093,13 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2012-transmongoliano/2012-08-23-ulaan-baatar-pekin/</loc>
+    <loc>https://kmc2.frosklis.tk/tags/tren/</loc>
     <lastmod>2012-08-23T21:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/tren/</loc>
+    <loc>https://kmc2.frosklis.tk/posts/2012-transmongoliano/2012-08-23-ulaan-baatar-pekin/</loc>
     <lastmod>2012-08-23T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1124,7 +1110,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/mongolia/</loc>
     <lastmod>2012-08-22T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1150,7 +1135,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/baikal/</loc>
     <lastmod>2012-08-17T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1164,32 +1148,28 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/tags/couchsurfing/</loc>
+    <lastmod>2012-08-14T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/tags/divnogorsk/</loc>
     <lastmod>2012-08-14T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/krasnoyarsk/</loc>
     <lastmod>2012-08-14T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/yenisei/</loc>
     <lastmod>2012-08-14T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2012-transmongoliano/2012-08-14-yenisei/</loc>
     <lastmod>2012-08-14T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/couchsurfing/</loc>
-    <lastmod>2012-08-14T21:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1220,7 +1200,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/kaz%C3%A1n/</loc>
     <lastmod>2012-08-09T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1231,13 +1210,16 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/rusia/</loc>
     <lastmod>2012-08-09T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/t%C3%A1rtaros/</loc>
     <lastmod>2012-08-09T20:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/dentista/</loc>
+    <lastmod>2012-08-08T23:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1246,21 +1228,13 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/dentista/</loc>
-    <lastmod>2012-08-08T23:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kmc2.frosklis.tk/tags/mosc%C3%BA/</loc>
     <lastmod>2012-08-08T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/vdnk/</loc>
     <lastmod>2012-08-08T20:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1371,7 +1345,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/taormina/</loc>
     <lastmod>2010-08-18T22:00:20+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1397,7 +1370,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/estambul/</loc>
     <lastmod>2009-09-02T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1453,13 +1425,11 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/capadocia/</loc>
     <lastmod>2009-08-22T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/klm/</loc>
     <lastmod>2009-08-22T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1485,7 +1455,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/venecia/</loc>
     <lastmod>2008-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1501,7 +1470,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/verona/</loc>
     <lastmod>2008-09-08T01:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1522,7 +1490,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/bergamo/</loc>
     <lastmod>2008-09-04T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1538,12 +1505,31 @@
   <url>
     <loc>https://kmc2.frosklis.tk/tags/como/</loc>
     <lastmod>2008-09-02T13:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como/</loc>
     <lastmod>2008-09-02T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/continents/africa/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/continents/america/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/continents/asia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/continents/europa/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/continents/oceania/</loc>
   </url>
   
   <url>
@@ -1615,6 +1601,11 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-18-yogyakarta/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/viaje/indonesia/gallery/</loc>
   </url>
   
@@ -1675,10 +1666,6 @@
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2016-namibia-y-botsuana/more_pictures/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/viaje/portugal/</loc>
   </url>
   
   <url>
@@ -1760,23 +1747,23 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/4bolas/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/4blanquitasperdidas/</loc>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/4blanquitasperdidas/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/4bolas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/about/</loc>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/africell/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/amiens/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1785,30 +1772,22 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/angelchicken/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/articulacioneslibres/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/bali/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/beauvais/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2009-turquia/2009-08-30-bergama-estambul/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/</loc>
   </url>
   
   <url>
@@ -1817,7 +1796,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/blackball/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1830,7 +1808,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/budapest/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1855,7 +1832,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/citronella/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/cloroformo/</loc>
   </url>
   
   <url>
@@ -1863,7 +1843,7 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2017-sierra-leona/2017-07-12-conversaciones-con-lamin/</loc>
+    <loc>https://kmc2.frosklis.tk/continents/</loc>
   </url>
   
   <url>
@@ -1871,8 +1851,11 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/posts/2017-sierra-leona/2017-07-12-conversaciones-con-lamin/</loc>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/tags/cracovia/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1881,11 +1864,14 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/da-michelle/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2012-transmongoliano/2012-08-15-de-viaje/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/desierto/</loc>
   </url>
   
   <url>
@@ -1901,13 +1887,11 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/d%C3%ADar/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/d%C3%ADaderecreo/</loc>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/d%C3%ADaderecreo/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/d%C3%ADar/</loc>
   </url>
   
   <url>
@@ -1920,7 +1904,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/elparto/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/eneryguadalupe/</loc>
   </url>
   
   <url>
@@ -1932,8 +1919,11 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/tags/estrategia/</loc>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/tags/etna/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1946,12 +1936,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/eyeproblems/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/fez/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1968,7 +1956,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/findecharlas/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1977,7 +1964,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/gallipoli/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1990,12 +1976,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/golpeseco/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/gotoschool/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2016,7 +2000,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/hevenidoahablardemilibro/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2028,17 +2011,7 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/ijen/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/posts/2015-indonesia/2015-08-23-ijen/</loc>
-  </url>
-  
-  <url>
     <loc>https://kmc2.frosklis.tk/tags/infertility/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2047,7 +2020,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/jakarta/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2075,12 +2047,11 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/</loc>
+    <loc>https://kmc2.frosklis.tk/tags/la-ni%C3%B1a-del-hacha/</loc>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/lecce/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2093,7 +2064,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/limpiarseelculo/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2121,17 +2091,15 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra/</loc>
+    <loc>https://kmc2.frosklis.tk/tags/lombok/</loc>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/lombok/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/mamamama/</loc>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/marrakech/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2140,12 +2108,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/marvellous/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/matera/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2154,7 +2120,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/mercado/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2163,7 +2128,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/midelt/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2176,7 +2140,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/morskie-oko/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/myfriendsisterpatri/</loc>
   </url>
   
   <url>
@@ -2189,7 +2156,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/nom%C3%A1sgas/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2202,12 +2168,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/nos%C3%A9qu%C3%A9eslaico/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/obstru%C3%ADda/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2216,7 +2180,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/otravez/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2225,27 +2188,30 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/padreabanicoym%C3%B3vil/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/padred%C3%ADsnea/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/padreinfarto/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/padremeando/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/paestum/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/papamama/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/papapapa/</loc>
   </url>
   
   <url>
@@ -2254,6 +2220,14 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/2014-italia-sur/2014-04-25-paseo-por-napoles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/peregrinaci%C3%B3n/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/pizzer%C3%ADa/</loc>
   </url>
   
   <url>
@@ -2270,12 +2244,10 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/polonia/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/pompeya/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2284,7 +2256,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/posts/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2312,8 +2283,11 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/tags/qu%C3%A9esunbanglaris/</loc>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/tags/rabat/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2322,7 +2296,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/rinjani/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2335,12 +2308,14 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/sardinasparadesayunar/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kmc2.frosklis.tk/tags/sassi/</loc>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/selfie/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2356,13 +2331,11 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/sorcitroescuchajapo/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/sorcitroenysuexcel/</loc>
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/tags/sorcitroenysuexcel/</loc>
-    <priority>0</priority>
+    <loc>https://kmc2.frosklis.tk/tags/sorcitroescuchajapo/</loc>
   </url>
   
   <url>
@@ -2374,23 +2347,23 @@
   </url>
   
   <url>
+    <loc>https://kmc2.frosklis.tk/tags/s%C3%A9quito/</loc>
+  </url>
+  
+  <url>
     <loc>https://kmc2.frosklis.tk/tags/tartasiningredientes/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/tatras/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/thevirgingoat/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/tortillas/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2403,7 +2376,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/vivanlasma%C3%B1anas/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2420,81 +2392,6 @@
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/ziz/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/cloroformo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/desierto/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/eneryguadalupe/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/estrategia/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/la-ni%C3%B1a-del-hacha/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/mamamama/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/myfriendsisterpatri/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/papamama/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/papapapa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/peregrinaci%C3%B3n/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/pizzer%C3%ADa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/qu%C3%A9esunbanglaris/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/sassi/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kmc2.frosklis.tk/tags/s%C3%A9quito/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2506,22 +2403,15 @@
   </url>
   
   <url>
-    <loc>https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-27-evora/</loc>
-  </url>
-  
-  <url>
     <loc>https://kmc2.frosklis.tk/tags/%C3%B1am%C3%B1amalgasverdes/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/%C3%A1tate-los-cordones/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kmc2.frosklis.tk/tags/%C3%B1am%C3%B1am/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

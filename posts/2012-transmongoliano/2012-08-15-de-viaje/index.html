@@ -11,17 +11,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -36,7 +36,6 @@
 Por la mañana en el tren descubrimos que la estación de trenes y la de autobuses en Irkutsk están cada una en una punta de la ciudad por lo que había que coger un autobús. Sin embargo, al llegar a la estación de trenes con total puntualidad había un montón de gente ofreciendo taxi." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/posts/2012-transmongoliano/2012-08-15-de-viaje/" />
-
 
 <meta itemprop="name" content="De viaje">
 <meta itemprop="description" content="El día de hoy puede resumirse en que, sin problema alguno, llegamos al Nikita&rsquo;s Homestead, en la isla de Oljón. Un día sin mucho ajetreo.
@@ -62,10 +61,12 @@ Por la mañana en el tren descubrimos que la estación de trenes y la de autobus
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
    
@@ -74,32 +75,65 @@ Por la mañana en el tren descubrimos que la estación de trenes y la de autobus
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -111,10 +145,9 @@ Por la mañana en el tren descubrimos que la estación de trenes y la de autobus
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -139,15 +172,264 @@ Por la mañana en el tren descubrimos que la estación de trenes y la de autobus
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      <p>El día de hoy puede resumirse en que, sin problema alguno, llegamos al Nikita&rsquo;s Homestead, en la isla de Oljón. Un día sin mucho ajetreo.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+  
+   <li class="list">
+     <a href="/viaje/transmongoliano" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Transmongoliano</a>
+   </li>
+  
+</ul>
+<p>El día de hoy puede resumirse en que, sin problema alguno, llegamos al Nikita&rsquo;s Homestead, en la isla de Oljón. Un día sin mucho ajetreo.</p>
 
 <p>Por la mañana en el tren descubrimos que la estación de trenes y la de autobuses en Irkutsk están cada una en una punta de la ciudad por lo que había que coger un autobús. Sin embargo, al llegar a la estación de trenes con total puntualidad había un montón de gente ofreciendo taxi. Regateando desde 600 rublos, conseguimos finalmente un taxi por 300 rublos que nos dejó en la estación para ir a Oljón. Por el camino vimos Irkutsk desde el coche, cruzando el gran río Angara, afluente del Yenisei y único río que nace en el lago Baikal. La ciudad es claramente mejor que Krasnoyark. Ya en la estación había un minibús soviético muy incómodo, viejo y trallado. Reservamos nuestro viaje: 600 rublos cada uno por un trayecto de algo menos de 6 horas. El bus no salía hasta las dos, cosa que no sabíamos, por eso nos dimos bastante prisa en comer en un sitio de comida rápida que había justo en frente.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -4776,10 +5058,253 @@ Por la mañana en el tren descubrimos que la estación de trenes y la de autobus
 
 <p>Hubo que esperar un poco. La isla de Oljón, en la que dormiremos tres noches, no tiene ninguna carretera asfaltada y tiene electricidad tan sólo desde 2005. Es un lugar sagrado para los chamanes, cosa que se nota por la cantidad de palos rodeados por tela que hay.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -9452,7 +9977,82 @@ Por la mañana en el tren descubrimos que la estación de trenes y la de autobus
   </article>
 
   </main>
-  <p>single default</p>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
+
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
+</footer>
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

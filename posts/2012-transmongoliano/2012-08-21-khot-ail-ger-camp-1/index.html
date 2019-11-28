@@ -11,17 +11,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -35,9 +35,8 @@
 <meta property="og:description" content="Se nota que Sara está por ahí y los ha puesto firmes a todos. A las 8 de la mañana nos traen el desayuno al ger. Agua hirviendo, café y té, pan y nata. Estamos tiritando. El fuego se nos apagó en mitad de la noche y no fuimos capaces de encenderlo&hellip; o sí, pero no llegó a calentar. A las 4 de la mañana gastamos medio rollo de papel higiénico en intentar crear un llama para que prendiese la madera, pero aquello no iba." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1/" />
-<meta property="article:published_time" content="2012-08-21T21:00:16&#43;00:00"/>
-<meta property="article:modified_time" content="2012-08-21T21:00:16&#43;00:00"/>
-
+<meta property="article:published_time" content="2012-08-21T21:00:16+00:00" />
+<meta property="article:modified_time" content="2012-08-21T21:00:16+00:00" />
 <meta itemprop="name" content="Khot Ail Ger Camp">
 <meta itemprop="description" content="Se nota que Sara está por ahí y los ha puesto firmes a todos. A las 8 de la mañana nos traen el desayuno al ger. Agua hirviendo, café y té, pan y nata. Estamos tiritando. El fuego se nos apagó en mitad de la noche y no fuimos capaces de encenderlo&hellip; o sí, pero no llegó a calentar. A las 4 de la mañana gastamos medio rollo de papel higiénico en intentar crear un llama para que prendiese la madera, pero aquello no iba.">
 
@@ -61,10 +60,12 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
    
@@ -73,32 +74,65 @@
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -110,10 +144,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -138,8 +171,14 @@
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      <p>Se nota que Sara está por ahí y los ha puesto firmes a todos. A las 8 de la mañana nos traen el desayuno al ger. Agua hirviendo, café y té, pan y nata. Estamos tiritando. El fuego se nos apagó en mitad de la noche y no fuimos capaces de encenderlo&hellip; o sí, pero no llegó a calentar. A las 4 de la mañana gastamos medio rollo de papel higiénico en intentar crear un llama para que prendiese la madera, pero aquello no iba. Así que acabamos solucionando el problema con más capas y cerrando el saco hasta arriba cuales gusanos de seda.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+  
+   <li class="list">
+     <a href="/viaje/transmongoliano" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Transmongoliano</a>
+   </li>
+  
+</ul>
+<p>Se nota que Sara está por ahí y los ha puesto firmes a todos. A las 8 de la mañana nos traen el desayuno al ger. Agua hirviendo, café y té, pan y nata. Estamos tiritando. El fuego se nos apagó en mitad de la noche y no fuimos capaces de encenderlo&hellip; o sí, pero no llegó a calentar. A las 4 de la mañana gastamos medio rollo de papel higiénico en intentar crear un llama para que prendiese la madera, pero aquello no iba. Así que acabamos solucionando el problema con más capas y cerrando el saco hasta arriba cuales gusanos de seda.</p>
 
 <p>Ayudamos a recoger los platos del desayuno y nos quedamos en el ger de Sara viendo cómo hervían la leche y preparaban las cosas. Es digno de ver.</p>
 
@@ -153,10 +192,253 @@
 
 <p>A las 10 efectivamente vino Sara acompañada por cuatro mujeres. Entonces Sara se fue al hospital a ver a su hijo. Me remito al capítulo a parte que va a hacer Ceci sobre la sanidad, aunque adelanto que Ceci estuvo viendo las radiografías del niño en cuestión y estaban bien, pero eran pruebas insuficientes y la radiografía estaba, al parecer, mal hecha. Las cuatro que vinieron eran tres un poco gilipollas y una maja, con un aire de altanería y superioridad que no me gustó nada. Eran tres canadienses y una australiana, un poco pasadas de peso y feas como rayos. Ricas paletas casadas con mineros que están trabajando en Mongolia; a decir verdad una no estaba casado con un minero sino con un veterinario. La que menos llevaba en Mongolia año y medio y habían conocido a Sara porque era la profesora de mongol de una de ellas (Sara da clases de mongol en la universidad), después conocieron el ger, fueron trabando amistad, una cosa llevó a la otra y el resultado es que acabaron comprando unos caballos (que les cuida Sara) y haciéndose su propio ger. Vamos, que están muy integradas en Mongolia. Entonces su dedicación es hacer turismo a caballo (incluso han cruzado la estepa) y la filantropía mientras sus maridos trabajan en la mina de cobre más grande del mundo (o de las más grandes, no me quedó claro) al sur del país. Su labor filantrópica básicamente consiste en abrir colegios y orfanatos, por lo que me contó Ceci. Todo esto lo aprendimos en la excursión a caballo de la que voy a hablar ahora, pero el resumen sobre las amazonas estas es que eran unas tipas muy interesantes y válidas pero con unos aires de altanería insoportables.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -4783,10 +5065,253 @@
 
 <p>La excursión fue estupenda. Según las canadienses fue mucho mejor de lo normal porque el marido de Sara es muy lanzado y nos llevó por sitios realmente difíciles incluso con dos novatos. Vimos un lugar donde se hacen ritos chamánicos, cruzamos un río y subimos a una colina con bastante pendiente donde nos bajamos de los caballos para que descansaran e hicimos fotos. El paisaje mongol es increíble más que por bonito, que lo es, por lo virgen que es: el hombre a penas lo ha modificado. Muchas montañas y colinas con algún que otro árbol, no muchos, y verdes praderas, todo lleno de animales: caballos, vacas, cabras, ovejas y yaks (¿uros?).</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -9417,10 +9942,253 @@
 
 <p>Por la tarde las angloparlantes ya se habían ido y fuimos a dar una vuelta a caballo, esta vez más corta con el hijo de Sara. Esta vez fui yo sola. De vez en cuando poníamos el caballo a galopar, la primera vez me dio un poco de miedo, luego casi lo agradecía porque era menos doloroso que ir al trote, con tanto botecito. El hijo pequeño de Sara, Sachna, habla un poco de inglés. Da gusto verlo con los caballos.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -14047,10 +14815,253 @@
 
 <p>A ese juego jugamos una vez antes de cenar y otra después en nuestro ger. El otro juego era más divertido, tirabas los huesos y luego a modo chapa tenías que ir dando a todo los que fueran del mismo tipo y retirando con la mano que no tirase. Al final acabamos echando a los niños para que nos dejaran dormir porque no podíamos más. Para cenar hubo variación, cenamos una sopa con ternera en vez de oveja. Antes de la sopa pudimos probarla a tiras que comimos con la mano, según nos las ofreció el marido de Sara, Bagi. Estaba, curiosamente, buena.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -18725,7 +19736,82 @@
   </article>
 
   </main>
-  <p>single default</p>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
+
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
+</footer>
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

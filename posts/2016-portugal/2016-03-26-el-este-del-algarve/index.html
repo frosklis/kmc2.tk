@@ -11,17 +11,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -36,7 +36,6 @@
 Íbamos a ir a Almancil, parar y verlo, pero desde el coche el pueblo no nos gustó nada, así que no lo hicimos y nos desviamos a Quinta do Lago." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-26-el-este-del-algarve/" />
-
 
 <meta itemprop="name" content="El este del Algarve">
 <meta itemprop="description" content="Hoy hemos visto más cosas que ayer, pero no porque ayer fuéramos vagos y hoy rápidos sino porque ahorramos mucho tiempo en dos: comer y coche. Comer porque comimos a base de bocadillos y coche porque la distancia recorrida ha sido menor. Pero empecemos por el principio.
@@ -62,10 +61,12 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
    
@@ -74,32 +75,65 @@
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -111,10 +145,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -139,15 +172,264 @@
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      <p>Hoy hemos visto más cosas que ayer, pero no porque ayer fuéramos vagos y hoy rápidos sino porque ahorramos mucho tiempo en dos: comer y coche. Comer porque comimos a base de bocadillos y coche porque la distancia recorrida ha sido menor. Pero empecemos por el principio.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+  
+   <li class="list">
+     <a href="/viaje/portugal" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Portugal</a>
+   </li>
+  
+</ul>
+<p>Hoy hemos visto más cosas que ayer, pero no porque ayer fuéramos vagos y hoy rápidos sino porque ahorramos mucho tiempo en dos: comer y coche. Comer porque comimos a base de bocadillos y coche porque la distancia recorrida ha sido menor. Pero empecemos por el principio.</p>
 
 <p>Íbamos a ir a Almancil, parar y verlo, pero desde el coche el pueblo no nos gustó nada, así que no lo hicimos y nos desviamos a Quinta do Lago. Quinta do Lago es una zona residencial de chalés y country clubs con muy buena pinta donde tienen casa los ricos, sobre todo ingleses. Lo de muy buena pinta no es sólo que se vea que las casas son grandes y que estén todos los jardines bien cuidados. También contribuye el hecho de que las casas son al estilo americano o inglés: sin muros o con una valla muy baja. Esto en España no es así (y yo creo que sería impensable), pero da un aspecto más acogedor. Fuimos después a ver la playa, que está separada del continente por la Ría Formosa; no sé si realmente la ría tiene agua en algún momento (diría que sí) pero en cualquier caso hoy sólo se veía el fondo del mar.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -4772,10 +5054,253 @@
 
 <p>Visto Quinta do Lago, seguimos hacia Loulé. Loulé es la ciudad interior más grande del Algarve (no es mucho decir), y tiene un centro adoquinado y en blanco bastante agradable. Además hoy estaba muy animada porque los sábados es día de mercado. Compramos unas fresas, que nos fuimos comiendo mientras deambulábamos por el mercado, y un par de latas, pan y &ldquo;chutney&rdquo; de tomate para hacernos unos bocadillos.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -9400,10 +9925,253 @@
 
 <p>Los bocadillos, claro, fuimos a hacérnoslos y comérnoslos a otra parte: a un banco en la ribera del río Guadiana en Vila Real do Santo Antonio con vistas a España. He de decir que lo que se ve de España son adosados, por contra en la parte portuguesa es un pueblo adoquinado con una plaza grande y agradable y casitas bajas bastante bonitas. Además vendían platos muy baratos (¡un euro!) y bonitos.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -14030,10 +14798,253 @@
 
 <p>La primera de ellas fue muy corta: Cacela Velha. Bonitas vistas sobre la costa y recuerdos de Ceci de cuando estuvo en el Algarve de pequeña; eso es lo que es Cacela Velha. Como las vistas eran bonitas, pedimos a una pareja de viejos españoles (lo que había por allí) que nos hicieran una foto: lo intentaron, pero no fueron capaces de hacer la foto. Sin comentarios. Nos hicimos una con el automático con vistas mucho peores.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -18658,10 +19669,253 @@
 
 <p>La segunda parada antes de Faro fue larga: Tavira. Tavira es muy agradable y relativamente grande, con una muralla, iglesia grande, puente romano y la Plaza de la República, donde ver a la gente pasar. Lo primero que hicimos fue subir a la zona alta a ver lo que se veía. Se ve la costa, pero casi diría que lo mejor no son las vistas sino el jardín. Y después fuimos bajando hasta llegar a una cafetería en la plaza donde pasamos un buen rato. Allí contemplamos como una pareja de policías españoles estaba por allí; nos explicaron que están de apoyo porque en la zona hay mucho español y lo que hacen es colaborar con la policía portuguesa. Podríamos habernos quedado a cenar en Tavira pero no teníamos mucho que hacer, porque el tiempo no acompañaba para coger un barco y ver la Ilha de Tavira; en cambio sí que dimos una vuelta por el pueblo. Con Silves, el más agradable de los que hemos visto.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -23286,10 +24540,253 @@
 
 <p>Aprovechamos para llegar a Faro con luz natural y dimos también un paseo por Faro, cosa que no habíamos hecho hasta ahora. Para el tamaño de ciudad que es, hay muy poca gente por la calle. No sé si en verano la cosa es diferente. Antes de cenar, subimos a lo alto del hotel Faro (creo que se llama así), donde tienen un restaurante y cafetería con vistas sobre toda la costa y la marina de Faro. Escribimos las postales que compramos ayer, mañana tendermoes que encontrar un sitio desde el que mandarlas.</p>
 
-<figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
+<figure style="padding: 0.25rem; margin: 2rem 0">
     <img style="max-width: 100%; height: auto;" src="" width="" height="">
     <figcaption>
         <small>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
         
             
             
@@ -27922,7 +29419,7 @@
         <ul class="pa0">
              
             <li class="list dib">
-            <a href="https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-25-lagos-y-silves/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Lagos y Silves</a>
+            <a href="https://kmc2.frosklis.tk/posts/2016-portugal/2016-03-24-llegada-a-faro/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Llegada a Faro</a>
             </li>
             
           
@@ -27966,7 +29463,82 @@
   </article>
 
   </main>
-  <p>single default</p>
+  <footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
+
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
+</footer>
   
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>

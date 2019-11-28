@@ -10,17 +10,17 @@
   <meta name="MobileOptimized" content="320">
 
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   
-
   
   
-  <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://kmc2.frosklis.tk/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
 
   
@@ -34,7 +34,6 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kmc2.frosklis.tk/viaje/indonesia/gallery/" />
-
 
 <meta itemprop="name" content="">
 <meta itemprop="description" content="">
@@ -58,42 +57,77 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
+    
+    <script defer src="https://kmc2.frosklis.tk/random_post.js"></script>
 </head>
 
 <body
-  class="ma0 bg-transparent helvetica">
+  class="ma0 z-1 bg-transparent helvetica">
 
   
 
   <header>
     <div class="bg-transparent">
       <nav class="pt3 ph3 ph4-ns" role="navigation">
-  <div class="flex justify-left items-center center">
-    <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
-      <img src="/logo_64.png" srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x" alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
-    </a>
-    <div class="flex items-center">
-      
+    <div class="flex justify-between items-center center">
+        <a href="https://kmc2.frosklis.tk" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
+            <img src="/logo_64.png"
+                srcset="/logo_64.png 1x, /logo_128.png 2x, /logo_384.png 3x"
+                alt="km c&lt;sup&gt;2&lt;/sup&gt;" width="64px" height="64px">
+        </a>
+        <div class="flex items-center">
+            
 
-      
-        <ul class="pl0 mh3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="/about/" title="about hugo page">
-              about hugo
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-blue no-underline black" href="./gallery/" title="galería page">
-              galería
-            </a>
-          </li>
-          
-          
-        </ul>
-      
-      
+            
+            <ul class="pl0 mh3">
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-europa">
+                    <a class="hover-blue no-underline black" href="/continents/europa" title="Europa page">
+                        Europa
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-america">
+                    <a class="hover-blue no-underline black" href="/continents/america" title="América page">
+                        América
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-asia">
+                    <a class="hover-blue no-underline black" href="/continents/asia" title="Asia page">
+                        Asia
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-africa">
+                    <a class="hover-blue no-underline black" href="/continents/africa" title="África page">
+                        África
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-oceania">
+                    <a class="hover-blue no-underline black" href="/continents/oceania" title="Oceanía page">
+                        Oceanía
+                    </a>
+                </li>
+                
+                <li class="list f5 f4-ns fw4 dib pr3" id="menu-random">
+                    <a class="hover-blue no-underline black" href="" title="cuéntame algo page">
+                        cuéntame algo
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <div>
+            <div class="list f5 f4-ns fw4 dib pr3"><input type="search" id="search-input"
+                    class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="buscar..."
+                    name="search-input"
+                    style="background: transparent url(&quot;/images/icon-search.png&quot;) no-repeat scroll 0px 8px / 16px 16px; position: relative; vertical-align: top;"
+                    autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                    aria-owns="algolia-autocomplete-listbox-0" dir="auto"></div>
+            
 
 
 
@@ -105,10 +139,9 @@
 
 
 
+        </div>
     </div>
-  </div>
 </nav>
-
     </div>
   </header>
 
@@ -1295,6 +1328,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
@@ -1356,13 +1401,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150819-063151.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102019.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1370,13 +1415,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-102019.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102101.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-102019_hu455f4dbb7756cfb7d1677d6833988127_2525469_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1384,13 +1429,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-102101.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103240.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-102101_hua50982f662227261a3655daa681db1b9_1953106_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1398,13 +1443,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-103240.jpg">
+    <a data-size="3000x4000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103336.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-103240_hu7a398b81c4d21ef559d1e9bda00c47a5_1667682_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1412,13 +1457,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3000x4000" href="/posts/2015-indonesia/more_pictures/20150826-103336.jpg">
+    <a data-size="3000x4000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-110002.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-103336_hub0c0399c36960f3e26ef4ab163af1750_805447_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1426,13 +1471,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3000x4000" href="/posts/2015-indonesia/more_pictures/20150826-110002.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-112949.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-110002_hu2ec2451de13ed88aadbb358188d24c8c_1941346_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1440,13 +1485,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-112949.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-113737.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-112949_hucc63347e51695d9c10de41e1ca6975a4_3483182_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1454,13 +1499,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150826-113737.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115241.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-113737_huc967383011ce34956818a183ed0c552a_2337447_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1468,13 +1513,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-115241.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115504.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-115241_hu08175a929d41f7a284873254cc4c60fa_3698077_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1482,13 +1527,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-115504.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115733.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-115504_hu4ba13d1d9e421e1b0552be82eee0b905_2467836_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1496,13 +1541,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150826-115733.jpg">
+    <a data-size="3999x2406" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115911.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-115733_hu7a746689728c960b82095b6aff795792_1278759_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1510,13 +1555,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3999x2406" href="/posts/2015-indonesia/more_pictures/20150826-115911.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-132506.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-115911_hud10c1324de995be9a497bd9deeeac1a2_2010333_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1524,13 +1569,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-132506.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-154445.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-132506_hud375d12f2d241705497e71367c4352f6_2505532_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1538,13 +1583,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150826-154445.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-163911.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-154445_hu28207de4fdb58caf46e18afa865f5245_2771574_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1552,13 +1597,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150826-163911.jpg">
+    <a data-size="4228x2342" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-171025.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-163911_hu0e5f1432ba6e1ef7890ec0b6d4e6d2e3_2080548_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1566,13 +1611,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4228x2342" href="/posts/2015-indonesia/more_pictures/20150826-171025.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-172828.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-171025_hu218b77b74a0537483ef609594c0dae56_2024397_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1580,13 +1625,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150826-172828.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-190711.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-172828_hu7c37bc053eda114f9b35c083ad654790_2596252_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-26-besakih-sidemen-padang-bai/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1594,13 +1639,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150826-190711.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-19-borobudur-prambanan/20150819-063151.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150826-190711_hu10035a855698c355b210dcae4b36acbc_3634058_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-19-borobudur-prambanan/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-19-borobudur-prambanan/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-19-borobudur-prambanan/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-19-borobudur-prambanan/20150819-063151_hub41899c5517565c7e8040d6caef183ee_3647939_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1608,13 +1653,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150827-093756.jpg">
+    <a data-size="4000x2418" href="/posts/2015-indonesia/2015-09-06-fin-de-lombok/20150906-104758.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-06-fin-de-lombok/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-06-fin-de-lombok/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-06-fin-de-lombok/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-06-fin-de-lombok/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1622,13 +1667,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150827-105951.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-29-gili-air/20150829-120659.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-29-gili-air/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-29-gili-air/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1636,13 +1681,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150827-110023.jpg">
+    <a data-size="3640x2472" href="/posts/2015-indonesia/2015-08-29-gili-air/20150829-160356.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-29-gili-air/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-29-gili-air/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1650,13 +1695,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150827-110458.jpg">
+    <a data-size="3877x2908" href="/posts/2015-indonesia/2015-08-29-gili-air/20150829-160436.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-29-gili-air/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-29-gili-air/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1664,13 +1709,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4286x2561" href="/posts/2015-indonesia/more_pictures/20150827-111548.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-29-gili-air/20150829-161119.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-29-gili-air/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-29-gili-air/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1678,13 +1723,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3244x1774" href="/posts/2015-indonesia/more_pictures/20150827-130850.jpg">
+    <a data-size="4000x2579" href="/posts/2015-indonesia/2015-08-29-gili-air/20150829-163911.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-29-gili-air/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-29-gili-air/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1692,13 +1737,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2249" href="/posts/2015-indonesia/more_pictures/20150827-175417.jpg">
+    <a data-size="3999x1943" href="/posts/2015-indonesia/2015-08-29-gili-air/20150829-165213.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-29-gili-air/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-29-gili-air/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-29-gili-air/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1706,13 +1751,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x1992" href="/posts/2015-indonesia/more_pictures/20150828-073539.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-051327.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1720,13 +1765,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3890x2006" href="/posts/2015-indonesia/more_pictures/20150828-074000.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-060630.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1734,13 +1779,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150828-172635.jpg">
+    <a data-size="15762x3457" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-063602.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1748,13 +1793,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4074x2678" href="/posts/2015-indonesia/more_pictures/20150828-173109.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-064133.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1762,13 +1807,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3982x2645" href="/posts/2015-indonesia/more_pictures/20150828-173737.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065137.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1776,13 +1821,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150828-184044.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065145.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1790,13 +1835,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150828-210057.jpg">
+    <a data-size="3705x2448" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065737.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1804,13 +1849,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150829-120659.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070605.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150829-120659_hu9a87d0c4965cb451dfda3a10751b0835_2375211_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1818,13 +1863,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3640x2472" href="/posts/2015-indonesia/more_pictures/20150829-160356.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070607.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150829-160356_hu936e3896d50811e01e52ce666b0ce650_2326154_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1832,13 +1877,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3877x2908" href="/posts/2015-indonesia/more_pictures/20150829-160436.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070859.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150829-160436_hu9cec9b627fc5c0de9bcefa10b1af1094_1598616_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1846,13 +1891,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150829-161119.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160821.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150829-161119_hu4a1b18cab1da5444e9d15cfc889c0959_1803781_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1860,13 +1905,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x2579" href="/posts/2015-indonesia/more_pictures/20150829-163911.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160828.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150829-163911_hu5ed8467d64e2ef5098bcb6581eb067b3_1815295_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1874,13 +1919,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3999x1943" href="/posts/2015-indonesia/more_pictures/20150829-165213.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160829.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150829-165213_hu02e7adfd43240fe5040b84ef4b3fd767_1439246_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1888,13 +1933,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3055x1986" href="/posts/2015-indonesia/more_pictures/20150830-083216.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-164046.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1902,13 +1947,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3999x2604" href="/posts/2015-indonesia/more_pictures/20150830-083813.jpg">
+    <a data-size="5129x3999" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181239.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1916,13 +1961,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150830-101809.jpg">
+    <a data-size="10301x3249" href="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181832.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1930,13 +1975,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-180416.jpg">
+    <a data-size="4065x2506" href="/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-090806.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1944,13 +1989,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-180518.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-123508.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-03-gunung-rinjani-bajar-sin-piernas/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1958,13 +2003,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-180737.jpg">
+    <a data-size="7906x5666" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-120016.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1972,13 +2017,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-180819.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-153620.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -1986,13 +2031,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-180926.jpg">
+    <a data-size="3393x2486" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155154.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2000,13 +2045,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-181032.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155345.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2014,13 +2059,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-183235.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155446.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2028,13 +2073,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150830-183358.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155827.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2042,13 +2087,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150830-183446.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-160529.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2056,13 +2101,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="7906x5666" href="/posts/2015-indonesia/more_pictures/20150831-120016.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162551.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-120016_huac26c08b447c24737d8667c6772cbd86_12731359_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2070,13 +2115,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-153620.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162554.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-153620_hu03ff27274662a48cab5d1688cf30a164_2697240_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2084,13 +2129,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3393x2486" href="/posts/2015-indonesia/more_pictures/20150831-155154.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164221.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-155154_hub411fc68bd158c7281316fc557c9ea7d_2887649_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2098,13 +2143,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-155345.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164313.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-155345_hu9cd9258e8dff24db0380727c9f5e8def_4478252_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2112,13 +2157,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-155446.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164532.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-155446_hua4f4484bf022918492f2039ea033d60c_2924125_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2126,13 +2171,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-155827.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165447.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-155827_hu97be629d780eff0d74f32c745da695a0_2811177_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2140,13 +2185,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-160529.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165521.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-160529_hu22cbeffe24b2f737d85bff586f7018dd_2518863_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2154,13 +2199,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-162551.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-170855.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-162551_hud90d411181616eb68e113371eba3cee0_4130345_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2168,13 +2213,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150831-162554.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-175511.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-162554_hub9aea6ceaa5e5a59c049acab8903b503_3169149_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2182,13 +2227,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150831-164221.jpg">
+    <a data-size="7719x2457" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180647.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-164221_hu7a39828155368387fbc24dee100b9734_3123295_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2196,13 +2241,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-164313.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180721.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-164313_hudb812dc0a0a00e6a31a8aac71daa4bb8_2332638_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-31-gunung-rinjani-llegada/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2210,13 +2255,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150831-164532.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-084914.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-164532_hu3d1cce93df960f2a524a43837cec9237_1625949_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2224,13 +2269,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150831-165447.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-085002.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-165447_hu6ae385c0466399aa6bf408938ca14941_2263982_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2238,13 +2283,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-165521.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-094604.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-165521_hu37ded715e9063e7c08b34900a1efe8e4_2092827_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2252,13 +2297,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-170855.jpg">
+    <a data-size="9118x2595" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-095702.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-170855_hu7c2b994ed27ae7f12c06619cfe95122f_2571500_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2266,13 +2311,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-175511.jpg">
+    <a data-size="3999x2207" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-110216.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-175511_huc7a5e89bfcfd082169198bd2a86df122_1355697_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2280,13 +2325,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="7719x2457" href="/posts/2015-indonesia/more_pictures/20150831-180647.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-155946.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-180647_hu37fa4176c38da07c84ec202c583ca16b_3291046_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2294,13 +2339,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150831-180721.jpg">
+    <a data-size="3700x2200" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-162935.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150831-180721_hua98eedeffc6f12257a28e7fa3c55eb88_2413096_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2308,13 +2353,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-084914.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-163238.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-084914_hue33a6e325d28cfb91d8889c255afaa29_3048767_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2322,13 +2367,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-085002.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-165505.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-085002_hu11f597a0e28ff729787b16b3818ec36c_3663175_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2336,13 +2381,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-094604.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-170532.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-094604_hu9ee5bf0594330c962a544e15fe374e08_2193384_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2350,13 +2395,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="9118x2595" href="/posts/2015-indonesia/more_pictures/20150901-095702.jpg">
+    <a data-size="7763x4857" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172048.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-095702_huad9f9426ea6d4d6ea9e5de4b0399eb2a_2943212_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2364,13 +2409,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3999x2207" href="/posts/2015-indonesia/more_pictures/20150901-110216.jpg">
+    <a data-size="7264x3950" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172159.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-110216_hue3ebddc54838a9187f0298bb548af9e1_1467186_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2378,13 +2423,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-155946.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172758.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-155946_hu9e83518875cebdc35d9e9827a77e5ce5_1334399_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2392,13 +2437,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3700x2200" href="/posts/2015-indonesia/more_pictures/20150901-162935.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173146.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-162935_hu1a57b7695610ace04ae43e007bdb56e1_1587498_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2406,13 +2451,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-163238.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173455.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-163238_hud5d6225dfa75fe270d54213051a99710_2342104_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2420,13 +2465,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-165505.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173545.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-165505_hu8ec531545b7615c8c81f8f3eceffc9b5_1286961_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2434,13 +2479,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-170532.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-174945.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-170532_hu21b1a016a8d81b82d8886c0b3b801ab6_2397121_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2448,13 +2493,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="7763x4857" href="/posts/2015-indonesia/more_pictures/20150901-172048.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-175652.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-172048_hue7f5809b73f7a61ef90c0411c5daa30e_4024581_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2462,13 +2507,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="7264x3950" href="/posts/2015-indonesia/more_pictures/20150901-172159.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180906.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-172159_huae028da91e98b207c47199370d54b487_3212342_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2476,13 +2521,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-172758.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180923.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-172758_hue22fb29517a938836bc1eb149645bceb_902931_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2490,13 +2535,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150901-173146.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180936.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-173146_hu4a875d5a7a9ba1b3a19ca6672cbe052a_1707887_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2504,13 +2549,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-173455.jpg">
+    <a data-size="10772x3666" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181314.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-173455_huf4061b424490696db382a59a99eae31c_1448763_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2518,13 +2563,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-173545.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181705.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-173545_hu05e329bfa6571e709ea573f359de0b5a_1347457_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-01-gunung-rinjani-subida/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2532,13 +2577,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-174945.jpg">
+    <a data-size="3822x2544" href="/posts/2015-indonesia/2015-09-07-jakarta/20150907-104018.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-174945_hu1085c1da779c1abd9c82b43768c49f11_3145995_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-07-jakarta/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-07-jakarta/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-07-jakarta/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-07-jakarta/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2546,13 +2591,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-175652.jpg">
+    <a data-size="3810x2858" href="/posts/2015-indonesia/2015-09-04-kuta-lombok/20150904-095015.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-175652_hu768f39331feb34b9536c90f4a43977c2_2768219_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-04-kuta-lombok/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-04-kuta-lombok/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-04-kuta-lombok/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-04-kuta-lombok/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2560,13 +2605,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-180906.jpg">
+    <a data-size="4000x1992" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-073539.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-180906_hud25d01965ccb1edd4a9b7d7f63d48bdc_1209636_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-073539_hu442d8560c3e10afd9e22a8f31a81fb8c_1275058_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2574,13 +2619,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-180923.jpg">
+    <a data-size="3890x2006" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-074000.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-180923_hu08ce76c8cd5442ae0385cf9bb1c3cb0c_2116696_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-074000_hu09f9fc3bced6aaf0159a0adc34bb95da_1414620_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2588,13 +2633,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-180936.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-172635.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-180936_hu459036aa6407491ca0d3ef1c5b692a20_1336625_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-172635_hu805d828427813c7e99901ba00c3680a1_1689634_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2602,13 +2647,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="10772x3666" href="/posts/2015-indonesia/more_pictures/20150901-181314.jpg">
+    <a data-size="4074x2678" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173109.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-181314_hu32a4cbe0492a0ff1aa05449eb3f8dce1_2468304_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173109_hu995a99629a61f5359ade595b5ac6b7d8_724977_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2616,13 +2661,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150901-181705.jpg">
+    <a data-size="3982x2645" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173737.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150901-181705_hucd37130a6a818dae4f0cadff773a22a4_880949_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-173737_hu7c952674c300fd8d91b583e51aa17615_1257738_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2630,13 +2675,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150902-051327.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-184044.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-051327_hu1dca23757fd2dd0da9d525aef7982d22_2147222_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-184044_hu9f3db1bdfcdfa4e7c4d512b408213fa7_2507311_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2644,13 +2689,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150902-060630.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-210057.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-060630_hu8710e58e11315e016ca1169c0335837c_2187478_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-28-playa-de-jimbaran-pura-ulu-watu/20150828-210057_hue185c6526d4d486e1128e1d5d74ae2dc_2588057_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2658,13 +2703,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="15762x3457" href="/posts/2015-indonesia/more_pictures/20150902-063602.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-093756.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-063602_huded1319811f88a2174599ef3077b966a_4293569_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-093756_hu293ada971d21b82e0df264b382dc24d6_2037042_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2672,13 +2717,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150902-064133.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-105951.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-064133_hua167d3a9a8758cf0a679d1d19809dc43_1034788_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-105951_hu2d42e83af661f529b376a603def2b143_1900776_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2686,13 +2731,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150902-065137.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110023.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-065137_hu30c71916bcace65fa71aecbc585931f3_2258814_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110023_hu7d9cc094b6b6e59f2d8eb358066af514_902040_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2700,13 +2745,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150902-065145.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110458.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-065145_hu78d9eb248f66770070212fffd8d577c9_2850754_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-110458_hu161b9ff94261a9ac74d2aae89f574909_1120366_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2714,13 +2759,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3705x2448" href="/posts/2015-indonesia/more_pictures/20150902-065737.jpg">
+    <a data-size="4286x2561" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-111548.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-065737_hu6d1cac25085edb28e5805223baaf7806_1354914_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-111548_hu742e8f970e0482510077f0d90d52ad59_3110882_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2728,13 +2773,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150902-070605.jpg">
+    <a data-size="3244x1774" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-130850.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-070605_hu6a6f43cd1d19f0108de70f7d07ac5018_1326396_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-130850_hubf373f100600cb1ce104ac32ee3beaf4_930698_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2742,13 +2787,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150902-070607.jpg">
+    <a data-size="4288x2249" href="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-175417.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-070607_hudd21209478ef8e34eb0c41ffb68dc0e4_1088978_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-27-pura-tanah-lot/20150827-175417_hu68e866b87a2cc906ba729f62c7592a3a_1359415_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2756,13 +2801,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150902-070859.jpg">
+    <a data-size="3055x1986" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083216.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-070859_huf2948c880b4faf28d886fece1dbf74ac_1618896_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083216_hu41c41580bd2d07347b3bf213a1c6f54b_1542228_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2770,13 +2815,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150902-160821.jpg">
+    <a data-size="3999x2604" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083813.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-160821_hub28ae1b2f34cd16f1eb23ae43ae3779f_2298526_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-083813_hufc1fd2f1ceb1d788646ea8c04f9b4ff8_1487928_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2784,13 +2829,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150902-160828.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-101809.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-160828_hu81748c220998fd13e1806beec6875dde_2175724_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-101809_hud58b7924a81cebe1030c7eaaa2c66997_2530987_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2798,13 +2843,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="2848x4288" href="/posts/2015-indonesia/more_pictures/20150902-160829.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180416.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-160829_hu0e329eccf98156b0343d2d0007e0c833_2042165_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180416_huac9cc36ef4ea368fb88399550cae61c8_1581572_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2812,13 +2857,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150902-164046.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180518.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-164046_hu01383b2ce2a228ec90292fa31f94d340_2685586_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180518_hu4521bd7030883ec9b8566bc139ff2860_1247158_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2826,13 +2871,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="5129x3999" href="/posts/2015-indonesia/more_pictures/20150902-181239.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180737.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-181239_hu598341f0e918b0a299755d75ccc438c3_2235879_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180737_hu53d2913cd582996ff3ce527ee586073e_1079616_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2840,13 +2885,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="10301x3249" href="/posts/2015-indonesia/more_pictures/20150902-181832.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180819.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150902-181832_hua2e8b062730445ffc206627b7a2fafd2_2976826_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180819_hud73588a9bb067a1e1e06c98f462768fc_1002929_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2854,13 +2899,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4065x2506" href="/posts/2015-indonesia/more_pictures/20150903-090806.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180926.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150903-090806_hue04a1c962433819a2cc9cb31126097b0_4909311_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-180926_hu4cea35e397eab1867f59b5700e091014_1832114_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2868,13 +2913,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4288x2848" href="/posts/2015-indonesia/more_pictures/20150903-123508.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-181032.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150903-123508_hu62377bebab6fd7cb933fd6464fd4d68c_1781090_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-181032_huebce8e3e1e62aa7361a6d831b1058346_1499703_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2882,13 +2927,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3810x2858" href="/posts/2015-indonesia/more_pictures/20150904-095015.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183235.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150904-095015_huab97a4b613b54e9cb77a9d90f04581ab_1720307_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183235_hu5b198d6ea2e3528e927ea8d27f52ce77_1429739_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2896,13 +2941,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150905-090914.jpg">
+    <a data-size="4288x2848" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183358.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183358_hu652e92ca70fed27ecc4d149fb59080dd_3260236_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2910,13 +2955,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3999x1902" href="/posts/2015-indonesia/more_pictures/20150905-095249.jpg">
+    <a data-size="2848x4288" href="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183446.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-08-30-snorkel-en-las-gilis/20150830-183446_hu28e68bb4aab4dd733fba0a76632d1bae_1084101_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2924,13 +2969,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x2081" href="/posts/2015-indonesia/more_pictures/20150905-120827.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-090914.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-090914_hu3476bf723145372ca00b74869e5dbe0e_2178469_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2938,13 +2983,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x3000" href="/posts/2015-indonesia/more_pictures/20150905-155904.jpg">
+    <a data-size="3999x1902" href="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-095249.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-095249_hu179badeecc4ad12184b9c2de8fcc5941_1251219_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2952,13 +2997,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="10045x3758" href="/posts/2015-indonesia/more_pictures/20150905-180600.jpg">
+    <a data-size="4000x2081" href="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-120827.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-120827_hu7f02470b4bc660d4452213f40b91eb36_1020937_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2966,13 +3011,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="4000x2418" href="/posts/2015-indonesia/more_pictures/20150906-104758.jpg">
+    <a data-size="4000x3000" href="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-155904.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150906-104758_hu571bee68946e8c63057979ab7b566990_1511130_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-155904_huce5caaa0d7e388a7b4f0c412e42b98c4_1738298_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2980,13 +3025,13 @@
   
   <figure class="w-20-ns ma0">
     
-    <a data-size="3822x2544" href="/posts/2015-indonesia/more_pictures/20150907-104018.jpg">
+    <a data-size="10045x3758" href="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-180600.jpg">
       
       
       
 
-      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/more_pictures/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_180x120_fill_q50_box_smart1.jpg"
-        srcset="/posts/2015-indonesia/more_pictures/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/more_pictures/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/more_pictures/20150907-104018_huaa71437a5758e3ac340259e56f86f25a_840033_540x360_fill_q50_box_smart1.jpg 3x"
+      <img style="max-width: 100%; height: auto;" src="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_180x120_fill_q50_box_smart1.jpg"
+        srcset="/posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_180x120_fill_q50_box_smart1.jpg 1x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_360x240_fill_q50_box_smart1.jpg 2x, /posts/2015-indonesia/2015-09-05-sur-de-lombok/20150905-180600_huc3b4862ed6c8ea21de5bda9d2aa34498_5485008_540x360_fill_q50_box_smart1.jpg 3x"
         width="180" height="120">
     </a>
     
@@ -2999,26 +3044,82 @@
   </main>
   
 <p>gallery</p>
-<footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-blue no-underline white-70 dn dib-ns pv2 ph3" href="https://kmc2.frosklis.tk" >
-    &copy; 2019 km c<sup>2</sup>
-  </a>
-    <div>
+<footer class="z-0 bg-white bottom-0 w-100 tc"
+    role="contentinfo">
 
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/india">La India</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/peru">Perú</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/australia">Australia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/colombia">Colombia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sierra-leona">Sierra Leona</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/namibia-y-botsuana">Namibia y Botsuana</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/portugal">Portugal</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/indonesia">Indonesia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/marruecos">Marruecos</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/chicago">Chicago</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-sur">Italia Sur</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/camboya">Camboya</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/la-rioja">La Rioja</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/croacia">Croacia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/bolivia">Bolivia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/transmongoliano">Transmongoliano</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/normandia">Normandía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/berlin">Berlín</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/centroeuropa">Centroeuropa</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/sicilia">Sicilia</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/turquia">Turquía</a></li>
+            
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/italia-norte">Italia Norte</a></li>
+            
+        </ul>
+    </div>
+    
 </footer>
-
 
   
 
