@@ -1,5 +1,4 @@
 directory	file	datetime	title	description	latitude	longitude
-./posts	20080903-200124.jpg	2008:09:03 20:01:24	img_7525.jpg	img_7525.jpg	-	-
 ./posts	20140909-194602.jpg	2014:09:09 19:46:02	Se pone el sol en Essaouira	-	31.5076566666667	-9.76594833333333
 ./posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas	20150902-160821.jpg	2015:09:02 16:08:21	Felicidad pos ba&ntilde;o	-	-	-
 ./posts/2015-indonesia/2015-09-02-gunung-rinjani-17-horas	20150902-065145.jpg	2015:09:02 06:51:45	Satisfacci&oacute;n	3726 metros. Rinjani conquistado.	-8.41177833333333	116.457566666667
@@ -225,8 +224,11 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2012-transmongoliano/2012-08-12-tomsk	20120812-153210.jpg	2012:08:12 15:32:10	Memorial	Uno de los muchos memoriales que hay por toda Rusia de las v&iacute;ctimas de muchas guerras..Este est&aacute; en Tomsk en un enclave precioso desde el que se ve una gran llanura siberiana con un meandro del r&iacute;o Tom..Adem&aacute;s, est&aacute; justo al final de la avenida Lenin.	-	-
 ./posts/2012-transmongoliano/2012-08-08-un-dentista-en-el-tren	20120808-194821.jpg	2012:08:08 19:48:21	Catedral de San Basilio	-	55.7536361	37.6213888833333
 ./posts/2012-transmongoliano/2012-08-17-cabo-khoboy	20120817-130936.jpg	2012:08:17 13:09:36	En el fin del mundo	-	53.4115233333333	107.790371666667
+./posts/2014-italia-sur/2014-04-24-pompeya	20140424-101825.jpg	2014:04:24 10:18:25	-	-	40.748355	14.4817266666667
+./posts/2014-italia-sur/2014-04-24-pompeya	20140424-181427.jpg	2014:04:24 18:14:27	N&aacute;poles	-	40.845	14.2388888833333
+./posts/2014-italia-sur/2014-04-24-pompeya	20140424-130211.jpg	2014:04:24 13:02:11	-	-	40.7534116666667	14.4845433333333
+./posts/2014-italia-sur/2014-04-24-pompeya	20140424-114638.jpg	2014:04:24 11:46:38	-	-	40.7487583333333	14.4888016666667
 ./posts/2014-italia-sur/2014-04-24-pompeya	20140424-215920.jpg	2014:04:24 21:59:20	-	-	40.85123	14.2581133333333
-./posts	20080902-101017.jpg	2008:09:02 10:10:17	&iexcl;El huevo!	aeropuerto, la maleta de claudio se apropi&oacute; ya un sitio, mandona...	45.630605	8.72177166666667
 ./posts/2013-bolivia	20130316-061541.jpg	2013:03:16 06:15:41	-	-	-	-
 ./posts/2013-bolivia	20130309-152225.jpg	2013:03:09 15:22:25	-	-	-	-
 ./posts/2013-bolivia	20130309-084529.jpg	2013:03:09 08:45:29	-	-	-	-
@@ -323,7 +325,6 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2013-bolivia	20130314-105320.jpg	2013:03:14 10:53:20	-	-	-	-
 ./posts/2013-bolivia	20130314-112853.jpg	2013:03:14 11:28:53	-	-	42.4221416666667	18.7749616666667
 ./posts/2013-bolivia	20130322-162328.jpg	2013:03:22 16:23:28	2013-03-22-16.23.28	-	-	-
-./posts	20080902-175055.jpg	2008:09:02 17:50:55	Moltrasio	bautizamos al gato con el nombre del pueblo	-	-
 ./posts/2017-colombia	20170822-184548.jpg	2017:08:22 18:45:48	Un grafiti alegre	Curiosamente, este est&aacute; pintado con pintura anti grafiti (cara)	-	-
 ./posts/2017-colombia/2017-08-15-islas-del-rosario	20170815-171919.jpg	2017:08:15 17:19:19	Colores de Cartagena	Coche de caballos	-	-
 ./posts/2017-colombia/2017-08-15-islas-del-rosario	20170815-091600.jpg	2017:08:15 09:16:00	Bocagrande	Vista de Bocagrande desde el mar	-	-
@@ -383,7 +384,6 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2013-croacia/2013-08-28-sibenik-y-zadar	20130828-164136.jpg	2013:08:28 16:41:36	Al fondo, Sibenik	-	43.5074083333333	16.4530616666667
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152827.jpg	2013:08:26 15:28:27	Puente Viejo	En realidad el Puente Viejo es nuevo, ya que fue destruido en la guerra y reconstruido en los 2000.	43.3427138833333	17.8109388833333
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152903.jpg	2013:08:26 15:29:03	-	-	43.3427138833333	17.8109388833333
-./posts	20080903-124258.jpg	2008:09:03 12:42:58	Coche de polic&iacute;a :)	-	-	-
 ./posts/2019-peru/2019-04-20-arequipa	20190420-154804.jpg	2019:04:20 15:48:04	-	-	-16.3953566666667	-71.5363283333333
 ./posts/2019-peru/2019-04-20-arequipa	20190420-160039.jpg	2019:04:20 16:00:39	-	-	-16.3956466666667	-71.5369616666667
 ./posts/2019-peru/2019-04-20-arequipa	20190420-153055.jpg	2019:04:20 15:30:55	-	-	-16.3947183333333	-71.5365866666667
@@ -453,6 +453,11 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-113701.jpg	2019:04:18 11:37:01	-	-	-12.0457216666667	-77.0309
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-161245.jpg	2019:04:18 16:12:45	-	-	-12.043835	-77.0318383333333
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-113955.jpg	2019:04:18 11:39:55	-	-	-12.0453016666667	-77.031645
+./posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como	20080902-101017.jpg	2008:09:02 10:10:17	&iexcl;El huevo!	aeropuerto, la maleta de claudio se apropi&oacute; ya un sitio, mandona...	45.630605	8.72177166666667
+./posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como	20080902-175055.jpg	2008:09:02 17:50:55	Moltrasio	bautizamos al gato con el nombre del pueblo	-	-
+./posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como	20080902-190148.jpg	2008:09:02 19:01:48	Pulgarcita	En Torno	45.858545	9.113245
+./posts/2008-italia-norte/2008-09-03-de-como-a-bergamo-pasando-por-iseo	20080903-200124.jpg	2008:09:03 20:01:24	img_7525.jpg	img_7525.jpg	-	-
+./posts/2008-italia-norte/2008-09-03-de-como-a-bergamo-pasando-por-iseo	20080903-124258.jpg	2008:09:03 12:42:58	Coche de polic&iacute;a :)	-	-	-
 ./posts/2019-india/2019-10-22-taj-mahal	20191022-074917.jpg	2019:10:22 07:49:17	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-162938.jpg	2019:10:20 16:29:38	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-164524.jpg	2019:10:20 16:45:24	-	-	-	-
@@ -464,7 +469,6 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-152013.jpg	2019:10:21 15:20:13	-	-	-	-
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-151515.jpg	2019:10:21 15:15:15	-	-	-	-
 ./posts	20130830-172650.jpg	2013:08:30 17:26:50	Pinzas	-	42.8383783333333	17.6952033333333
-./posts	20080902-190148.jpg	2008:09:02 19:01:48	Pulgarcita	En Torno	45.858545	9.113245
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-181057.jpg	2016:03:25 18:10:57	Praia da Rocha	-	37.1164033333333	-8.53008
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-174747.jpg	2016:03:25 17:47:47	Portimao	Una de las muchas buenas playas del Algarve. Lo que no vale nada es Portimao en s&iacute;.	37.1164033333333	-8.53008
 ./posts/2016-portugal/2016-03-25-lagos-y-silves	20160325-191052.jpg	2016:03:25 19:10:52	Galer&iacute;a de arte	-	37.1904283333333	-8.43842333333333

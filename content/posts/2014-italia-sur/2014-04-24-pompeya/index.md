@@ -1,6 +1,6 @@
 ---
 viaje: [Italia Sur]
-featured_picture: '24511414529'
+featured_picture: 20140424-1018'
 layout: post
 mapping:
   locations:
@@ -14,6 +14,7 @@ mapping:
       Scavi, time: '2014-04-24 13:02:11'}
 tags: [Pompeya, romanos, ruinas]
 title: Pompeya
+date: 2014-04-24
 ---
 
 El día de hoy lo hemos empezado francamente tarde y ahí se nos descuadró nuestro planning inicial. Tras el desayuno y las fotos de las vistas desde la terraza panorámica del hotel fuimos hasta Pompeya. Llegamos tarde, como a las 11, cuando ya estaba bien saturado de turistas.
@@ -38,20 +39,18 @@ La verdad que la visita nos encantó, pero íbamos muy poco preparados. Se nos v
 
 Unas cuantas fotos del yacimiento, donde se puede apreciar que Pompeya era toda una ciudad:
 
-{{% imgproc 24903144925 %}}
+{{% imgproc 1018 %}}
 
-{{% imgproc 24809891471 %}}
+{{% imgproc 1146 %}}
 
-{{% imgproc 24903314845 %}}
+{{% imgproc 1302 %}}
 
 Para comer fuimos al centro de Pompeya (la actual), a un buffet llamado Todisco donde estábamos solos con el dueño y dos empleados. La comida estaba buena, no fue muy cara y sobre todo, estaba abierto a las 3:30!! Lo mejor fue que a la salida el dueño se puso a charlar con nosotros, nos invitó a un par de chupitos de Limoncello y nos habló de sus vacaciones familiares en Barcelona (su conclusión era que había muchos más ladrones allí que en Nápoles).
 
 Como estábamos agotados y no nos veíamos con fuerzas para subir al Vesubio o para ir a ver Ercolano, decidimos ir a Nápoles al hotel y dar una vuelta por allí. Nuestro hotel (Hotel Toledo) está al lado de la famosa Via Toledo, muy céntrico y tiene un parking no muy lejos. Aprovechamos para pasear un poco por la zona, tomarnos un helado en La Scimmia (mona), una heladería de 1933 y después subir al Vomero, una colina que domina la ciudad a la que se puede subir en funicular. Hubiésemos querido entrar en Certosa e Museo di San Martino pero cuando llegamos ya habían cerrado, así que nos tuvimos que conformar con las vistas desde el parque (nada malas como se puede ver).
 
-{{% imgproc 24511414529 %}}
+{{% imgproc 1814 %}}
 
 Para cenar fuimos dando un agradable paseo por la Via dei Tribunali hasta la Antica Pizzeria e Friggitoria di Mateo, donde reservamos mesa para las 9:30... ¡qué pizzas! ¡Sublimes! Con razón están entre las mejores de Nápoles. El sitio es cutre a más no poder pero las pizzas están buenísimas y baratísimas, 100% recomendable.
 
 Mañana más.
-
-{{% imgproc 20140424-215920 %}}
