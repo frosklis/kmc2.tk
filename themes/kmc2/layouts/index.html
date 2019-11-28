@@ -6,7 +6,7 @@
         {{ $original := ($resources.GetMatch (printf "*%s*" $featured_image)) }}
         {{ $image := $original }}
         <a class="link white" href="/viaje/{{.sanitized}}">
-        <article class="w-100 vh-100 dt cover bg-black white sticky"
+        <article class="w-100 vh-100 dt cover bg-black white"
             {{ with $image }}style="background-image: url({{ $image.RelPermalink }});top:0;left:0;background-position:bottom"
             {{ end }}>
             <section class="dtc white ph3 ph4-l">

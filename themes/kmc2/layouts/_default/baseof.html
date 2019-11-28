@@ -18,12 +18,17 @@
   {{ else }}
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   {{ end }}
-
-  {{ $stylesheet := .Site.Data.webpack_assets.app }}
-  {{ with $stylesheet.css }}
-  <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
-  {{ end }}
-
+  {{/* 
+    {{ $stylesheet := .Site.Data.webpack_assets.app }}
+    {{ with $stylesheet.css }}
+    <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
+    {{ end }}
+    */}}
+  {{ $css := resources.Get "main.css" }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  {{/* fonts */}}
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   {{ range .Site.Params.custom_css }}
   <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
   {{ end }}
@@ -58,7 +63,7 @@
 </head>
 
 <body
-  class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  class="ma0 z-1 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
   {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
   <main role="main">

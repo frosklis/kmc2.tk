@@ -13,38 +13,52 @@ taxonomies:
 outputs:
   home:
   - HTML
-  - JSON
   - RSS
   page:
   - HTML
 
 menu:
   main:
-  - identifier: menu-about
-    name: about hugo
-    pre: <i class='fa fa-heart'></i>
-    url: /about/
-    weight: -110
-  - identifier: menu-gallery
-    name: galería
-    post: <span class='alert'>New!</span>
-    pre: <i class='fa fa-road'></i>
-    url: ./gallery/
-    weight: -100
+  - identifier: menu-europa
+    name: Europa
+    url: /continents/europa
+    weight: 1
+  - identifier: menu-america
+    name: América
+    url: /continents/america
+    weight: 2
+  - identifier: menu-asia
+    name: Asia
+    url: /continents/asia
+    weight: 3
+  - identifier: menu-africa
+    name: África
+    url: /continents/africa
+    weight: 4
+  - identifier: menu-oceania
+    name: Oceanía
+    url: /continents/oceania
+    weight: 5
+  # - identifier: menu-gallery
+  #   name: galería
+  #   url: ./gallery/
   - identifier: menu-random
     name: cuéntame algo
+    weight: 6
 
 params:
   favicon: favicon.ico
   logo: /logo_64.png
   logo_2x: /logo_128.png
   logo_3x: /logo_384.png
+  logo_white: /logo-white_64.png
+  logo_white_2x: /logo-white_128.png
+  logo_white_3x: /logo-white_384.png
   description: Los viajes de Ceci y Claudio
   headtitle: kmc2
   background_color_class: bg-transparent
   show_reading_time: true
   body_classes: bg-transparent helvetica
-  twitter: claudio1985
   mapbox:
     token: pk.eyJ1IjoiY2xhdWRpbzg1IiwiYSI6IkhUYTM1c3MifQ.D_EsM3RQWCStl9ldOxDGuQ
 

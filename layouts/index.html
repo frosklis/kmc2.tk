@@ -1,23 +1,32 @@
 {{ define "main" }}
+
+{{/* most recent posts */}}
+<div class="flex flex-wrap justify-center content-center bg-black pt4 pb4">
+    {{ range first 12 (where .Site.Pages ".IsPage" true) }}
+    {{ .Render "tile" }}
+    {{ end }}
+</div>
+
+{{/* the trips 
     {{ range .Site.Pages }}{{ $.Scratch.Add "resources" .Resources }}{{ end }}
     {{ $resources := .Scratch.Get "resources" }}
+    
     {{ range $.Site.Data.viajes }}
-        {{ $featured_image := string .featured_picture }}
-        {{ $original := ($resources.GetMatch (printf "*%s*" $featured_image)) }}
-        {{ $image := $original }}
-        <a class="link white" href="/viaje/{{.sanitized}}">
-        <article class="w-100 vh-100 dt cover bg-black white sticky"
-            {{ with $image }}style="background-image: url({{ $image.RelPermalink }});top:0;left:0;background-position:bottom"
-            {{ end }}>
-            <section class="dtc white ph3 ph4-l">
+    {{ $featured_image := string .featured_picture }}
+    {{ $original := ($resources.GetMatch (printf "*%s*" $featured_image)) }}
+    {{ $image := $original }}
+    <a class="link white" href="/viaje/{{.sanitized}}">
+        <article class="w-100 vh-100 dt cover bg-black white"
+        {{ with $image }}style="background-image: url({{ $image.RelPermalink }});top:0;left:0;background-position:bottom"
+        {{ end }}>
+        <section class="dtc white ph3 ph4-l">
             <div class="relative w-100 mb4">
                 <h1 class="f6 f2-m f-subheadline-l fw6">{{ .name }}</h1>
                 <h2>{{ .description }}</h2>
             </div>
-            </section>
-        </article>
-        </a>
-    {{ end }}
-
-    {{ range .Pages }} {{ . }} {{ .RelPermalink }} {{ end }}
+        </section>
+    </article>
+</a>
+{{ end }}
+*/}}
 {{ end }}

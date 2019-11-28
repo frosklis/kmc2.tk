@@ -1,16 +1,23 @@
-<footer class="{{ .Site.Params.background_footer_color_class | default "bg-black" }} bottom-0 w-100 pa3"
+<footer class="z-0 {{ .Site.Params.background_footer_color_class | default "bg-white" }} bottom-0 w-100 tc"
     role="contentinfo">
-    <div class="flex justify-between">
-        <a class="f4 fw4 hover-blue no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}">
-            &copy; {{ now.Format "2006" }} {{ .Site.Title | safeHTML }}
-        </a>
-        <div>
-            <ul class="pl0 mh3">
-                {{ range $.Site.Data.viajes }}
-                <li class="list dib"><a class="link white" href="/viaje/{{.sanitized}}">{{ .name }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
-        <div>{{ partial "social-follow.html" . }}</div>
+
+    <div class="bg-yellow pa2">
+        <ul class="f4 pl0 mh2 ">
+            {{ range $.Site.Data.viajes }}
+            <li class="list dib pv1 pa2 bg-animate hover-bg-blue black hover-white"><a class="link color-inherit"
+                    href="/viaje/{{.sanitized}}">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
     </div>
+    {{/*
+        <div class="pt3 bg-dark-gray" >
+            <div><img src="{{ .Site.Params.logo_white }}"
+    srcset="{{ .Site.Params.logo_white }} 1x, {{ .Site.Params.logo_white_2x }} 2x, {{ .Site.Params.logo_white_3x }} 3x"
+    alt="{{ .Site.Title }}" width="64px" height="64px">
+    </div>
+    <div class="f5 serif fw4 hover-blue no-underline silver dn dib-ns pv2 ph3">
+        Copyright &copy; {{ now.Format "2006" }} {{ .Site.Title | safeHTML }}
+    </div>
+    </div>
+    */}}
 </footer>

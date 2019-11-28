@@ -4,6 +4,7 @@
   featured_picture: 20191022-074917
   description: Una de las cunas de la civilización
   date: "Octubre de 2019"
+  continent: asia
   countries: [IND]
   regions: ['IN-RJ', 'IN-UP', 'IN-DL']
 
@@ -12,6 +13,7 @@
   featured_picture: 20190426-092215
   description: "Tierra de los incas"
   date: "Abril de 2019"
+  continent: america
   countries: [PER]
   regions: ['PE-PUN', 'PE-ARE', 'PE-CUS', 'PE-LIM']
 
@@ -20,6 +22,7 @@
   featured_picture: 20181003-124152
   description: "El continente isla"
   date: "Septiembre de 2018"
+  continent: oceania
   countries: [AUS]
   regions: ['AU-NSW', 'AU-NT', 'AU-SA', 'AU-QLD', 'AU-VIC']
 
@@ -28,6 +31,7 @@
   featured_picture: 20170814-1206
   description: "El país de los tres mares"
   date: "Verano de 2017"
+  continent: america
   countries: [COL]
   regions: ['CO-ANT', 'CO-BOL', 'CO-CUN', 'CO-ATL', 'CO-MAG']
 
@@ -36,6 +40,7 @@
   featured_picture: 20170708-113943
   description: "Haciendo de médico."
   date: "Verano de 2017"
+  continent: africa
   countries: [SLE]
 
 - name: Namibia y Botsuana
@@ -43,6 +48,7 @@
   featured_picture: 20160815-1313
   description: "En 4x4 por África. Solos."
   date: "Verano de 2016"
+  continent: africa
   countries: [NAM, BWA, ZMB, ZWE]
   regions:
     - NA-OK
@@ -61,6 +67,7 @@
   featured_picture: 20160325-1544
   description: "Unos días en el Algarve y Alentejo"
   date: Semana Santa de 2016
+  continent: europe
   countries: [PRT]
   regions: ['PT-08']
 
@@ -69,6 +76,7 @@
   featured_picture: 20150819-063151
   description: "Naturaleza exuberante. Volcanes y jungla."
   date: Verano de 2015
+  continent: asia
   countries: [IDN]
   regions: ['ID-YO', 'ID-JK', 'ID-BA', 'ID-KT', 'ID-NB', ID-JI, ID-JT]
 
@@ -77,6 +85,7 @@
   description: "Tiene frontera con España, pero es otro mundo."
   featured_picture: _DSC2802
   date: Verano de 2014
+  continent: africa
   countries: [MAR]
 
 - name: Chicago
@@ -84,6 +93,7 @@
   featured_picture: _DSC2043
   description: "Muy bonita ciudad"
   date: Julio de 2014
+  continent: america
   countries: [USA]
 
 - name: Italia Sur
@@ -91,6 +101,7 @@
   featured_picture: _DSC0799
   description: "Arquitectura, paisaje y pizza"
   date: Abril de 2014
+  continent: europe
   countries: [ITA]
   regions:
     - IT-BA
@@ -99,6 +110,7 @@
   sanitized: "camboya"
   featured_picture: DSCN1373
   date: Marzo de 2014
+  continent: america
   countries: [KHM]
   regions:
   - 
@@ -108,6 +120,7 @@
   featured_picture: _DSC9675
   description: "Escapada de fin de semana"
   date: Octubre de 2013
+  continent: europe
   countries: [ESP]
 
 - name: Croacia
@@ -115,12 +128,14 @@
   featured_picture: _DSC9139
   description: "Genial lugar para veranear"
   date: Verano de 2013
+  continent: europe
   countries: [HRV,MNE,BIH]
 
 - name: Bolivia
   sanitized: "bolivia"
   featured_picture: 20130316-072115
   date: Marzo de 2013
+  continent: america
   countries: [BOL]
   regions:
     - BO-S
@@ -131,6 +146,7 @@
   featured_picture: _DSC4957
   description: "Un viaje con nombre propio"
   date: Agosto de 2012
+  continent: asia
   countries: [RUS,MNG,CHN]
   regions: ['RU-MOS','RU-MOW', RU-TA, 'RU-KYA', 'RU-SVE', 'RU-TOM', 'RU-IRK', 'RU-BU', 'RU-OMS', 'MN-1', CN-15, CN-11, CN-13]
 
@@ -138,6 +154,7 @@
   sanitized: "normandia"
   featured_picture: _DSC2802
   date: Abril de 2012
+  continent: europe
   countries: [FRA]
   regions:
     - FR-14
@@ -150,6 +167,7 @@
   featured_picture: _DSC2619
   description: La capital de Alemania. Un fin de semana.
   date: Febrero de 2012
+  continent: europe
   countries: [DEU]
   regions:
     - DE-BE
@@ -159,6 +177,7 @@
   featured_picture: _DSC0818
   description: "El corazón de Europa"
   date: Verano de 2011
+  continent: europe
   countries: [CZE,DEU,POL,SVK,HUN,AUT]
   regions:
     - CZ-PR
@@ -177,6 +196,7 @@
   description: "La isla más grande del Mediterráneo."
   featured_picture: SAM_1315
   date: Verano de 2010
+  continent: europe
   countries: [ITA]
 
 - name: Turquía
@@ -184,6 +204,7 @@
   featured_picture: 4179862402
   description: "Aquí se juntan oriente y occidente"
   date: Agosto de 2009
+  continent: asia
   countries: [TUR]
 
 - name: Italia Norte
@@ -191,6 +212,7 @@
   featured_picture: 2915528342
   description: Desde Milán hasta Venecia.
   date: Verano de 2008
+  continent: europe
   countries: [ITA]
   regions:
     - IT-VA
