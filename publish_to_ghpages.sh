@@ -19,8 +19,8 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-HUGO_ENV="production"
-HUGO_ENVIRONMENT="production"
+export HUGO_ENV="production"
+export HUGO_ENVIRONMENT="production"
 hugo
 
 echo "Updating gh-pages branch"
