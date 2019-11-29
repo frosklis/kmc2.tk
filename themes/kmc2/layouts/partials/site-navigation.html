@@ -3,7 +3,7 @@
         <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-blue no-underline black dib mr3 mr4-ns">
             <img src="{{ .Site.Params.logo }}"
                 srcset="{{ .Site.Params.logo }} 1x, {{ .Site.Params.logo_2x }} 2x, {{ .Site.Params.logo_3x }} 3x"
-                alt="{{ .Site.Title }}" width="64px" height="64px">
+                alt="{{ .Site.Title }}" width="64px" height="64px" style="min-width: 64px; min-height: 64px;">
         </a>
         <div class="flex items-center">
             {{ partial "i18nlist.html" . }}
