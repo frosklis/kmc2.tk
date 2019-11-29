@@ -2,86 +2,81 @@
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
-  <title>{{ block "title" . }}{{ .Site.Params.headtitle | safeHTML }} {{ with .Params.Title }} -
-    {{ . | safeHTML }}{{ else }}{{ with .Site.Params.description }} - {{ . }}{{ end }}{{ end }}{{ end }}</title>
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ .Site.Params.headtitle | safeHTML }} {{ with .Params.Title }} -
+        {{ . | safeHTML }}{{ else }}{{ with .Site.Params.description }} - {{ . }}{{ end }}{{ end }}{{ end }}</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
 
-  <meta name="viewport" content="width=device-width,minimum-scale=1">
-  {{ hugo.Generator }}
-  {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-  {{ else }}
-  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-  {{ end }}
-  {{/* 
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    {{ hugo.Generator }}
+    {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {{ else }}
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    {{ end }}
+    {{/* 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
     {{ with $stylesheet.css }}
     <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
     {{ end }}
     */}}
-  {{ $css := resources.Get "main.css" }}
-  <link rel="stylesheet" href="{{ $css.Permalink }}"/>
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-  {{/* fonts */}}
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  {{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
-  {{ end }}
+    {{ $css := resources.Get "main.css" }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}" />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+    {{/* fonts */}}
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
+    {{ end }}
 
-  {{ block "favicon" . }}
-  {{ partialCached "site-favicon.html" . }}
-  {{ end }}
-  {{ if .OutputFormats.Get "RSS" }}
-  <link href="{{ (.OutputFormats.Get "RSS").Permalink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.headtitle | safeHTML }}{{ with .Site.Params.description }} - {{ . }}{{ end }}" />
-  <link href="{{ (.OutputFormats.Get "RSS").Permalink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Params.headtitle | safeHTML }}{{ with .Site.Params.description }} - {{ . }}{{ end }}" />
-  {{ end }}
+    {{ block "favicon" . }}
+    {{ partialCached "site-favicon.html" . }}
+    {{ end }}
+    {{ if .OutputFormats.Get "RSS" }}
+    <link href="{{ (.OutputFormats.Get "RSS").Permalink }}" rel="alternate" type="application/rss+xml"
+        title="{{ .Site.Params.headtitle | safeHTML }}{{ with .Site.Params.description }} - {{ . }}{{ end }}" />
+    <link href="{{ (.OutputFormats.Get "RSS").Permalink }}" rel="feed" type="application/rss+xml"
+        title="{{ .Site.Params.headtitle | safeHTML }}{{ with .Site.Params.description }} - {{ . }}{{ end }}" />
+    {{ end }}
 
-  {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
-  {{- template "_internal/opengraph.html" . -}}
-  {{- template "_internal/google_news.html" . -}}
-  {{- template "_internal/schema.html" . -}}
-  {{- template "_internal/twitter_cards.html" . -}}
+    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/google_news.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
 
-  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-  {{ template "_internal/google_analytics_async.html" . }}
-  {{ end }}
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
 
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-   crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-    crossorigin=""></script>
     {{ $js := resources.Get "random_post.js" }}
     <script defer src="{{ $js.Permalink }}"></script>
 </head>
 
 <body
-  class="ma0 z-1 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+    class="ma0 z-1 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
-  {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-  <main role="main">
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
-  {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
-  <!-- Load PhotoSwipe js if the load-photoswipe shortcode has been used -->
-  {{ if ($.Scratch.Get "photoswipeloaded") }}
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-  <script src="/js/load-photoswipe.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"
-    integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"
-    integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-  {{ end }}
-  {{ block "footerfiles" . }}{{ end }}
+    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    <main role="main">
+        {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+    {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
+    <!-- Load PhotoSwipe js if the load-photoswipe shortcode has been used -->
+    {{ if ($.Scratch.Get "photoswipeloaded") }}
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/js/load-photoswipe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"
+        integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"
+        integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+    {{ end }}
+    {{ block "footerfiles" . }}{{ end }}
 </body>
 
 </html>
