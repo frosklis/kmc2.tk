@@ -34,9 +34,3 @@ Tanto dentro del fuerte como luego en el camino de vuelta al coche, la gente que
 La última operación del día fue la operación SIM. Fuimos a Connaught Place a una tienda Vodafone que resultó estar cerrada y abortamos misión. Pero mientras estábamos en el hotel, el chófer nos escribió: nos esperaba abajo. Se presentó vestido de chándal y nos hizo cruzar la calle. Nos llevó a una tienda que vendía de todo, hasta tarjetas SIM de Vodafone. 500 rupias con un mes de datos, no salió nada mal. En India todos los móviles, incluso los de prepago, van asociados a una persona: exigen pasaporte y foto de carnet (que a mí me hicieron con una webcam).
 
 Fuimos a cenar muy cerca del hotel, a un sitio tranquilo en la planta alta de otro hotel. Cenamos bien, rodeados de otros extranjeros y ya con una SIM. Mañana Agra.
-
-{{% imgproc 20191020-162938 %}}
-{{% imgproc 20191020-164524 %}}
-{{% imgproc 20191020-094012 %}}
-{{% imgproc 20191020-151031 %}}
-{{% imgproc 20191020-112637 %}}

@@ -4,6 +4,7 @@ layout: post
 published: true
 tags: []
 title: Llegada a Bromo
+date: 2015-08-21
 ---
 
 Nada reseñable en el día de hoy. 13 horas de viaje. ¡13! Para llegar a nuestro hotel en el monte Bromo.
