@@ -15,11 +15,12 @@
 {{ $viaje_description := .Scratch.Get "viaje_description" }}
 {{ $viaje_title := default "" (.Scratch.Get "viaje_title") }}
 <div class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <p>manda la de viaje {{ $viaje_title }} {{ .Page }} {{ .Params.url }} {{ $viaje_description }}
+    {{/* <p>manda la de viaje {{ $viaje_title }} {{ .Page }} {{ .Params.url }} {{ $viaje_description }}
     </p>
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
         {{ .Content }}
     </section>
+*/}}
     <div class="flex-ns flex-wrap justify-around mt5">
         {{ range .Pages.ByDate }}
         {{ if ne .Title "" }}
