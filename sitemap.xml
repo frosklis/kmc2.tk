@@ -333,6 +333,11 @@
   </url>
   
   <url>
+    <loc>https://www.kmc2.tk/posts/2015-indonesia/2015-08-21-llegada-a-bromo/</loc>
+    <lastmod>2015-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.kmc2.tk/posts/2015-indonesia/2015-08-18-mas-orangutanes/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
   </url>
@@ -2087,10 +2092,6 @@
   </url>
   
   <url>
-    <loc>https://www.kmc2.tk/posts/2015-indonesia/2015-08-21-llegada-a-bromo/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.kmc2.tk/posts/2016-portugal/2016-03-24-llegada-a-faro/</loc>
   </url>
   
@@ -2303,6 +2304,11 @@
   </url>
   
   <url>
+    <loc>https://www.kmc2.tk/search/</loc>
+    <priority>0.1</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kmc2.tk/tags/rinjani/</loc>
   </url>
   
@@ -2411,15 +2417,15 @@
   </url>
   
   <url>
-    <loc>https://www.kmc2.tk/tags/%C3%B1am%C3%B1amalgasverdes/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.kmc2.tk/tags/%C3%A1tate-los-cordones/</loc>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/tags/%C3%B1am%C3%B1am/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.kmc2.tk/tags/%C3%B1am%C3%B1amalgasverdes/</loc>
   </url>
   
   <url>
