@@ -2230,7 +2230,7 @@ Cogimos el avión por la mañana a las 9.30 y llegamos al aeropuerto de Milán -
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.kmc2.tk/maps/</guid>
-      <description>Esto es grande    token = &#39;&#39; var map = L.map(&#39;map&#39;, { &#39;preferCanvas&#39;: true }).setView([40, -0.09], 6); //L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, { // attribution: &#39;&amp;copy; OpenStreetMap contributors&#39; //}).addTo(map); function ajax_get(url, callback) { var xmlhttp = new XMLHttpRequest(); xmlhttp.onreadystatechange = function () { if (xmlhttp.readyState == 4 &amp;&amp; xmlhttp.status == 200) { console.log(&#39;responseText:&#39; + xmlhttp.responseText); try { var data = JSON.parse(xmlhttp.responseText); } catch (err) { console.log(err.message + &#34; in &#34; + xmlhttp.responseText); return; } callback(data); } }; xmlhttp.</description>
+      <description>Esto es grande    token = &#39;&#39; var map = L.map(&#39;map&#39;, { &#39;preferCanvas&#39;: true }).setView([40, -0.09], 6); //L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, { // attribution: &#39;&amp;copy; OpenStreetMap contributors&#39; //}).addTo(map); function ajax_get(url, callback) { var xmlhttp = new XMLHttpRequest(); xmlhttp.onreadystatechange = function () { if (xmlhttp.readyState == 4 &amp;&amp; xmlhttp.status == 200) { console.log(&#39;responseText:&#39; + xmlhttp.responseText); try { var data = JSON.parse(xmlhttp.responseText); } catch (err) { console.log(err.message + &#34; in &#34; + xmlhttp.</description>
     </item>
     
     <item>
