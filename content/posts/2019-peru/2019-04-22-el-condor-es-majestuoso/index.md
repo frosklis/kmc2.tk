@@ -2,7 +2,7 @@
 viaje: [Peru]
 date: '2019-04-22'
 layout: post
-title: "El cóndor es magestuoso"
+title: "El cóndor es majestuoso"
 featured_picture: 090336
 ---
 
