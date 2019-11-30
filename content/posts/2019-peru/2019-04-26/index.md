@@ -1,6 +1,6 @@
 ---
 viaje: [Peru]
-date: '2019-04-24'
+date: '2019-04-26'
 layout: post
 title: "Cusco"
 featured_picture: 142039
