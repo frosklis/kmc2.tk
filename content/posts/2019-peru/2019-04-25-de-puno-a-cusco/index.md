@@ -2,8 +2,8 @@
 viaje: [Peru]
 date: '2019-04-25'
 layout: post
-title: "Puno a Cusco"
-featured_picture: 165813
+title: "De Puno a Cusco"
+featured_picture: 20190425-161741
 ---
 El de hoy ha sido un día de transición. El objetivo era llegar a Cusco, instalarnos en nuestro hotel y avisar a los de Alpaca Expeditions de que ya estábamos por ahí. Y eso hicimos.
 
