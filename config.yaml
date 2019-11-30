@@ -20,22 +20,27 @@ menu:
   main:
   - identifier: menu-europa
     name: Europa
+    title: viajes por Europa
     url: /continents/europa
     weight: 1
   - identifier: menu-america
     name: América
+    title: viajes por América
     url: /continents/america
     weight: 2
   - identifier: menu-asia
     name: Asia
+    title: viajes por Asia
     url: /continents/asia
     weight: 3
   - identifier: menu-africa
     name: África
+    title: viajes por África
     url: /continents/africa
     weight: 4
   - identifier: menu-oceania
     name: Oceanía
+    title: viajes por Oceanía
     url: /continents/oceania
     weight: 5
   # - identifier: menu-gallery
@@ -43,6 +48,7 @@ menu:
   #   url: ./gallery/
   - identifier: menu-random
     name: cuéntame algo
+    title: entrada escogida al azar
     weight: 6
 
 params:

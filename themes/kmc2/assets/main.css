@@ -33,3 +33,16 @@
     height: 200px;
 
 }
+
+@media all and (max-width: 640px) {
+    nav > .flex > .left {
+        order: 1;
+    }
+    nav > .flex > .middle {
+        order: 3;
+    }
+    nav > .flex > .right {
+        order: 2;
+        flex-grow: 2;
+    }
+}
