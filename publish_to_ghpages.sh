@@ -25,6 +25,10 @@ hugo
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
-#echo "Pushing to github"
+echo "Pushing to github"
 git push --all
 
+echo "Purging cache from cloudflare"
+token=$(awk '{print $1}' ~/cloudflare_token)
+zone_id="c7c32d6ecdf89b454c8cdaaa5168349e"
+curl --request DELETE -H "Authorization: Bearer $token" -H "Content-Type: application/json" --data '{"purge_everything":true}' https://api.cloudflare.com/client/v4/zones/${zone_id}/purge_cache
