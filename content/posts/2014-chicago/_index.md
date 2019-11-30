@@ -1,6 +1,6 @@
 ---
 url: /viaje/chicago/
-aliaes:
+aliases:
   - /viajes/chicago/
 type: viaje
 ---

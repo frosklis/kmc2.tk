@@ -1,6 +1,6 @@
 ---
 url: /viaje/normandia/
-aliaes:
+aliases:
   - /viajes/normandia/
 type: viaje
 ---

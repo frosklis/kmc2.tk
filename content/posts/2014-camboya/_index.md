@@ -1,6 +1,6 @@
 ---
 url: /viaje/camboya/
-aliaes:
+aliases:
   - /viajes/camboya/
 type: viaje
 ---

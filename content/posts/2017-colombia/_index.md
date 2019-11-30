@@ -1,6 +1,6 @@
 ---
 url: /viaje/colombia/
-aliaes:
+aliases:
   - /viajes/colombia/
 type: viaje
 ---

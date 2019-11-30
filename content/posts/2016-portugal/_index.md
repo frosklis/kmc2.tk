@@ -1,6 +1,6 @@
 ---
 url: /viaje/portugal/
-aliaes:
+aliases:
   - /viajes/portugal/
 type: viaje
 ---

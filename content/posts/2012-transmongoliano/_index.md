@@ -1,6 +1,6 @@
 ---
 url: /viaje/transmongoliano/
-aliaes:
+aliases:
   - /viajes/transmongoliano/
 type: viaje
 ---

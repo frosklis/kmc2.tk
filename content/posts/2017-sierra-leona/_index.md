@@ -1,6 +1,6 @@
 ---
 url: /viaje/sierra-leona/
-aliaes:
+aliases:
   - /viajes/sierra-leona/
 type: viaje
 ---

@@ -1,6 +1,6 @@
 ---
 url: /viaje/italia-norte/
-aliaes:
+aliases:
   - /viajes/italia-norte/
 type: viaje
 ---

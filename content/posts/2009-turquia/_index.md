@@ -1,6 +1,6 @@
 ---
 url: /viaje/turquia/
-aliaes:
+aliases:
   - /viajes/turquia/
 type: viaje
 ---

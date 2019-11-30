@@ -1,6 +1,6 @@
 ---
 url: /viaje/centroeuropa/
-aliaes:
+aliases:
   - /viajes/centroeuropa/
 type: viaje
 ---

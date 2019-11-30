@@ -1,6 +1,6 @@
 ---
 url: /viaje/italia-sur/
-aliaes:
+aliases:
   - /viajes/italia-sur/
 type: viaje
 ---

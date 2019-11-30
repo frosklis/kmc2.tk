@@ -1,6 +1,6 @@
 ---
 url: /viaje/sicilia/
-aliaes:
+aliases:
   - /viajes/sicilia/
 type: viaje
 ---

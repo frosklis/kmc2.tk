@@ -1,6 +1,6 @@
 ---
 url: /viaje/india/
-aliaes:
+aliases:
   - /viajes/india/
 type: viaje
 ---

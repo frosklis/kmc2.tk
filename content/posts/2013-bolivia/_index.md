@@ -1,6 +1,6 @@
 ---
 url: /viaje/bolivia/
-aliaes:
+aliases:
   - /viajes/bolivia/
 type: viaje
 ---

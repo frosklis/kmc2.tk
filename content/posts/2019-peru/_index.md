@@ -1,6 +1,6 @@
 ---
 url: /viaje/peru/
-aliaes:
+aliases:
   - /viajes/peru/
 type: viaje
 ---

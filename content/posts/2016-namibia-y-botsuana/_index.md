@@ -1,6 +1,6 @@
 ---
 url: /viaje/namibia-y-botsuana/
-aliaes:
+aliases:
   - /viajes/namibia-y-botsuana/
 type: viaje
 ---

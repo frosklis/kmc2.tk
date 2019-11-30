@@ -1,6 +1,6 @@
 ---
 url: /viaje/berlin/
-aliaes:
+aliases:
   - /viajes/berlin/
 type: viaje
 ---

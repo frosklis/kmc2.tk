@@ -1,6 +1,6 @@
 ---
 url: /viaje/marruecos/
-aliaes:
+aliases:
   - /viajes/marruecos/
 type: viaje
 ---

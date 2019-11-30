@@ -1,6 +1,6 @@
 ---
 url: /viaje/la-rioja/
-aliaes:
+aliases:
   - /viajes/la-rioja/
 type: viaje
 ---

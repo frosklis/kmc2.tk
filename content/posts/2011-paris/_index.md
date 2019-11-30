@@ -1,6 +1,6 @@
 ---
 url: /viaje/paris/
-aliaes:
+aliases:
   - /viajes/paris/
 type: viaje
 ---

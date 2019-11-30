@@ -1,6 +1,6 @@
 ---
 url: /viaje/indonesia/
-aliaes:
+aliases:
   - /viajes/indonesia/
 type: viaje
 ---

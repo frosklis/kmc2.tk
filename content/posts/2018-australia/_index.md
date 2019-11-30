@@ -1,6 +1,6 @@
 ---
 url: /viaje/australia/
-aliaes:
+aliases:
   - /viajes/australia/
 type: viaje
 ---

@@ -1,6 +1,6 @@
 ---
 url: /viaje/croacia/
-aliaes:
+aliases:
   - /viajes/croacia/
 type: viaje
 ---
