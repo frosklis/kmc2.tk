@@ -20,11 +20,11 @@ Con todo este potencial, las presas rusas son también impresionantes, de las m�
 
 La presa de Krasnoyarsk está a unos 40 km de Krasnoyarsk, río arriba por el Yenisei. Normalmente se puede visitar pero nosotros no pudimos porque otra presa del río Yenisei, más grande que esta, <a href="https://en.wikipedia.org/wiki/2009_Sayano-Shushenskaya_hydro_accident">tuvo un accidente en 2009 con 75 víctimas mortales</a> y desde entonces parece que hay más seguridad. Lo más impresionante de la presa, orgullo de la ingeniería soviética, es su ascensor para barcos. No es un sistema de esclusas, es un ascensor: el barco llega a la piscina y la piscina sube todo el desnivel de la presa en menos de hora y media.
 
-{{% imgproc 21367700401 %}}
+{{% imgproc 20120814-1043 %}}
 
 Tan impresionante es el engendro que la presa es orgullo nacional soviético y está inmortalizada en el billete de 10 rublos.
 
-{{% imgproc 24474550632 %}}
+{{% imgproc 20120814-1037 %}}
 
 Además de eso, la presa modificó el clima local, aunque todavía no he averiguado por qué. El caso es que tras la construcción de la presa, el Yenisei no se hiela en invierno (efecto que según Wikipedia se mantiene hasta unos 300 km río abajo). Esto Sveta, la chica en cuya casa nos quedamos, lo ve muy bien porque en invierno puedes ir directamente de la sauna al río sin tener que hacer un agujero en el hielo.
 

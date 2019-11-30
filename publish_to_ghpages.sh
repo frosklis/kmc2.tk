@@ -20,7 +20,6 @@ rm -rf public/*
 
 echo "Generating site"
 export HUGO_ENV="production"
-export HUGO_ENVIRONMENT="production"
 hugo
 
 echo "Updating gh-pages branch"

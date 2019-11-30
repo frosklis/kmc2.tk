@@ -1,4 +1,9 @@
 {{ $original := .Page.Resources.GetMatch (printf "*%s*" (string (.Get 0))) }}
+{{ if eq $original nil }}
+    {{ range .Site.Pages }}{{ $.Scratch.Add "resources" .Resources }}{{ end }}
+    {{ $resources := .Scratch.Get "resources" }}
+    {{ $original = ($resources.GetMatch (printf "*%s*" (string (.Get 0)))) }}
+{{ end }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
 {{ if eq $command "Fit"}}
@@ -8,7 +13,7 @@
 {{ else if eq $command "Fill"}}
     {{ .Scratch.Set "image" ($original.Fill $options) }}
 {{ else }}
-{{/* errorf "Invalid image processing command: Must be one of Fit, Fill or Resize." */}}
+    {{/* errorf "Invalid image processing command: Must be one of Fit, Fill or Resize." */}}
     {{ .Scratch.Set "image" ($original) }}
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
