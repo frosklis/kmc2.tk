@@ -7,7 +7,7 @@
         {{- with .Params.Title -}}
             {{ . | safeHTML }}
         {{- else -}}
-            {{ with .Site.Params.description }} - {{ . }}{{ end }}
+            {{ with .Site.Params.description }}{{ . }}{{ end }}
         {{ end }} - {{ .Site.Params.headtitle | safeHTML -}} 
         {{ end -}}
     </title>
