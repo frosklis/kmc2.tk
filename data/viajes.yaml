@@ -83,14 +83,14 @@
 - name: Marruecos
   sanitized: "marruecos"
   description: "Tiene frontera con España, pero es otro mundo."
-  featured_picture: _DSC2802
+  featured_picture: 20140904-0833
   date: Verano de 2014
   continent: africa
   countries: [MAR]
 
 - name: Chicago
   sanitized: "chicago"
-  featured_picture: _DSC2043
+  featured_picture: 20140719-1858
   description: "Muy bonita ciudad"
   date: Julio de 2014
   continent: america
@@ -98,7 +98,7 @@
 
 - name: Italia Sur
   sanitized: "italia-sur"
-  featured_picture: _DSC0799
+  featured_picture: 20140420-1014
   description: "Arquitectura, paisaje y pizza"
   date: Abril de 2014
   continent: europe
@@ -108,7 +108,7 @@
 
 - name: Camboya
   sanitized: "camboya"
-  featured_picture: DSCN1373
+  featured_picture: 20140318-1153
   date: Marzo de 2014
   continent: america
   countries: [KHM]
@@ -117,7 +117,7 @@
 
 - name: La Rioja
   sanitized: "la-rioja"
-  featured_picture: _DSC9675
+  featured_picture: 20131005-1850
   description: "Escapada de fin de semana"
   date: Octubre de 2013
   continent: europe
@@ -125,7 +125,7 @@
 
 - name: Croacia
   sanitized: "croacia"
-  featured_picture: _DSC9139
+  featured_picture: 20130829-1634
   description: "Genial lugar para veranear"
   date: Verano de 2013
   continent: europe
@@ -143,7 +143,7 @@
 
 - name: Transmongoliano
   sanitized: "transmongoliano"
-  featured_picture: _DSC4957
+  featured_picture: 20120808-1948
   description: "Un viaje con nombre propio"
   date: Agosto de 2012
   continent: asia
@@ -152,7 +152,7 @@
 
 - name: Normandía
   sanitized: "normandia"
-  featured_picture: _DSC2802
+  featured_picture: 20120404-1821
   date: Abril de 2012
   continent: europe
   countries: [FRA]
@@ -164,7 +164,7 @@
 
 - name: Berlín
   sanitized: "berlin"
-  featured_picture: _DSC2619
+  featured_picture: 20120217-1635
   description: La capital de Alemania. Un fin de semana.
   date: Febrero de 2012
   continent: europe
@@ -174,7 +174,7 @@
 
 - name: Centroeuropa
   sanitized: "centroeuropa"
-  featured_picture: _DSC0818
+  featured_picture: 20110817-1512
   description: "El corazón de Europa"
   date: Verano de 2011
   continent: europe
@@ -194,14 +194,14 @@
 - name: Sicilia
   sanitized: "sicilia"
   description: "La isla más grande del Mediterráneo."
-  featured_picture: SAM_1315
+  featured_picture: 20100821-1230
   date: Verano de 2010
   continent: europe
   countries: [ITA]
 
 - name: Turquía
   sanitized: "turquia"
-  featured_picture: 4179862402
+  featured_picture: 20090826-1159
   description: "Aquí se juntan oriente y occidente"
   date: Agosto de 2009
   continent: asia
@@ -209,8 +209,8 @@
 
 - name: Italia Norte
   sanitized: "italia-norte"
-  featured_picture: 2915528342
-  description: Desde Milán hasta Venecia.
+  featured_picture: 20080904-1454
+  description: Desde Milán hasta Venecia
   date: Verano de 2008
   continent: europe
   countries: [ITA]

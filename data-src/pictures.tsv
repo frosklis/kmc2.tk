@@ -117,7 +117,9 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2015-indonesia/2015-08-29-gili-air	20150829-160356.jpg	2015:08:29 16:03:56	Un columpio	&iquest;Qui&eacute;n se puede resistir a un columpio?	-8.36327166666667	116.082841666667
 ./posts/2015-indonesia/2015-08-19-borobudur-prambanan	20150819-063151.jpg	2015:08:19 06:31:51	Templo	Este templo no tiene un interior con techo. Es, como si dij&eacute;ramos, una monta&ntilde;a decorada.	-7.6080361	110.203813883333
 ./posts/2014-camboya/2014-02-14-nos-vamos	20140214-055433.jpg	2014:02:14 05:54:33	En Barajas	Destino: Camboya	40.4636666666667	-3.56971166666667
+./posts/2014-camboya/2014-03-18-mas-phnom-penh	20140318-115304.jpg	2014:03:18 11:53:04	-	-	-	-
 ./posts/2014-camboya	20140221-162142.jpg	2014:02:21 16:21:42	-	-	-	-
+./posts/2014-chicago	20140719-185858.jpg	2014:07:19 18:58:58	Skyline de Chicago	Chicago desde el lado Michigan. En frente el r&iacute;o Chicago, con la torre Trump a la derecha (la de la aguja), a la izquierda est&aacute;  el Millenium Park (que no se ve)...Preciosa ciudad.	41.8888	-87.6092566666667
 ./posts/2018-australia/2018-10-04	20181004-184359.jpg	2018:10:04 18:43:59	-	-	-	-
 ./posts/2018-australia/2018-10-04	20181004-110712.jpg	2018:10:04 11:07:12	-	-	-	-
 ./posts/2018-australia/2018-10-04	20181004-114700.jpg	2018:10:04 11:47:00	-	-	-	-
@@ -219,6 +221,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2018-australia/2018-09-28	20180928-102428.jpg	2018:09:28 10:24:28	-	-	-	-
 ./posts/2018-australia/2018-09-28	20180928-101258.jpg	2018:09:28 10:12:58	-	-	-	-
 ./posts/2018-australia/2018-09-28	20180928-115112.jpg	2018:09:28 11:51:12	-	-	-	-
+./posts/2012-berlin/2012-02-17-turismo-por-berlin	20120217-163546.jpg	2012:02:17 16:35:46	Escaleras del museo P&eacute;rgamo	-	52.5212866666667	13.397025
 ./posts/2012-transmongoliano/2012-08-14-yenisei	20120814-104308.jpg	2012:08:14 10:43:08	Un barco baja del ascensor	A diferencia de los sistemas tradicionales de esclusas, en la presa de Krasnoyarsk hay un ascensor hidr&aacute;ulico que va con barco y todo.	55.9504833333333	92.3062533333333
 ./posts/2012-transmongoliano/2012-08-14-yenisei	20120814-103747.jpg	2012:08:14 10:37:47	Presa de Krasnoyarsk	6 gigavatios, en el r&iacute;o Yenisei.	55.948875	92.3114683333333
 ./posts/2012-transmongoliano/2012-08-12-tomsk	20120812-153210.jpg	2012:08:12 15:32:10	Memorial	Uno de los muchos memoriales que hay por toda Rusia de las v&iacute;ctimas de muchas guerras..Este est&aacute; en Tomsk en un enclave precioso desde el que se ve una gran llanura siberiana con un meandro del r&iacute;o Tom..Adem&aacute;s, est&aacute; justo al final de la avenida Lenin.	-	-
@@ -229,6 +232,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2014-italia-sur/2014-04-24-pompeya	20140424-130211.jpg	2014:04:24 13:02:11	-	-	40.7534116666667	14.4845433333333
 ./posts/2014-italia-sur/2014-04-24-pompeya	20140424-114638.jpg	2014:04:24 11:46:38	-	-	40.7487583333333	14.4888016666667
 ./posts/2014-italia-sur/2014-04-24-pompeya	20140424-215920.jpg	2014:04:24 21:59:20	-	-	40.85123	14.2581133333333
+./posts/2014-italia-sur/2014-04-20-de-bari-a-lecce	20140420-101443.jpg	2014:04:20 10:14:43	Trulli de Alberobello	Dignos de ver, &lt;a href=&quot;https://es.wikipedia.org/wiki/Trullo&quot; rel=&quot;nofollow&quot;&gt;son fruto de la prohibici&oacute;n de usar mortero&lt;/a&gt;	40.7829116666667	17.238135
 ./posts/2013-bolivia	20130316-061541.jpg	2013:03:16 06:15:41	-	-	-	-
 ./posts/2013-bolivia	20130309-152225.jpg	2013:03:09 15:22:25	-	-	-	-
 ./posts/2013-bolivia	20130309-084529.jpg	2013:03:09 08:45:29	-	-	-	-
@@ -386,6 +390,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2013-croacia/2013-08-28-sibenik-y-zadar	20130828-164136.jpg	2013:08:28 16:41:36	Al fondo, Sibenik	-	43.5074083333333	16.4530616666667
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152827.jpg	2013:08:26 15:28:27	Puente Viejo	En realidad el Puente Viejo es nuevo, ya que fue destruido en la guerra y reconstruido en los 2000.	43.3427138833333	17.8109388833333
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152903.jpg	2013:08:26 15:29:03	-	-	43.3427138833333	17.8109388833333
+./posts/2013-croacia/2013-08-29-plitvicka-jezera-lagos-de-plitvice	20130829-163453.jpg	2013:08:29 16:34:53	contemplando el paisaje	lagos de Plitvice	44.8963116666667	15.6090266666667
 ./posts/2019-peru/2019-04-20-arequipa	20190420-154804.jpg	2019:04:20 15:48:04	-	-	-16.3953566666667	-71.5363283333333
 ./posts/2019-peru/2019-04-20-arequipa	20190420-160039.jpg	2019:04:20 16:00:39	-	-	-16.3956466666667	-71.5369616666667
 ./posts/2019-peru/2019-04-20-arequipa	20190420-153055.jpg	2019:04:20 15:30:55	-	-	-16.3947183333333	-71.5365866666667
@@ -456,6 +461,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-113701.jpg	2019:04:18 11:37:01	-	-	-12.0457216666667	-77.0309
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-161245.jpg	2019:04:18 16:12:45	-	-	-12.043835	-77.0318383333333
 ./posts/2019-peru/2019-04-18-primer-dia-en-lima	20190418-113955.jpg	2019:04:18 11:39:55	-	-	-12.0453016666667	-77.031645
+./posts/2012-normandia/2012-04-04-ya-estamos-en-normandia	20120404-182150.jpg	2012:04:04 18:21:50	Puente de Normand&iacute;a	-	49.4492533333333	0.27163
 ./posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como	20080902-101017.jpg	2008:09:02 10:10:17	&iexcl;El huevo!	aeropuerto, la maleta de claudio se apropi&oacute; ya un sitio, mandona...	45.630605	8.72177166666667
 ./posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como	20080902-175055.jpg	2008:09:02 17:50:55	Moltrasio	bautizamos al gato con el nombre del pueblo	-	-
 ./posts/2008-italia-norte/2008-09-02-primer-dia-en-el-lago-como	20080902-190148.jpg	2008:09:02 19:01:48	Pulgarcita	En Torno	45.858545	9.113245
@@ -540,6 +546,12 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2016-portugal/2016-03-27-evora	20160327-163440.jpg	2016:03:27 16:34:40	Catedral de &Eacute;vora	-	38.5715233333333	-7.91104166666667
 ./posts/2016-portugal/2016-03-27-evora	20160327-125818.jpg	2016:03:27 12:58:18	Alvito	Un cuidad&iacute;simo pueblo en el Alentejo	38.256095	-7.99246666666667
 ./posts/2016-portugal/2016-03-27-evora	20160327-131504.jpg	2016:03:27 13:15:04	Alentejo	-	38.36913	-7.97763833333333
+./posts	20080904-145436.jpg	2008:09:04 14:54:36	Bergamo	-	-	-
+./posts/2011-centroeuropa/2011-08-17-praga	20110817-151244.jpg	2011:08:17 15:12:44	Muro de Lenin	-	50.0863616666667	14.4077383333333
+./posts/2009-turquia/2009-08-26-egirdir-pamukkale-bodrum	20090826-115911.jpg	2009:08:26 11:59:11	Pammukale	Pammukale	37.8480866666667	29.9684716666667
+./posts/2009-turquia/2009-08-28-de-efeso-a-pergamo	20090828-164526.jpg	2009:08:28 16:45:26	Mar Egeo	Mar Egeo	38.7156516666667	26.7304216666667
+./posts/2009-turquia/2009-08-23-capadocia	20090823-113942.jpg	2009:08:23 11:39:42	Capadocia	Capadocia	38.6781383333333	34.8503483333333
+./posts/2010-sicilia	20100821-123053.jpg	2010:08:21 12:30:53	Ceci en el Valle de los Templos	-	-	-
 ./posts/2014-marruecos/2014-09-05-merzouga-dromedarios-y-otras-aventuras	20140905-070106.jpg	2014:09:05 07:01:06	Bereber y dromedario en el desierto	Nuestro gu&iacute;a y cocinero se dirige a por nuestro dromedario, dentro del mar de arena.	31.1563683333333	-3.989125
 ./posts/2014-marruecos/2014-09-05-merzouga-dromedarios-y-otras-aventuras	20140905-071312.jpg	2014:09:05 07:13:12	El desierto queda atr&aacute;s	Ceci, ataviada como una aut&eacute;ntica bereber, contempla el desierto.	31.1563683333333	-3.989125
 ./posts/2014-marruecos	20140909-194602.jpg	2014:09:09 19:46:02	Se pone el sol en Essaouira	-	31.5076566666667	-9.76594833333333
@@ -547,6 +559,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2014-marruecos/2014-08-29-llegada-a-marrakech	20140829-190145.jpg	2014:08:29 19:01:45	-	-	31.6268533333333	-7.98691666666667
 ./posts/2014-marruecos/2014-08-30-marrakech	20140830-201614.jpg	2014:08:30 20:16:14	-	-	31.6263666666667	-7.987335
 ./posts/2014-marruecos/2014-08-30-marrakech	20140830-153205.jpg	2014:08:30 15:32:05	-	-	31.641595	-8.00335333333333
+./posts/2014-marruecos/2014-09-04-una-vuelta-en-4x4-por-el-desierto	20140904-083344.jpg	2014:09:04 08:33:44	-	-	31.0941716666667	-3.98925166666667
 ./posts/2014-marruecos/2014-09-13-ouzoud	20140913-113626.jpg	2014:09:13 11:36:26	-	-	32.014085	-6.71881666666667
 ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia	20140908-155947.jpg	2014:09:08 15:59:47	Cisterna de El Yadida	Esto es patrimonio de la humanidad.	33.2564566666667	-8.50237333333333
 ./posts/2014-marruecos/2014-09-01-llegada-a-las-gargantas-del-todra	20140901-171919.jpg	2014:09:01 17:19:19	-	-	31.57636	-5.58548
