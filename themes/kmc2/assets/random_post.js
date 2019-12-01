@@ -1,5 +1,5 @@
 // Parses the sitemap and goes to a random post
-function go_to_random_post() {
+function go_to_random_post(hyperlink) {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "/sitemap.xml", true);
     xhr.onload = function () {
@@ -15,7 +15,7 @@ function go_to_random_post() {
                     url = pages[random_id].textContent;
                     if (url.indexOf("/posts/") > -1) {
                         if (url.indexOf("/more_pictures") == -1) {
-                        location.href = url;
+                            hyperlink.setAttribute('href', url);
                             break;
                         }
                     }
@@ -26,7 +26,7 @@ function go_to_random_post() {
     xhr.send(null);
 }
 
-// without jQuery (doesn't work in older IEs)
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById("menu-random").onclick = go_to_random_post;
+    var hyperlink = document.getElementById("menu-random").children[0];
+    go_to_random_post(hyperlink);
 }, false);
