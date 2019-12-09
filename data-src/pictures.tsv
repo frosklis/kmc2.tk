@@ -391,7 +391,6 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152827.jpg	2013:08:26 15:28:27	Puente Viejo	En realidad el Puente Viejo es nuevo, ya que fue destruido en la guerra y reconstruido en los 2000.	43.3427138833333	17.8109388833333
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152903.jpg	2013:08:26 15:29:03	-	-	43.3427138833333	17.8109388833333
 ./posts/2013-croacia/2013-08-29-plitvicka-jezera-lagos-de-plitvice	20130829-163453.jpg	2013:08:29 16:34:53	contemplando el paisaje	lagos de Plitvice	44.8963116666667	15.6090266666667
-./posts	20191025-191026.jpg	2019:10:25 19:10:26	-	-	-	-
 ./posts/2019-peru/2019-04-25-de-puno-a-cusco	20190425-165813.jpg	2019:04:25 16:58:13	-	-	-13.51680985	-71.9787260333333
 ./posts/2019-peru/2019-04-25-de-puno-a-cusco	20190425-161741.jpg	2019:04:25 16:17:41	Plaza del Regocijo	Al fondo, el ayuntamiento de Cusco con la bandera	-	-
 ./posts/2019-peru/2019-04-20-arequipa	20190420-154804.jpg	2019:04:20 15:48:04	-	-	-16.3953566666667	-71.5363283333333
@@ -505,6 +504,10 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-india/2019-10-23-jaipur	20191023-113339.jpg	2019:10:23 11:33:39	Palacio del Agua en Jaipur.	S&oacute;lo se ve, no se visita	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-100530.jpg	2019:10:23 10:05:30	A lomos de un elefante	En la India los elefantes se usan tradicionalmente como animales de transporte. Los maharaj&aacute;s ten&iacute;an	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-120511.jpg	2019:10:23 12:05:11	Vistas sobre Jaipur	-	-	-
+./posts/2019-india/2019-11-02-contaminacion-en-delhi	20191102-131840.jpg	2019:11:02 13:18:40	-	-	-	-
+./posts/2019-india/2019-11-02-contaminacion-en-delhi	20191102-174835.jpg	2019:11:02 17:48:35	-	-	-	-
+./posts/2019-india/2019-11-02-contaminacion-en-delhi	20191102-140150.jpg	2019:11:02 14:01:50	-	-	-	-
+./posts/2019-india/2019-11-02-contaminacion-en-delhi	20191102-132405.jpg	2019:11:02 13:24:05	-	-	-	-
 ./posts/2019-india/2019-10-28-jodhpur	20191028-102935.jpg	2019:10:28 10:29:35	-	-	-	-
 ./posts/2019-india/2019-10-28-jodhpur	20191028-123844.jpg	2019:10:28 12:38:44	-	-	-	-
 ./posts/2019-india/2019-10-28-jodhpur	20191028-094157.jpg	2019:10:28 09:41:57	-	-	-	-
