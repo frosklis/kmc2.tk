@@ -1,10 +1,10 @@
 {{ $image := (.Resources.GetMatch (printf "*%s*" (string .Params.featured_picture ))) }}
 <a href="{{ .URL }}" class="no-underline">
     <div class="tile ma1" 
-    {{ with $image }} 
-    {{ $thumb_1x := (.Resize "320x q50") }} 
-    {{ $thumb_2x := (.Resize "640x q50") }}    
-    {{ $thumb_3x := (.Resize "960x q50") }} 
+    {{ with .Params.featured_picture }}
+    {{ $thumb_1x := ($image.Resize "320x q50") }} 
+    {{ $thumb_2x := ($image.Resize "640x q50") }}    
+    {{ $thumb_3x := ($image.Resize "960x q50") }} 
     style="background-image: -webkit-image-set( 
         url({{ $thumb_1x.RelPermalink }}) 1x, 
         url({{ $thumb_2x.RelPermalink }}) 2x, 
@@ -14,16 +14,3 @@
         <h1 class="white f3 fw2 athelas ml2 mt3">{{ .Title }}</h1>
     </div>
 </a>
-{{/*
-
-    <div class="tile-big" style="background-image: url(https://farm6.staticflickr.com/5805/21112596139_05a9e94e0a_n.jpg);">
-        <div class="content">
-            <div class="title">
-                <h2>Ouzoud</h2>
-            </div>
-            <div class="meta"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 13 de
-                septiembre
-                de 2014</div>
-            </div>
-        </div>
-        */}}

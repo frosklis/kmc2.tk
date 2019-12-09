@@ -391,6 +391,7 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152827.jpg	2013:08:26 15:28:27	Puente Viejo	En realidad el Puente Viejo es nuevo, ya que fue destruido en la guerra y reconstruido en los 2000.	43.3427138833333	17.8109388833333
 ./posts/2013-croacia/2013-08-26-mostar	20130826-152903.jpg	2013:08:26 15:29:03	-	-	43.3427138833333	17.8109388833333
 ./posts/2013-croacia/2013-08-29-plitvicka-jezera-lagos-de-plitvice	20130829-163453.jpg	2013:08:29 16:34:53	contemplando el paisaje	lagos de Plitvice	44.8963116666667	15.6090266666667
+./posts	20191025-191026.jpg	2019:10:25 19:10:26	-	-	-	-
 ./posts/2019-peru/2019-04-25-de-puno-a-cusco	20190425-165813.jpg	2019:04:25 16:58:13	-	-	-13.51680985	-71.9787260333333
 ./posts/2019-peru/2019-04-25-de-puno-a-cusco	20190425-161741.jpg	2019:04:25 16:17:41	Plaza del Regocijo	Al fondo, el ayuntamiento de Cusco con la bandera	-	-
 ./posts/2019-peru/2019-04-20-arequipa	20190420-154804.jpg	2019:04:20 15:48:04	-	-	-16.3953566666667	-71.5363283333333
@@ -474,6 +475,12 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-india/2019-10-29-la-atraccion-somos-nosotros	20191029-170350.jpg	2019:10:29 17:03:50	-	-	-	-
 ./posts/2019-india/2019-10-29-la-atraccion-somos-nosotros	20191029-163139.jpg	2019:10:29 16:31:39	-	-	26.8816111111111	70.5343083333333
 ./posts/2019-india/2019-10-22-taj-mahal	20191022-074917.jpg	2019:10:22 07:49:17	-	-	-	-
+./posts/2019-india/2019-10-24-pushkar	20191024-092730.jpg	2019:10:24 09:27:30	-	-	-	-
+./posts/2019-india/2019-10-24-pushkar	20191024-181129.jpg	2019:10:24 18:11:29	-	-	-	-
+./posts/2019-india/2019-10-24-pushkar	20191024-151537.jpg	2019:10:24 15:15:37	-	-	-	-
+./posts/2019-india/2019-10-24-pushkar	20191024-150423.jpg	2019:10:24 15:04:23	-	-	-	-
+./posts/2019-india/2019-10-24-pushkar	20191024-135828.jpg	2019:10:24 13:58:28	-	-	-	-
+./posts/2019-india/2019-10-24-pushkar	20191024-175228.jpg	2019:10:24 17:52:28	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-162938.jpg	2019:10:20 16:29:38	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-164524.jpg	2019:10:20 16:45:24	-	-	-	-
 ./posts/2019-india/2019-10-20-toma-de-contacto-con-delhi	20191020-094012.jpg	2019:10:20 09:40:12	Ceci pasea por el Fuerte Rojo	-	-	-
@@ -485,18 +492,31 @@ directory	file	datetime	title	description	latitude	longitude
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-171447.jpg	2019:10:21 17:14:47	-	-	-	-
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-152013.jpg	2019:10:21 15:20:13	-	-	-	-
 ./posts/2019-india/2019-10-21-llegada-a-agra	20191021-151515.jpg	2019:10:21 15:15:15	-	-	-	-
+./posts/2019-india/2019-10-26-udaipur	20191026-113129.jpg	2019:10:26 11:31:29	-	-	-	-
+./posts/2019-india/2019-10-26-udaipur	20191025-215317.jpg	2019:10:25 21:53:17	-	-	-	-
+./posts/2019-india/2019-10-26-udaipur	20191025-083803.jpg	2019:10:25 08:38:03	-	-	-	-
+./posts/2019-india/2019-10-26-udaipur	20191025-191026.jpg	2019:10:25 19:10:26	-	-	-	-
+./posts/2019-india/2019-10-26-udaipur	20191026-181600.jpg	2019:10:26 18:16:00	-	-	24.5772583333333	73.6849888888889
+./posts/2019-india/2019-10-26-udaipur	20191025-173757.jpg	2019:10:25 17:37:57	-	-	-	-
+./posts/2019-india/2019-10-26-udaipur	20191025-165453.jpg	2019:10:25 16:54:53	Los p&aacute;jaros	-	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-091842.jpg	2019:10:23 09:18:42	Palacio del viento	-	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-102752.jpg	2019:10:23 10:27:52	Ceci en el palacio de Amer	-	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-115748.jpg	2019:10:23 11:57:48	Monos	Cuando hay 10.000 monos en el lugar, lo normal es que alguno se pose sobre ti	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-113339.jpg	2019:10:23 11:33:39	Palacio del Agua en Jaipur.	S&oacute;lo se ve, no se visita	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-100530.jpg	2019:10:23 10:05:30	A lomos de un elefante	En la India los elefantes se usan tradicionalmente como animales de transporte. Los maharaj&aacute;s ten&iacute;an	-	-
 ./posts/2019-india/2019-10-23-jaipur	20191023-120511.jpg	2019:10:23 12:05:11	Vistas sobre Jaipur	-	-	-
+./posts/2019-india/2019-10-28-jodhpur	20191028-102935.jpg	2019:10:28 10:29:35	-	-	-	-
+./posts/2019-india/2019-10-28-jodhpur	20191028-123844.jpg	2019:10:28 12:38:44	-	-	-	-
+./posts/2019-india/2019-10-28-jodhpur	20191028-094157.jpg	2019:10:28 09:41:57	-	-	-	-
+./posts/2019-india/2019-10-28-jodhpur	20191028-072338.jpg	2019:10:28 07:23:38	-	-	26.2959222222222	73.0149916666667
 ./posts/2019-india/2019-10-30-jaisalmer	20191030-155627.jpg	2019:10:30 15:56:27	-	-	26.9556694444444	70.8875666666667
 ./posts/2019-india/2019-10-30-jaisalmer	20191030-155807.jpg	2019:10:30 15:58:07	-	-	-	-
 ./posts/2019-india/2019-10-30-jaisalmer	20191030-144536.jpg	2019:10:30 14:45:36	-	-	-	-
 ./posts/2019-india/2019-10-30-jaisalmer	20191030-114329.jpg	2019:10:30 11:43:29	Demasiada gente en Jaisalmer	-	-	-
 ./posts/2019-india/2019-10-30-jaisalmer	20191030-122102.jpg	2019:10:30 12:21:02	-	-	-	-
 ./posts/2019-india/2019-10-30-jaisalmer	20191030-153825.jpg	2019:10:30 15:38:25	-	-	-	-
+./posts/2019-india/2019-10-27-sorpresa-en-jodhpur	20191027-130016.jpg	2019:10:27 13:00:16	-	-	-	-
+./posts/2019-india/2019-10-27-sorpresa-en-jodhpur	20191027-174828.jpg	2019:10:27 17:48:28	-	-	-	-
 ./posts/2013-la-rioja/2013-10-05-dinastia-vivanco-aprendiendo-sobre-vino	20131005-160712.jpg	2013:10:05 16:07:12	Rosal alertando	Los rosales se ponen delante de las vides para alertar de las posibles enfermedades.	42.53980555	-2.7768361
 ./posts/2013-la-rioja/2013-10-05-dinastia-vivanco-aprendiendo-sobre-vino	20131005-164210.jpg	2013:10:05 16:42:10	Barricas de vino	La sala de barricas tiene una condiciones de temepratura y humedad controladas. Las barricas son necesariamente de roble.	42.53980555	-2.7768361
 ./posts/2013-la-rioja/2013-10-05-dinastia-vivanco-aprendiendo-sobre-vino	20131005-162843.jpg	2013:10:05 16:28:43	Barricas de vino	Son enormes	42.53980555	-2.7768361
