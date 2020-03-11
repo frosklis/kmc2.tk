@@ -8,6 +8,7 @@
     position: relative;
     background-position: 50% 0%;
     background-color: #555;
+    background-size: cover;
     flex: 0 1 auto;
     //margin: 8px;
     color: #fff;
@@ -44,5 +45,12 @@
     nav > .flex > .right {
         order: 2;
         flex-grow: 2;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    .tile {
+        width: 480px;
+        height: 225px;
     }
 }

@@ -2,9 +2,9 @@
 <a href="{{ .URL }}" class="no-underline">
     <div class="tile ma1" 
     {{ with .Params.featured_picture }}
-    {{ $thumb_1x := ($image.Resize "320x q50") }} 
-    {{ $thumb_2x := ($image.Resize "640x q50") }}    
-    {{ $thumb_3x := ($image.Resize "960x q50") }} 
+    {{ $thumb_1x := ($image.Resize "480x q50") }} 
+    {{ $thumb_2x := ($image.Resize "960x q50") }}    
+    {{ $thumb_3x := ($image.Resize "1440x q50") }} 
     style="background-image: -webkit-image-set( 
         url({{ $thumb_1x.RelPermalink }}) 1x, 
         url({{ $thumb_2x.RelPermalink }}) 2x, 
