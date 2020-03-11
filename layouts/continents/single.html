@@ -10,8 +10,8 @@
     {{ if eq .continent $.Params.continent }}
     {{ $image := ($resources.GetMatch (printf "*%s*" (string .featured_picture ))) }}
     <a href="/viaje/{{.sanitized}}" class="no-underline">
-        <div class="tile big-tile ma1" {{ with $image }} {{ $thumb_1x := (.Resize "320x q50") }}
-            {{ $thumb_2x := (.Resize "640x q50") }} {{ $thumb_3x := (.Resize "960x q50") }} style="background-image: -webkit-image-set( 
+        <div class="tile big-tile ma1" {{ with $image }} {{ $thumb_1x := (.Resize "480x q50") }}
+            {{ $thumb_2x := (.Resize "960x q50") }} {{ $thumb_3x := (.Resize "1440x q50") }} style="background-image: -webkit-image-set( 
                 url({{ $thumb_1x.RelPermalink }}) 1x, 
                 url({{ $thumb_2x.RelPermalink }}) 2x, 
                 url({{ $thumb_3x.RelPermalink }}) 3x 
