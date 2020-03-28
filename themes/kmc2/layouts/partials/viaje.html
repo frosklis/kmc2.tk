@@ -1,3 +1,5 @@
+
+{{- with $.Params.viaje -}}
 <ul class="pa0">
     {{- range $.Site.Data.viajes -}}
     {{- if eq ( lower .name) (lower (index ($.Params.viaje) 0)) -}}
@@ -10,3 +12,4 @@
     {{- end -}}
     {{- end -}}
 </ul>
+{{- end -}}
