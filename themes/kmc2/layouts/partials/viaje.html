@@ -1,9 +1,12 @@
 <ul class="pa0">
-  {{ range .Params.viaje }}
-   <li class="list">
-     <a href="{{ "/viaje/" | relLangURL }}{{ . | urlize }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
-       {{- . -}}
-     </a>
-   </li>
-  {{ end }}
+    {{- range $.Site.Data.viajes -}}
+    {{- if eq ( lower .name) (lower (index ($.Params.viaje) 0)) -}}
+    <li class="list">
+        <a href="{{ "/viaje/" | relLangURL }}{{ .sanitized | urlize }}"
+            class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+            {{- .name -}}
+        </a>
+    </li>
+    {{- end -}}
+    {{- end -}}
 </ul>
