@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{/* most recent posts */}}
-<div class="flex flex-wrap justify-center content-center bg-black pt4 pb4">
+<div class="flex flex-wrap justify-center content-center bg-white pt4 pb4">
     {{ range first 12 (where .Site.Pages ".IsPage" true) }}
     {{ .Render "tile" }}
     {{ end }}
