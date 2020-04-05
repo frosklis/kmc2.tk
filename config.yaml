@@ -5,6 +5,11 @@ theme: kmc2
 defaultContentLanguage: es
 # SectionPagesMenu: main
 
+# necessary since Hugo 0.60 where the default is goldmark and breaks things
+markup:
+  # defaultMarkdownHandler: goldmark
+  defaultMarkdownHandler: blackfriday
+
 taxonomies:
   # viaje: viaje
   tag: tags

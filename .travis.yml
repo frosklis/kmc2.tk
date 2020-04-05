@@ -1,22 +1,22 @@
 language: generic
 
 install:
-    - curl -L0 https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_extended_0.59.1_Linux-64bit.deb -o hugo.deb
-    - sudo dpkg -i hugo.deb
+  - curl -L0 https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_extended_0.68.3_Linux-64bit.deb -o hugo.deb
+  - sudo dpkg -i hugo.deb
 
 script:
-    - mkdir publish_scripts
-    - git clone https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
-    - hugo -v --debug
+  - mkdir publish_scripts
+  - git clone https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
+  - hugo -v --debug
 
 before-deploy:
-    - git checkout master && git pull
-    - git add -f resources/
-    - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
-    - pwd
-    - user=`echo $TRAVIS_REPO_SLUG | cut -d/ -f 1`
-    - git remote add origin2 https://${user}:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
-    - git push origin2 master
+  - git checkout master && git pull
+  - git add -f resources/
+  - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+  - pwd
+  - user=`echo $TRAVIS_REPO_SLUG | cut -d/ -f 1`
+  - git remote add origin2 https://${user}:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
+  - git push origin2 master
 
 deploy:
   - provider: script
