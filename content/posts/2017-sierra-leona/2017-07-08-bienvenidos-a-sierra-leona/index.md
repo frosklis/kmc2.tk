@@ -2,6 +2,7 @@
 viaje: [Sierra Leona]
 layout: post
 title: Bienvenidos a Sierra Leona
+date: '2017-07-08'
 ---
 Parece mentira, pero ya ha llegado. Estamos en Sierra Leona, las cinco, con todas nuestras maletas.
 

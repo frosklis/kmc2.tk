@@ -4,6 +4,7 @@ layout: post
 tags: [Blackball, "DíaR", 4Bolas, "Obstruída", Infertility, EyeProblems, Citronella,
   SorCitroenysuexcel, Limpiarseelculo, Hevenidoahablardemilibro]
 title: Primeras charlas en Lunsar
+date: '2017-07-10'
 ---
 Después de tanta anticipación, por fin vamos a dar nuestras primeras charlas en Lunsar. Aunque al principio parecía que iba a venir poca gente, se fue animando la cosa y al final tendríamos un grupo de unas 80 mujeres, alumnas de la escuela vocacional, escuchándonos y hasta haciéndonos preguntas.
 

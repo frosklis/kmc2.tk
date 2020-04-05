@@ -2,6 +2,7 @@
 viaje: [Sierra Leona]
 layout: post
 title: Conversaciones con Lamin
+date: '2017-07-12'
 ---
 Lamin es hombre de unos 40 años, musulmán, activista de derechos humanos, estudiado, viajado y formado.  Formado bajo la tutela de una orden católica de párrocos italianos, estudió en Freetown la Universidad, trabajó durante 25 años en el laboratorio del primer hospital de Sierra Leona (fundado hace 50 años cerca de Lunsar) y hasta hizo una estancia formativa en Barcelona.
 

@@ -4,6 +4,7 @@ layout: post
 tags: [Sardinasparadesayunar, "ñamñam", Elparto, Otravez, SorCitroEscuchaJapo,
   "Vivanlasmañanas", "Díaderecreo"]
 title: Sardinas para desayunar
+date: '2017-07-11'
 ---
 Hoy nos han puesto para desayunar sardinas, ñam ñam. Dadas nuestras consultas del día de ayer hemos hecho una presentación sobre la marcha de infertilidad para explicarles la ausencia de tratamiento en muchos casos y la necesidad de prevención de infecciones de transmisión sexual que pueden originar cuadros de obstrucción tubárica.
 

@@ -4,6 +4,7 @@ layout: post
 tags: [PadreMeando, "PadreAbanicoymóvil", PadreInfarto, "PadreDísnea", 4blanquitasperdidas,
   "quéesunBanglaris", "Noséquéeslaico", "\xD1amñamAlgasverdes"]
 title: "Sierra Leona: Día 2"
+date: '2017-07-09'
 ---
 
 Después de un sueño más que reparador (qué falta nos hacía a todas dormir) y desayunar con las hermanas, aprovechamos para dar un pequeño paseo por el pueblo. Desde el ébola, está prohibido comerciar los domingos así que tuvimos una visión muy distinta del mercado. Aún así, fue bastante curioso pararse a ver las puertas de las tiendas, donde pintan murales sobre a qué se dedican.

@@ -2,6 +2,7 @@
 viaje: [Sierra Leona]
 layout: post
 title: Conversaciones con la hermana Elisa
+date: '2017-07-12'
 ---
 El día que cenamos con los Banglaríes, nos reunimos todos para oír hablar a la Hermana Elisa. Antigua Madre Superiora Regional, directora de la escuela primaria, se reúne mañana con el Ministro para discutir temas de educación… una mujer importante vamos.
 
