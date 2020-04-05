@@ -9,6 +9,9 @@ script:
     - hugo -v --debug
 
 deploy:
+  - git add -f resources/
+  - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+  - git push
   - provider: script
     script: bash ./publish_scripts/publish_to_ghpages.sh
     skip_cleanup: true
