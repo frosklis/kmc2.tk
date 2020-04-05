@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://www.kmc2.tk/posts/</loc>
+    <lastmod>2019-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.kmc2.tk/posts/2019-india/2019-11-01-varanasi/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -1847,7 +1852,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2015-indonesia/2015-08-18-yogyakarta/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1856,52 +1860,42 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2015-indonesia/more_pictures/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-08-26/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-08-27/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-08-28/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-08-29/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-08-30/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-08-31/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-09-01/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-09-02/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/2016-09-03/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1910,7 +1904,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-namibia-y-botsuana/more_pictures/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1919,7 +1912,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2016-portugal/more_pictures/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1932,7 +1924,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2017-sierra-leona/more_pictures/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1945,7 +1936,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2019-india/more_pictures/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1954,7 +1944,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/posts/2019-peru/more_pictures/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2343,10 +2332,6 @@
   
   <url>
     <loc>https://www.kmc2.tk/tags/polonia/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.kmc2.tk/posts/</loc>
   </url>
   
   <url>
