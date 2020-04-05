@@ -1,7 +1,5 @@
 language: generic
 
-before_install:
-    - echo -e "https://${user}:GITHUB_TOKEN@github.com/" > ~/.gitcredential
 install:
     - curl -L0 https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_extended_0.68.3_Linux-64bit.deb -o hugo.deb
     - sudo dpkg -i hugo.deb
@@ -15,7 +13,9 @@ before-deploy:
     - git checkout master && git pull
     - git add -f resources/
     - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
-    - git push
+    - pwd
+    - git remote add origin2 https://${user}:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
+    - git push origin2 master
 
 deploy:
   - provider: script
