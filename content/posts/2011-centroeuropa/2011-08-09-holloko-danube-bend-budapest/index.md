@@ -11,6 +11,7 @@ mapping:
   - {country: Hungary, latitude: '47.489661', longitude: '19.067460', place: Budapest,
     time: '2011-08-09 22:37:36'}
 title: "Höllóko, Danube Bend, Budapest"
+date: 2011-08-09
 ---
 Salimos temprano rumbo a Höllóko, el “pueblo más bonito de Hungría”. Bonito es, no lo vamos a negar, pero si este pueblo es patrimonio de la humanidad hay unos cuantos en España que también deberían serlo.
 
