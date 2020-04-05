@@ -6,7 +6,7 @@ install:
 script:
     - mkdir publish_scripts
     - git clone https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
-    - hugo
+    - hugo -v --debug
 
 deploy:
   - provider: script
