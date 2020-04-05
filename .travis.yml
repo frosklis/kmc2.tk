@@ -8,10 +8,12 @@ script:
     - git clone https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
     - hugo -v --debug
 
+before-deploy:
+    - git add -f resources/
+    - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+    - git push
+    
 deploy:
-  - git add -f resources/
-  - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
-  - git push
   - provider: script
     script: bash ./publish_scripts/publish_to_ghpages.sh
     skip_cleanup: true
