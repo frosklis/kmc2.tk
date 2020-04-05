@@ -1,14 +1,12 @@
 ---
 viaje: [Indonesia]
 date: 2015-08-16 18:00:03
-featured_picture: '21305329391'
+featured_picture: 20150816-152334
 layout: post
 mapping:
   locations:
   - {country: Indonesia, latitude: '-2.829771', longitude: '111.788368', place: Kumai,
     time: '2015-08-16 14:18:53'}
-  - {country: Indonesia, latitude: '-2.829771', longitude: '111.788368', place: Kumai,
-    time: '2015-08-16 15:23:34'}
   - {country: Indonesia, latitude: '-6.126183', longitude: '106.654002', place: Pajang,
     time: '2015-08-16 07:25:26'}
   - {country: Indonesia, latitude: '-2.829650', longitude: '111.787583', place: Kumai,
@@ -21,26 +19,26 @@ Nos pegamos un buen madrugón para coger el minibus al aeropuerto a las 6am. Ya 
 
 El aeropuerto de Jakarta es de lo más curioso. Apenas te controlan el pasaporte, parece más una estación de autobuses. Los pasillos que van a dar a las puertas de la terminal son abiertos y dan a jardines... muy relajante todo.
 
-{{% imgproc 20675918753 %}}
+{{% imgproc 20150816-072526 %}}
 
 Increíblemente sólo llegamos una hora tarde a Borneo. Con lo que habíamos leído esperábamos llegar con mucho más retraso. Según aterrizamos nos estaban esperando ya los de [come2indonesia][1], recogimos al resto de españoles con los que compartimos el [klotok][2] y nos repartimos en taxis que nos llevaron hasta el puerto donde teníamos el barco en cuestión.
 Los klotok son unas embarcaciones típicas locales, en las que hay en la parte inferior una cocina y un baño y en la parte superior un "espacio polivalente" que tan pronto nos hace las funciones de comedor como de dormitorio con unos colchones que tiramos en el suelo.
 
 Tardamos un par de horas en llegar a la primera estación de Tanjung Puting. En ese tiempo nos sirvieron la comida (muy abundante y más que aceptable) y fuimos disfrutando de la brisa y vistas desde la cubierta.
 
-{{% imgproc 21286466852 %}}
+{{% imgproc 20150816-141853 %}}
 
 Paramos en la primera estación, de las varias que hay para ver orangutanes. Veníamos avisados de lo que nos íbamos a encontrar y aún así... Y sí, está masificado, pero da igual. No te haces una idea de lo que es tener a un gorila a 30 metros hasta que lo tienes... ¡pedazo de animal! ¡Gigantes!
 
 En la priemra estación hay un centro de rehabilitación de orangutanes. A las 15:30 les dan de comer en una plataforma y a esa hora se personan todos, peleándose por la comida (aunque en cuanto aparece el macho alfa no hay pelea que valga).
 
-{{% imgproc 21305329391 %}}
+{{% imgproc 20150816-152334 %}}
 
 Ahora estamos atracados a un lado del río, con unas cocacolas viendo el atardecer (18h) y en breves nos traerán la cena.
 
 ¡Esto es vida!
 
-{{% imgproc 20676291783 %}}
+{{% imgproc 20150816-171354 %}}
 
 Mientras esperábamos a la cena hemos estado hablando con Isaac, nuestro guía, que nos ha estado contando cosas del país y de Borneo en general. Por ejemplo, Borneo tiene dos tribus claramente diferenciadas, los "indonesios" y los "malayos", cosa que ya sabíamos. Los indonesios llegaron mucho antes y vivían en la costa hasta que llegaron los malayos, que los echaron hacia las montañas. Las tribus nunca se han juntado, hablan idiomas distintos y no tienen nada que ver la una con la otra. Recientemente (desde hace unos 100 años), se han unido también los chinos, que vienen en busca de oro.  No tienen mucho aprecio por los malayos los locales de aquí.
 
