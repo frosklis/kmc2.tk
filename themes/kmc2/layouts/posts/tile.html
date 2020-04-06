@@ -1,16 +1,27 @@
 {{ $image := (.Resources.GetMatch (printf "*%s*" (string .Params.featured_picture ))) }}
+
 <a href="{{ .URL }}" class="no-underline">
-    <div class="tile ma1" 
-    {{ with .Params.featured_picture }}
-    {{ $thumb_1x := ($image.Resize "480x q50") }} 
-    {{ $thumb_2x := ($image.Resize "960x q50") }}    
-    {{ $thumb_3x := ($image.Resize "1440x q50") }} 
-    style="background-image: -webkit-image-set( 
-        url({{ $thumb_1x.RelPermalink }}) 1x, 
-        url({{ $thumb_2x.RelPermalink }}) 2x, 
-        url({{ $thumb_3x.RelPermalink }}) 3x 
-        );" 
-    {{ end }}>
+    {{- with .Params.featured_picture -}}
+    <style scoped>
+    {{- $thumb_1x := ($image.Resize "480x q50") }} 
+    {{- $thumb_2x := ($image.Resize "960x q50") }}    
+    {{- $thumb_3x := ($image.Resize "1440x q50") -}} 
+    #id_{{ $.UniqueID }} {
+        background-image: url({{ $thumb_1x.RelPermalink }});
+    }
+    @media(-webkit-min-device-pixel-ratio: 1.25) { 
+        #id_{{ $.UniqueID }} {
+            background-image: url({{ $thumb_2x.RelPermalink }});
+        }
+    }
+    @media(-webkit-min-device-pixel-ratio: 2.5) { 
+        #id_{{ $.UniqueID }} {
+            background-image: url({{ $thumb_3x.RelPermalink }});
+        }
+    }
+    </style>
+    {{- end -}}
+    <div class="tile ma1" id="id_{{ .UniqueID }}" >
         <h1 class="white f3 fw2 athelas ml2 mt3">{{ .Title }}</h1>
     </div>
 </a>
