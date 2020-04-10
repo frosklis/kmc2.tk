@@ -1076,6 +1076,64 @@
   latitude: '31.1563683333333'
   longitude: '-3.989125'
   title: El desierto queda atr&aacute;s
+20140906-110801.jpg:
+  datetime: 2014:09:06 11:08:01
+  description: Se puede ver y es pintoresco, pero la foto no refleja lo extremadamente
+    mal que huele
+  directory: ./posts/2014-marruecos/2014-09-06-fez
+  latitude: '34.06581'
+  longitude: '-4.97143833333333'
+  title: Cuero
+20140906-115713.jpg:
+  datetime: 2014:09:06 11:57:13
+  description: Un hospital hist&oacute;rico, ya en desuso. No entramos.
+  directory: ./posts/2014-marruecos/2014-09-06-fez
+  latitude: '34.063135'
+  longitude: '-4.97404'
+  title: Maristan Sidi Frej
+20140906-164347.jpg:
+  datetime: 2014:09:06 16:43:47
+  description: Me sorprende de esta foto que las banderas van cada una por su lado.
+    No es un montaje.
+  directory: ./posts/2014-marruecos/2014-09-06-fez
+  latitude: '34.0534316666667'
+  longitude: '-4.99303833333333'
+  title: Palacio real de Fez
+20140908-101924.jpg:
+  datetime: 2014:09:08 10:19:24
+  description: '-'
+  directory: ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia
+  latitude: '34.027625'
+  longitude: '-6.84044'
+  title: '-'
+20140908-102336.jpg:
+  datetime: 2014:09:08 10:23:36
+  description: '-'
+  directory: ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia
+  latitude: '34.0066966666667'
+  longitude: '-6.82090166666667'
+  title: '-'
+20140908-124230.jpg:
+  datetime: 2014:09:08 12:42:30
+  description: '-'
+  directory: ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia
+  latitude: '33.604255'
+  longitude: '-7.63264833333333'
+  title: '-'
+20140908-151718.jpg:
+  datetime: 2014:09:08 15:17:18
+  description: '-'
+  directory: ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia
+  latitude: '33.2552083333333'
+  longitude: '-8.504665'
+  title: '-'
+20140908-152046.jpg:
+  datetime: 2014:09:08 15:20:46
+  description: '-'
+  directory: ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia
+  latitude: '33.255055'
+  longitude: '-8.50448333333333'
+  title: '-'
 20140908-155947.jpg:
   datetime: 2014:09:08 15:59:47
   description: Esto es patrimonio de la humanidad.
@@ -1083,6 +1141,15 @@
   latitude: '33.2564566666667'
   longitude: '-8.50237333333333'
   title: Cisterna de El Yadida
+20140908-165357.jpg:
+  datetime: 2014:09:08 16:53:57
+  description: Hay muchos por Marruecos, en &aacute;rabe, franc&eacute;s y esto, que
+    se parece al espa&ntilde;ol. Deber&iacute;a ser &amp;quot;Alto, polic&iacute;a&amp;quot;,
+    sin hache.
+  directory: ./posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia
+  latitude: '33.2415666666667'
+  longitude: '-8.52597833333333'
+  title: Halto Polic&iacute;a
 20140909-194602.jpg:
   datetime: 2014:09:09 19:46:02
   description: '-'
