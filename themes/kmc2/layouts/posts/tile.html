@@ -1,6 +1,6 @@
 {{ $image := (.Resources.GetMatch (printf "*%s*" (string .Params.featured_picture ))) }}
 
-<a href="{{ .URL }}" class="no-underline">
+<a href="{{ .Permalink }}" class="no-underline">
     {{- with .Params.featured_picture -}}
     <style scoped>
     {{- $thumb_1x := ($image.Resize "480x q50") }} 
