@@ -1,5 +1,6 @@
 language: generic
-
+env:
+  - HUGO_ENV=production
 install:
   - curl -L0 https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_extended_0.68.3_Linux-64bit.deb -o hugo.deb
   - sudo dpkg -i hugo.deb
