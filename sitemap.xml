@@ -554,12 +554,17 @@
   
   <url>
     <loc>https://www.kmc2.es/viaje/marruecos/</loc>
-    <lastmod>2014-09-08T18:00:00+00:00</lastmod>
+    <lastmod>2014-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.kmc2.es/posts/2014-marruecos/2014-09-08-casablanca-el-jadida-oualidia/</loc>
-    <lastmod>2014-09-08T18:00:00+00:00</lastmod>
+    <lastmod>2014-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.kmc2.es/posts/2014-marruecos/2014-09-06-fez/</loc>
+    <lastmod>2014-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -2080,10 +2085,6 @@
   
   <url>
     <loc>https://www.kmc2.es/tags/fez/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.kmc2.es/posts/2014-marruecos/2014-09-06-fez/</loc>
   </url>
   
   <url>
