@@ -21,12 +21,6 @@
     {{- else -}}
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{- end -}}
-    {{/* 
-    {{ $stylesheet := .Site.Data.webpack_assets.app }}
-    {{ with $stylesheet.css }}
-    <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
-    {{ end }}
-    */}}
     {{- $css := resources.Get "main.css" }}
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
