@@ -1,11 +1,12 @@
 ---
-viaje: [Namibia y Botsuana]
+viaje:
+- Namibia y Botsuana
 layout: post
 title: Popa fails
 date: 2016-08-23
----
 
-Hoy el día ha sido relajado. 2 horas de coche hasta Divundu, donde está el Ngepi Camp. Como teníamos mucho tiempo, decidimos primero ir a un sitio que sugería el GPS como "Popa Rapids Viewpoing (very beautiful)", así tal cual, como se lee. Después de tomar una desviación más que sospechosa hacia un camino nada transitado, empezamos a meternos cada vez más en el "bush", entre árboles de espinos hasta que ya quedaron 700m y decidimos dejar el coche por lo poco transitable que era el camino. Salimos a explorar un poco, pero como había muchos posibles caminos y no llevábamos ni el Track ni el GPS, decidimos prudentemente volver, no fuese a ser que ocupáramos titulares de turistas idiotas se pierden por seguir el GPS. De lo que no éramos plenamente conscientes, era que estábamos en la reserva de Bwatwana y que los elefantes campan a sus anchas y nos los hubiésemos podido encontrar en nuestra pequeña expedición.
+---
+Hoy el día ha sido relajado. 2 horas de coche hasta Divundu, donde está el Ngepi Camp. Como teníamos mucho tiempo, decidimos primero ir a un sitio que sugería el GPS como "Popa Rapids Viewpoint (very beautiful)", así tal cual, como se lee. Después de tomar una desviación más que sospechosa hacia un camino nada transitado, empezamos a meternos cada vez más en el "bush", entre árboles de espinos hasta que ya quedaron 700m y decidimos dejar el coche por lo poco transitable que era el camino. Salimos a explorar un poco, pero como había muchos posibles caminos y no llevábamos ni el Track ni el GPS, decidimos prudentemente volver, no fuese a ser que ocupáramos titulares de turistas idiotas se pierden por seguir el GPS. De lo que no éramos plenamente conscientes, era que estábamos en la reserva de Bwatwana y que los elefantes campan a sus anchas y nos los hubiésemos podido encontrar en nuestra pequeña expedición.
 
 Dando media vuelta, fuimos buscando una ruta más turística hacia las Popa Falls, sin éxito ya que no encontramos ningún cartel indicándolas, así que decidimos ir a nuestro camping para preguntar allí cómo llegar. La llegada al Ngepi camp no es tan simple como parece, hay 3km por camino de arena donde se te puede quedar fácilmente clavado el coche (aunque ellos en la entrada te ponen un cartel que dice que como pasan grandes vehículos habitualmente por ahí la arena está pisada y que la lluvia tampoco empeora mucho el camino).
 
@@ -17,6 +18,6 @@ Gestionadas estas cosas, fuimos finalmente a las Popa Falls que resulta que est�
 
 La tarde la pasamos tranquilamente en el camping, disfrutando de un baño en la primera pisicina "hippo and croc free". Se trata básicamente de una jaula para humanos metida en el río. Muy agradable sobretodo si te estás muriendo con los calores africanos del medio día. No hay que dejar sin mencionar las vistas al Okavango con sus hipopótamos y el atardecer contemplando a una manada de elefantes beber en la otra orilla del río.
 
-Por la noche aprovechamos para cocinar todos los productos frescos que llevamos encima, para que no nos los quiten mañana en la frontera. 
+Por la noche aprovechamos para cocinar todos los productos frescos que llevamos encima, para que no nos los quiten mañana en la frontera.
 
 No sé si lo hemos dicho ya, pero los cielos africanos son increíbles. Las puestas de sol, las noches estrelladas... una noche muy africana la de hoy, bajo las estrellas, con la hoguera dándonos luz (¡y comida!) y un pequeño punto de miedo oyendo a los hipopótamos que teníamos remojándose en frente de nuestro puesto (sabiendo que salen a pastar por la noche).
