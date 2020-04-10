@@ -1,7 +1,7 @@
 ---
 viaje: [Colombia]
 date: '2017-08-13'
-featured_picture: 36533058945
+featured_picture: 12-120408
 layout: post
 mapping:
   locations:
@@ -11,6 +11,7 @@ mapping:
       n", time: '2017-08-12 17:43:56'}
 title: "Medellín"
 ---
+
 El destino vacacional de este verano es Colombia. La idea original era ir a Cartagena y alrededores, pero como el vuelo que salía era con escala en Medellín y a la vuelta con escala en Bogotá, decidimos alargar y aprovechar un poco esas escalas para visitar Medellín y Bogotá. Así que hoy domingo estamos escribiendo esto desde el aeropuerto José María Córdova (o Córdoba, no se aclaran), donde vamos a tomar un vuelo a Cartagena de Indias, de la que esperamos maravillas.
 
 Pero, antes de todo eso, hemos estado en Medellín dos noches, que se traducen en un día y medio. Así que no nos ha dado tiempo a hacer gran cosa. No hemos visto nada de los alrededores de Medellín (por ejemplo Guatapé, o, más cerca, el Parque Arví), pero sí que hemos dado paseos largos.
@@ -24,19 +25,20 @@ Medellín es una ciudad de la que los paisas, o antioqueños, se sienten orgullo
 Luego, la diferencia entre barrios, o distritos, es abismal. Nosotros nos alojamos y disfrutamos en el Poblado, que es el barrio rico. Se nota. Podría ser perfectamente una ciudad europea con sus tiendas y restaurantes, limpieza y con edificios singulares.
 
 El centro, por donde paseamos el sábado, no tiene mucho encanto, si bien la zona por la que fuimos es aceptable y agradable. Dimos un paseo largo, con visita al museo de Antioquia incluída, siguiendo la ruta marcada en [esta página](http://www.medellincolombia.co/medellin-sightseeing/medellin-walking-tour-map/) ya que nos fue imposible reservar hueco en un free tour. El paseo para nosotros empezó en el parque de las Luces, y siguió por el paseo Carabobo hasta la plaza de las Esculturas o plaza Botero. Fuimos todo el rato un poco tensos porque nos advirtieron varias veces que tuviéramos cuidado con los robos. El taxista de la mañana, un guardia por la tarde que nos dijo que no nos metiéramos por unas calles céntricas... qué desagradable es la sensación que te deja, indefenso, en alerta constante.
+
 Llama mucho la atención el enorme número de pequeños comercios que hay y la cantidad de piñatas que venden. Nos gustó mucho por dentro el Palacio Nacional, que ahora es un centro comercial lleno de tiendas de zapatos donde se da misa en la planta baja, en medio de la cafetería. Son católicos practicantes estos colombianos, misas por todas partes con iglesias atestadas de gente.
 
-{{% imgproc 36136666260 %}}
+{{% imgproc 20170812-100436 %}}
 
 Ya en la plaza de las Esculturas, todas de Botero, entramos en el museo de Antioquia. Fuimos dispuestos a pagar, pero coincidió que era gratis. Decir museo de Antioquia es casi decir museo Botero ya que una gran parte de las obras que hay o bien directamente son hechas por él, o son de su colección privada que ha donado al museo. Las obras de Botero resultan extrañamente agradables de ver. Lo que yo más destacaría de él es que si ves una obra de Botero, sabes que es de él sin preguntar, es un artista muy reconocible.
 
-{{% imgproc 36533058945 %}}
+{{% imgproc 20170812-104356 %}}
 
 El museo tiene cuatro plantas donde se ven obras de artistas colombianos y latinoamericanos del siglo XIX en adelante. Hay fotografías también, parte dedicada a los tatuajes (los artistas contemporáneos colombianos se dedican a los tatuajes y al grafiti, según parece) y otra parte divulgativa dedicada a las formas de vida de las culturas precolombinas. Es un museo que merece la pena visitar.
 
 Al salir del museo, lo que se ve es esto.
 
-{{% imgproc 35724338373 %}}
+{{% imgproc 20170812-120408 %}}
 
 El paseo continuó hasta la avenida Junín, con mejor pinta que la Carabobo, pasando antes por el mural Pedro Nel y la Basílica Candelaria, donde también nos coincidió la misa. Comimos, recomendados por la Lonely Planet, el menú del día en el [salón Versalles](http://versallesmedellin.com/). Aceptable y barato según los estándares europeos. Yo de postre me tomé un tinto sin preguntar lo que era, luego resultó ser un café negro. Creemos que aromáticos significa infusiones, tenemos ligeras dificultades con el idioma.
 
@@ -52,11 +54,13 @@ Ya hoy domingo nos lo hemos tomado con algo más de calma. Primero aprendimos a 
 
 La anécdota del día es que un grupo de chavales empezó a decirnos "Hello" (todo el mundo nos toma por gringos), les dijimos que no hacía falta hablarnos en inglés, que éramos españoles, y luego pidieron que les hiciera una foto con Ceci:
 
-{{% imgproc 36395561742 %}}
+{{% imgproc 20170813-102111 %}}
 
 Visto el Pueblito Paisa fuimos a la Biblioteca España, un par de horrorosos edificios en obras porque se hicieron mal, donados por España, en el cerro Santo Domingo. Lo hicimos por dos motivos: probar el metrocable y ver las vistas de la ciudad. El problema es que es una zona extremadamente pobre, de favelas. Si bien no nos pasó nada, ni tenía por qué pasarnos, no íbamos tranquilos y llevábamos la cámara dentro de la mochila (aquí la llaman morral) para no llamar (aún más) la atención. Fue subir, hacer las fotos y volver hasta el Poblado en metro.
 
 Ya en el Poblado, el plan era almorzar en [Mondongo's](https://mondongos.com.co/) y luego ir hasta el hotel andando por la milla de oro (nuestro hotel está al final de la milla de oro y donde comimos está al principio, o viceversa). Más o menos lo cumplimos, pero hicimos una pequeña parada entre la comida y el hotel a tomar un café en [Pergamino](https://pergamino.com.co/), que supuestamente tiene el mejor café de la ciudad.
+
+{{% imgproc 20170813-145040 %}}
 
 Es difícil tomar café en Pergamino porque no le dejan a uno pedir así como así, hay un café bueno para cada cosa. El café que es bueno para tomar solo no lo es para tomar con leche. Y, si le pides al camarero el café que él prefiera, no es capaz de dar una respuesta, así que al final tienes que decidir tú y pedirle aprobación al camarero. Con todo y eso, el café que tomamos estaba muy bueno, Ceci un espresso y yo un solo hecho con prensa francesa.
 
@@ -65,14 +69,3 @@ Y con eso finalizó nuestra estancia en Medellín, paseamos por la zona Rosa y m
 De camino al aeropuerto esta vez pudimos disfrutar de las vistas que no tuvimos cuando llegamos. Es todo muy verde, muy frondoso, lleno de viveros... muy bonito. Por todas partes están edificando casas de lujo: ¡no sabemos de donde sacan tanta gente para tanto edificio!
 
 Seguiremos informando desde Cartagena.
-{{% imgproc 20170813-102806 %}}
-{{% imgproc 20170812-154352 %}}
-{{% imgproc 20170813-145040 %}}
-{{% imgproc 20170813-102535 %}}
-{{% imgproc 20170813-100339 %}}
-{{% imgproc 20170813-101437 %}}
-{{% imgproc 20170813-102111 %}}
-{{% imgproc 20170813-115527 %}}
-{{% imgproc 20170812-100436 %}}
-{{% imgproc 20170812-120408 %}}
-{{% imgproc 20170812-104356 %}}
