@@ -7,7 +7,7 @@ install:
 script:
   - mkdir publish_scripts
   - git clone https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
-  - hugo -v --debug
+  - hugo --minify
 
 before-deploy:
   - git checkout master && git pull
