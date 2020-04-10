@@ -1,6 +1,12 @@
-{{ $dir := .Dir }}
-{{ range .Site.Pages }}
-{{- if hasPrefix .Dir $dir }}{{ $.Scratch.Add "resources" .Resources }}{{ end -}}
+{{/* This is a template for the gallery:
+  - Get the directory of the page and then get all the found pictures into resources scratch
+  */}}
+{{ $dir := .File.Dir }}
+{{ $page := ""}}
+{{ range .Site.Pages }}{{ $page = .}}
+{{ with .File }}
+{{- if hasPrefix .Dir $dir }}{{ $.Scratch.Add "resources" $page.Resources }}{{ end -}}
+{{ end }}
 {{ end }}
 {{ $resources := .Scratch.Get "resources" }}
 
