@@ -1,6 +1,7 @@
 ---
+date: 2014-08-29
 viaje: [Marruecos]
-featured_picture: '21109486968'
+featured_picture: 20140829-1901
 layout: post
 mapping:
   locations:
@@ -19,11 +20,11 @@ Por la tarde, queríamos ir a ver la madraza Ben Youssef, y lo conseguimos, pero
 
 La madraza es una escuela coránica donde en su día hubo hasta 900 estudiantes. Hoy en día sólo es una atracción turística, perfecto ejemplo de arquitectura árabe.
 
-{{% imgproc 21109486968 %}}
+{{% imgproc 20140829-1756 %}}
 
 Después nos dirigimos a Jamae el Fna, centro de la vida de la ciudad. Para ir hay que atravesar los zocos, hoy sin mucha actividad por ser viernes. Nos tomamos unos zumos de naranja natural, paseamos un poco por allí y fuimos a cenar a un restaurante con vistas a la plaza y al minarete de la Koutoubia, que es similar a la Giralda de Sevilla sólo que a este sólo pueden entrar musulmanes. La plaza es fea, sin paliativos. Pero es donde la gente está, tiene muchísima vida: restaurantes con mesas corridas, encantadores de serpientes (¡!), mujeres haciendo tatuajes de henna... de todo.
 
-{{% imgproc 21109666210 %}}
+{{% imgproc 20140829-1901 %}}
 
 Respecto a la gente, son, comparados con europeos y americanos (romanos al fin y al cabo), agresivos. Sobre todo fuera de las áreas turísticas, si te ven parado se dirigen a ti con ánimo de “ayudarte”; siempre exigen que les pagues. No os dejéis ayudar.
 
@@ -31,4 +32,3 @@ Y la ciudad es sucia, mal cuidada y fea, con todos los edificios de un color roj
 
 Mañana más.
 
-{{% imgproc 21286891572 %}}
