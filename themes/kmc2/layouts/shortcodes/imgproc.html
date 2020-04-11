@@ -14,12 +14,11 @@
 {{ with $original }}
 {{ $picture := index $.Site.Data.pictures .Name }}
 <figure style="padding: 0.25rem; margin: 2rem 0">
-    <img style="max-width: 100%; height: auto;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}"
-        height="{{ $image.Height }}" alt="{{ with $picture }} {{- if ne .title "-"}}
+    <img class="lazy" style="max-width: 100%; height: auto;" src="{{ $image_350.RelPermalink }}" alt="{{ with $picture }} {{- if ne .title "-"}}
         {{ .title | htmlUnescape }}{{ if ne .description "-"}}. {{ .description | htmlUnescape }}
         {{ end }} {{else}}Una foto
         {{- end }}{{- end }}"
-        srcset="{{ $image_350.RelPermalink }} 350w, {{ $image_700.RelPermalink }} 700w, {{ $image_1400.RelPermalink }} 1400w"
+        data-srcset="{{ $image_350.RelPermalink }} 350w, {{ $image_700.RelPermalink }} 700w, {{ $image_1400.RelPermalink }} 1400w, {{ $image.RelPermalink }} {{ $image.Width }}w"
         >
     <figcaption>
         <small>
