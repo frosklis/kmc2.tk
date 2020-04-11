@@ -3,8 +3,9 @@
 echo `which cjpeg`
 cd "${0%/*}"
 
+# $1 = ../content/posts
 # for d in $(find ../content/posts -maxdepth 2 -type d)
-for f in $(find ../content/posts -maxdepth 3 -regex ".*\.jpg")
+for f in $(find $1 -maxdepth 5 -regex ".*\.jpg")
 do
   #Do something, the directory is accessible with $d:
   echo $f

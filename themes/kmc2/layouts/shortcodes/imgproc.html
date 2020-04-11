@@ -4,19 +4,13 @@
 {{ $resources := .Scratch.Get "resources" }}
 {{ $original = ($resources.GetMatch (printf "*%s*" (string (.Get 0)))) }}
 {{ end }}
-{{ $command := .Get 1 }}
-{{ $options := .Get 2 }}
-{{ if eq $command "Fit"}}
-{{ .Scratch.Set "image" ($original.Fit $options) }}
-{{ else if eq $command "Resize"}}
-{{ .Scratch.Set "image" ($original.Resize $options) }}
-{{ else if eq $command "Fill"}}
-{{ .Scratch.Set "image" ($original.Fill $options) }}
-{{ else }}
-{{/* errorf "Invalid image processing command: Must be one of Fit, Fill or Resize." */}}
 {{ .Scratch.Set "image" ($original) }}
-{{ end }}
 {{ $image := .Scratch.Get "image" }}
+
+{{- $image_350 := ($image.Resize "350x q75") }} 
+{{- $image_700 := ($image.Resize "700x q75") }}
+{{- $image_1400 := ($image.Resize "1400x q75") }}  
+
 {{ with $original }}
 {{ $picture := index $.Site.Data.pictures .Name }}
 <figure style="padding: 0.25rem; margin: 2rem 0">
@@ -24,7 +18,9 @@
         height="{{ $image.Height }}" alt="{{ with $picture }} {{- if ne .title "-"}}
         {{ .title | htmlUnescape }}{{ if ne .description "-"}}. {{ .description | htmlUnescape }}
         {{ end }} {{else}}Una foto
-        {{- end }}{{- end }}">
+        {{- end }}{{- end }}"
+        srcset="{{ $image_350.RelPermalink }} 350w, {{ $image_700.RelPermalink }} 700w, {{ $image_1400.RelPermalink }} 1400w"
+        >
     <figcaption>
         <small>
             {{ with $picture }} {{ if ne .title "-"}}
