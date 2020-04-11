@@ -1,13 +1,19 @@
 language: generic
+
+# by default travis clones to depth 50, which is not needed. Could be only 1 maybe.
+git:
+  depth: 3
+
 env:
   - HUGO_ENV=production
+
 install:
   - curl -L0 https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_extended_0.68.3_Linux-64bit.deb -o hugo.deb
   - sudo dpkg -i hugo.deb
 
 script:
   - mkdir publish_scripts
-  - git clone https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
+  - git clone --depth 1 https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
   - hugo --minify
 
 before-deploy:
