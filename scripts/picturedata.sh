@@ -9,9 +9,12 @@ echo "Changing file names..."
 cd content
 exiftool ./ '-filename<DateTimeOriginal' -d %Y%m%d-%H%M%S%%-c.%%le -r
 
-echo "Moving to the right folders..."
+echo "adjusting quality"
 cd ..
 cd scripts
+./compress_all_pictures.sh "../content/posts/" 1
+
+echo "Moving to the right folders..."
 python picture_operations.py
 
 
