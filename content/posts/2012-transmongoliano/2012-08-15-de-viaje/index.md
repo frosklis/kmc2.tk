@@ -1,4 +1,5 @@
 ---
+date: 2012-08-15
 viaje: [Transmongoliano]
 featured_picture: '21367889211'
 layout: post

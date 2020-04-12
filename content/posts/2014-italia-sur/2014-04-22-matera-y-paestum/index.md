@@ -1,4 +1,5 @@
 ---
+date: 2014-04-22
 viaje: [Italia Sur]
 featured_picture: '24274544844'
 layout: post

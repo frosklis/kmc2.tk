@@ -1,4 +1,5 @@
 ---
+date: 2015-08-29
 viaje: [Indonesia]
 featured_picture: '23794618133'
 layout: post

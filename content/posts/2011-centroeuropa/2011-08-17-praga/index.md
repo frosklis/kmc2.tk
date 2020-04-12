@@ -1,4 +1,5 @@
 ---
+date: 2011-08-17
 viaje: [Centroeuropa]
 featured_picture: '25418024581'
 layout: post

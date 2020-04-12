@@ -1,4 +1,5 @@
 ---
+date: 2010-08-16
 viaje: [Sicilia]
 featured_picture: '24329296052'
 layout: post

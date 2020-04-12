@@ -1,4 +1,5 @@
 ---
+date: 2012-04-04
 viaje: ["Normandía"]
 featured_picture: '24704457756'
 layout: post

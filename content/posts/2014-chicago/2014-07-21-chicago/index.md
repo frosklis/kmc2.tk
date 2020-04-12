@@ -1,4 +1,5 @@
 ---
+date: 2014-07-21
 viaje: [Chicago]
 featured_picture: '21359792462'
 layout: post

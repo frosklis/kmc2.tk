@@ -1,4 +1,5 @@
 ---
+date: 2017-08-19
 viaje: [Colombia]
 featured_picture: '36732682126'
 layout: post

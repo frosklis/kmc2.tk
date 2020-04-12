@@ -1,4 +1,5 @@
 ---
+date: 2009-08-30
 viaje: ["Turquía"]
 layout: post
 mapping:

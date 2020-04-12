@@ -1,4 +1,5 @@
 ---
+date: 2017-07-14
 viaje: [Sierra Leona]
 layout: post
 title: Chief coronation

@@ -1,4 +1,5 @@
 ---
+date: 2014-03-08
 viaje: [Camboya]
 featured_picture: '24575151192'
 layout: post

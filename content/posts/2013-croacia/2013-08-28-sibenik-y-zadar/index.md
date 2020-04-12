@@ -1,4 +1,5 @@
 ---
+date: 2013-08-28
 viaje: [Croacia]
 featured_picture: '26712584061'
 layout: post

@@ -1,4 +1,5 @@
 ---
+date: 2017-07-12
 viaje: [Sierra Leona]
 layout: post
 tags: [Findecharlas, Selfie, Mercado, Africell, Tortillas, Golpeseco, ThevirginGoat]

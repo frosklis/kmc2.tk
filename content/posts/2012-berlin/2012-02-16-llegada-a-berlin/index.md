@@ -1,4 +1,5 @@
 ---
+date: 2012-02-16
 viaje: ["Berlín"]
 featured_picture: '25883898592'
 layout: post

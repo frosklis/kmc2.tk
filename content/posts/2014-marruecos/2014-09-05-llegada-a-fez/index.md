@@ -1,4 +1,5 @@
 ---
+date: 2014-09-05
 viaje: [Marruecos]
 featured_picture: '21272950706'
 layout: post
