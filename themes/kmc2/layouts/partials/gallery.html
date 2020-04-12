@@ -18,9 +18,9 @@
   <figure class="w-20-ns ma0">
     {{ if eq .ResourceType "image" }}
     <a data-size="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
-      {{ $thumb_1x := (.Fill "180x120 q50") }}
-      {{ $thumb_2x := (.Fill "360x240 q50") }}
-      {{ $thumb_3x := (.Fill "540x360 q50") }}
+      {{ $thumb_1x := (.Fill "180x120 q75") }}
+      {{ $thumb_2x := (.Fill "360x240 q75") }}
+      {{ $thumb_3x := (.Fill "540x360 q75") }}
 
       <img style="max-width: 100%; height: auto;" src="{{ $thumb_1x.RelPermalink }}"
         srcset="{{ $thumb_1x.RelPermalink }} 1x, {{ $thumb_2x.RelPermalink }} 2x, {{ $thumb_3x.RelPermalink }} 3x"

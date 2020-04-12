@@ -7,9 +7,9 @@
         {{/* Get the picture */}}
         {{ $image := (.Resources.GetMatch (printf "*%s*" (string .Params.featured_picture ))) }}
         {{ with $image }}
-        {{ $thumb_1x := (.Fit "576x432 q50") }}
-        {{ $thumb_2x := (.Fit "1152x864 q50") }}
-        {{ $thumb_3x := (.Fit "1728x1296 q50") }}
+        {{ $thumb_1x := (.Fit "576x432 q75") }}
+        {{ $thumb_2x := (.Fit "1152x864 q75") }}
+        {{ $thumb_3x := (.Fit "1728x1296 q75") }}
         <div class="pr3-ns mb4 mb0-ns w-100">
           <img style="max-width: 100%; height: auto;" srcset="{{ $thumb_1x.RelPermalink }} 1x, {{ $thumb_2x.RelPermalink }} 2x, {{ $thumb_3x.RelPermalink }} 3x"
           width="{{ $thumb_1x.Width }}" height="{{ $thumb_1x.Height }}" class="db" alt="image from {{ .Title }}" 
