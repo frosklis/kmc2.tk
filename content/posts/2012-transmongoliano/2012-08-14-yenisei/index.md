@@ -1,19 +1,35 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-14 21:00:00
-featured_picture: '21171512708'
+featured_picture: 20120814-104308
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '55.939530', longitude: '92.303305', place: Divnogorsk,
-    time: '2012-08-14 10:10:56'}
-  - {country: Rusia, latitude: '55.939558', longitude: '92.303336', place: Divnogorsk,
-    time: '2012-08-14 10:09:23'}
-  - {country: Rusia, latitude: '55.941283', longitude: '92.311052', place: Divnogorsk,
-    time: '2012-08-14 11:18:59'}
-tags: [couchsurfing, presa, Yenisei, Krasnoyarsk, Divnogorsk]
+  - country: Rusia
+    latitude: '55.939530'
+    longitude: '92.303305'
+    place: Divnogorsk
+    time: '2012-08-14 10:10:56'
+  - country: Rusia
+    latitude: '55.939558'
+    longitude: '92.303336'
+    place: Divnogorsk
+    time: '2012-08-14 10:09:23'
+  - country: Rusia
+    latitude: '55.941283'
+    longitude: '92.311052'
+    place: Divnogorsk
+    time: '2012-08-14 11:18:59'
+tags:
+- couchsurfing
+- presa
+- Yenisei
+- Krasnoyarsk
+- Divnogorsk
 title: Yenisei
+viaje:
+- Transmongoliano
 ---
+
 Teníamos intención de salir de casa a las 9, pero se nos alargó la cosa porque Svetlana nos hizo unas tortillas de champiñones, queso y una especie de cuajada para desayunar y coger energías.
 
 Nos acompañó a la parada de bus y allí nos quedamos. 45 minutos después aparecimos en Divnogorsk y desde allí en teoría son 5 km hasta <a title="La presa de Krasnoyarsk" href="https://www.kmc2.tk/2012/08/15/la-presa-de-krasnoyarsk/">la presa</a>.

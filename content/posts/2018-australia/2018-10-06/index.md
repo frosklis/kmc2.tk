@@ -1,4 +1,5 @@
 ---
+featured_picture: 20181006-124524
 viaje: [Australia]
 date: '2018-10-06'
 title: Y para acabar, Bondi

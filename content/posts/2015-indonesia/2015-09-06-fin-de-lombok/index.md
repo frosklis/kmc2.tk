@@ -1,17 +1,24 @@
 ---
 date: 2015-09-06
-viaje: [Indonesia]
-featured_picture: '24338141471'
+featured_picture: 20150906-104758
 layout: post
 mapping:
   locations:
-  - {latitude: -8.901457, longitude: 116.2926732}
-  - {latitude: -6.1872013, longitude: 106.8195018}
-  - {country: Indonesia, latitude: '-8.900589', longitude: '116.292600', place: Sengkol,
-    time: '2015-09-06 10:47:58'}
+  - latitude: -8.901457
+    longitude: 116.2926732
+  - latitude: -6.1872013
+    longitude: 106.8195018
+  - country: Indonesia
+    latitude: '-8.900589'
+    longitude: '116.292600'
+    place: Sengkol
+    time: '2015-09-06 10:47:58'
 published: true
-tags: [Lombok]
+tags:
+- Lombok
 title: Fin de Lombok
+viaje:
+- Indonesia
 ---
 
 Nuestro último día en Lombok. Qué pena da que se acaben las vacaciones, especialmente en Lombok, que no estaba gustando mucho.

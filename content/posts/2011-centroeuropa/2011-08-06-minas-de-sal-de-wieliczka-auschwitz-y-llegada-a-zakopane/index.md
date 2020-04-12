@@ -1,26 +1,48 @@
 ---
 date: 2011-08-06
-viaje: [Centroeuropa]
-featured_picture: '26524953410'
+featured_picture: 20110806-114313
 layout: post
 mapping:
   locations:
-  - {latitude: 49.299181, longitude: 19.9495621}
-  - {latitude: 50.1267361, longitude: 19.9529941}
-  - {country: Polonia, latitude: '49.982976', longitude: '20.055646', place: Bogucice,
-    time: '2011-08-06 11:45:38'}
-  - {country: Polonia, latitude: '49.982976', longitude: '20.055646', place: Bogucice,
-    time: '2011-08-06 11:29:18'}
-  - {country: Polonia, latitude: '50.026408', longitude: '19.204273', place: Auschwitz,
-    time: '2011-08-06 15:24:33'}
-  - {country: Poland, latitude: '49.982976', longitude: '20.055646', place: Bogucice,
-    time: '2011-08-06 11:45:38'}
-  - {country: Poland, latitude: '49.982976', longitude: '20.055646', place: Bogucice,
-    time: '2011-08-06 11:29:18'}
-  - {country: Poland, latitude: '50.026408', longitude: '19.204273', place: Auschwitz,
-    time: '2011-08-06 15:24:33'}
+  - latitude: 49.299181
+    longitude: 19.9495621
+  - latitude: 50.1267361
+    longitude: 19.9529941
+  - country: Polonia
+    latitude: '49.982976'
+    longitude: '20.055646'
+    place: Bogucice
+    time: '2011-08-06 11:45:38'
+  - country: Polonia
+    latitude: '49.982976'
+    longitude: '20.055646'
+    place: Bogucice
+    time: '2011-08-06 11:29:18'
+  - country: Polonia
+    latitude: '50.026408'
+    longitude: '19.204273'
+    place: Auschwitz
+    time: '2011-08-06 15:24:33'
+  - country: Poland
+    latitude: '49.982976'
+    longitude: '20.055646'
+    place: Bogucice
+    time: '2011-08-06 11:45:38'
+  - country: Poland
+    latitude: '49.982976'
+    longitude: '20.055646'
+    place: Bogucice
+    time: '2011-08-06 11:29:18'
+  - country: Poland
+    latitude: '50.026408'
+    longitude: '19.204273'
+    place: Auschwitz
+    time: '2011-08-06 15:24:33'
 title: Minas de sal de Wieliczka, Auschwitz y llegada a Zakopane
+viaje:
+- Centroeuropa
 ---
+
 Hoy tardamos mucho en salir de Cracovia, porque se fueron hilando una serie de catastróficas desdichas: primero fuimos a hacer la compra para el bocata del medio día y salimos en dirección contraria porque yo miré mal el sitio en el mapa, así que tardamos en llegar al supermercado; después fuimos al sitio del desayuno y había cerrado, así que fuimos a otro supermercado a comprar leche, mermelada y galletas para desayunar en el hotel; después de recoger el coche en el parking, nos dimos cuenta de que no habíamos llevado el GPS así que tuvimos que dar rodeos y rodeos hasta llegar a la calle del hotel, pero justo al final nos encontramos con una procesión mañanera, así que hubo que rodear un poco más para salir.
 
 De Cracovia fuimos a Wieliczka, donde están las minas de sal. ¡Qué minas de sal! Alucinantes. Un tour de dos horas más que recomendable. Y en dos horas sólo se recorre el 1% de las galerías, son de unas dimensiones descomunales. Hasta tienen, según la guía, una pista de tenis (no se ve en el recorrido, al menos no en el que hicimos nosotros).

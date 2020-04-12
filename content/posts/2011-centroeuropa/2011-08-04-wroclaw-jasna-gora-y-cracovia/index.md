@@ -1,25 +1,48 @@
 ---
 date: 2011-08-04
-viaje: [Centroeuropa]
-featured_picture: 23809406004
+featured_picture: 20110804-144228
 layout: post
 mapping:
   locations:
-  - {country: Polonia, latitude: '51.109751', longitude: '17.030910', place: Breslavia,
-    time: '2011-08-04 15:05:24'}
-  - {country: Polonia, latitude: '50.812561', longitude: '19.096873', place: "Czę\
-      stochowa", time: '2011-08-04 19:07:18'}
-  - {country: Polonia, latitude: '50.060483', longitude: '19.940256', place: Cracovia,
-    time: '2011-08-04 22:24:58'}
-  - {country: Poland, latitude: '51.109751', longitude: '17.030910', place: Wroclaw,
-    time: '2011-08-04 15:05:24'}
-  - {country: Poland, latitude: '50.812561', longitude: '19.096873', place: Czestochowa,
-    time: '2011-08-04 19:07:18'}
-  - {country: Poland, latitude: '50.060483', longitude: '19.940256', place: Krakow,
-    time: '2011-08-04 22:24:58'}
-tags: [Polonia, Cracovia, "peregrinación"]
-title: "Wrocław, Jasna Góra y Cracovia"
+  - country: Polonia
+    latitude: '51.109751'
+    longitude: '17.030910'
+    place: Breslavia
+    time: '2011-08-04 15:05:24'
+  - country: Polonia
+    latitude: '50.812561'
+    longitude: '19.096873'
+    place: Częstochowa
+    time: '2011-08-04 19:07:18'
+  - country: Polonia
+    latitude: '50.060483'
+    longitude: '19.940256'
+    place: Cracovia
+    time: '2011-08-04 22:24:58'
+  - country: Poland
+    latitude: '51.109751'
+    longitude: '17.030910'
+    place: Wroclaw
+    time: '2011-08-04 15:05:24'
+  - country: Poland
+    latitude: '50.812561'
+    longitude: '19.096873'
+    place: Czestochowa
+    time: '2011-08-04 19:07:18'
+  - country: Poland
+    latitude: '50.060483'
+    longitude: '19.940256'
+    place: Krakow
+    time: '2011-08-04 22:24:58'
+tags:
+- Polonia
+- Cracovia
+- peregrinación
+title: Wrocław, Jasna Góra y Cracovia
+viaje:
+- Centroeuropa
 ---
+
 Hoy madrugamos y desayunamos en el hotel de Dresden (por lo que tengo entendido, un lujo del que no vamos a disfrutar muchos más días). Desayunamos fuerte y además nos apropiamos de tres bollitos de pan y un par de huevos duros.
 
 Sin más dilación pusimos rumbo a Wroclaw (vrotsuaf se dice más o menos) y hasta salir de Alemania (cosa que nos llevó bastante tiempo) tuvimos muy mal tiempo y buenas carreteras. Al entrar en Polonia justo al revés, buen tiempo pero unas carreteras masajeantes estupendas. Al final el traqueteo no era para tanto, pero la verdad es que al principio nos asustó un poco.

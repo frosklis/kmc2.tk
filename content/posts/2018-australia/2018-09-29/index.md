@@ -1,4 +1,5 @@
 ---
+featured_picture: 20180929-124510
 viaje: [Australia]
 date: '2018-09-29'
 title: Relax

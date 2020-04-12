@@ -1,20 +1,32 @@
 ---
 date: 2011-08-13
-viaje: [Centroeuropa]
-featured_picture: '27594630086'
+featured_picture: 20110813-154357
 layout: post
 mapping:
   locations:
-  - {latitude: 48.1458923, longitude: 17.1071373}
-  - {latitude: 46.7902864, longitude: 17.1866936}
-  - {latitude: 47.549497, longitude: 17.7552412}
-  - {latitude: 46.0727345, longitude: 18.232266}
-  - {country: Hungary, latitude: '46.786948', longitude: '17.191320', place: Heviz
-      Szent Andras, time: '2011-08-13 11:21:10'}
-  - {country: Slovakia, latitude: '48.144168', longitude: '17.116635', place: Bratislava,
-    time: '2011-08-13 19:10:21'}
+  - latitude: 48.1458923
+    longitude: 17.1071373
+  - latitude: 46.7902864
+    longitude: 17.1866936
+  - latitude: 47.549497
+    longitude: 17.7552412
+  - latitude: 46.0727345
+    longitude: 18.232266
+  - country: Hungary
+    latitude: '46.786948'
+    longitude: '17.191320'
+    place: Heviz Szent Andras
+    time: '2011-08-13 11:21:10'
+  - country: Slovakia
+    latitude: '48.144168'
+    longitude: '17.116635'
+    place: Bratislava
+    time: '2011-08-13 19:10:21'
 title: Heviz, Pannonhalma, Bratislava
+viaje:
+- Centroeuropa
 ---
+
 El día se presentaba apretado en cuanto a planificación, pero decidimos quitar algunas cosas. Al final se quedó “sólo” en Heviz, Pannonhalma y Bratislava, habiendo dormido en Pecs. Más de 4 horas de coche en total. Lo que quitamos fueron unos pueblos del lago Balaton que al parecer sí merecen la pena, pero no daba tiempo a todo.
 
 Así que fuimos a Heviz, ciudad balneario, o ciudad de viejos. Heviz está bien. Yo personalmente nunca me había bañado en un lago termal, que fue lo que hicimos. El lago es de pago, pero es una experiencia curiosa: agua a 32ºC. Estuvimos a remojo una hora aproximadamente. Recomendable, me alegro de no haberlo eliminado del planning.

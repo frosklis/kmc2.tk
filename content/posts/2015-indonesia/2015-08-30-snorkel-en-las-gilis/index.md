@@ -1,19 +1,29 @@
 ---
 date: 2015-08-30
-viaje: [Indonesia]
-featured_picture: '24325483302'
+featured_picture: 20150830-180819
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.374605', longitude: '116.085597', place: Pawenang,
-    time: '2015-08-30 08:32:16'}
-  - {country: Indonesia, latitude: '-8.374605', longitude: '116.085597', place: Pawenang,
-    time: '2015-08-30 10:18:09'}
-  - {country: Indonesia, latitude: '-8.374605', longitude: '116.085597', place: Pawenang,
-    time: '2015-08-30 18:04:16'}
+  - country: Indonesia
+    latitude: '-8.374605'
+    longitude: '116.085597'
+    place: Pawenang
+    time: '2015-08-30 08:32:16'
+  - country: Indonesia
+    latitude: '-8.374605'
+    longitude: '116.085597'
+    place: Pawenang
+    time: '2015-08-30 10:18:09'
+  - country: Indonesia
+    latitude: '-8.374605'
+    longitude: '116.085597'
+    place: Pawenang
+    time: '2015-08-30 18:04:16'
 published: true
 tags: []
 title: Snorkel en las Gilis
+viaje:
+- Indonesia
 ---
 
 Hoy hemos contratado por la mañana un tour de Snorkel alrededor de las tres Gilis (Gili T, Gili M y Gili A) por unos 6 euros cada uno. Nos lo ha organizado el mismo señor que nos consiguió el barco para ir a Lombok, que es también camarero del hotel.

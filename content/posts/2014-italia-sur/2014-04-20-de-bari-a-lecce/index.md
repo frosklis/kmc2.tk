@@ -1,29 +1,59 @@
 ---
-viaje: [Italia Sur]
 date: 2014-04-20 20:00:00
-featured_picture: '24881179355'
+featured_picture: 20140420-101443
 layout: post
 mapping:
   locations:
-  - {latitude: 40.3515155, longitude: 18.1750161, time: '2014-04-20 21:00:00'}
-  - {country: Italia, latitude: '41.125550', longitude: '16.873250', place: Bari,
-    time: '2014-04-20 08:08:53'}
-  - {country: Italia, latitude: '40.782911', longitude: '17.238135', place: Alberobello,
-    time: '2014-04-20 10:14:43'}
-  - {country: Italia, latitude: '40.782175', longitude: '17.237628', place: Alberobello,
-    time: '2014-04-20 11:00:42'}
-  - {country: Italia, latitude: '40.752876', longitude: '17.329383', place: Locorotondo,
-    time: '2014-04-20 11:40:27'}
-  - {country: Italia, latitude: '40.705277', longitude: '17.336388', place: Martina
-      Franca, time: '2014-04-20 13:59:14'}
-  - {country: Italia, latitude: '40.742120', longitude: '17.423408', place: Cisternino,
-    time: '2014-04-20 14:44:53'}
-  - {country: Italia, latitude: '40.732633', longitude: '17.579530', place: Ostuni,
-    time: '2014-04-20 15:40:24'}
-  - {country: Italia, latitude: '40.776243', longitude: '17.646025', place: Santa
-      Lucia, time: '2014-04-20 17:08:44'}
-tags: [Bari, Alberobello, trulli]
+  - latitude: 40.3515155
+    longitude: 18.1750161
+    time: '2014-04-20 21:00:00'
+  - country: Italia
+    latitude: '41.125550'
+    longitude: '16.873250'
+    place: Bari
+    time: '2014-04-20 08:08:53'
+  - country: Italia
+    latitude: '40.782911'
+    longitude: '17.238135'
+    place: Alberobello
+    time: '2014-04-20 10:14:43'
+  - country: Italia
+    latitude: '40.782175'
+    longitude: '17.237628'
+    place: Alberobello
+    time: '2014-04-20 11:00:42'
+  - country: Italia
+    latitude: '40.752876'
+    longitude: '17.329383'
+    place: Locorotondo
+    time: '2014-04-20 11:40:27'
+  - country: Italia
+    latitude: '40.705277'
+    longitude: '17.336388'
+    place: Martina Franca
+    time: '2014-04-20 13:59:14'
+  - country: Italia
+    latitude: '40.742120'
+    longitude: '17.423408'
+    place: Cisternino
+    time: '2014-04-20 14:44:53'
+  - country: Italia
+    latitude: '40.732633'
+    longitude: '17.579530'
+    place: Ostuni
+    time: '2014-04-20 15:40:24'
+  - country: Italia
+    latitude: '40.776243'
+    longitude: '17.646025'
+    place: Santa Lucia
+    time: '2014-04-20 17:08:44'
+tags:
+- Bari
+- Alberobello
+- trulli
 title: De Bari a Lecce
+viaje:
+- Italia Sur
 ---
 
 Hoy ha tocado explorar el Valle de Itria. Antes de salir de Bari, aprovechamos para ver el mercado del pescado que hay detrás del teatro Margherita todos los domingos por la mañana. La verdad que nos esperábamos más gente pero también hay que tener en cuenta que hoy es domingo de Resurrección y probablemente la gente se tome el día de vacaciones. La cosa es simple: al lado de los barcos, los pescadores venden los peces recién pescados al peso junto con algún que otro pulpo que tienen en grandes barreños.

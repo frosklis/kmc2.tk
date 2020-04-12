@@ -1,9 +1,10 @@
 ---
-viaje: [Colombia]
 date: '2017-08-14'
-featured_picture: 36406906260
+featured_picture: 20170814-120658
 layout: post
 title: Cartagena de Indias
+viaje:
+- Colombia
 ---
 
 Amanecimos deliciosamente en nuestro [hotel Casa la Cartujita](http://www.casalacartujita.com/) (como dirían aquí). El hotel en el que estamos es una antigua casa colonial con unas seis habitaciones, decoradas todas con mucho gusto y donde el trato es excelente: muy recomendable. El desayuno se sirve en una zona junto a la piscina desde la que se ve la cocina y te sirven fruta, zumo, café, pan y un acompañanate extra que escoges de las opciones americana, vegetariana o colombiana.

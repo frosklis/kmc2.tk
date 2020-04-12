@@ -1,16 +1,24 @@
 ---
-viaje: [Italia Norte]
 date: 2008-09-08 23:00:00
-featured_picture: '24067896219'
+featured_picture: 20080908-110634
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '45.462057', longitude: '10.621719', place: Lugana,
-    time: '2008-09-08 09:55:38'}
-  - {country: Italia, latitude: '45.666388', longitude: '12.242175', place: Treviso,
-    time: '2008-09-08 11:06:34'}
+  - country: Italia
+    latitude: '45.462057'
+    longitude: '10.621719'
+    place: Lugana
+    time: '2008-09-08 09:55:38'
+  - country: Italia
+    latitude: '45.666388'
+    longitude: '12.242175'
+    place: Treviso
+    time: '2008-09-08 11:06:34'
 title: Treviso
+viaje:
+- Italia Norte
 ---
+
 Estamos todavía en estado de shock por lo del coche, veremos en qué acaba y si nos timan o no los de Europcar.
 
 {{% imgproc 24435685505 %}}

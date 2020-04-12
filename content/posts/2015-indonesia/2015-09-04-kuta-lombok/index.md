@@ -1,14 +1,16 @@
 ---
 date: 2015-09-04
-viaje: [Indonesia]
-featured_picture: '24125268080'
+featured_picture: 20150904-095015
 layout: post
 mapping:
   locations:
-  - {latitude: -8.893017, longitude: 116.2758033}
+  - latitude: -8.893017
+    longitude: 116.2758033
 published: true
 tags: []
 title: Kuta Lombok
+viaje:
+- Indonesia
 ---
 
 Después de tanto ejercicio hoy hemos tenido un día de relajación. Por la mañana hemos dado un paseo por Kuta, que no se parece en nada a lo que habíamos imaginado. Es un pueblecillo de indonesios que está empezando a darse cuenta de que tiene interés turístico, pero al que aún le queda mucho para ser un "destino turístico como tal". Salvo la calle paralela a la playa, no hay nada que ver ni hacer. En esa calle hay varios warungs (restaurantes) y puestos de turismo donde alquilan scooters, tablas de surf u organizan tours a las Gili, al Rinjani o a las playas de la zona.

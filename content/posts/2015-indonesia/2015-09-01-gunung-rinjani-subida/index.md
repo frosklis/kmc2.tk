@@ -1,21 +1,35 @@
 ---
 date: 2015-09-01
-viaje: [Indonesia]
-featured_picture: '24351347141'
+featured_picture: 20150901-095702
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.372472', longitude: '116.459866', place: Selong,
-    time: '2015-09-01 08:49:14'}
-  - {country: Indonesia, latitude: '-8.372472', longitude: '116.459866', place: Selong,
-    time: '2015-09-01 09:46:04'}
-  - {country: Indonesia, latitude: '-8.397541', longitude: '116.440369', place: Selong,
-    time: '2015-09-01 17:21:59'}
-  - {country: Indonesia, latitude: '-8.397541', longitude: '116.440369', place: Selong,
-    time: '2015-09-01 18:09:23'}
+  - country: Indonesia
+    latitude: '-8.372472'
+    longitude: '116.459866'
+    place: Selong
+    time: '2015-09-01 08:49:14'
+  - country: Indonesia
+    latitude: '-8.372472'
+    longitude: '116.459866'
+    place: Selong
+    time: '2015-09-01 09:46:04'
+  - country: Indonesia
+    latitude: '-8.397541'
+    longitude: '116.440369'
+    place: Selong
+    time: '2015-09-01 17:21:59'
+  - country: Indonesia
+    latitude: '-8.397541'
+    longitude: '116.440369'
+    place: Selong
+    time: '2015-09-01 18:09:23'
 published: true
-tags: [Rinjani]
+tags:
+- Rinjani
 title: 'Gunung Rinjani: subida'
+viaje:
+- Indonesia
 ---
 
 A las 06:00 am en pie, que a las 7 salíamos hacia Sembalung, desde donde empezaba nuestra ruta. Conocimos a Josy, nuestro guía, un chico de 22 años muy majo.

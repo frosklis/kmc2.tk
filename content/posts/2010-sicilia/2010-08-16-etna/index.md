@@ -1,17 +1,25 @@
 ---
 date: 2010-08-16
-viaje: [Sicilia]
-featured_picture: '24329296052'
+featured_picture: 20100816-100514
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '37.737794', longitude: '15.001986', time: '2013-09-29
-      14:49:44'}
-  - {country: Italia, latitude: '37.750150', longitude: '15.130400', place: Puntalazzo,
-    time: '2010-08-16 18:13:27'}
-tags: [Etna]
+  - country: Italia
+    latitude: '37.737794'
+    longitude: '15.001986'
+    time: '2013-09-29 14:49:44'
+  - country: Italia
+    latitude: '37.750150'
+    longitude: '15.130400'
+    place: Puntalazzo
+    time: '2010-08-16 18:13:27'
+tags:
+- Etna
 title: Etna
+viaje:
+- Sicilia
 ---
+
 El Etna ha podido conmigo. O más bien la comida o cena de ayer. Lo pasé mal en la subida. Pero subí.
 
 Nos levantamos temprano y cogimos el coche para llegar al aparcamiento desde el cual se sube al Etna. Como es carretera de montaña, nos llevó mucho tiempo llegar, a pesar de que la distancia no era mucha. La primera parte del recorrido la hicimos en telesilla. Ya arriba decidimos seguir andando. Digo decidimos porque, aunque no lo sabíamos, puedes subir en un autobús adaptado. Hacía mucho viento, así que alquilé un abrigo. Ceci en cambio ha venido mejor preparada y ya traía ella. Sin más empezamos a subir. La subida al Etna es fácil, es larga pero tendida. El paisaje es árido, no hay ni un árbol. Pero lo peor es la gravilla, cuando se levanta el viento hay que echar cuerpo a tierra y aguantar.

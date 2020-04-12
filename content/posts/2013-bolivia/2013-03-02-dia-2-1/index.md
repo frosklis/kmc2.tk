@@ -1,4 +1,5 @@
 ---
+featured_picture: 20130302-181049
 viaje: [Bolivia]
 date: 2013-03-03 01:00:00
 layout: post

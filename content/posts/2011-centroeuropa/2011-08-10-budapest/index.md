@@ -1,17 +1,26 @@
 ---
 date: 2011-08-10
-viaje: [Centroeuropa]
-featured_picture: '27526746272'
+featured_picture: 20110810-192804
 layout: post
 mapping:
   locations:
-  - {country: Hungary, latitude: '47.501356', longitude: '19.033713', place: Budapest,
-    time: '2011-08-10 13:00:09'}
-  - {country: Hungary, latitude: '47.506280', longitude: '19.039413', place: Budapest,
-    time: '2011-08-10 20:36:46'}
-tags: [Budapest]
+  - country: Hungary
+    latitude: '47.501356'
+    longitude: '19.033713'
+    place: Budapest
+    time: '2011-08-10 13:00:09'
+  - country: Hungary
+    latitude: '47.506280'
+    longitude: '19.039413'
+    place: Budapest
+    time: '2011-08-10 20:36:46'
+tags:
+- Budapest
 title: Budapest
+viaje:
+- Centroeuropa
 ---
+
 El día empezó, esta vez si hay que destacarlo, con un maravilloso desayuno. El buffet de este hotel en el que estamos es muy bueno. Bollería, bacon, huevos fritos, salchichas, nutella, mermeladas, cereales, fruta fresca, zumos varios, embutido, yogures y varios tipos de pan. Sólo por el desayuno ya es recomendable este hotel.
 
 Luego fuimos al sitio de donde salen los tours gratuitos de Budapest pero llegamos una hora temprano y teníamos frío, así que volvimos al hotel a cambiarnos por algo más abrigado. El problema es que hacía viento. Con lo de volver al hotel casi llegamos tarde al tour, pero no, lo cogimos justo a tiempo.

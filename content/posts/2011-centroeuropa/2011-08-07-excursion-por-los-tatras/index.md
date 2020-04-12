@@ -1,19 +1,32 @@
 ---
 date: 2011-08-07
-viaje: [Centroeuropa]
-featured_picture: '24069895879'
+featured_picture: 20110807-120743
 layout: post
 mapping:
   locations:
-  - {country: Poland, latitude: '49.215880', longitude: '20.056940', place: Zakopane,
-    time: '2011-08-07 11:27:53'}
-  - {country: Poland, latitude: '49.215843', longitude: '20.067515', place: Zakopane,
-    time: '2011-08-07 12:07:43'}
-  - {country: Poland, latitude: '49.197086', longitude: '20.067118', place: Zakopane,
-    time: '2011-08-07 13:41:09'}
-tags: [Tatras, Morskie Oko]
-title: "Excursión por los Tatras"
+  - country: Poland
+    latitude: '49.215880'
+    longitude: '20.056940'
+    place: Zakopane
+    time: '2011-08-07 11:27:53'
+  - country: Poland
+    latitude: '49.215843'
+    longitude: '20.067515'
+    place: Zakopane
+    time: '2011-08-07 12:07:43'
+  - country: Poland
+    latitude: '49.197086'
+    longitude: '20.067118'
+    place: Zakopane
+    time: '2011-08-07 13:41:09'
+tags:
+- Tatras
+- Morskie Oko
+title: Excursión por los Tatras
+viaje:
+- Centroeuropa
 ---
+
 Hoy nos levantamos temprano con la idea de llegar pronto a los Tatras a caminar porque habíamos leído en la guía que las hordas de turistas eran considerables. Se quedaron cortos.
 
 Cumpliendo el plan, a las 8.30 ya estábamos con el coche aparcado en Lysa Polana y empezamos a caminar.  Queríamos ver el valle de los cinco lagos y el lago Morskie Oko (ojo del mar), en ese orden. Y acertamos con el orden.

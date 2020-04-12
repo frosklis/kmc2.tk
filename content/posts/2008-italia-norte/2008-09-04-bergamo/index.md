@@ -1,19 +1,31 @@
 ---
-viaje: [Italia Norte]
 date: 2008-09-04 23:00:00
-featured_picture: '23807411894'
+featured_picture: 20080904-145436
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '45.630605', longitude: '8.721771', place: Aeroporto
-      Malpensa, time: '2008-09-02 10:10:17'}
-  - {country: Italia, latitude: '45.860944', longitude: '9.099537', place: Moltrasio,
-    time: '2008-09-02 15:50:55'}
-  - {country: Italia, latitude: '45.858545', longitude: '9.113245', place: Torno,
-    time: '2008-09-02 17:01:48'}
-tags: [Bergamo]
+  - country: Italia
+    latitude: '45.630605'
+    longitude: '8.721771'
+    place: Aeroporto Malpensa
+    time: '2008-09-02 10:10:17'
+  - country: Italia
+    latitude: '45.860944'
+    longitude: '9.099537'
+    place: Moltrasio
+    time: '2008-09-02 15:50:55'
+  - country: Italia
+    latitude: '45.858545'
+    longitude: '9.113245'
+    place: Torno
+    time: '2008-09-02 17:01:48'
+tags:
+- Bergamo
 title: Bergamo
+viaje:
+- Italia Norte
 ---
+
 Hoy estuvimos en Bergamo, una ciudad muy bonita dividida en dos partes, la parte baja (nueva) y la parte alta (antigua). Además en la parte alta se puede coger un teleférico para subir a una parte aún más alta.
 
 Llegamos temprano por la mañana y aparcamos el coche en un <a href="https://www.bestinparking.it/garage/bergamo/piazza-della-liberta/bergamo">parking que está debajo de la Piazza della Libertà</a>. Destaco esto porque es un parking impresionante, tiene muchos pisos bajo tierra (ocho, creo). Como no teníamos muy claro qué merecía la pena y qué no, fuimos a la oficina de turismo. Cuál fue nuestra sorpresa cuando vimos esto:

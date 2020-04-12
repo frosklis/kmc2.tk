@@ -1,22 +1,39 @@
 ---
 date: 2013-08-28
-viaje: [Croacia]
-featured_picture: '26712584061'
+featured_picture: 20130828-164136
 layout: post
 mapping:
   locations:
-  - {country: Croacia, latitude: '43.500122', longitude: '16.457922', place: Split,
-    time: '2013-08-28 10:19:03'}
-  - {country: Croacia, latitude: '43.581706', longitude: '15.935093', place: "Primo\u0161\
-      ten", time: '2013-08-28 11:50:27'}
-  - {country: Croacia, latitude: '43.507408', longitude: '16.453061', place: Split,
-    time: '2013-08-28 15:41:31'}
-  - {country: Croacia, latitude: '43.507408', longitude: '16.453061', place: Split,
-    time: '2013-08-28 16:41:36'}
-  - {country: Croacia, latitude: '44.119536', longitude: '15.225123', place: Zadar,
-    time: '2013-08-28 19:55:40'}
-title: "Šibenik y Zadar"
+  - country: Croacia
+    latitude: '43.500122'
+    longitude: '16.457922'
+    place: Split
+    time: '2013-08-28 10:19:03'
+  - country: Croacia
+    latitude: '43.581706'
+    longitude: '15.935093'
+    place: Primošten
+    time: '2013-08-28 11:50:27'
+  - country: Croacia
+    latitude: '43.507408'
+    longitude: '16.453061'
+    place: Split
+    time: '2013-08-28 15:41:31'
+  - country: Croacia
+    latitude: '43.507408'
+    longitude: '16.453061'
+    place: Split
+    time: '2013-08-28 16:41:36'
+  - country: Croacia
+    latitude: '44.119536'
+    longitude: '15.225123'
+    place: Zadar
+    time: '2013-08-28 19:55:40'
+title: Šibenik y Zadar
+viaje:
+- Croacia
 ---
+
 Hoy nos levantamos tarde y desayunamos tranquilamente. No dejamos el piso hasta las 10. Antes de salir de Split para ir hacia Zadar, dimos una vuelta en coche y encontramos una zona residencial buena de Split donde están la playa, el puerto deportivo, el club de tenis y chalés. Buen chasis pero sin acabar de rematar, aún así mejoró nuestra impresión de Split de ayer.
 
 {{% imgproc _DSC8841 %}}

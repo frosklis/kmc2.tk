@@ -1,16 +1,22 @@
 ---
 date: 2015-09-07
-viaje: [Indonesia]
-featured_picture: '23793577143'
+featured_picture: 20150907-104018
 layout: post
 mapping:
   locations:
-  - {latitude: -6.1872013, longitude: 106.8195018}
-  - {country: Indonesia, latitude: '-6.177298', longitude: '106.823055', place: Djakarta,
-    time: '2015-09-07 10:40:18'}
+  - latitude: -6.1872013
+    longitude: 106.8195018
+  - country: Indonesia
+    latitude: '-6.177298'
+    longitude: '106.823055'
+    place: Djakarta
+    time: '2015-09-07 10:40:18'
 published: true
-tags: [Jakarta]
+tags:
+- Jakarta
 title: Jakarta
+viaje:
+- Indonesia
 ---
 
 Por la mañana hemos dado un paseo por Jakarta. Se notan el calor de la ciudad y el smog, bastante contaminada Jakarta. No nivel Pekín, pero sí entendemos que haya gente que vaya con mascarilla.

@@ -1,18 +1,28 @@
 ---
 date: 2013-08-29
-viaje: [Croacia]
-featured_picture: '26779917615'
+featured_picture: 20130829-163453
 layout: post
 mapping:
   locations:
-  - {country: Croacia, latitude: '44.870531', longitude: '15.598751', time: '2013-08-29
-      13:29:47'}
-  - {country: Croacia, latitude: '44.896311', longitude: '15.609027', place: Plitvice,
-    time: '2013-08-29 16:34:53'}
-  - {country: Croacia, latitude: '44.876038', longitude: '15.609815', place: "Plitvič\
-      ka Jezera", time: '2013-08-29 12:18:56'}
-title: "Plitvička jezera (lagos de Plitvice)"
+  - country: Croacia
+    latitude: '44.870531'
+    longitude: '15.598751'
+    time: '2013-08-29 13:29:47'
+  - country: Croacia
+    latitude: '44.896311'
+    longitude: '15.609027'
+    place: Plitvice
+    time: '2013-08-29 16:34:53'
+  - country: Croacia
+    latitude: '44.876038'
+    longitude: '15.609815'
+    place: Plitvička Jezera
+    time: '2013-08-29 12:18:56'
+title: Plitvička jezera (lagos de Plitvice)
+viaje:
+- Croacia
 ---
+
 El día de hoy es fácil de resumir:
 
 1. Nos levantamos y hora y media de coche a los lagos de Plitvice.

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20180926-154345
 viaje: [Australia]
 date: '2018-09-26'
 title: En busca de la mejor vista de Melbourne

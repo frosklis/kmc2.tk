@@ -1,19 +1,30 @@
 ---
 date: 2015-08-31
-viaje: [Indonesia]
-featured_picture: '23805566414'
+featured_picture: 20150831-162551
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.294408', longitude: '116.409633', place: Bayan,
-    time: '2015-08-31 15:54:46'}
-  - {country: Indonesia, latitude: '-8.294408', longitude: '116.409633', place: Bayan,
-    time: '2015-08-31 16:42:21'}
-  - {country: Indonesia, latitude: '-8.294408', longitude: '116.409633', place: Bayan,
-    time: '2015-08-31 16:05:29'}
+  - country: Indonesia
+    latitude: '-8.294408'
+    longitude: '116.409633'
+    place: Bayan
+    time: '2015-08-31 15:54:46'
+  - country: Indonesia
+    latitude: '-8.294408'
+    longitude: '116.409633'
+    place: Bayan
+    time: '2015-08-31 16:42:21'
+  - country: Indonesia
+    latitude: '-8.294408'
+    longitude: '116.409633'
+    place: Bayan
+    time: '2015-08-31 16:05:29'
 published: true
-tags: [Rinjani]
+tags:
+- Rinjani
 title: 'Gunung Rinjani: llegada'
+viaje:
+- Indonesia
 ---
 
 Llegamos a Lombok tras coger el barco y en el puerto estaba esperándonos un empleado de John's Adventures para llevarnos a la oficina. Compartimos las casi dos horas de viaje con una pareja de franceses que también subieron el Rinjani. No hay fotos del viaje, pero el paisaje es precioso. Montañas con campos de arroz en terraza de un verde intenso. A priori da la sensación de que Lombok es Bali sin explotar.

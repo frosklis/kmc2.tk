@@ -1,19 +1,32 @@
 ---
-viaje: [Italia Norte]
 date: 2008-09-03 23:00:00
-featured_picture: '24353159751'
+featured_picture: 20080903-124258
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '45.630605', longitude: '8.721771', place: Aeroporto
-      Malpensa, time: '2008-09-02 10:10:17'}
-  - {country: Italia, latitude: '45.860944', longitude: '9.099537', place: Moltrasio,
-    time: '2008-09-02 15:50:55'}
-  - {country: Italia, latitude: '45.858545', longitude: '9.113245', place: Torno,
-    time: '2008-09-02 17:01:48'}
-  - {country: Italia, latitude: '45.660907', longitude: '10.049614', place: Iseo,
-    time: '2008-09-03 18:59:37'}
+  - country: Italia
+    latitude: '45.630605'
+    longitude: '8.721771'
+    place: Aeroporto Malpensa
+    time: '2008-09-02 10:10:17'
+  - country: Italia
+    latitude: '45.860944'
+    longitude: '9.099537'
+    place: Moltrasio
+    time: '2008-09-02 15:50:55'
+  - country: Italia
+    latitude: '45.858545'
+    longitude: '9.113245'
+    place: Torno
+    time: '2008-09-02 17:01:48'
+  - country: Italia
+    latitude: '45.660907'
+    longitude: '10.049614'
+    place: Iseo
+    time: '2008-09-03 18:59:37'
 title: De Como a Bergamo pasando por Iseo
+viaje:
+- Italia Norte
 ---
 
 El plan de hoy se vio un poco alterado por el mal tiempo. El resumen rápido es que he conducido mucho.

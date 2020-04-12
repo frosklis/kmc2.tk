@@ -1,4 +1,5 @@
 ---
+featured_picture: 20180928-115112
 viaje: [Australia]
 date: '2018-09-28'
 title: Los Olgas

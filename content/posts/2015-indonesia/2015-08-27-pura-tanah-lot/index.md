@@ -1,19 +1,29 @@
 ---
 date: 2015-08-27
-viaje: [Indonesia]
-featured_picture: '24053476609'
+featured_picture: 20150827-105951
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.619613', longitude: '115.086938', place: Tabanan,
-    time: '2015-08-27 11:15:48'}
-  - {country: Indonesia, latitude: '-8.619623', longitude: '115.086931', place: Tabanan,
-    time: '2015-08-27 11:16:08'}
-  - {country: Indonesia, latitude: '-8.684377', longitude: '115.152524', place: Tibubeneng,
-    time: '2015-08-27 13:08:50'}
+  - country: Indonesia
+    latitude: '-8.619613'
+    longitude: '115.086938'
+    place: Tabanan
+    time: '2015-08-27 11:15:48'
+  - country: Indonesia
+    latitude: '-8.619623'
+    longitude: '115.086931'
+    place: Tabanan
+    time: '2015-08-27 11:16:08'
+  - country: Indonesia
+    latitude: '-8.684377'
+    longitude: '115.152524'
+    place: Tibubeneng
+    time: '2015-08-27 13:08:50'
 published: true
 tags: []
 title: Pura Tanah Lot
+viaje:
+- Indonesia
 ---
 
 Hoy dejamos Ubud. Ceci intentó comprar café sin éxito: la tienda estaba cerrada. La primera parada del día era, para variar, un templo: Pura Tanah Lot.

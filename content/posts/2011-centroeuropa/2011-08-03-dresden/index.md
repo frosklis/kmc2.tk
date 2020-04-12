@@ -1,24 +1,44 @@
 ---
 date: 2011-08-03
-viaje: [Centroeuropa]
-featured_picture: '25143108099'
+featured_picture: 20110803-201103
 layout: post
 mapping:
   locations:
-  - {country: Alemania, latitude: '51.044260', longitude: '13.755290', place: Dresde,
-    time: '2011-08-03 16:55:30'}
-  - {country: Alemania, latitude: '51.053370', longitude: '13.741468', place: Dresde,
-    time: '2011-08-03 19:23:16'}
-  - {country: Alemania, latitude: '51.052910', longitude: '13.741486', place: Dresde,
-    time: '2011-08-03 20:12:51'}
-  - {country: Germany, latitude: '51.044260', longitude: '13.755290', place: Dresden,
-    time: '2011-08-03 16:55:30'}
-  - {country: Germany, latitude: '51.053370', longitude: '13.741468', place: Dresden,
-    time: '2011-08-03 19:23:16'}
-  - {country: Germany, latitude: '51.052910', longitude: '13.741486', place: Dresden,
-    time: '2011-08-03 20:12:51'}
+  - country: Alemania
+    latitude: '51.044260'
+    longitude: '13.755290'
+    place: Dresde
+    time: '2011-08-03 16:55:30'
+  - country: Alemania
+    latitude: '51.053370'
+    longitude: '13.741468'
+    place: Dresde
+    time: '2011-08-03 19:23:16'
+  - country: Alemania
+    latitude: '51.052910'
+    longitude: '13.741486'
+    place: Dresde
+    time: '2011-08-03 20:12:51'
+  - country: Germany
+    latitude: '51.044260'
+    longitude: '13.755290'
+    place: Dresden
+    time: '2011-08-03 16:55:30'
+  - country: Germany
+    latitude: '51.053370'
+    longitude: '13.741468'
+    place: Dresden
+    time: '2011-08-03 19:23:16'
+  - country: Germany
+    latitude: '51.052910'
+    longitude: '13.741486'
+    place: Dresden
+    time: '2011-08-03 20:12:51'
 title: Dresden
+viaje:
+- Centroeuropa
 ---
+
 Tras un vuelo tranquilo llegamos a Praga. Tardamos en llegar al coche porque las maletas se retrasaron un poco y la oficina de Budget estaba bastante lejos. Nos dieron un golf blanco de gasolina que según Claudio tira entre poco y nada (yo todavía no lo he probado). Estoy bastante contenta con el coche, las maletas caben sin problema en el maletero y los asientos son cómodos.
 
 De camino a Dresden paramos 5 minutos (literalmente) a comer en una gasolinera unas ensaladas precocinadas que llevábamos en las maletas. Como no teníamos coronas checas no pudimos comprar agua, así que hubo que aguantar la sed que en mi caso se fue aumentando gracias a la nutella que ya está estratégicamente colocada en mi guantera.
@@ -53,4 +73,3 @@ Como estábamos bastante cansados no hicimos mucho más y cenamos en un sitio de
 {{% imgproc 26508109820 %}}
 
 Y de momento fin del día, mañana más. Voy a ver si lío a Claudio para que se estudie el planning de mañana y yo hago algo de francés.
-

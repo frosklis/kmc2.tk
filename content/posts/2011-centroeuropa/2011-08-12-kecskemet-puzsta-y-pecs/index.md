@@ -1,19 +1,30 @@
 ---
 date: 2011-08-12
-viaje: [Centroeuropa]
-featured_picture: '27018853243'
+featured_picture: 20110812-175927
 layout: post
 mapping:
   locations:
-  - {latitude: 46.8963711, longitude: 19.6896861}
-  - {latitude: 47.7705693, longitude: 16.3434644}
-  - {latitude: 46.0727345, longitude: 18.232266}
-  - {country: Hungary, latitude: '46.907222', longitude: '19.691388', place: Kecskemet,
-    time: '2011-08-12 10:56:04'}
-  - {country: Hungary, latitude: '46.077365', longitude: '18.227516', place: Pecs,
-    time: '2011-08-12 17:59:27'}
-title: "Kecskemet, Puzsta y Pécs"
+  - latitude: 46.8963711
+    longitude: 19.6896861
+  - latitude: 47.7705693
+    longitude: 16.3434644
+  - latitude: 46.0727345
+    longitude: 18.232266
+  - country: Hungary
+    latitude: '46.907222'
+    longitude: '19.691388'
+    place: Kecskemet
+    time: '2011-08-12 10:56:04'
+  - country: Hungary
+    latitude: '46.077365'
+    longitude: '18.227516'
+    place: Pecs
+    time: '2011-08-12 17:59:27'
+title: Kecskemet, Puzsta y Pécs
+viaje:
+- Centroeuropa
 ---
+
 No madrugamos mucho y lo pagamos. Llegamos a Kecskemet, fuimos a la oficina de turismo, preguntamos lo que había que ver y lo vimos. Así de fácil. Es una ciudad pequeña, pero muy bonita y agradable. Para el tamaño que tiene la ciudad es impresionante la cantidad de edificios bonitos que tiene y todos de estilos diferentes. Tiene muchos colores, empedrados amarillos y está limpia. Me causó muy buena impresión.
 
 {{% imgproc 27018853243 %}}

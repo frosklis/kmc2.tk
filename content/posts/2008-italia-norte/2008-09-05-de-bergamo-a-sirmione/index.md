@@ -1,20 +1,33 @@
 ---
-viaje: [Italia Norte]
 date: 2008-09-05 23:00:00
-featured_picture: '24327371532'
+featured_picture: 20080905-155159
 layout: post
 mapping:
   locations:
-  - {latitude: 45.6982642, longitude: 9.6772698}
-  - {latitude: 45.4969717, longitude: 10.6053754}
-  - {country: Italia, latitude: '45.630605', longitude: '8.721771', place: Aeroporto
-      Malpensa, time: '2008-09-02 10:10:17'}
-  - {country: Italia, latitude: '45.860944', longitude: '9.099537', place: Moltrasio,
-    time: '2008-09-02 15:50:55'}
-  - {country: Italia, latitude: '45.858545', longitude: '9.113245', place: Torno,
-    time: '2008-09-02 17:01:48'}
+  - latitude: 45.6982642
+    longitude: 9.6772698
+  - latitude: 45.4969717
+    longitude: 10.6053754
+  - country: Italia
+    latitude: '45.630605'
+    longitude: '8.721771'
+    place: Aeroporto Malpensa
+    time: '2008-09-02 10:10:17'
+  - country: Italia
+    latitude: '45.860944'
+    longitude: '9.099537'
+    place: Moltrasio
+    time: '2008-09-02 15:50:55'
+  - country: Italia
+    latitude: '45.858545'
+    longitude: '9.113245'
+    place: Torno
+    time: '2008-09-02 17:01:48'
 title: De Bergamo a Sirmione
+viaje:
+- Italia Norte
 ---
+
 Hoy ha sido un día vacacional. Hemos ido a la playa y hemos estado dando vueltas por algunos pueblos del lago Garda. Por la mañana fuimos en coche hasta Lido, un pueblo a la orilla del lago di Garda muy turístico donde pudimos entrar en un súpermercado a comprar víveres.
 
 Luego fuimos a la playa, donde nos bañamos en el lago y comimos. El problema del lago Garda es que las playas son de piedra en vez de arena, por eso meterse en el agua es un poco incómodo. Aún así nos vino bien porque hacía mucho calor y nos pudimos bañar.

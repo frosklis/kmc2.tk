@@ -1,23 +1,40 @@
 ---
-viaje: [Italia Norte]
 date: 2008-09-08 01:00:00
-featured_picture: '24327399612'
+featured_picture: 20080907-171811
 layout: post
 mapping:
   locations:
-  - {latitude: 45.4402453, longitude: 10.995859}
-  - {latitude: 45.4418813, longitude: 10.9984909}
-  - {country: Italia, latitude: '45.438111', longitude: '10.991503', place: Verona,
-    time: '2008-09-07 12:14:52'}
-  - {country: Italia, latitude: '45.438111', longitude: '10.991503', place: Verona,
-    time: '2008-09-07 12:23:11'}
-  - {country: Italia, latitude: '45.439447', longitude: '10.989160', place: Verona,
-    time: '2008-09-07 17:19:31'}
-  - {country: Italia, latitude: '45.439447', longitude: '10.989160', place: Verona,
-    time: '2008-09-07 18:21:43'}
-tags: [Verona]
+  - latitude: 45.4402453
+    longitude: 10.995859
+  - latitude: 45.4418813
+    longitude: 10.9984909
+  - country: Italia
+    latitude: '45.438111'
+    longitude: '10.991503'
+    place: Verona
+    time: '2008-09-07 12:14:52'
+  - country: Italia
+    latitude: '45.438111'
+    longitude: '10.991503'
+    place: Verona
+    time: '2008-09-07 12:23:11'
+  - country: Italia
+    latitude: '45.439447'
+    longitude: '10.989160'
+    place: Verona
+    time: '2008-09-07 17:19:31'
+  - country: Italia
+    latitude: '45.439447'
+    longitude: '10.989160'
+    place: Verona
+    time: '2008-09-07 18:21:43'
+tags:
+- Verona
 title: Verona
+viaje:
+- Italia Norte
 ---
+
 Lamentablemente todo lo que hemos visto hoy en Verona ha quedado eclipsado por lo que ha pasado justo al final del día, pero ya llegaremos.
 
 Llegamos a Verona por la mañana y aparcamos el coche en la Via del Pontiere. Desde allí emprendimos ruta a pie por Verona. Verona es una ciudad importante, grande, monumental. Tiene un anfiteatro un poco más pequeño que el Coliseo de Roma, pero mucho mejor conservado, hasta el punto de que todavía se usa para hacer representaciones. Tiene la casa de Julieta (Giuletta), donde se supone que Romeo Montesco iba a hablarle al balcón. También tiene un castillo - palacio y muchas iglesias.

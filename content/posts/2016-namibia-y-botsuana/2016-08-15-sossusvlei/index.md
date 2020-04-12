@@ -1,10 +1,12 @@
 ---
-viaje: [Namibia y Botsuana]
-featured_picture: '28975813961'
+date: 2016-08-15
+featured_picture: 20160815-131319
 layout: post
 title: Sossusvlei
-date: 2016-08-15
+viaje:
+- Namibia y Botsuana
 ---
+
 Hoy nos hemos levantado con el Sol, a las 6am. Visto que anochece tan pronto y que aunque las distancian sean cortas, los tiempos en coche no, merece la pena madrugar y aprovechar todas las horas de luz posibles. En una hora, nos habíamos duchado, desayunado, desmontado la tienda y recogido todo el campamento para ir a Sossusvlei. Como dice Claudio, si vas con estos coches, si no lo necesitas, no te compensa dormir en el mismo sitio varios días porque tienes que montarlo y desmontarlo todo igualmente para moverte. Lo que tiene ir con la casa a cuestas, literalmente.
 
 Sossusvlei es una parte del desierto de Namib. Está a unos 40km de nuestro camping y se accede a través de otro lodge, donde compras el permiso de acceso a Sossusvlei y Sesriem. La carretera para llegar es algo peor que la que tuvimos ayer, más piedras en general. Antes de entrar al parque, aprovechamos para repostar (el coche ya había chupado medio depósito) y ajustar las presiones de las ruedas, que estaban algo descompensadas.

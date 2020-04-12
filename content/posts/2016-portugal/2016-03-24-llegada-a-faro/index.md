@@ -1,16 +1,24 @@
 ---
 date: 2016-03-24
-viaje: [Portugal]
-featured_picture: '25853118624'
+featured_picture: 20160324-183049
 layout: post
 mapping:
   locations:
-  - {country: "España", latitude: '37.253966', longitude: '-7.206613', place: Lepe,
-    time: '2016-03-24 18:24:40'}
-  - {country: Spain, latitude: '37.253966', longitude: '-7.206613', place: Lepe, time: '2016-03-24
-      18:24:40'}
+  - country: España
+    latitude: '37.253966'
+    longitude: '-7.206613'
+    place: Lepe
+    time: '2016-03-24 18:24:40'
+  - country: Spain
+    latitude: '37.253966'
+    longitude: '-7.206613'
+    place: Lepe
+    time: '2016-03-24 18:24:40'
 title: Llegada a Faro
+viaje:
+- Portugal
 ---
+
 Día largo de viaje hoy, mucho coche. Salida de Semana Santa y Faro está lejos de Madrid, así que simplemente era lo que tocaba.
 
 En vez de ir por la A-5, como estaba bastante atascada, fuimos por las carreteras nacionales de Castilla la Mancha y Extremadura, hasta retomar la A-5 y luego coger la ruta de la plata (A-66). El camido elegido atraviesa la sierra de Guadalupe (montes de Toledo) y, aunque montañoso y lento, es bonito.

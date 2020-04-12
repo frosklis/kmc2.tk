@@ -1,21 +1,35 @@
 ---
 date: 2011-08-18
-viaje: [Centroeuropa]
-featured_picture: '27015031814'
+featured_picture: 20110818-164454
 layout: post
 mapping:
   locations:
-  - {latitude: 50.0816841, longitude: 14.4268399}
-  - {latitude: 50.0673811, longitude: 14.4173906}
-  - {latitude: 50.0899562, longitude: 14.4154393}
-  - {country: Czech Republic, latitude: '50.078595', longitude: '14.429903', place: Prague,
-    time: '2011-08-18 11:00:46'}
-  - {country: Czech Republic, latitude: '50.086890', longitude: '14.408693', place: Prague,
-    time: '2011-08-18 15:18:46'}
-  - {country: Czech Republic, latitude: '50.093656', longitude: '14.407445', place: Prague,
-    time: '2011-08-18 16:57:04'}
-title: "Más Praga"
+  - latitude: 50.0816841
+    longitude: 14.4268399
+  - latitude: 50.0673811
+    longitude: 14.4173906
+  - latitude: 50.0899562
+    longitude: 14.4154393
+  - country: Czech Republic
+    latitude: '50.078595'
+    longitude: '14.429903'
+    place: Prague
+    time: '2011-08-18 11:00:46'
+  - country: Czech Republic
+    latitude: '50.086890'
+    longitude: '14.408693'
+    place: Prague
+    time: '2011-08-18 15:18:46'
+  - country: Czech Republic
+    latitude: '50.093656'
+    longitude: '14.407445'
+    place: Prague
+    time: '2011-08-18 16:57:04'
+title: Más Praga
+viaje:
+- Centroeuropa
 ---
+
 Hoy pedimos el desayuno a la habitación; como no rellenamos bien el formulario (yo sólo había marcado los extras pensando que del resto te traían un surtido) nos llamaron para preguntarnos qué queríamos a parte de los pancakes y la tortilla y como yo estaba medio dormida y Claudio dormido completo, no pedí mucho más y luego Claudio pasó el día medio deshidratado.
 
 Salimos con calma de la habitación, que ya habíamos cubierto ayer lo más importante. Dimos un paseo por el parque de Carlos IV hasta la plaza de S. Wenceslao, para ver el extremo que nos faltaba... no nos habíamos perdido gran cosa.

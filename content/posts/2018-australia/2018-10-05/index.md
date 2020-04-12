@@ -1,4 +1,5 @@
 ---
+featured_picture: 20181005-142959
 viaje: [Australia]
 date: '2018-10-05'
 title: Hemos ido a la Ópera de Sydney

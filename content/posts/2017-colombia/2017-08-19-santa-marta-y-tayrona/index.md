@@ -1,10 +1,12 @@
 ---
 date: 2017-08-19
-viaje: [Colombia]
-featured_picture: '36732682126'
+featured_picture: 20170820-100708
 layout: post
 title: Santa Marta y Tayrona
+viaje:
+- Colombia
 ---
+
 Alquilamos un coche en Colombia. No es tan locura como parece: es decir, los colombianos conducen fatal, pero no peor que en otras zonas del mundo donde hayamos estado. 
 
 Dedicamos medio día a llegar hasta nuestro hotel en Los Naranjos, cerca del parque Tayrona. Para ello pasamos por Barranquilla (ciudad industrial horrorosa que no tiene nada que ver), Santa Marta y finalmente, pasado el Tayrona, se llega a los Naranjos.

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20180927-183823
 viaje: [Australia]
 date: '2018-09-27'
 title: Uluru

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20130313-075508
 viaje: [Bolivia]
 layout: post
 title: No llueve sino diluvia

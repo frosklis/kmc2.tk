@@ -1,4 +1,5 @@
 ---
+featured_picture: 20181003-130438
 viaje: [Australia]
 date: '2018-10-03'
 title: Sydney, toma de contacto

@@ -1,23 +1,41 @@
 ---
-viaje: [Italia Norte]
-featured_picture: '23808913443'
+date: 2008-09-09
+featured_picture: 20080909-123209
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '45.443753', longitude: '12.325286', place: Venecia,
-    time: '2008-09-09 10:32:40'}
-  - {country: Italia, latitude: '45.443753', longitude: '12.325286', place: Venecia,
-    time: '2008-09-09 12:32:09'}
-  - {country: Italia, latitude: '45.443753', longitude: '12.325286', place: Venecia,
-    time: '2008-09-09 12:48:26'}
-  - {country: Italia, latitude: '45.486974', longitude: '12.415065', place: Burano,
-    time: '2008-09-09 17:59:40'}
-  - {country: Italia, latitude: '44.837369', longitude: '11.612205', place: Ferrara,
-    time: '2008-09-09 23:01:22'}
-tags: [Venecia]
+  - country: Italia
+    latitude: '45.443753'
+    longitude: '12.325286'
+    place: Venecia
+    time: '2008-09-09 10:32:40'
+  - country: Italia
+    latitude: '45.443753'
+    longitude: '12.325286'
+    place: Venecia
+    time: '2008-09-09 12:32:09'
+  - country: Italia
+    latitude: '45.443753'
+    longitude: '12.325286'
+    place: Venecia
+    time: '2008-09-09 12:48:26'
+  - country: Italia
+    latitude: '45.486974'
+    longitude: '12.415065'
+    place: Burano
+    time: '2008-09-09 17:59:40'
+  - country: Italia
+    latitude: '44.837369'
+    longitude: '11.612205'
+    place: Ferrara
+    time: '2008-09-09 23:01:22'
+tags:
+- Venecia
 title: Venecia y viaje a Ferrara
-date: 2008-09-09
+viaje:
+- Italia Norte
 ---
+
 Hoy ha sido un día largo, dedicado básicamente a Venecia.
 
 Cogimos todas las cosas e hicimos las maletas por la mañana porque ahora estamos en Ferrara, una ciudad sorprendentemente bonita y llena de bicicletas. Pero eso luego.

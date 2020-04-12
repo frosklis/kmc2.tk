@@ -1,16 +1,21 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-12 21:00:00
-featured_picture: '21332453136'
+featured_picture: 20120812-153210
 layout: post
 mapping:
   locations:
-  - {latitude: 56.4888866, longitude: 84.9525368}
-  - {country: Rusia, latitude: '56.454119', longitude: '84.951255', place: "\u041A\u0438\
-      \u0440\u043E\u0432\u0441\u043A\u0438\u0439 \u0420\u0430\u0439\u043E\u043D",
-    time: '2012-08-12 15:32:10'}
+  - latitude: 56.4888866
+    longitude: 84.9525368
+  - country: Rusia
+    latitude: '56.454119'
+    longitude: '84.951255'
+    place: Кировский Район
+    time: '2012-08-12 15:32:10'
 title: Tomsk
+viaje:
+- Transmongoliano
 ---
+
 Llegamos a Tomsk por la mañana, pero parece que el día no quería ir bien del todo y comenzó con emociones.
 
 Para llegar al centro, había que coger un bus. Salimos de la estación, cogimos uno de los indicados y cuando Claudio fue a pagar le preguntaron algo, a lo que él respondió: Lenina. El señor al parecer le preguntaba que en qué parada se bajaba y Claudio entendió que a qué parada quería ir. Con este malentendido, el señor le dijo que no (que esa no era lenina) y Claudio entendió que ese bus no iba a Lenina, pero como nosotros sabíamos que era una parada de esa línea, asumimos que lo habíamos cogido en sentido contrario.

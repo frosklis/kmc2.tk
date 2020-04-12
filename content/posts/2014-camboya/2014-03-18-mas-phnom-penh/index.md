@@ -1,4 +1,5 @@
 ---
+featured_picture: 20140318-115304
 viaje: [Camboya]
 date: 2014-03-18 20:00:10
 layout: post

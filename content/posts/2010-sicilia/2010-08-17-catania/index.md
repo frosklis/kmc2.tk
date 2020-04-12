@@ -1,14 +1,19 @@
 ---
 date: 2010-08-17
-viaje: [Sicilia]
-featured_picture: '24595466482'
+featured_picture: 20100817-120854
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '37.502469', longitude: '15.087222', place: Catania,
-    time: '2010-08-17 12:15:43'}
+  - country: Italia
+    latitude: '37.502469'
+    longitude: '15.087222'
+    place: Catania
+    time: '2010-08-17 12:15:43'
 title: Catania
+viaje:
+- Sicilia
 ---
+
 Hoy ha sido un día vacacional. Por la mañana fuimos a Catania, donde comimos.
 
 Catania es la segunda ciudad de Sicilia, es más grande que Messina. Incluso tiene equipo en la serie A del calcio. Como ciudad, mucho mejor que Messina. No tiene aspecto cutre, al contrario. Su catedral  y plaza son muy aparentes:

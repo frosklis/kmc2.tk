@@ -1,17 +1,25 @@
 ---
 date: 2015-09-03
-viaje: [Indonesia]
-featured_picture: '24125352280'
+featured_picture: 20150903-090806
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.379558', longitude: '116.401605', place: Selong,
-    time: '2015-09-03 06:25:31'}
-  - {country: Indonesia, latitude: '-8.365930', longitude: '116.398044', place: Mataram,
-    time: '2015-09-03 09:08:06'}
+  - country: Indonesia
+    latitude: '-8.379558'
+    longitude: '116.401605'
+    place: Selong
+    time: '2015-09-03 06:25:31'
+  - country: Indonesia
+    latitude: '-8.365930'
+    longitude: '116.398044'
+    place: Mataram
+    time: '2015-09-03 09:08:06'
 published: true
-tags: [Rinjani]
+tags:
+- Rinjani
 title: 'Gunung Rinjani: bajar sin piernas'
+viaje:
+- Indonesia
 ---
 
 Hoy nos hemos levantado congelados. El aislante de la tienda estaba levantado y en el campamento hacía frío... como añadido estábamos madrugando una hora más de lo necesario porque Justina necesitaba estar en Bangsal a las tres.

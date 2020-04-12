@@ -1,18 +1,28 @@
 ---
-viaje: [Centroeuropa]
-featured_picture: '27593971046'
+date: 2011-08-09
+featured_picture: 20110809-150404
 layout: post
 mapping:
   locations:
-  - {country: Hungary, latitude: '47.997928', longitude: '19.581803', time: '2011-08-09
-      10:11:13'}
-  - {country: Hungary, latitude: '47.794388', longitude: '18.979603', place: Visegrad,
-    time: '2011-08-09 14:51:12'}
-  - {country: Hungary, latitude: '47.489661', longitude: '19.067460', place: Budapest,
-    time: '2011-08-09 22:37:36'}
-title: "Höllóko, Danube Bend, Budapest"
-date: 2011-08-09
+  - country: Hungary
+    latitude: '47.997928'
+    longitude: '19.581803'
+    time: '2011-08-09 10:11:13'
+  - country: Hungary
+    latitude: '47.794388'
+    longitude: '18.979603'
+    place: Visegrad
+    time: '2011-08-09 14:51:12'
+  - country: Hungary
+    latitude: '47.489661'
+    longitude: '19.067460'
+    place: Budapest
+    time: '2011-08-09 22:37:36'
+title: Höllóko, Danube Bend, Budapest
+viaje:
+- Centroeuropa
 ---
+
 Salimos temprano rumbo a Höllóko, el “pueblo más bonito de Hungría”. Bonito es, no lo vamos a negar, pero si este pueblo es patrimonio de la humanidad hay unos cuantos en España que también deberían serlo.
 
 Llegamos tras hora y media de coche más o menos sobre las 10 de la mañana y vimos el castillo. El castillo, la verdad, mucho mejor que el de Spis. Unas vistas preciosas del paisaje de alrededor, sólo paisaje porque casas hay pocas. Estábamos amenizados por un grupo de jóvenes que se estaban metiendo en el papel (luchas con escudos, simulacros de boda en el castillo, etc). Después paseamos por el pueblo, que literalmente son dos calles. Un empedrado bonito y casas cuidadas todas decoradas de manera similar con flores delante de las casas. Bien, causa buena impresión. El castillo está muy bien así que igual se justifica el desvío. Un comentario a parte es que en general todo lo que estamos viendo por Hungría desde el coche está cuidado, las casas pintadas, los pueblos limpios, etc. Bien.

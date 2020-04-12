@@ -1,16 +1,24 @@
 ---
 date: 2010-08-15
-viaje: [Sicilia]
-featured_picture: '23809364654'
+featured_picture: 20100815-164039
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '37.851227', longitude: '15.297444', place: Taormina,
-    time: '2010-08-15 16:40:39'}
-  - {country: Italia, latitude: '37.850997', longitude: '15.289388', place: Taormina,
-    time: '2010-08-15 16:13:01'}
+  - country: Italia
+    latitude: '37.851227'
+    longitude: '15.297444'
+    place: Taormina
+    time: '2010-08-15 16:40:39'
+  - country: Italia
+    latitude: '37.850997'
+    longitude: '15.289388'
+    place: Taormina
+    time: '2010-08-15 16:13:01'
 title: Isola Bella
+viaje:
+- Sicilia
 ---
+
 Después de la mala experiencia del hotel de ayer, hoy lo primero que hicimos fue escapar de Messina e ir en busca de <a title="Agriturismo Case Perrotta" href="https://www.caseperrotta.it/">Case Perrotta</a>, donde pasaremos unos cuantos días. A Case Perrotta cuesta llegar, sobre todo porque el GPS no sabe muy bien donde está Sant'Alfio; afortunadamente Ceci tiene muy buen acento italiano y preguntó literalmente a una señora que estaba asomada al balcón de su casa. Muy de película italiana.
 
 La impresión de Case Perrotta es muy buena, es una especie de casa de campo en las faldas del Etna (al que subiremos mañana) con unos cuantos edificios conectados entre sí. Tienen un local muy grande donde hemos cenado mucho, muchísimo y unas pocas habitaciones sin grandes lujos pero grandes y limpias.

@@ -1,20 +1,34 @@
 ---
 date: 2010-08-14
-viaje: [Sicilia]
-featured_picture: '25913858071'
+featured_picture: 20100814-162916
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '38.115188', longitude: '13.311508', place: Palermo,
-    time: '2010-08-14 08:44:59'}
-  - {country: Italia, latitude: '38.037708', longitude: '14.019497', place: "Cefal\xFA",
-    time: '2010-08-14 16:29:16'}
-  - {country: Italia, latitude: '38.187219', longitude: '15.557455', place: Messina,
-    time: '2010-08-14 21:26:09'}
-  - {country: Italia, latitude: '38.037708', longitude: '14.019497', place: "Cefalú",
-    time: '2010-08-14 16:29:16'}
+  - country: Italia
+    latitude: '38.115188'
+    longitude: '13.311508'
+    place: Palermo
+    time: '2010-08-14 08:44:59'
+  - country: Italia
+    latitude: '38.037708'
+    longitude: '14.019497'
+    place: Cefalú
+    time: '2010-08-14 16:29:16'
+  - country: Italia
+    latitude: '38.187219'
+    longitude: '15.557455'
+    place: Messina
+    time: '2010-08-14 21:26:09'
+  - country: Italia
+    latitude: '38.037708'
+    longitude: '14.019497'
+    place: Cefalú
+    time: '2010-08-14 16:29:16'
 title: Ya estamos en Sicilia
+viaje:
+- Sicilia
 ---
+
 Hoy hemos tenido la primera experiencia siciliana. Ha sido todo un poco caótico.
 
 Todo empezó en el aeropuerto de Barajas. Los controladores tienen líos, total que nuestro avión salió tarde porque "había mala visibilidad"; el piloto estaba igual de cabreado que nosotros. Día despejado en Madrid, por supuesto. El avión era muy pequeñito, yo no podía ir erguido por el pasillo. Luego llegamos a Palermo, donde vimos como las maletas salían del avión delante de nosotros, aún así no pudimos cogerlas de la que salían de la bodega; pero tampoco tardaron mucho. Lo peor fue que literalmente se tardan 15 minutos en llegar desde la terminal hasta donde se recoge el coche.

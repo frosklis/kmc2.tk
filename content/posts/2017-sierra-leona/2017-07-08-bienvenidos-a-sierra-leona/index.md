@@ -1,4 +1,5 @@
 ---
+featured_picture: 20170708-113943
 viaje: [Sierra Leona]
 layout: post
 title: Bienvenidos a Sierra Leona

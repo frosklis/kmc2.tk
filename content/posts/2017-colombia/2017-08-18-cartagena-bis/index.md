@@ -1,10 +1,12 @@
 ---
-viaje: [Colombia]
 date: '2017-08-18'
-featured_picture: 35970900623
+featured_picture: 20170818-181242
 layout: post
 title: Cartagena bis
+viaje:
+- Colombia
 ---
+
 Para el día de hoy anunciaban rayos, lluvia, nubes, sol, viento y alerta naranja, así que decidimos no salir a explorar las playas de Barú y quedarnos en Cartagena, para poder atecharnos en caso de necesidad.
 
 Sobra decir que no llovió. En contra de las predicciones climatológicas de todas las webs que miramos, no llovió ni un día de nuestra estancia. ¡Como para fiarse!

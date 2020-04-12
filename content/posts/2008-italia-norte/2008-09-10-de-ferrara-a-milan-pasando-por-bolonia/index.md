@@ -1,18 +1,31 @@
 ---
-viaje: [Italia Norte]
-featured_picture: '23807510744'
+date: 2008-09-10
+featured_picture: 20080910-133952
 mapping:
   locations:
-  - {latitude: 45.4644613, longitude: 9.1892213, time: '2008-09-10 22:00:00'}
-  - {country: Italia, latitude: '44.837369', longitude: '11.612205', place: Ferrara,
-    time: '2008-09-10 11:20:12'}
-  - {country: Italia, latitude: '44.511686', longitude: '11.340637', place: Bolonia,
-    time: '2008-09-10 12:39:21'}
-  - {country: Italia, latitude: '44.511686', longitude: '11.340637', place: Bolonia,
-    time: '2008-09-10 13:40:00'}
-title: "De Ferrara a Milán pasando por Bolonia"
-date: 2008-09-10
+  - latitude: 45.4644613
+    longitude: 9.1892213
+    time: '2008-09-10 22:00:00'
+  - country: Italia
+    latitude: '44.837369'
+    longitude: '11.612205'
+    place: Ferrara
+    time: '2008-09-10 11:20:12'
+  - country: Italia
+    latitude: '44.511686'
+    longitude: '11.340637'
+    place: Bolonia
+    time: '2008-09-10 12:39:21'
+  - country: Italia
+    latitude: '44.511686'
+    longitude: '11.340637'
+    place: Bolonia
+    time: '2008-09-10 13:40:00'
+title: De Ferrara a Milán pasando por Bolonia
+viaje:
+- Italia Norte
 ---
+
 Ya estamos volviendo a casa, mañana nos vamos. Hoy nos hemos levantado en Ferrara, hemos comido en Bolonia y hemos cenado en Milán. Básicamente ha sido un día de viaje, no hay mucho que contar.
 
 Aquí está el castillo de Ferrara, que tanto nos impresionó ayer por la noche.

@@ -1,22 +1,37 @@
 ---
 date: 2011-08-16
-viaje: [Centroeuropa]
-featured_picture: '24329484492'
+featured_picture: 20110816-143519
 layout: post
 mapping:
   locations:
-  - {latitude: 50.1873969, longitude: 12.7568086}
-  - {latitude: 50.2318521, longitude: 12.8719616}
-  - {latitude: 49.9395043, longitude: 14.1880461}
-  - {latitude: 50.0755381, longitude: 14.4378005}
-  - {country: Czech Republic, latitude: '50.229565', longitude: '12.873976', place: Carlsbad,
-    time: '2011-08-16 11:12:08'}
-  - {country: Czech Republic, latitude: '50.187031', longitude: '12.754320', place: Loket,
-    time: '2011-08-16 14:29:53'}
-  - {country: Czech Republic, latitude: '50.087051', longitude: '14.421246', place: Prague,
-    time: '2011-08-16 22:00:16'}
+  - latitude: 50.1873969
+    longitude: 12.7568086
+  - latitude: 50.2318521
+    longitude: 12.8719616
+  - latitude: 49.9395043
+    longitude: 14.1880461
+  - latitude: 50.0755381
+    longitude: 14.4378005
+  - country: Czech Republic
+    latitude: '50.229565'
+    longitude: '12.873976'
+    place: Carlsbad
+    time: '2011-08-16 11:12:08'
+  - country: Czech Republic
+    latitude: '50.187031'
+    longitude: '12.754320'
+    place: Loket
+    time: '2011-08-16 14:29:53'
+  - country: Czech Republic
+    latitude: '50.087051'
+    longitude: '14.421246'
+    place: Prague
+    time: '2011-08-16 22:00:16'
 title: Karlovy Vary, Loket Nad Ohre, Karlstejn y Praga
+viaje:
+- Centroeuropa
 ---
+
 El día empezó sin dinero, necesitábamos cambiar urgentemente. Eso nos retrasó e hizo que saliéramos tarde. La oficina de turismo, que también cambia dinero, abría a las 9, pero la chica del cambio era de fuera de Plzen “así que llega a las nueve y veinte”: tal cual.
 
 Rumbo a Karlovy Vary. Resumen: Karlovy Vary es una pasada. Tienen aguas termales, es una ciudad balneario a la que llevan yendo aristócratas ricos muchos años. El agua termal sale realmente caliente, tienen unas fuentes en la ciudad por las que sale agua a yo diría unos 50ºC, realmente caliente. Además de una o dos calles con tiendas muy caras, de firmas de moda tipo Chanel, hoteles buenos, es la sede de los famosos cristales Moser, usados por muchas casas reales. También vimos (por fuera) el hotel Kupp, que era el casino en la película Casino Royale de James Bond. Hay tanta pasta en el lugar que se les está llenando de rusos, y la mejor prueba es la cantidad de carteles en ruso que hay.

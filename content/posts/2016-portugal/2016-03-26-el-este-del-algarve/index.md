@@ -1,32 +1,64 @@
 ---
 date: 2016-03-26
-viaje: [Portugal]
-featured_picture: '26374822722'
+featured_picture: 20160326-130104
 layout: post
 mapping:
   locations:
-  - {country: Portugal, latitude: '37.027443', longitude: '-8.022153', place: Quinta
-      do Lago, time: '2016-03-26 12:06:08'}
-  - {country: Portugal, latitude: '37.138366', longitude: '-8.022591', place: "Loulé",
-    time: '2016-03-26 13:01:04'}
-  - {country: Portugal, latitude: '37.194502', longitude: '-7.415330', place: "Vila\
-      \ Real de Santo António", time: '2016-03-26 15:13:14'}
-  - {country: Portugal, latitude: '37.157026', longitude: '-7.546466', place: Muro,
-    time: '2016-03-26 16:07:19'}
-  - {country: Portugal, latitude: '37.126666', longitude: '-7.650833', place: Tavira,
-    time: '2016-03-26 17:01:11'}
-  - {country: Portugal, latitude: '37.016388', longitude: '-7.934722', place: "Faro-Sã\
-      o Pedro", time: '2016-03-26 20:07:20'}
-  - {country: Portugal, latitude: '37.138366', longitude: '-8.022591', place: Loule,
-    time: '2016-03-26 13:01:04'}
-  - {country: Portugal, latitude: '37.194502', longitude: '-7.415330', place: Vila
-      Real De Santo Antonio, time: '2016-03-26 15:13:14'}
-  - {country: Portugal, latitude: '37.126666', longitude: '-7.650833', place: Tavira
-      Municipality, time: '2016-03-26 17:01:11'}
-  - {country: Portugal, latitude: '37.016388', longitude: '-7.934722', place: Faro-Sao
-      Pedro, time: '2016-03-26 20:07:20'}
+  - country: Portugal
+    latitude: '37.027443'
+    longitude: '-8.022153'
+    place: Quinta do Lago
+    time: '2016-03-26 12:06:08'
+  - country: Portugal
+    latitude: '37.138366'
+    longitude: '-8.022591'
+    place: Loulé
+    time: '2016-03-26 13:01:04'
+  - country: Portugal
+    latitude: '37.194502'
+    longitude: '-7.415330'
+    place: Vila Real de Santo António
+    time: '2016-03-26 15:13:14'
+  - country: Portugal
+    latitude: '37.157026'
+    longitude: '-7.546466'
+    place: Muro
+    time: '2016-03-26 16:07:19'
+  - country: Portugal
+    latitude: '37.126666'
+    longitude: '-7.650833'
+    place: Tavira
+    time: '2016-03-26 17:01:11'
+  - country: Portugal
+    latitude: '37.016388'
+    longitude: '-7.934722'
+    place: Faro-São Pedro
+    time: '2016-03-26 20:07:20'
+  - country: Portugal
+    latitude: '37.138366'
+    longitude: '-8.022591'
+    place: Loule
+    time: '2016-03-26 13:01:04'
+  - country: Portugal
+    latitude: '37.194502'
+    longitude: '-7.415330'
+    place: Vila Real De Santo Antonio
+    time: '2016-03-26 15:13:14'
+  - country: Portugal
+    latitude: '37.126666'
+    longitude: '-7.650833'
+    place: Tavira Municipality
+    time: '2016-03-26 17:01:11'
+  - country: Portugal
+    latitude: '37.016388'
+    longitude: '-7.934722'
+    place: Faro-Sao Pedro
+    time: '2016-03-26 20:07:20'
 title: El este del Algarve
+viaje:
+- Portugal
 ---
+
 Hoy hemos visto más cosas que ayer, pero no porque ayer fuéramos vagos y hoy rápidos sino porque ahorramos mucho tiempo en dos: comer y coche. Comer porque comimos a base de bocadillos y coche porque la distancia recorrida ha sido menor. Pero empecemos por el principio.
 
 Íbamos a ir a Almancil, parar y verlo, pero desde el coche el pueblo no nos gustó nada, así que no lo hicimos y nos desviamos a Quinta do Lago. Quinta do Lago es una zona residencial de chalés y country clubs con muy buena pinta donde tienen casa los ricos, sobre todo ingleses. Lo de muy buena pinta no es sólo que se vea que las casas son grandes y que estén todos los jardines bien cuidados. También contribuye el hecho de que las casas son al estilo americano o inglés: sin muros o con una valla muy baja. Esto en España no es así (y yo creo que sería impensable), pero da un aspecto más acogedor. Fuimos después a ver la playa, que está separada del continente por la Ría Formosa; no sé si realmente la ría tiene agua en algún momento (diría que sí) pero en cualquier caso hoy sólo se veía el fondo del mar.

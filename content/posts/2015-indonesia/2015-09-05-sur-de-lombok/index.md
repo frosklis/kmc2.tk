@@ -1,14 +1,16 @@
 ---
 date: 2015-09-05
-viaje: [Indonesia]
-featured_picture: '24312480832'
+featured_picture: 20150905-180600
 layout: post
 mapping:
   locations:
-  - {latitude: -8.893017, longitude: 116.2758033}
+  - latitude: -8.893017
+    longitude: 116.2758033
 published: true
 tags: []
 title: Sur de Lombok
+viaje:
+- Indonesia
 ---
 
 Hoy hemos alquilado un coche para recorrer un poco el sur de Lombok. En el hotel nos alquilaron el coche de uno de los empleados (sin ningún tipo de contrato de por medio). Al principio nos daba un poco de miedo porque habíamos leído que más de un turista se ha llevado un disgusto en Lombok con el medio de transporte (motos desaparecidas por las que luego te quieren cobrar una millonada, ruedas misteriosamente pinchadas...) por lo que pudimos investigar la mayoría de estos casos eran en personas que no querían pagar el ticket de parking de las playas locales.

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20090828-164526
 viaje: ["Turquía"]
 date: 2009-08-28 23:00:00
 layout: post

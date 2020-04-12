@@ -1,37 +1,68 @@
 ---
-viaje: [Centroeuropa]
 date: 2011-08-14 13:00:00
-featured_picture: '24329442642'
+featured_picture: 20110814-145743
 layout: post
 mapping:
   locations:
-  - {latitude: 48.2081743, longitude: 16.3738189}
-  - {latitude: 48.2076579, longitude: 16.3660538}
-  - {latitude: 48.205212, longitude: 16.3598451}
-  - {latitude: 48.2080884, longitude: 16.3586083}
-  - {latitude: 48.207246, longitude: 16.3624783}
-  - {latitude: 48.2108685, longitude: 16.3572486}
-  - {latitude: 48.2154012, longitude: 16.3590821}
-  - {latitude: 48.2081743, longitude: 16.3738189}
-  - {latitude: 48.2120161, longitude: 16.374395}
-  - {latitude: 48.2094417, longitude: 16.3700386}
-  - {latitude: 48.2084114, longitude: 16.3734707}
-  - {latitude: 48.2066157, longitude: 16.38201}
-  - {latitude: 48.1993241, longitude: 16.3757741}
-  - {latitude: 48.1982453, longitude: 16.3718284}
-  - {latitude: 48.2081743, longitude: 16.3738189}
-  - {latitude: 48.2081743, longitude: 16.3738189}
-  - {latitude: 48.2040577, longitude: 16.3653614}
-  - {country: Austria, latitude: '48.208411', longitude: '16.360188', place: Vienna,
-    time: '2011-08-14 11:04:24'}
-  - {country: Austria, latitude: '48.214556', longitude: '16.360590', place: Vienna,
-    time: '2011-08-14 12:14:22'}
-  - {country: Austria, latitude: '48.204348', longitude: '16.380033', place: Vienna,
-    time: '2011-08-14 16:29:13'}
-  - {country: Austria, latitude: '48.209386', longitude: '16.369475', place: Vienna,
-    time: '2011-08-14 14:57:43'}
+  - latitude: 48.2081743
+    longitude: 16.3738189
+  - latitude: 48.2076579
+    longitude: 16.3660538
+  - latitude: 48.205212
+    longitude: 16.3598451
+  - latitude: 48.2080884
+    longitude: 16.3586083
+  - latitude: 48.207246
+    longitude: 16.3624783
+  - latitude: 48.2108685
+    longitude: 16.3572486
+  - latitude: 48.2154012
+    longitude: 16.3590821
+  - latitude: 48.2081743
+    longitude: 16.3738189
+  - latitude: 48.2120161
+    longitude: 16.374395
+  - latitude: 48.2094417
+    longitude: 16.3700386
+  - latitude: 48.2084114
+    longitude: 16.3734707
+  - latitude: 48.2066157
+    longitude: 16.38201
+  - latitude: 48.1993241
+    longitude: 16.3757741
+  - latitude: 48.1982453
+    longitude: 16.3718284
+  - latitude: 48.2081743
+    longitude: 16.3738189
+  - latitude: 48.2081743
+    longitude: 16.3738189
+  - latitude: 48.2040577
+    longitude: 16.3653614
+  - country: Austria
+    latitude: '48.208411'
+    longitude: '16.360188'
+    place: Vienna
+    time: '2011-08-14 11:04:24'
+  - country: Austria
+    latitude: '48.214556'
+    longitude: '16.360590'
+    place: Vienna
+    time: '2011-08-14 12:14:22'
+  - country: Austria
+    latitude: '48.204348'
+    longitude: '16.380033'
+    place: Vienna
+    time: '2011-08-14 16:29:13'
+  - country: Austria
+    latitude: '48.209386'
+    longitude: '16.369475'
+    place: Vienna
+    time: '2011-08-14 14:57:43'
 title: Viena
+viaje:
+- Centroeuropa
 ---
+
 Hicimos todo lo que pudimos en Viena en un día. No entramos en ningún museo, pero nos tumbamos en muchos parques, tomamos Sachertorte en el Sacher e incluso vimos ópera en la plaza del ayuntamiento. Ceci ahora contará más, que se lo sabe mejor porque ya había estado, pero mi impresión de Viena fue mejorando a lo largo del día. Viena es una ciudad hecha para impresionar, con unos edificios absolutamente imponentes, muy regios, claramente es una capital digna de un imperio; y además al mismo tiempo es una ciudad con muchos parques en los que esparcir, no muy grandes  pero sí muy abundantes y agradables. También tiene una buena zona peatonal con muy buenas tiendas. Y es más barata que Madrid.
 
 {{% imgproc 27554980701 %}}

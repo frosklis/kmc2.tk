@@ -1,23 +1,41 @@
 ---
 date: 2011-08-17
-viaje: [Centroeuropa]
-featured_picture: '25418024581'
+featured_picture: 20110817-151246
 layout: post
 mapping:
   locations:
-  - {latitude: 50.0870215, longitude: 14.4207065}
-  - {country: Czech Republic, latitude: '50.075071', longitude: '14.419545', place: Prague,
-    time: '2011-08-17 10:22:37'}
-  - {country: Czech Republic, latitude: '50.092083', longitude: '14.404255', place: Prague,
-    time: '2011-08-17 18:29:21'}
-  - {country: Czech Republic, latitude: '50.090178', longitude: '14.420936', place: Prague,
-    time: '2011-08-17 13:39:17'}
-  - {country: Czech Republic, latitude: '50.086361', longitude: '14.407738', place: Prague,
-    time: '2011-08-17 15:12:44'}
-  - {country: Czech Republic, latitude: '50.083825', longitude: '14.413313', place: Prague,
-    time: '2011-08-17 20:43:42'}
+  - latitude: 50.0870215
+    longitude: 14.4207065
+  - country: Czech Republic
+    latitude: '50.075071'
+    longitude: '14.419545'
+    place: Prague
+    time: '2011-08-17 10:22:37'
+  - country: Czech Republic
+    latitude: '50.092083'
+    longitude: '14.404255'
+    place: Prague
+    time: '2011-08-17 18:29:21'
+  - country: Czech Republic
+    latitude: '50.090178'
+    longitude: '14.420936'
+    place: Prague
+    time: '2011-08-17 13:39:17'
+  - country: Czech Republic
+    latitude: '50.086361'
+    longitude: '14.407738'
+    place: Prague
+    time: '2011-08-17 15:12:44'
+  - country: Czech Republic
+    latitude: '50.083825'
+    longitude: '14.413313'
+    place: Prague
+    time: '2011-08-17 20:43:42'
 title: Praga
+viaje:
+- Centroeuropa
 ---
+
 Nos levantamos y bajamos a desayunar. Buen desayuno aunque a Claudio le gustó más el de Budapest; en este teníamos una cubertería y vajilla mucho mejor, camareros que te atienden con guantes blancos y si querías, te hacían tortilla o pancakes por encargo. Hasta quitaron lo que tenían puesto en la tele para ponernos un vídeo informativo sobre Praga.
 
 Fuimos dando una vuelta hasta el punto de encuentro del tour gratuito, pasando por la Plaza de Carlos IV, el parque de Carlos IV y la iglesia jesuita. Inicialmente íbamos a los bancos que traía la guía como lugares recomendados para cambiar dinero (ayer nos fijamos que el cambio estaba fatal en el centro de la ciudad, especialmente en los establecimientos particulares), vimos uno de los bancos, pero el cambio no era mucho mejor, así que como íbamos justos de tiempo, decidimos dejar la búsqueda para más tarde e ir al tour.

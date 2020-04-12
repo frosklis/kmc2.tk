@@ -1,21 +1,31 @@
 ---
-viaje: [Indonesia]
-featured_picture: '23808040833'
+date: 2015-08-26
+featured_picture: 20150826-102019
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.529868', longitude: '115.510998', time: '2015-08-26
-      15:44:45'}
-  - {country: Indonesia, latitude: '-8.594841', longitude: '115.345321', place: Blahbatu,
-    time: '2015-08-26 16:39:11'}
-  - {country: Indonesia, latitude: '-8.379447', longitude: '115.447386', time: '2015-08-26
-      10:21:01'}
-  - {country: Indonesia, latitude: '-8.379447', longitude: '115.447386', time: '2015-08-26
-      10:32:40'}
+  - country: Indonesia
+    latitude: '-8.529868'
+    longitude: '115.510998'
+    time: '2015-08-26 15:44:45'
+  - country: Indonesia
+    latitude: '-8.594841'
+    longitude: '115.345321'
+    place: Blahbatu
+    time: '2015-08-26 16:39:11'
+  - country: Indonesia
+    latitude: '-8.379447'
+    longitude: '115.447386'
+    time: '2015-08-26 10:21:01'
+  - country: Indonesia
+    latitude: '-8.379447'
+    longitude: '115.447386'
+    time: '2015-08-26 10:32:40'
 published: true
 tags: []
 title: Besakih, Sidemen, Padang Bai
-date: 2015-08-26
+viaje:
+- Indonesia
 ---
 
 Cuando Putu (dueña del hotel) se enteró de que íbamos a Besakih, el templo más grande de Bali, nos dijo dos cosas: qué bonito y qué lejos. Como todo en Indonesia, no está lejos en distancia, pero llegar nos llevó dos horas.

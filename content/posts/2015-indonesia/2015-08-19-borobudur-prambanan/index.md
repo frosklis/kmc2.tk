@@ -1,15 +1,21 @@
 ---
 date: 2015-08-19
-viaje: [Indonesia]
-featured_picture: '21271759256'
+featured_picture: 20150819-063151
 layout: post
 mapping:
   locations:
-  - {latitude: -7.607803, longitude: 110.2032794}
-  - {latitude: -7.752032, longitude: 110.4909198}
-  - {country: Indonesia, latitude: '-7.798827', longitude: '110.365669', place: Jogonegaran,
-    time: '2015-08-18 15:28:50'}
+  - latitude: -7.607803
+    longitude: 110.2032794
+  - latitude: -7.752032
+    longitude: 110.4909198
+  - country: Indonesia
+    latitude: '-7.798827'
+    longitude: '110.365669'
+    place: Jogonegaran
+    time: '2015-08-18 15:28:50'
 title: Borobudur, Prambanan
+viaje:
+- Indonesia
 ---
 
 A las 5 (sí, las cinco de la mañana) nos recogió un señor en furgoneta para empezar nuestro tour. Tuvimos la suerte de que tres de los que venían con nosotros cancelaron el suyo, así que fuimos cómodos todo el viaje con Daniel, un americano de Los Angeles que vive en Seattle.

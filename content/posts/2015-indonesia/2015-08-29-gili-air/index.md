@@ -1,17 +1,24 @@
 ---
 date: 2015-08-29
-viaje: [Indonesia]
-featured_picture: '23794618133'
+featured_picture: 20150829-160356
 layout: post
 mapping:
   locations:
-  - {country: Indonesia, latitude: '-8.363272', longitude: '116.082841', place: Pawenang,
-    time: '2015-08-29 16:04:36'}
-  - {country: Indonesia, latitude: '-8.363272', longitude: '116.082841', place: Pawenang,
-    time: '2015-08-29 16:39:11'}
+  - country: Indonesia
+    latitude: '-8.363272'
+    longitude: '116.082841'
+    place: Pawenang
+    time: '2015-08-29 16:04:36'
+  - country: Indonesia
+    latitude: '-8.363272'
+    longitude: '116.082841'
+    place: Pawenang
+    time: '2015-08-29 16:39:11'
 published: true
 tags: []
 title: Gili Air
+viaje:
+- Indonesia
 ---
 
 Hoy nos han recogido los de la compañía de barco a las Gili a las 7:20 en el hotel (en realidad llegaron una hora tarde como buenos indonesios) y nos llevaron a PadangBai. Allí cogimos nuestro barco a las Gili. El trayecto es de 1:30 horas hasta Gili Tawangaran y otros 10 minutos hasta Gili Air, nuestro destino.

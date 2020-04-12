@@ -1,10 +1,12 @@
 ---
-viaje: [Colombia]
 date: '2017-08-15'
-featured_picture: 36727014205
+featured_picture: 20170815-182645
 layout: post
 title: Islas del Rosario
+viaje:
+- Colombia
 ---
+
 Contratamos a través del hotel un tour a Islas Rosario, un archipiélago a unos 50 minutos en lancha de Cartagena. De todas las islas sólo tres pertenecen al gobierno y el resto son privadas, ocupadas por resorts que cobran noches estratosféricas y fletan turistas durante el día para disfrutar de las playas.
 
 {{% imgproc 35945252744 %}}

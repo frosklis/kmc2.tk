@@ -1,4 +1,5 @@
 ---
+featured_picture: 20181001-110111
 viaje: [Australia]
 date: '2018-10-01'
 title: Daintree

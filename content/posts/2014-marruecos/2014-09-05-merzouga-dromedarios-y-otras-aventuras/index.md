@@ -1,15 +1,21 @@
 ---
 date: 2014-09-05
-viaje: [Marruecos]
-featured_picture: '20678078063'
+featured_picture: 20140905-070106
 layout: post
 mapping:
   locations:
-  - {country: Marruecos, latitude: '31.147918', longitude: '-4.018101', place: Adrouine,
-    time: '2014-09-04 18:28:30'}
-tags: [desierto]
+  - country: Marruecos
+    latitude: '31.147918'
+    longitude: '-4.018101'
+    place: Adrouine
+    time: '2014-09-04 18:28:30'
+tags:
+- desierto
 title: 'Merzouga: dromedarios y otras aventuras'
+viaje:
+- Marruecos
 ---
+
 A las 6 de la tarde Alí nos llevó en coche con nuestro guía, Omar, para empezar nuestro tour en dromedario. Nos recomendó que lleváramos ropa de manga larga y un buen pañuelo por si había tormenta (cosa que en su momento me pareció una exageración).
 
 Con las alforjas bien cargadas salimos en dirección al campamento que tiene Alí montado a una hora y media del pueblo. Tuvimos la gran suerte de ser los únicos que habían contratado el tour hoy así que teníamos el desierto y el guía para nosotros solos. Habíamos leído en varios sitios que las dunas de Erg Chebbi estaban masificadas, "las dunas CocaCola" las había llamado un guía. Para nosotros esa no fue la experiencia, apenas vimos un par de grupos más en la distancia y el resto, paz y tranquilidad.

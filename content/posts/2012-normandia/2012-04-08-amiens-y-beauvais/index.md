@@ -1,21 +1,37 @@
 ---
-viaje: ["Normandía"]
-featured_picture: 20121408-153152
 date: 2012-04-08
+featured_picture: 20120408-153152
 layout: post
 mapping:
   locations:
-  - {country: Francia, latitude: '49.916688', longitude: '0.982025', place: Les Haut
-      de Blancmesnil, time: '2012-04-08 10:28:28'}
-  - {country: Francia, latitude: '49.430377', longitude: '2.081300', place: Beauvais,
-    time: '2012-04-08 12:57:31'}
-  - {country: Francia, latitude: '49.894655', longitude: '2.301905', place: Amiens,
-    time: '2012-04-08 15:31:52'}
-  - {country: Francia, latitude: '49.877341', longitude: '0.799138', place: Veules-les-Roses,
-    time: '2012-04-08 18:41:10'}
-tags: [Beauvais, Amiens]
+  - country: Francia
+    latitude: '49.916688'
+    longitude: '0.982025'
+    place: Les Haut de Blancmesnil
+    time: '2012-04-08 10:28:28'
+  - country: Francia
+    latitude: '49.430377'
+    longitude: '2.081300'
+    place: Beauvais
+    time: '2012-04-08 12:57:31'
+  - country: Francia
+    latitude: '49.894655'
+    longitude: '2.301905'
+    place: Amiens
+    time: '2012-04-08 15:31:52'
+  - country: Francia
+    latitude: '49.877341'
+    longitude: '0.799138'
+    place: Veules-les-Roses
+    time: '2012-04-08 18:41:10'
+tags:
+- Beauvais
+- Amiens
 title: Amiens y Beauvais
+viaje:
+- Normandía
 ---
+
 Seguimos vivos. El sitio por cierto se llama Les Joncs Marins. Cuando bajamos a desayunar ya estaba todo preparado sin rencor aparente, dos platos mirando al jardín (de 3 hectáreas) en el comedor separado de la casa. Cuando estábamos a punto de terminar, llegó Claude Anne y sacó un montón de folletos, planos, guías, tarjetas de restaurantes y nos dio un planning para el día.
 
 Modificamos un poco nuestro itinerario planeado para hacerle caso y fuimos primero a Varengeville sur mer, un pueblecito encantador de casas típicas (muy distintas a las de Baja Normandía por cierto) con una iglesia de vidrieras modernas bonitas y una localización privilegiada en un acantilado. Nos acercamos también a ver la mansión Ango, que vimos desde fuera porque nos había dicho la señora que no merecía la pena. 

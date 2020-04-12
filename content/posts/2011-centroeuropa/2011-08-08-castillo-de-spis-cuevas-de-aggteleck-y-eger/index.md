@@ -1,16 +1,24 @@
 ---
 date: 2011-08-08
-viaje: [Centroeuropa]
-featured_picture: '27015946564'
+featured_picture: 20110808-134005
 layout: post
 mapping:
   locations:
-  - {country: Hungary, latitude: '48.471745', longitude: '20.495715', place: Aggtelek,
-    time: '2011-08-08 13:40:05'}
-  - {country: Hungary, latitude: '47.903380', longitude: '20.378826', place: Erlau,
-    time: '2011-08-08 17:31:30'}
+  - country: Hungary
+    latitude: '48.471745'
+    longitude: '20.495715'
+    place: Aggtelek
+    time: '2011-08-08 13:40:05'
+  - country: Hungary
+    latitude: '47.903380'
+    longitude: '20.378826'
+    place: Erlau
+    time: '2011-08-08 17:31:30'
 title: Castillo de Spis, Cuevas de Aggteleck y Eger
+viaje:
+- Centroeuropa
 ---
+
 Hoy no hemos madrugado porque el castillo de Spis empezaba las visitas a las 9. Desayunamos en la habitación del hotel y fuimos al castillo.
 
 La colina del castillo de Spis ya estaba habitada en el siglo V aC, pasó por manos de todos los reyes y tiranos de la zona y es el complejo más grande de la región, entre los más grandes de Europa. Es Patrimonio de la Unesco desde 1993. Cogimos unas audioguías e hicimos el recorrido sugerido; estaba entretenido porque además de contarte la historia, añadían opcionales algunas leyendas. Yo no recomendaría que uno se desviase para ver el castillo. No es que esté mal, pero está todo demasiado en ruinas... será que estamos mal acostumbrados, pero no nos impresionó mucho.

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20180922-155700
 viaje: [Australia]
 date: '2018-09-22'
 title: Hacia la Great Ocean Road

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20130826-152903
 viaje: [Croacia]
 date: 2013-08-26 23:00:03
 layout: post

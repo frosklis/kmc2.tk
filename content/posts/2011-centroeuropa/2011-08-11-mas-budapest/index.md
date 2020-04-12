@@ -1,21 +1,35 @@
 ---
 date: 2011-08-11
-viaje: [Centroeuropa]
-featured_picture: '27532232102'
+featured_picture: 20110811-101915
 layout: post
 mapping:
   locations:
-  - {latitude: 47.5071207, longitude: 19.0456688}
-  - {latitude: 47.5023351, longitude: 19.0633949}
-  - {country: Hungary, latitude: '47.506788', longitude: '19.046058', place: Budapest,
-    time: '2011-08-11 10:19:15'}
-  - {country: Hungary, latitude: '47.507500', longitude: '19.045555', place: Budapest,
-    time: '2011-08-11 10:35:28'}
-  - {country: Hungary, latitude: '47.496171', longitude: '19.060956', place: Budapest,
-    time: '2011-08-11 16:31:54'}
-tags: [Budapest]
-title: "Más Budapest"
+  - latitude: 47.5071207
+    longitude: 19.0456688
+  - latitude: 47.5023351
+    longitude: 19.0633949
+  - country: Hungary
+    latitude: '47.506788'
+    longitude: '19.046058'
+    place: Budapest
+    time: '2011-08-11 10:19:15'
+  - country: Hungary
+    latitude: '47.507500'
+    longitude: '19.045555'
+    place: Budapest
+    time: '2011-08-11 10:35:28'
+  - country: Hungary
+    latitude: '47.496171'
+    longitude: '19.060956'
+    place: Budapest
+    time: '2011-08-11 16:31:54'
+tags:
+- Budapest
+title: Más Budapest
+viaje:
+- Centroeuropa
 ---
+
 Hoy nos levantamos pronto porque teníamos planes para cada minuto: bajar a desayunar, ir al coche  a por la mochila, imprimir la reserva del Parlamento, conseguir un papelito con el texto “hola, necesito 4 fotos de carnet ¿podría enviármelas a esta dirección de correo electrónico?” en húngaro... y prueba conseguida (lo de la foto era porque acababa de recibir un email de Bélgica en la que la coordinadora erasmus me pedía una foto de carnet para esa semana). La chica de recepción fue muy amable y nos ayudó con todo.
 
 Salimos del hotel y fuimos a la tienda de fotos, pero estaba cerrada, casi mejor porque llegábamos algo justos para la visita del Parlamento. Había cola, pero nos la pudimos saltar porque teníamos reserva. Mientras Claudio pasaba la zona vigilada por los policías a sacar las entradas de los dos, yo me quedé fuera viendo un pequeño show que luego descubrimos que era el ensayo del paseo de las banderas y el saludo al Primer Ministro húngaro, que iba  a dar un discurso en el Parlamento en septiembre. La visita guiada estuvo bien, yo me la esperaba tal y como fue porque me había leído las guías, pero a Claudio le decepcionó porque se esperaba que nos enseñasen más.

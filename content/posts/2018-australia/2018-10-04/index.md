@@ -1,4 +1,5 @@
 ---
+featured_picture: 20181004-110712
 viaje: [Australia]
 date: '2018-10-04'
 title: Sydney, museos

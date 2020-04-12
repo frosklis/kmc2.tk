@@ -1,4 +1,5 @@
 ---
+featured_picture: 20181002-135715
 viaje: [Australia]
 date: '2018-10-02'
 title: Conociendo Daintree

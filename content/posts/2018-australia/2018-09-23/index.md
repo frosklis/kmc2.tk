@@ -1,4 +1,5 @@
 ---
+featured_picture: 20180923-154723
 viaje: [Australia]
 date: '2018-09-23'
 title: Great Ocean Road (I)

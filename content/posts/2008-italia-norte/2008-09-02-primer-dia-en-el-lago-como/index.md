@@ -1,18 +1,29 @@
 ---
-viaje: [Italia Norte]
 date: 2008-09-02 13:00:00
-featured_picture: '23807387964'
+featured_picture: 20080902-175055
 layout: post
 mapping:
   locations:
-  - {country: Italia, latitude: '45.630605', longitude: '8.721771', place: Aeroporto
-      Malpensa, time: '2008-09-02 10:10:17'}
-  - {country: Italia, latitude: '45.860944', longitude: '9.099537', place: Moltrasio,
-    time: '2008-09-02 15:50:55'}
-  - {country: Italia, latitude: '45.858545', longitude: '9.113245', place: Torno,
-    time: '2008-09-02 17:01:48'}
-tags: [Como]
-title: "Primer día en el lago Como"
+  - country: Italia
+    latitude: '45.630605'
+    longitude: '8.721771'
+    place: Aeroporto Malpensa
+    time: '2008-09-02 10:10:17'
+  - country: Italia
+    latitude: '45.860944'
+    longitude: '9.099537'
+    place: Moltrasio
+    time: '2008-09-02 15:50:55'
+  - country: Italia
+    latitude: '45.858545'
+    longitude: '9.113245'
+    place: Torno
+    time: '2008-09-02 17:01:48'
+tags:
+- Como
+title: Primer día en el lago Como
+viaje:
+- Italia Norte
 ---
 
 Hoy empezamos el día en Madrid y ahora estamos en el lago Como. Buen cambio.

@@ -1,27 +1,51 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-17 21:00:00
-featured_picture: '24215769359'
+featured_picture: 20120817-130936
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '53.392619', longitude: '107.727786', place: Zama,
-    time: '2012-08-17 11:56:06'}
-  - {country: Rusia, latitude: '53.393472', longitude: '107.729555', place: Zama,
-    time: '2012-08-17 12:03:36'}
-  - {country: Rusia, latitude: '53.392590', longitude: '107.728798', place: Zama,
-    time: '2012-08-17 11:54:41'}
-  - {country: Rusia, latitude: '53.405596', longitude: '107.782095', place: Zama,
-    time: '2012-08-17 13:37:41'}
-  - {country: Rusia, latitude: '53.286160', longitude: '107.583250', place: Kharantsy
-      Airport, time: '2012-08-17 11:10:40'}
-  - {country: Rusia, latitude: '53.393716', longitude: '107.729608', place: Zama,
-    time: '2012-08-17 12:06:43'}
-  - {country: Rusia, latitude: '53.411523', longitude: '107.790371', place: Zama,
-    time: '2012-08-17 13:09:36'}
-tags: [Baikal]
+  - country: Rusia
+    latitude: '53.392619'
+    longitude: '107.727786'
+    place: Zama
+    time: '2012-08-17 11:56:06'
+  - country: Rusia
+    latitude: '53.393472'
+    longitude: '107.729555'
+    place: Zama
+    time: '2012-08-17 12:03:36'
+  - country: Rusia
+    latitude: '53.392590'
+    longitude: '107.728798'
+    place: Zama
+    time: '2012-08-17 11:54:41'
+  - country: Rusia
+    latitude: '53.405596'
+    longitude: '107.782095'
+    place: Zama
+    time: '2012-08-17 13:37:41'
+  - country: Rusia
+    latitude: '53.286160'
+    longitude: '107.583250'
+    place: Kharantsy Airport
+    time: '2012-08-17 11:10:40'
+  - country: Rusia
+    latitude: '53.393716'
+    longitude: '107.729608'
+    place: Zama
+    time: '2012-08-17 12:06:43'
+  - country: Rusia
+    latitude: '53.411523'
+    longitude: '107.790371'
+    place: Zama
+    time: '2012-08-17 13:09:36'
+tags:
+- Baikal
 title: Cabo Khoboy
+viaje:
+- Transmongoliano
 ---
+
 Hoy ha sido un día redondo. El resumen corto es que hemos ido al cabo Khoboy y que en el camino hemos conocido a dos parejas muy majas, una de alemanes de la zona del lago Constanza y otra de rusos de Vladivostok.
 
 Esta vez como habíamos reservado y pagado el tour, las posibilidades de hacer la excursión eran más altas. Llegamos allí y efectivamente nos organizaron por buses y allá que íbamos. Hemos observado que los mongoloides parecen estar siempre de mal humor.

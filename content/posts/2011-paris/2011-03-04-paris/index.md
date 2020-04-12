@@ -1,4 +1,5 @@
 ---
+featured_picture: 20110304-184756
 viaje: ["París"]
 date: 2011-03-04 23:00:08
 layout: post

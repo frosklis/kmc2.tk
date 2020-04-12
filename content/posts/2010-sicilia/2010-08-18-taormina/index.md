@@ -1,4 +1,5 @@
 ---
+featured_picture: 20100818-164507
 viaje: [Sicilia]
 date: 2010-08-18 22:00:20
 layout: post

@@ -1,4 +1,5 @@
 ---
+featured_picture: 20130303-141631
 viaje: [Bolivia]
 comment: "domingo fue el día 3 de marzo, hay que reajustar las fechas de todas\
   \ estas entradas"

@@ -1,21 +1,36 @@
 ---
 date: 2014-09-04
-viaje: [Marruecos]
-featured_picture: '20676423544'
+featured_picture: 20140904-083344
 layout: post
 mapping:
   locations:
-  - {country: Marruecos, latitude: '31.094171', longitude: '-3.989251', place: "Er-Rachidí\
-      a", time: '2014-09-04 08:32:29'}
-  - {country: Marruecos, latitude: '31.094171', longitude: '-3.989251', place: "Er-Rachidí\
-      a", time: '2014-09-04 08:33:44'}
-  - {country: Marruecos, latitude: '31.055433', longitude: '-3.983856', place: Mfis,
-    time: '2014-09-04 09:14:24'}
-  - {country: Marruecos, latitude: '31.041271', longitude: '-3.951031', place: Mfis,
-    time: '2014-09-04 09:44:30'}
-tags: [desierto]
+  - country: Marruecos
+    latitude: '31.094171'
+    longitude: '-3.989251'
+    place: Er-Rachidía
+    time: '2014-09-04 08:32:29'
+  - country: Marruecos
+    latitude: '31.094171'
+    longitude: '-3.989251'
+    place: Er-Rachidía
+    time: '2014-09-04 08:33:44'
+  - country: Marruecos
+    latitude: '31.055433'
+    longitude: '-3.983856'
+    place: Mfis
+    time: '2014-09-04 09:14:24'
+  - country: Marruecos
+    latitude: '31.041271'
+    longitude: '-3.951031'
+    place: Mfis
+    time: '2014-09-04 09:44:30'
+tags:
+- desierto
 title: Una vuelta en 4x4 por el desierto
+viaje:
+- Marruecos
 ---
+
 Esta mañana hemos ido con Omar, uno de los hermanos de Alí, con un 4x4 por el desierto. Es un buen guía, nos explicó bien las cosas. La vuelta duró unas 5 horas, con parada incluida a tomar té con una familia nómada de verdad.
 
 {{% imgproc 21307164201 %}}

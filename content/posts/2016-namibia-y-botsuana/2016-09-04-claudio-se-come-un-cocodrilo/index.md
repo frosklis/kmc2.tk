@@ -1,10 +1,12 @@
 ---
-viaje: [Namibia y Botsuana]
-layout: post
-title: "¡Claudio se come un cocodrilo!"
-featured_picture: '33777102205'
 date: 2016-09-04
+featured_picture: 20160904-195709
+layout: post
+title: ¡Claudio se come un cocodrilo!
+viaje:
+- Namibia y Botsuana
 ---
+
 Nuestro viaje está llegando a su fin. Hoy hemos ido desde el Camp hasta Windhoek, otra vez al Tamboti Guesthouse y otra vez hemos ido a cenar al Joe's Beerhouse.
 
 {{% imgproc 33392528520 %}}

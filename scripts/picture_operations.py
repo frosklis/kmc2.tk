@@ -42,7 +42,6 @@ def check_bad_posts(write=False):
     counter = 0
     for root, dirs, files in os.walk(blog_path):
         path = root.split(os.sep)
-        # print((len(path) - 1) * '---', os.path.basename(root))
         if 'index.md' in files:
             pictures_in_dir = [f for f in files if f.endswith('jpg')]
             with open('%s%sindex.md' % (root, os.sep), 'r') as f:

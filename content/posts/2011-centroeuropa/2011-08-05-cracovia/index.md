@@ -1,16 +1,24 @@
 ---
 date: 2011-08-05
-viaje: [Centroeuropa]
-featured_picture: '27014665194'
+featured_picture: 20110805-103836
 layout: post
 mapping:
   locations:
-  - {country: Poland, latitude: '50.054280', longitude: '19.935445', place: Krakow,
-    time: '2011-08-05 13:09:01'}
-  - {country: Poland, latitude: '50.060493', longitude: '19.936455', place: Krakow,
-    time: '2011-08-05 10:38:36'}
+  - country: Poland
+    latitude: '50.054280'
+    longitude: '19.935445'
+    place: Krakow
+    time: '2011-08-05 13:09:01'
+  - country: Poland
+    latitude: '50.060493'
+    longitude: '19.936455'
+    place: Krakow
+    time: '2011-08-05 10:38:36'
 title: Cracovia
+viaje:
+- Centroeuropa
 ---
+
 Tuvimos que levantarnos pronto para arreglar el asunto del parking. Ayer dejamos el coche en un parking que, en teoría, era 24 horas. El señor que lo vigilaba no hablaba inglés y lo que entendimos era que hoy teníamos que volver para retirar el coche y volver a meterlo... o algo así. Cuando llegamos el vigilante era un chico joven, que obviamente no tenía ni idea de lo que nos había dicho otro, nos dijo que pagáramos ese día y que mañana pagásemos el de hoy... o no, a saber, porque este tampoco hablaba inglés.
 
 Fuimos en busca de un kantor y después de recorrer 80000, yo que soy peor que un topo, leí mal el cambio en uno y perdimos dinero en el cambio (lo más grave fue que miré el cambio en el cartel de la calle, luego pregunté al hombre que me dijo que mirase el cartel y luego remiré en la calle) Salí bastante disgustada al darme cuenta de mi error pero ya era tarde, así que nada.
