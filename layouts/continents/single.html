@@ -12,9 +12,9 @@
     {{ $slug := .sanitized }}
     <a href="/viaje/{{.sanitized}}" class="no-underline">
         {{- with $image -}}<style scoped>
-            {{- $thumb_1x := ($image.Resize "480x q50") }} 
-            {{- $thumb_2x := ($image.Resize "960x q50") }}    
-            {{- $thumb_3x := ($image.Resize "1440x q50") -}} 
+            {{- $thumb_1x := ($image.Resize "480x q75") }} 
+            {{- $thumb_2x := ($image.Resize "960x q75") }}    
+            {{- $thumb_3x := ($image.Resize "1440x q75") -}} 
             #id_{{ $slug }} {
                 background-image: url({{ $thumb_1x.RelPermalink }});
             }
