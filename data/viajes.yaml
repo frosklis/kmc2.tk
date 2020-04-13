@@ -192,6 +192,16 @@
     - HU
     - AU
 
+- name: París
+  sanitized: "paris"
+  featured_picture: 20110305-1521
+  description: París bien vale una misa
+  date: Marzo de 2011
+  continent: europe
+  countries: [FRA]
+  regions:
+    - FR-75
+
 - name: Sicilia
   sanitized: "sicilia"
   description: "La isla más grande del Mediterráneo."

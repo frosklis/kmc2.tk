@@ -1,7 +1,7 @@
 ---
 date: 2012-02-16
 viaje: ["Berlín"]
-featured_picture: '25883898592'
+featured_picture: 20120218-2009
 layout: post
 mapping:
   locations:
@@ -12,4 +12,4 @@ Llegamos a Berlín separados, Claudio desde Madrid y yo desde Bruselas. Una vez 
 
 Mañana a ver Berlín, de momento desde el piso se ve esto:
 
-{{% imgproc 25883898592 %}}
+{{% imgproc 20120218-2009 %}}

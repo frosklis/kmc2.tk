@@ -369,6 +369,13 @@
   latitude: '48.8570266666667'
   longitude: '2.34117166666667'
   title: '-'
+20110305-152114.jpg:
+  datetime: 2011:03:05 15:21:14
+  description: '-'
+  directory: ./posts/2011-paris/2011-03-05-mas-paris
+  latitude: '48.8570266666667'
+  longitude: '2.34117166666667'
+  title: '-'
 20110305-164955.jpg:
   datetime: 2011:03:05 16:49:55
   description: '-'
@@ -400,21 +407,21 @@
 20110306-123633.jpg:
   datetime: 2011:03:06 12:36:33
   description: '-'
-  directory: ./posts
+  directory: ./posts/2011-paris/more_pictures
   latitude: '48.8570266666667'
   longitude: '2.34117166666667'
   title: '-'
 20110306-124316.jpg:
   datetime: 2011:03:06 12:43:16
   description: '-'
-  directory: ./posts
+  directory: ./posts/2011-paris/more_pictures
   latitude: '48.8570266666667'
   longitude: '2.34117166666667'
   title: Iglesia del Sagrado Coraz&oacute;n (Sacre Coeur)
 20110306-151447.jpg:
   datetime: 2011:03:06 15:14:47
   description: '-'
-  directory: ./posts
+  directory: ./posts/2011-paris/more_pictures
   latitude: '48.8570266666667'
   longitude: '2.34117166666667'
   title: '-'
@@ -713,6 +720,27 @@
   latitude: '50.0936111'
   longitude: '14.4075'
   title: Praga
+20120217-125207.jpg:
+  datetime: 2012:02:17 12:52:07
+  description: '-'
+  directory: ./posts/2012-berlin/2012-02-17-turismo-por-berlin
+  latitude: '52.516015'
+  longitude: '13.3785416666667'
+  title: Puerta de Brandenburgo
+20120217-160827.jpg:
+  datetime: 2012:02:17 16:08:27
+  description: Con la catedral de Berl&iacute;n al fondo
+  directory: ./posts/2012-berlin/2012-02-17-turismo-por-berlin
+  latitude: '52.51805555'
+  longitude: '13.3994444333333'
+  title: Lustgarten
+20120217-163528.jpg:
+  datetime: 2012:02:17 16:35:28
+  description: '-'
+  directory: ./posts/2012-berlin/2012-02-17-turismo-por-berlin
+  latitude: '52.5212683333333'
+  longitude: '13.3968583333333'
+  title: '-'
 20120217-163546.jpg:
   datetime: 2012:02:17 16:35:46
   description: '-'
@@ -720,6 +748,59 @@
   latitude: '52.5212866666667'
   longitude: '13.397025'
   title: Escaleras del museo P&eacute;rgamo
+20120217-191305.jpg:
+  datetime: 2012:02:17 19:13:05
+  description: '-'
+  directory: ./posts/2012-berlin/2012-02-17-turismo-por-berlin
+  latitude: '52.5174933333333'
+  longitude: '13.4128366666667'
+  title: Zur Letzten Instanz
+20120218-112132.jpg:
+  datetime: 2012:02:18 11:21:32
+  description: '-'
+  directory: ./posts/2012-berlin/more_pictures
+  latitude: '52.5101766666667'
+  longitude: '13.3734183333333'
+  title: '-'
+20120218-112812.jpg:
+  datetime: 2012:02:18 11:28:12
+  description: El monigote de los sem&aacute;foros berlineses es un poco m&aacute;s
+    gordo de lo habitual
+  directory: ./posts/2012-berlin/more_pictures
+  latitude: '52.51122'
+  longitude: '13.37115'
+  title: Ampelmann
+20120218-135900.jpg:
+  datetime: 2012:02:18 13:59:00
+  description: Un sitio famoso para tomar Currywurst
+  directory: ./posts/2012-berlin/more_pictures
+  latitude: '52.4933972166667'
+  longitude: '13.38785'
+  title: Curry 36
+20120218-200913.jpg:
+  datetime: 2012:02:18 20:09:13
+  description: Desde cerca de Alexanderplatz, con la torre de la televisi&oacute;n
+    en el centro
+  directory: ./posts/2012-berlin/more_pictures
+  latitude: '52.5159888833333'
+  longitude: '13.4188166666667'
+  title: Berl&iacute;n
+20120219-104005.jpg:
+  datetime: 2012:02:19 10:40:05
+  description: Han decorado una parte del muro de Berl&iacute;n, en Berl&iacute;n
+    este
+  directory: ./posts/2012-berlin/more_pictures
+  latitude: '52.5069783333333'
+  longitude: '13.43664'
+  title: East Side Gallery
+20120219-104051.jpg:
+  datetime: 2012:02:19 10:40:51
+  description: Han decorado una parte del muro de Berl&iacute;n, en Berl&iacute;n
+    este
+  directory: ./posts/2012-berlin/more_pictures
+  latitude: '52.5067133333333'
+  longitude: '13.436875'
+  title: East Side Gallery
 20120404-182150.jpg:
   datetime: 2012:04:04 18:21:50
   description: '-'
