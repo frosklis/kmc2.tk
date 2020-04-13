@@ -5,9 +5,8 @@ date: 2011-03-04 23:00:08
 layout: post
 title: "París"
 mapping:
-	locations:
-		- latitude: 48.856614
-		  longitude: 2.3522219
+  - latitude: 48.856614
+    longitude: 2.3522219
 ---
 Claudio ha tenido la estupenda idea de coger una oferta de Groupon, así que ¡nos vamos a Paris!. Hemos volado con Vueling desde Madrid al medio día, para poder aprovechar un poco la tarde.
 

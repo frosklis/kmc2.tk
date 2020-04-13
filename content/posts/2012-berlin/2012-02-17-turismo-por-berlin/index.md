@@ -3,7 +3,6 @@ date: 2012-02-17 22:00:00
 featured_picture: 20120217-163546
 layout: post
 mapping:
-  locations:
   - latitude: 52.5295851
     longitude: 13.4011652
   - latitude: 52.5075927

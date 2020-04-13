@@ -4,7 +4,6 @@ viaje: ["Berlín"]
 featured_picture: 20120218-2009
 layout: post
 mapping:
-  locations:
   - {country: Alemania, latitude: '52.515988', longitude: '13.418816', place: "Berlín", time: '2012-02-18 20:09:13'}
 title: "Llegada a Berlín"
 ---
