@@ -23,7 +23,7 @@
     <figcaption>
         <small>
             {{ with $picture }} {{ if ne .title "-"}}
-            {{ .title | htmlUnescape }}{{ if ne .description "-"}}. {{ .description | htmlUnescape }}
+            {{ .title | htmlUnescape | safeHTML }}{{ if ne .description "-"}}. {{ .description | htmlUnescape | safeHTML }}
             {{ end }}
             {{ end }} {{ end }}
         </small>
