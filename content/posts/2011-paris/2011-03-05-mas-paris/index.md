@@ -6,9 +6,9 @@ layout: post
 title: "Más París"
 mapping:
   - latitude: 48.873389
-	longitude: 2.330794
+    longitude: 2.330794
   - latitude: 48.8583701
-	longitude: 2.2944813
+    longitude: 2.2944813
 ---
 <img src="https://lh5.ggpht.com/LKcLB-Ad-CWny7oWQll9bGKrwKLNJkdrOaWCqiGe74OU6k2evY1sRxygzB5H_VLokVgiDqR_L4TAWKQK1vuQ" alt="" data-key="2180177">
 
