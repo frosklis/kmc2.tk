@@ -26,8 +26,7 @@ mapping:
     place: Prague
     time: '2011-08-18 16:57:04'
 title: Más Praga
-viaje:
-- Centroeuropa
+viaje: Centroeuropa
 ---
 
 Hoy pedimos el desayuno a la habitación; como no rellenamos bien el formulario (yo sólo había marcado los extras pensando que del resto te traían un surtido) nos llamaron para preguntarnos qué queríamos a parte de los pancakes y la tortilla y como yo estaba medio dormida y Claudio dormido completo, no pedí mucho más y luego Claudio pasó el día medio deshidratado.
@@ -46,7 +45,7 @@ Antes de comer habíamos ido al Rudolfinum a sacar las entradas para el conciert
 
 Una vez sacadas las entradas subimos al castillo, dimos una vuelta, sacamos unas buenas panorámicas y visitamos los jardines reales, muy tranquilos.
 
-{{% imgproc 27525730212 %}}
+{{% imgproc 20110818-1644 %}}
 
 El concierto fue decepcionante. La sala muy bonita, pero menos el chelista, los demás tocaban mal. Un repertorio estupendo: <em> Pequeña serenata nocturna, Air, Vals en A, Vltava, Primavera y Verano de Vivaldi...</em> una pena la verdad. Ah, también tocaron el Canon de Pachelbel, pero de eso mejor ni hablamos.
 
