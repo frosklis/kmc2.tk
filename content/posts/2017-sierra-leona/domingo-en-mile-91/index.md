@@ -1,8 +1,8 @@
 ---
 title: Domingo en Mile 91
 layout: post
-# tags: [#pelucos #marilyn #batcena #wewillrockyou ]
-# viaje: [Sierra Leona]
+tags: [pelucos, marilyn, batcena, wewillrockyou ]
+viaje: [Sierra Leona]
 ---
 Hoy domingo, tocaba misa. Afortunadamente no hemos tenido que madrugar porque yo tuve unas luchas nocturnas con bichos que infiltraron nuestras mosquiteras.
 

@@ -1,8 +1,9 @@
 ---
-# tags: [#compras #meloquitandelasmanos #hummus #culoaplastado]
+tags: [compras, meloquitandelasmanos, hummus, culoaplastado]
 title: Freetown
 viaje: [Sierra Leona]
 layout: post
+date: 2017-07-22
 ---
 Desgraciadamente poco puedo decir de Freetown porque pasamos muy poco tiempo en la ciudad. Está a unas 4 horas en coche: tres en llegar a la propia ciudad y una hora en tomar todas las circunvalaciones que suben montañas por carreteras llenas de socavones sin asfaltar, para rematar, con tráfico. Lo único bueno fue que la llegada se hace desde la montaña, obteniendo así una buena vista panorámica de la ciudad a los pies de la montaña y orillas del mar. 
 
