@@ -21,7 +21,7 @@ El compound de Lunsar (como ellas llaman al recinto cerrado de la casa y escuela
 
 Nos ofrecieron descansar por la mañana, pero hemos venido con tantas ganas de ver, hacer, conocer, que nos apetecía más visitar las escuelas con las hermanas. Así pues, la Hermana Mari Luz nos ha hecho un tour completo de Lunsar. 
 
-El recinto donde estamos incluye la Iglesia de St Peter Clevar, la casa de las monjas, la casa de voluntarios en la que estamos y a través de una puerta comunica con la Escuela Primaria y el internado. Nuestras habitaciones están muy bien, nos han puesto de dos en dos, con un baño para cada pareja.
+El recinto donde estamos incluye la Iglesia de St Peter Claver, la casa de las monjas, la casa de voluntarios en la que estamos y a través de una puerta comunica con la Escuela Primaria y el internado. Nuestras habitaciones están muy bien, nos han puesto de dos en dos, con un baño para cada pareja.
 
 Tenemos electricidad de 7pm a 7am porque aquí el diésel tiene un precio desorbitado y no se pueden permitir más. Parece una tontería, pero hay cosas básicas que no tienes: luz para ver en estos días tan oscuros de nubes, una nevera conectada 24h… 
 

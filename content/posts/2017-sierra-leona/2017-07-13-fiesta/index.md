@@ -3,6 +3,7 @@ viaje: [Sierra Leona]
 title: Fiesta
 layout: post
 tags: ["Marvellous", "AngelChicken", "Nomásgas", "Tartasiningredientes", "GotoSchool", "Articulacioneslibres"]
+date: 2017-07-13
 ---
 Día intenso el de hoy. Empezamos con energía (quedaba tortilla de la cena de ayer) y aprovechando que era nuestro último día de charlas, le pedimos a la Hermana que nos dejase ir andando a la escuela para poder grabar a los niños de camino al colegio. Por error salimos algo tarde y ya solo nos encontramos a los que hacían pellas o llegaban muy tarde a clase.
 

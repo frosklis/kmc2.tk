@@ -2,7 +2,8 @@
 title: Sábado en la playa
 viaje: [Sierra Leona]
 layout: post
-# tags: [#Burehbeach #Tito’sparadise #chubasquero #Bimbaylola #Desigual #Supermercado]
+tags: [Burehbeach, Tito’sparadise, chubasquero, Bimbaylola, Desigual, Supermercado]
+date: 2017-07-15
 ---
 Qué majas son las hermanas, que nos han llevado de excursión a todos los voluntarios: los de Mile 91, los salesianos… Tres furgonetas de opotos que hemos ido a Bureh beach. 
 
