@@ -1,20 +1,31 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-13 21:00:00
-featured_picture: '21348064472'
+featured_picture: 20120813-144913
 layout: post
 mapping:
   locations:
-  - {latitude: 56.0152834, longitude: 92.8932476}
-  - {country: Rusia, latitude: '56.004611', longitude: '92.852950', place: Krasnoyarsk,
-    time: '2012-08-13 10:22:31'}
-  - {country: Rusia, latitude: '56.006161', longitude: '92.869625', place: "Ц\u0435\
-      \u043D\u0442\u0440\u0430\u043B\u044C\u043D\u044B\u0439 \u0420\u0430\u0439\u043E\
-      \u043D", time: '2012-08-13 10:51:43'}
-  - {country: Rusia, latitude: '56.023622', longitude: '92.859722', place: Krasnoyarsk,
-    time: '2012-08-13 14:57:27'}
+  - latitude: 56.0152834
+    longitude: 92.8932476
+  - country: Rusia
+    latitude: '56.004611'
+    longitude: '92.852950'
+    place: Krasnoyarsk
+    time: '2012-08-13 10:22:31'
+  - country: Rusia
+    latitude: '56.006161'
+    longitude: '92.869625'
+    place: Центральный Район
+    time: '2012-08-13 10:51:43'
+  - country: Rusia
+    latitude: '56.023622'
+    longitude: '92.859722'
+    place: Krasnoyarsk
+    time: '2012-08-13 14:57:27'
 title: Krasnoyarsk
+viaje:
+- Transmongoliano
 ---
+
 Hemos llegado cansados a Krasnoyarsk. Ayer nos acostamos tarde, en medio de la noche llegaron unos a nuestro vagón (muy majos, pero interrumpieron el sueño) y hemos tenido que levantarnos pronto.
 
 No tenemos noticias de Svetlana, así que intentamos dejar las cosas en consigna, pero está cerrada así que sacamos los billetes para mañana y volvemos más tarde. En la cola nos encontramos con dos españoles que andan algo perdidos porque usan las consignas automáticas. No los podemos ayudar porque nosotros tampoco hablamos ruso.

@@ -649,6 +649,13 @@
   latitude: '48.2041816666667'
   longitude: '16.3692366666667'
   title: '-'
+20110815-184132.jpg:
+  datetime: 2011:08:15 18:41:32
+  description: '-'
+  directory: ./posts/2011-centroeuropa/2011-08-15-plzen
+  latitude: '49.74696'
+  longitude: '13.3779866666667'
+  title: '-'
 20110816-111208.jpg:
   datetime: 2011:08:16 11:12:08
   description: Est&aacute; puesta la fecha del d&iacute;a con velas
@@ -781,7 +788,7 @@
   datetime: 2012:02:18 20:09:13
   description: Desde cerca de Alexanderplatz, con la torre de la televisi&oacute;n
     en el centro
-  directory: ./posts/2012-berlin/more_pictures
+  directory: ./posts/2012-berlin/2012-02-16-llegada-a-berlin
   latitude: '52.5159888833333'
   longitude: '13.4188166666667'
   title: Berl&iacute;n
@@ -836,13 +843,163 @@
   latitude: '49.8773416666667'
   longitude: '0.799138883333333'
   title: Playa de Veules les Roses
+20120806-180143.jpg:
+  datetime: 2012:08:06 18:01:43
+  description: Concretamente el museo estatal ruso
+  directory: ./posts/2012-transmongoliano/2012-08-06-estamos-en-moscu
+  latitude: '55.752861'
+  longitude: '37.622411'
+  title: Plaza Roja
+20120806-184643.jpg:
+  datetime: 2012:08:06 18:46:43
+  description: Pobedy significa victoria
+  directory: ./posts/2012-transmongoliano/2012-08-06-estamos-en-moscu
+  latitude: '55.73413055'
+  longitude: '37.513175'
+  title: Ceci en el Parque Pobedy
+20120806-190025.jpg:
+  datetime: 2012:08:06 19:00:25
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-06-estamos-en-moscu
+  latitude: '55.7337527666667'
+  longitude: '37.5126916666667'
+  title: Estatua ecuestre
+20120807-115038.jpg:
+  datetime: 2012:08:07 11:50:38
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-07-moscu-1
+  latitude: '55.7527566666667'
+  longitude: '37.6223883333333'
+  title: Catedral de San Basilio
+20120808-151419.jpg:
+  datetime: 2012:08:08 15:14:19
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-08-ultimo-dia-en-moscu
+  latitude: '55.8236616666667'
+  longitude: '37.6398916666667'
+  title: '-'
+20120808-151758.jpg:
+  datetime: 2012:08:08 15:17:58
+  description: La grandiosidad de un imperio mezclada con el Lada. Me encanta esta
+    foto.
+  directory: ./posts/2012-transmongoliano/2012-08-08-ultimo-dia-en-moscu
+  latitude: '55.825277'
+  longitude: '37.638338'
+  title: La expo sovi&eacute;tica
+20120808-152059.jpg:
+  datetime: 2012:08:08 15:20:59
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-08-ultimo-dia-en-moscu
+  latitude: '55.8263566666667'
+  longitude: '37.6373366666667'
+  title: '-'
 20120808-194821.jpg:
   datetime: 2012:08:08 19:48:21
   description: '-'
-  directory: ./posts/2012-transmongoliano/2012-08-08-un-dentista-en-el-tren
+  directory: ./posts/2012-transmongoliano/2012-08-08-ultimo-dia-en-moscu
   latitude: '55.7536361'
   longitude: '37.6213888833333'
   title: Catedral de San Basilio
+20120808-234812.jpg:
+  datetime: 2012:08:08 23:48:12
+  description: Coincidir con un profesor de estomatolog&iacute;a ruso en el tren hace
+    que te ense&ntilde;en estas cosas
+  directory: ./posts/2012-transmongoliano/2012-08-08-un-dentista-en-el-tren
+  latitude: '56.1032583333333'
+  longitude: '42.0354083333333'
+  title: Dentadura
+20120809-120443.jpg:
+  datetime: 2012:08:09 12:04:43
+  description: Curiosas prohibiciones. Perros y pistolas al mismo nivel.
+  directory: ./posts/2012-transmongoliano/2012-08-09-kazan
+  latitude: '55.7904533333333'
+  longitude: '49.1176133333333'
+  title: Prohibiciones
+20120809-144207.jpg:
+  datetime: 2012:08:09 14:42:07
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-09-kazan
+  latitude: '55.7973416666667'
+  longitude: '49.1059916666667'
+  title: '-'
+20120809-144653.jpg:
+  datetime: 2012:08:09 14:46:53
+  description: Muy luminoso el azul del tejado.
+  directory: ./posts/2012-transmongoliano/2012-08-09-kazan
+  latitude: '55.7976916666667'
+  longitude: '49.1062166666667'
+  title: Mezquita
+20120809-154851.jpg:
+  datetime: 2012:08:09 15:48:51
+  description: Esto se ve desde el Kremlin de Kazan
+  directory: ./posts/2012-transmongoliano/2012-08-09-kazan
+  latitude: '55.7993866666667'
+  longitude: '49.1075933333333'
+  title: Kazan desde su Kremlin
+20120809-160400.jpg:
+  datetime: 2012:08:09 16:04:00
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-09-kazan
+  latitude: '55.79666'
+  longitude: '49.10859'
+  title: '-'
+20120810-141247.jpg:
+  datetime: 2012:08:10 14:12:47
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-10-ekaterinburgo
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120810-183114.jpg:
+  datetime: 2012:08:10 18:31:14
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-10-ekaterinburgo
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120810-204503.jpg:
+  datetime: 2012:08:10 20:45:03
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-10-ekaterinburgo
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120811-012006.jpg:
+  datetime: 2012:08:11 01:20:06
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-11-de-ekaterinburgo-a-omsk-compartiendo-vagon-con-unos-militares
+  latitude: '-'
+  longitude: '-'
+  title: Militares rusos
+20120811-140830.jpg:
+  datetime: 2012:08:11 14:08:30
+  description: La incredulidad de Ceci es porque una estatua igual a esta la hay en
+    Bratislava
+  directory: ./posts/2012-transmongoliano/2012-08-11-omsk
+  latitude: '54.98533'
+  longitude: '73.3744433333333'
+  title: Se&ntilde;or de las alcantarillas
+20120811-161134.jpg:
+  datetime: 2012:08:11 16:11:34
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-11-omsk
+  latitude: '54.9849366666667'
+  longitude: '73.365915'
+  title: '-'
+20120811-161641.jpg:
+  datetime: 2012:08:11 16:16:41
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-11-omsk
+  latitude: '54.984855'
+  longitude: '73.367735'
+  title: '-'
+20120812-122235.jpg:
+  datetime: 2012:08:12 12:22:35
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-12-tomsk
+  latitude: '56.4867433333333'
+  longitude: '84.947265'
+  title: '-'
 20120812-153210.jpg:
   datetime: 2012:08:12 15:32:10
   description: Uno de los muchos memoriales que hay por toda Rusia de las v&iacute;ctimas
@@ -853,6 +1010,59 @@
   latitude: '-'
   longitude: '-'
   title: Memorial
+20120812-162756.jpg:
+  datetime: 2012:08:12 16:27:56
+  description: Esto es un memorial a las v&iacute;ctimas de la guerra de Afganist&aacute;n
+  directory: ./posts/2012-transmongoliano/2012-08-12-tomsk
+  latitude: '-'
+  longitude: '-'
+  title: Estrella sovi&eacute;tica
+20120812-190542.jpg:
+  datetime: 2012:08:12 19:05:42
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-12-tomsk
+  latitude: '56.4602638833333'
+  longitude: '84.990875'
+  title: Feliz agotamiento
+20120813-105147.jpg:
+  datetime: 2012:08:13 10:51:47
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-13-krasnoyarsk
+  latitude: '56.006161'
+  longitude: '92.869625'
+  title: '-'
+20120813-120202.jpg:
+  datetime: 2012:08:13 12:02:02
+  description: Sorprendentemente, al menos para mi&#x301;, el ruso es un pueblo muy
+    religioso.
+  directory: ./posts/2012-transmongoliano/2012-08-13-krasnoyarsk
+  latitude: '-'
+  longitude: '-'
+  title: Como entrar en una iglesia ortodoxa
+20120813-144913.jpg:
+  datetime: 2012:08:13 14:49:13
+  description: En Krasnoiarsk
+  directory: ./posts/2012-transmongoliano/2012-08-13-krasnoyarsk
+  latitude: '-'
+  longitude: '-'
+  title: Claudio
+20120813-210614.jpg:
+  datetime: 2012:08:13 21:06:14
+  description: Segu&#x301;n las dos rubias de la foto, el Sushi es muy ti&#x301;pico
+    de esa zona de Rusia. La verdad es que yo so&#x301;lo lo tome&#x301; ahi&#x301;.
+  directory: ./posts/2012-transmongoliano/2012-08-13-krasnoyarsk
+  latitude: '56.01235555'
+  longitude: '92.962475'
+  title: Sushi en Krasnoyarsk
+20120814-101056.jpg:
+  datetime: 2012:08:14 10:10:56
+  description: Quiz&aacute; ver la presa de Krasnoyarsk no parezca algo muy tur&iacute;stico.
+    Y no lo es. Pero Claudio quer&iacute;a ir y adem&aacute;s, por culpa de un incendio,
+    a Stolby no pudimos ir. Nos lo pasamos muy bien.
+  directory: ./posts/2012-transmongoliano/2012-08-14-yenisei
+  latitude: '55.93953'
+  longitude: '92.303305'
+  title: En la presa de Krasnoyarsk
 20120814-103747.jpg:
   datetime: 2012:08:14 10:37:47
   description: 6 gigavatios, en el r&iacute;o Yenisei.
@@ -868,6 +1078,105 @@
   latitude: '55.9504833333333'
   longitude: '92.3062533333333'
   title: Un barco baja del ascensor
+20120814-113210.jpg:
+  datetime: 2012:08:14 11:32:10
+  description: Un buen par de personajes, sobre todo Sergei (izquierda) con los que
+    coincidimos en la presa de Krasnoyarsk
+  directory: ./posts/2012-transmongoliano/2012-08-14-yenisei
+  latitude: '55.938377'
+  longitude: '92.306627'
+  title: Segei y Andrew
+20120815-103611.jpg:
+  datetime: 2012:08:15 10:36:11
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-15-de-viaje
+  latitude: '56.0090083333333'
+  longitude: '92.99755'
+  title: '-'
+20120815-192258.jpg:
+  datetime: 2012:08:15 19:22:58
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-15-de-viaje
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120815-194306.jpg:
+  datetime: 2012:08:15 19:43:06
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-15-de-viaje
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120816-110413.jpg:
+  datetime: 2012:08:16 11:04:13
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.2040216666667'
+  longitude: '107.342876666667'
+  title: '-'
+20120816-110924.jpg:
+  datetime: 2012:08:16 11:09:24
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.2036083333333'
+  longitude: '107.342288333333'
+  title: '-'
+20120816-172028.jpg:
+  datetime: 2012:08:16 17:20:28
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.17043'
+  longitude: '107.334013333333'
+  title: '-'
+20120816-190604.jpg:
+  datetime: 2012:08:16 19:06:04
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.2005566666667'
+  longitude: '107.339805'
+  title: Claudio en el &aacute;rbol cham&aacute;nico
+20120816-190653.jpg:
+  datetime: 2012:08:16 19:06:53
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.2005583333333'
+  longitude: '107.339828333333'
+  title: '-'
+20120816-190809.jpg:
+  datetime: 2012:08:16 19:08:09
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.20055'
+  longitude: '107.339803333333'
+  title: '-'
+20120816-204635.jpg:
+  datetime: 2012:08:16 20:46:35
+  description: Stitched Panorama
+  directory: ./posts/2012-transmongoliano/2012-08-16-isla-de-olkhon
+  latitude: '53.2035083333333'
+  longitude: '107.338901666667'
+  title: '-'
+20120817-102454.jpg:
+  datetime: 2012:08:17 10:24:54
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-17-cabo-khoboy
+  latitude: '53.198735'
+  longitude: '107.339185'
+  title: '-'
+20120817-102633.jpg:
+  datetime: 2012:08:17 10:26:33
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-17-cabo-khoboy
+  latitude: '53.2283383333333'
+  longitude: '107.431173333333'
+  title: '-'
+20120817-120643.jpg:
+  datetime: 2012:08:17 12:06:43
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-17-cabo-khoboy
+  latitude: '53.3937166666667'
+  longitude: '107.729608333333'
+  title: Desbandada
 20120817-130936.jpg:
   datetime: 2012:08:17 13:09:36
   description: '-'
@@ -875,6 +1184,191 @@
   latitude: '53.4115233333333'
   longitude: '107.790371666667'
   title: En el fin del mundo
+20120817-142736.jpg:
+  datetime: 2012:08:17 14:27:36
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-17-cabo-khoboy
+  latitude: '53.3920116666667'
+  longitude: '107.791705'
+  title: '-'
+20120818-115207.jpg:
+  datetime: 2012:08:18 11:52:07
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-18-olkhon-irkutsk-ulan-ude
+  latitude: '53.1982783333333'
+  longitude: '107.341996666667'
+  title: Echando tierra al lodo
+20120818-170242.jpg:
+  datetime: 2012:08:18 17:02:42
+  description: Los mongoles son un publo nacido para montar a caballo. Esta parte
+    de Rusia est&aacute; relativamente cerca de Mongolia.
+  directory: ./posts/2012-transmongoliano/2012-08-18-olkhon-irkutsk-ulan-ude
+  latitude: '-'
+  longitude: '-'
+  title: Estatua ecuestre
+20120818-203056.jpg:
+  datetime: 2012:08:18 20:30:56
+  description: La ciudad de Irkutsk es sorprendentemente agradable, tendr&iacute;amos
+    que haber estado m&aacute;s tiempo, probablemente.
+  directory: ./posts/2012-transmongoliano/2012-08-18-olkhon-irkutsk-ulan-ude
+  latitude: '52.2815222166667'
+  longitude: '104.310444433333'
+  title: Irkutsk
+20120819-065239.jpg:
+  datetime: 2012:08:19 06:52:39
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-19-ulan-ude-ulan-bator
+  latitude: '51.8333611'
+  longitude: '107.582875'
+  title: Ul&aacute;n Ud&eacute;
+20120819-125502.jpg:
+  datetime: 2012:08:19 12:55:02
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-19-ulan-ude-ulan-bator
+  latitude: '50.32175'
+  longitude: '106.4897361'
+  title: Ingleses cruzando a Mongolia
+20120820-094635.jpg:
+  datetime: 2012:08:20 09:46:35
+  description: Para ellos era un honor tenernos en su casa, ya que ven&iacute;amos
+    desde tan lejos. Se portaron estupendamente con nosotros.
+  directory: ./posts/2012-transmongoliano/2012-08-20-khot-ail-ger-camp
+  latitude: '-'
+  longitude: '-'
+  title: Familia mongola, literalmente
+20120820-140047.jpg:
+  datetime: 2012:08:20 14:00:47
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-20-khot-ail-ger-camp
+  latitude: '47.8634433333333'
+  longitude: '107.584423333333'
+  title: '-'
+20120820-140116.jpg:
+  datetime: 2012:08:20 14:01:16
+  description: Reci&eacute;n llegado al ger
+  directory: ./posts/2012-transmongoliano/2012-08-20-khot-ail-ger-camp
+  latitude: '47.863465'
+  longitude: '107.584516666667'
+  title: Claudio en el ger
+20120820-145649.jpg:
+  datetime: 2012:08:20 14:56:49
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-20-khot-ail-ger-camp
+  latitude: '47.863245'
+  longitude: '107.583913333333'
+  title: '-'
+20120820-151046.jpg:
+  datetime: 2012:08:20 15:10:46
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-20-khot-ail-ger-camp
+  latitude: '47.8641766666667'
+  longitude: '107.584878333333'
+  title: '-'
+20120820-171422.jpg:
+  datetime: 2012:08:20 17:14:22
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-20-khot-ail-ger-camp
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120821-105131.jpg:
+  datetime: 2012:08:21 10:51:31
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '47.863585'
+  longitude: '107.584913333333'
+  title: '-'
+20120821-110030.jpg:
+  datetime: 2012:08:21 11:00:30
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '47.8637066666667'
+  longitude: '107.585538333333'
+  title: Los dominios de Sara
+20120821-112707.jpg:
+  datetime: 2012:08:21 11:27:07
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '47.8636833333333'
+  longitude: '107.585438333333'
+  title: '-'
+20120821-131654.jpg:
+  datetime: 2012:08:21 13:16:54
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '47.8353866666667'
+  longitude: '107.560141666667'
+  title: '-'
+20120821-131902.jpg:
+  datetime: 2012:08:21 13:19:02
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '47.83541'
+  longitude: '107.560136666667'
+  title: '-'
+20120821-170734.jpg:
+  datetime: 2012:08:21 17:07:34
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120821-170845.jpg:
+  datetime: 2012:08:21 17:08:45
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '-'
+  longitude: '-'
+  title: Como un par de jinetes
+20120821-184236.jpg:
+  datetime: 2012:08:21 18:42:36
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-21-khot-ail-ger-camp-1
+  latitude: '47.8645283333333'
+  longitude: '107.583173333333'
+  title: Caballos en el r&iacute;o
+20120822-091221.jpg:
+  datetime: 2012:08:22 09:12:21
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-22-khot-ail-ger-camp-ulan-baatar
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120822-152442.jpg:
+  datetime: 2012:08:22 15:24:42
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-22-khot-ail-ger-camp-ulan-baatar
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120822-152708.jpg:
+  datetime: 2012:08:22 15:27:08
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-22-khot-ail-ger-camp-ulan-baatar
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120822-185033.jpg:
+  datetime: 2012:08:22 18:50:33
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-22-khot-ail-ger-camp-ulan-baatar
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20120822-185612.jpg:
+  datetime: 2012:08:22 18:56:12
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-22-khot-ail-ger-camp-ulan-baatar
+  latitude: '-'
+  longitude: '-'
+  title: Gengis Khan
+20120822-193818.jpg:
+  datetime: 2012:08:22 19:38:18
+  description: '-'
+  directory: ./posts/2012-transmongoliano/2012-08-22-khot-ail-ger-camp-ulan-baatar
+  latitude: '-'
+  longitude: '-'
+  title: '-'
 20130302-181049.jpg:
   datetime: 2013:03:02 18:10:49
   description: '-'
@@ -3897,35 +4391,35 @@
 20180925-095812.jpg:
   datetime: 2018:09:25 09:58:12
   description: '-'
-  directory: ./posts/2018-australia/2018-09-25
+  directory: ./posts/2018-australia/2018-09-25-melbourne
   latitude: '-'
   longitude: '-'
   title: '-'
 20180925-130516.jpg:
   datetime: 2018:09:25 13:05:16
   description: '-'
-  directory: ./posts/2018-australia/2018-09-25
+  directory: ./posts/2018-australia/2018-09-25-melbourne
   latitude: '-'
   longitude: '-'
   title: '-'
 20180925-131857.jpg:
   datetime: 2018:09:25 13:18:57
   description: '-'
-  directory: ./posts/2018-australia/2018-09-25
+  directory: ./posts/2018-australia/2018-09-25-melbourne
   latitude: '-'
   longitude: '-'
   title: '-'
 20180925-132738.jpg:
   datetime: 2018:09:25 13:27:38
   description: '-'
-  directory: ./posts/2018-australia/2018-09-25
+  directory: ./posts/2018-australia/2018-09-25-melbourne
   latitude: '-'
   longitude: '-'
   title: '-'
 20180925-135139.jpg:
   datetime: 2018:09:25 13:51:39
   description: '-'
-  directory: ./posts/2018-australia/2018-09-25
+  directory: ./posts/2018-australia/2018-09-25-melbourne
   latitude: '-'
   longitude: '-'
   title: '-'

@@ -1,16 +1,24 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-21 21:00:16
-featured_picture: '21171991738'
+featured_picture: 20120821-170845
 layout: post
 mapping:
   locations:
-  - {country: Mongolia, latitude: '47.863738', longitude: '107.584555', place: Nalayh
-      Airport, time: '2012-08-21 11:35:17'}
-  - {country: Mongolia, latitude: '47.835383', longitude: '107.560141', place: Nalayh
-      Airport, time: '2012-08-21 13:28:30'}
+  - country: Mongolia
+    latitude: '47.863738'
+    longitude: '107.584555'
+    place: Nalayh Airport
+    time: '2012-08-21 11:35:17'
+  - country: Mongolia
+    latitude: '47.835383'
+    longitude: '107.560141'
+    place: Nalayh Airport
+    time: '2012-08-21 13:28:30'
 title: Khot Ail Ger Camp
+viaje:
+- Transmongoliano
 ---
+
 Se nota que Sara está por ahí y los ha puesto firmes a todos. A las 8 de la mañana nos traen el desayuno al ger. Agua hirviendo, café y té, pan y nata. Estamos tiritando. El fuego se nos apagó en mitad de la noche y no fuimos capaces de encenderlo... o sí, pero no llegó a calentar. A las 4 de la mañana gastamos medio rollo de papel higiénico en intentar crear un llama para que prendiese la madera, pero aquello no iba. Así que acabamos solucionando el problema con más capas y cerrando el saco hasta arriba cuales gusanos de seda.
 
 Ayudamos a recoger los platos del desayuno y nos quedamos en el ger de Sara viendo cómo hervían la leche y preparaban las cosas. Es digno de ver.

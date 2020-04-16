@@ -1,4 +1,8 @@
 featured_picture: 20150902-160821
+featured_picture: 20150902-164046
+featured_picture: 20150902-070859
+featured_picture: 20150902-160821
+date: 2015-09-02
 featured_picture: 20150902-160829
 featured_picture: 20150902-065737
 featured_picture: 20150902-060630

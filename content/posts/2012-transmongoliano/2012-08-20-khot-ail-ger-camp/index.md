@@ -1,18 +1,29 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-20 21:00:14
-featured_picture: '21333540106'
+featured_picture: 20120820-171422
 layout: post
 mapping:
   locations:
-  - {country: Mongolia, latitude: '47.806900', longitude: '107.530488', place: Nalayh
-      Airport, time: '2012-08-20 13:25:59'}
-  - {country: Mongolia, latitude: '47.863465', longitude: '107.584516', place: Nalayh
-      Airport, time: '2012-08-20 14:01:16'}
-  - {country: Mongolia, latitude: '47.863441', longitude: '107.584452', place: Nalayh
-      Airport, time: '2012-08-20 14:00:31'}
+  - country: Mongolia
+    latitude: '47.806900'
+    longitude: '107.530488'
+    place: Nalayh Airport
+    time: '2012-08-20 13:25:59'
+  - country: Mongolia
+    latitude: '47.863465'
+    longitude: '107.584516'
+    place: Nalayh Airport
+    time: '2012-08-20 14:01:16'
+  - country: Mongolia
+    latitude: '47.863441'
+    longitude: '107.584452'
+    place: Nalayh Airport
+    time: '2012-08-20 14:00:31'
 title: Khot Ail Ger Camp
+viaje:
+- Transmongoliano
 ---
+
 Esta mañana nos levantamos para encontrarnos con un desayuno pantagruélico esperándonos en la cocina. La madre de Zula, una abuela entrañable, se había levantado por la mañana para hacer pan de pita y cocinar... mutton (oveja) que será el plato principal de la comida mongola. Sí, hemos desayunado fajitas entre otras cosas. Fajitas de oveja, fajitas de una especie de salchica sazonada tipo chorizo, unas bolitas que parecen rosquillas que están buenísimas, pan... Aquí te dan comida hasta que revientes.
 
 {{% imgproc 21289991836 %}}

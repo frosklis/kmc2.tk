@@ -1,24 +1,43 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-16 21:00:00
-featured_picture: '21367927721'
+featured_picture: 20120816-190653
 layout: post
 mapping:
   locations:
-  - {latitude: 53.156667, longitude: 107.383611}
-  - {country: Rusia, latitude: '53.202938', longitude: '107.351152', place: Khuzhir,
-    time: '2012-08-16 10:16:23'}
-  - {country: Rusia, latitude: '53.204022', longitude: '107.342866', place: Khuzhir,
-    time: '2012-08-16 11:00:00'}
-  - {country: Rusia, latitude: '53.172913', longitude: '107.339172', place: Khuzhir,
-    time: '2012-08-16 17:05:55'}
-  - {country: Rusia, latitude: '53.173622', longitude: '107.332558', place: Khuzhir,
-    time: '2012-08-16 17:27:26'}
-  - {country: Rusia, latitude: '53.200252', longitude: '107.339625', place: Khuzhir,
-    time: '2012-08-16 18:58:33'}
-tags: [Baikal]
+  - latitude: 53.156667
+    longitude: 107.383611
+  - country: Rusia
+    latitude: '53.202938'
+    longitude: '107.351152'
+    place: Khuzhir
+    time: '2012-08-16 10:16:23'
+  - country: Rusia
+    latitude: '53.204022'
+    longitude: '107.342866'
+    place: Khuzhir
+    time: '2012-08-16 11:00:00'
+  - country: Rusia
+    latitude: '53.172913'
+    longitude: '107.339172'
+    place: Khuzhir
+    time: '2012-08-16 17:05:55'
+  - country: Rusia
+    latitude: '53.173622'
+    longitude: '107.332558'
+    place: Khuzhir
+    time: '2012-08-16 17:27:26'
+  - country: Rusia
+    latitude: '53.200252'
+    longitude: '107.339625'
+    place: Khuzhir
+    time: '2012-08-16 18:58:33'
+tags:
+- Baikal
 title: Isla de Olkhon
+viaje:
+- Transmongoliano
 ---
+
 Hoy el día acabó siendo muy bueno, aunque el principio no lo auguraba así. Nos levantamos pronto, antes de la cuenta, porque no sabíamos a qué hora terminaban de dar los desayunos y Ceci recordaba haber visto un 9 en la puerta (resultó que empezaban a las 9); el desayuno muy completo: huevos fritos, cocidos, tortitas y mermelada casera. Teníamos una excursión a las 11 de la mañana al cabo Khoboy, el extremo norte de la isla. Pero llovía. Llovía bastante a ratos. Y como llovía, la excursión se canceló. Pero de esto no nos avisó nadie, lo cual es una falta de profesionalidad por parte de la que organiza las excursiones.
 
 Con la excursión cancelada, por la mañana dimos una vuelta por el pueblo de algo más de dos horas. El pueblo es feo, la verdad, pero el enclave muy bonito. Incluso bajamos a la playa y tocamos el agua del lago Baikal: ¡qué fría! Los rusos que sí se atrevían a bañarse salían a los pocos segundos dando gritos y, sobre todo, con la piel enrojecida. Según la guía, el agua está a 9ºC, puede ser; según las fotos que hay puestas por aquí en el Nikita's Homestead, el 15 de Mayo el Baikal todavía se está deshelando. Hace frío por las mañanas.

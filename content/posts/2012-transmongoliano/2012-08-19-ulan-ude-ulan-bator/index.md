@@ -1,18 +1,29 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-19 21:00:12
-featured_picture: '24589956075'
+featured_picture: 20120819-125502
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '51.834325', longitude: '107.584244', place: Ulan-Ude,
-    time: '2012-08-19 06:49:29'}
-  - {country: Mongolia, latitude: '50.321750', longitude: '106.489736', place: Altanbulag,
-    time: '2012-08-19 12:55:02'}
-  - {country: Mongolia, latitude: '47.915422', longitude: '106.914436', place: "Ulá\
-      n Bator", time: '2012-08-19 20:16:15'}
+  - country: Rusia
+    latitude: '51.834325'
+    longitude: '107.584244'
+    place: Ulan-Ude
+    time: '2012-08-19 06:49:29'
+  - country: Mongolia
+    latitude: '50.321750'
+    longitude: '106.489736'
+    place: Altanbulag
+    time: '2012-08-19 12:55:02'
+  - country: Mongolia
+    latitude: '47.915422'
+    longitude: '106.914436'
+    place: Ulán Bator
+    time: '2012-08-19 20:16:15'
 title: Ulan Ude - Ulan Bator
+viaje:
+- Transmongoliano
 ---
+
 Más viaje hoy. El tren de Irkutsk a Ulan Ude lo había metido mal entero, había puesto la hora de llegada media hora antes de la cuenta. Y Claudio además paranoico, se levantó una hora antes preguntando si esa era nuestra parada, salimos corriendo al pasillo para verificar horarios y no, todo iba bien, de hecho nos sobraba hora y media.
 
 Así que sí, podría decirse que pasamos una noche mala.

@@ -1,18 +1,29 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-18 21:00:12
-featured_picture: '24221948829'
+featured_picture: 20120818-203056
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '53.198278', longitude: '107.341996', place: Khuzhir,
-    time: '2012-08-18 11:52:07'}
-  - {country: Rusia, latitude: '53.193566', longitude: '107.339576', place: Khuzhir,
-    time: '2012-08-18 20:30:56'}
-  - {country: Rusia, latitude: '52.281522', longitude: '104.310444', place: Irkutsk,
-    time: '2012-08-18 20:30:56'}
-title: "Olkhon - Irkutsk - Ulán Udé"
+  - country: Rusia
+    latitude: '53.198278'
+    longitude: '107.341996'
+    place: Khuzhir
+    time: '2012-08-18 11:52:07'
+  - country: Rusia
+    latitude: '53.193566'
+    longitude: '107.339576'
+    place: Khuzhir
+    time: '2012-08-18 20:30:56'
+  - country: Rusia
+    latitude: '52.281522'
+    longitude: '104.310444'
+    place: Irkutsk
+    time: '2012-08-18 20:30:56'
+title: Olkhon - Irkutsk - Ulán Udé
+viaje:
+- Transmongoliano
 ---
+
 Hoy ha tocado día de viaje, así que la mañana la hemos hecho relajada. Desayuno, ducha, paseo por el pueblo buscando correos (encontrado, pero estaba cerrado así que en vano) y vuelta al hotel para ver si alguien nos ha contestado por correo. De Zula seguimos sin saber nada. Nuestra segunda preocupación es conseguir un alojamiento para cuando termine nuestra estancia con Sara, pero internet se colapsa cada dos segundos y no nos deja hacer el depósito de la reserva de un albergue, así que mandamos un email al dueño, a ver si hay suerte.
 
 {{% imgproc 23961548014 %}}

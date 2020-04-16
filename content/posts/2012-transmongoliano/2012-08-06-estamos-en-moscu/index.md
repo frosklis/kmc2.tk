@@ -1,21 +1,37 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-06 21:00:00
-featured_picture: '21365678421'
+featured_picture: 20120806-190025
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '55.752861', longitude: '37.622411', place: "Mosc\xFA",
-    time: '2012-08-06 18:01:43'}
-  - {country: Rusia, latitude: '55.734130', longitude: '37.513175', place: "Mosc\xFA",
-    time: '2012-08-06 18:46:43'}
-  - {country: Rusia, latitude: '55.751863', longitude: '37.599038', place: "Mosc\xFA",
-    time: '2012-08-06 21:07:42'}
-  - {country: Rusia, latitude: '55.752755', longitude: '37.622830', place: "Mosc\xFA",
-    time: '2012-08-06 17:56:21'}
-tags: [Rusia, "Mosc\xFA"]
-title: "\xA1Estamos en Mosc\xFA!"
+  - country: Rusia
+    latitude: '55.752861'
+    longitude: '37.622411'
+    place: Moscú
+    time: '2012-08-06 18:01:43'
+  - country: Rusia
+    latitude: '55.734130'
+    longitude: '37.513175'
+    place: Moscú
+    time: '2012-08-06 18:46:43'
+  - country: Rusia
+    latitude: '55.751863'
+    longitude: '37.599038'
+    place: Moscú
+    time: '2012-08-06 21:07:42'
+  - country: Rusia
+    latitude: '55.752755'
+    longitude: '37.622830'
+    place: Moscú
+    time: '2012-08-06 17:56:21'
+tags:
+- Rusia
+- Moscú
+title: ¡Estamos en Moscú!
+viaje:
+- Transmongoliano
 ---
+
 ACLARACIÓN: Este viaje fue una continuación de nuestro fin de semana en Riga con motivo de la boda de Pablo el primo de Claudio, así que este inicio probablemente no tenga mucho sentido para alguien que quiera empezar desde Madrid.
 
 Una vez acabados los días de boda, empezamos otra etapa. Nos levantamos prontito para cerrar maletas, desayunar y salir hacia el aeropuerto de Riga. Andábamos con los Lats justos así que al final acabamos pagando la primada en el taxi que nos timó un poco, pero que a fin de cuentas aceptó parte del pago en euros.

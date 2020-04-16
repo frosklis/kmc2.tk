@@ -1,17 +1,25 @@
 ---
 date: 2012-08-15
-viaje: [Transmongoliano]
-featured_picture: '21367889211'
+featured_picture: 20120815-103611
 layout: post
 mapping:
   locations:
-  - {latitude: 56.0152834, longitude: 92.8932476}
-  - {latitude: 52.2869741, longitude: 104.3050183}
-  - {latitude: 53.156667, longitude: 107.383611}
-  - {country: Rusia, latitude: '52.286716', longitude: '104.305347', place: Irkutsk,
-    time: '2012-08-15 10:34:46'}
+  - latitude: 56.0152834
+    longitude: 92.8932476
+  - latitude: 52.2869741
+    longitude: 104.3050183
+  - latitude: 53.156667
+    longitude: 107.383611
+  - country: Rusia
+    latitude: '52.286716'
+    longitude: '104.305347'
+    place: Irkutsk
+    time: '2012-08-15 10:34:46'
 title: De viaje
+viaje:
+- Transmongoliano
 ---
+
 El día de hoy puede resumirse en que, sin problema alguno, llegamos al Nikita's Homestead, en la isla de Oljón. Un día sin mucho ajetreo.
 
 Por la mañana en el tren descubrimos que la estación de trenes y la de autobuses en Irkutsk están cada una en una punta de la ciudad por lo que había que coger un autobús. Sin embargo, al llegar a la estación de trenes con total puntualidad había un montón de gente ofreciendo taxi. Regateando desde 600 rublos, conseguimos finalmente un taxi por 300 rublos que nos dejó en la estación para ir a Oljón. Por el camino vimos Irkutsk desde el coche, cruzando el gran río Angara, afluente del Yenisei y único río que nace en el lago Baikal. La ciudad es claramente mejor que Krasnoyark. Ya en la estación había un minibús soviético muy incómodo, viejo y trallado. Reservamos nuestro viaje: 600 rublos cada uno por un trayecto de algo menos de 6 horas. El bus no salía hasta las dos, cosa que no sabíamos, por eso nos dimos bastante prisa en comer en un sitio de comida rápida que había justo en frente.

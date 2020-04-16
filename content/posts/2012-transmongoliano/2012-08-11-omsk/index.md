@@ -1,14 +1,19 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-11 21:00:01
-featured_picture: '21366962841'
+featured_picture: 20120811-161641
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '54.983569', longitude: '73.375777', place: Omsk, time: '2012-08-11
-      15:11:18'}
+  - country: Rusia
+    latitude: '54.983569'
+    longitude: '73.375777'
+    place: Omsk
+    time: '2012-08-11 15:11:18'
 title: Omsk
+viaje:
+- Transmongoliano
 ---
+
 Nos levantamos por la mañana con una resaca infernal. Yo todavía, pero Claudio era incapaz de sentarse o de realizar actos inteligentes. A los rusos les hacía mucha gracia porque por supuesto ellos estaban frescos como lechugas. Yo les explicaba que Claudio quería dormir porque con el alcohol no se entra en fase REM. Ellos dijeron que por eso los rusos dormían de 4pm a 7am, para compensar su falta de sueño, así podían beber más. Fuman y beben como cosacos, no me extraña que los hombres no lleguen a los 60. Dejamos las cosas en consigna y Claudio se empeñó en que él iba a ir en chanclas y llevar su mochila llena de cosas (no sabía ni qué cosas eran) porque cambiarse de zapatos y meter la mochila en la grande era mucho esfuerzo.
 
 Como ya habíamos planeado ayer, objetivo principal llegar al río a bañarse. Para conseguirlo tuvimos que coger un bus en la estación al centro.¡Qué molón! Entramos en un bus chatarra completamente y nos dirigimos al conductor para comprar los billetes. Error, los billetes los vende una señora que va subida en el bus, muy curioso. Una abuelita que según entra le gente va a buscarlos a sus asientos para venderles los billetes que corta de una tira como las del cine de antes. Muy muy guay. Nos bajamos antes de tiempo porque cómo no las calles vienen indicadas fatal. Fuimos dando un paseo hasta la playa fluvial donde nos dimos un buen remojón que nos alivió bastante (el calor y la resaca) y después a comer. Nos hemos quedado pasmados al darnos cuenta de que aquí hay diferencias de 70-80º entre verano e invierno, menuda salvajada.

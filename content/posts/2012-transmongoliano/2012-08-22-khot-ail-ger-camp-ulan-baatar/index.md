@@ -1,14 +1,18 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-22 21:00:00
-featured_picture: '20738768753'
+featured_picture: 20120822-185612
 layout: post
 mapping:
   locations:
-  - {latitude: 47.92, longitude: 106.92}
-tags: [Mongolia]
+  - latitude: 47.92
+    longitude: 106.92
+tags:
+- Mongolia
 title: Khot Ail Ger Camp - Ulan Baatar
+viaje:
+- Transmongoliano
 ---
+
 Se suponía que por la mañana íbamos a ir a caballo, pero Sara no estaba para informar a nadie y los caballos no estaban allí. Pudimos ver por la mañana a Sachna llevándoselos a todo galope, digno de ver. Nos trajeron el desayuno y esta vez hubo una variación, teníamos una especie de arroz con leche al que teníamos que añadir nosotros el azúcar. A Claudio no le gusta el arroz con leche así que no tomó, pero a mí me supo muy parecido al asturiano, quizás le faltaba un poco de canela.
 
 Después de desayunar tuvimos una agradable mañana tranquila, ¡qué bien hicimos en hacernos amigos de los niños! Primero acabamos nuestra partida de la noche anterior, que acabó ganando Ceci. Luego acompañamos a la niña al río a llenar unos bidones de agua de 25l que volvieron a casa en carretilla. El padre llamó al niño para que hicera algo, así que esperamos un rato sentados en la mesa de fuera (en manga corta porque por fin hacía calor) con la niña, a la que Ceci pidió que le dibujara el lugar. Nos dibujó las montañas, el río, el ger con su panel solar, la carretilla... y luego a Ceci y a mí nos dibujó con coronas porque somos "very nice princess and very nice prince". La verdad es que es un amor de niña. Después cogimos el balón y nos pusimos a jugar al baloncesto, muy divertido. Todo esto mientras el padre se dedicaba a recoger las cagadas secas de los animales, un ejemplo más de lo limpios que son. Cuando nos aburrimos de jugar al baloncesto, fuimos a nuestro ger y comprobamos como había tres terneros dentro, uno de los cuales había destrozado una chaqueta de Ceci que ahora está para tirar. Entonces cometí un grave error: no cogí la cámara ni el móvil ni nada (y Ceci tampoco). Eso nos impidió tener testimonio gráfico de lo que voy a contar ahora.

@@ -1,19 +1,33 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-09 20:00:00
-featured_picture: '21170765838'
+featured_picture: 20120809-154851
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '55.797691', longitude: '49.106216', place: Kazan',
-    time: '2012-08-09 14:46:53'}
-  - {country: Rusia, latitude: '55.799386', longitude: '49.107594', place: Kazan',
-    time: '2012-08-09 15:48:51'}
-  - {country: Rusia, latitude: '55.794736', longitude: '49.117569', place: Kazan',
-    time: '2012-08-09 16:57:01'}
-tags: [Rusia, "Kazán", "tártaros"]
-title: "Kazán"
+  - country: Rusia
+    latitude: '55.797691'
+    longitude: '49.106216'
+    place: Kazan'
+    time: '2012-08-09 14:46:53'
+  - country: Rusia
+    latitude: '55.799386'
+    longitude: '49.107594'
+    place: Kazan'
+    time: '2012-08-09 15:48:51'
+  - country: Rusia
+    latitude: '55.794736'
+    longitude: '49.117569'
+    place: Kazan'
+    time: '2012-08-09 16:57:01'
+tags:
+- Rusia
+- Kazán
+- tártaros
+title: Kazán
+viaje:
+- Transmongoliano
 ---
+
 Hoy hemos visitado Kazán. La ciudad es muy diferente a Moscú, mucho más pequeña, mucho más cutre y mucho menos cosmopolita.
 
 Primera aventura del día: dejar la mochila en consigna. Conseguido con bastante esfuerzo diciendo "kamera, kamera". Luego un pago de 90 rublos por mochila y grandes habilidades mímicas para pedir entrar y que me dejara sacar una cosa de la mochila (baterías para la cámara de fotos).

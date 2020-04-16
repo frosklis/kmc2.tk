@@ -1,18 +1,28 @@
 ---
 date: 2011-08-15
-viaje: [Centroeuropa]
-featured_picture: '27351103480'
+featured_picture: 20110815-184132
 layout: post
 mapping:
   locations:
-  - {latitude: 49.7384314, longitude: 13.3736371}
-  - {latitude: 48.9975355, longitude: 15.3515386}
-  - {country: Czech Republic, latitude: '48.997180', longitude: '15.351903', place: Slavonice,
-    time: '2011-08-15 13:09:11'}
-  - {country: Czech Republic, latitude: '49.747245', longitude: '13.378498', place: Pilsen,
-    time: '2011-08-15 18:40:25'}
+  - latitude: 49.7384314
+    longitude: 13.3736371
+  - latitude: 48.9975355
+    longitude: 15.3515386
+  - country: Czech Republic
+    latitude: '48.997180'
+    longitude: '15.351903'
+    place: Slavonice
+    time: '2011-08-15 13:09:11'
+  - country: Czech Republic
+    latitude: '49.747245'
+    longitude: '13.378498'
+    place: Pilsen
+    time: '2011-08-15 18:40:25'
 title: Plzen
+viaje:
+- Centroeuropa
 ---
+
 El día se presentaba muy ajetreado pero por culpa de la lluvia no hicimos prácticamente nada de lo que teníamos pensado. Fuimos a Slavonice, ya en República Checa y el pueblo fue una gran decepción. No vayáis.
 
 {{% imgproc 27351103480 %}}

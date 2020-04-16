@@ -1,6 +1,6 @@
 ---
 date: 2012-08-08 23:00:00
-featured_picture: 20120808-194821
+featured_picture: 20120808-234812
 layout: post
 mapping:
   locations:

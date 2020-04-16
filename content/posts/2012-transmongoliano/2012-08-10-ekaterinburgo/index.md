@@ -1,15 +1,21 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-10 20:00:00
-featured_picture: '21347883862'
+featured_picture: 20120810-141247
 layout: post
 mapping:
   locations:
-  - {latitude: 56.833333, longitude: 60.583333}
-  - {country: Rusia, latitude: '56.844066', longitude: '60.608299', place: Ekaterinburgo,
-    time: '2012-08-10 13:29:22'}
+  - latitude: 56.833333
+    longitude: 60.583333
+  - country: Rusia
+    latitude: '56.844066'
+    longitude: '60.608299'
+    place: Ekaterinburgo
+    time: '2012-08-10 13:29:22'
 title: Ekaterinburgo
+viaje:
+- Transmongoliano
 ---
+
 El gran momento del día ha sido la ducha en la estación de tren de Ekaterinburgo, pero eso fue al final. Empecemos por el principio.
 
 Llegamos a Ekaterinburgo, Sverdlosk en época soviética. Una ciudad próspera, nada que ver con Kazán. Mucho más parecida a Moscú. Quinta ciudad de Rusia por tamaño, con millón y medio de habitantes. Importante: es la primera ciudad importante que se encuentra al este de los Urales. Es esa localización geográfica precisamente la que la ha hecho próspera y rica. Los Urales, además de separar Asia de Europa, son una cadena montañosa muy rica en minerales: piedras preciosas, hierro, etc.

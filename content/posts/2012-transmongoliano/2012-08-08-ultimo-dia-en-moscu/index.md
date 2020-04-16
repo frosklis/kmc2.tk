@@ -1,19 +1,32 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-08 20:00:00
-featured_picture: '20693488734'
+featured_picture: 20120808-152059
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '55.794833', longitude: '37.783722', place: "Mosc\xFA",
-    time: '2012-08-08 13:17:09'}
-  - {country: Rusia, latitude: '55.825277', longitude: '37.638338', place: "Mosc\xFA",
-    time: '2012-08-08 15:17:58'}
-  - {country: Rusia, latitude: '55.753636', longitude: '37.621388', place: "Mosc\xFA",
-    time: '2012-08-08 19:48:21'}
-tags: ["Mosc\xFA", VDNK]
-title: "Último día en Mosc\xFA"
+  - country: Rusia
+    latitude: '55.794833'
+    longitude: '37.783722'
+    place: Moscú
+    time: '2012-08-08 13:17:09'
+  - country: Rusia
+    latitude: '55.825277'
+    longitude: '37.638338'
+    place: Moscú
+    time: '2012-08-08 15:17:58'
+  - country: Rusia
+    latitude: '55.753636'
+    longitude: '37.621388'
+    place: Moscú
+    time: '2012-08-08 19:48:21'
+tags:
+- Moscú
+- VDNK
+title: Último día en Moscú
+viaje:
+- Transmongoliano
 ---
+
 Hoy está siendo un día muy aventurero. Para empezar, estoy escribiendo esto desde el tren 002 que ha salido perfectamente puntual a las 22:08 rumbo a Kazan, ciudad a la que llegaremos a las 9:27.
 
 Primera operación del día: pagar 2200 rublos en un Sberbank. El que Ceci había buscado en internet no aparecía por ninguna parte, así que con nuestro burro correr manta arrastrar, preguntamos a un señor que nos indicó por señas. Llegamos, tampoco hablaban inglés así que Claudio muy bien pintó en un papel 2200 rub --> número de cuenta. La señora lo entendió y todo correcto.

@@ -1,14 +1,18 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-11 09:00:00
-featured_picture: '21170809528'
+featured_picture: 20120811-012006
 layout: post
 mapping:
   locations:
-  - {latitude: 56.88239, longitude: 60.473353}
-  - {latitude: 54.952632, longitude: 73.384809}
-title: "De Ekaterinburgo a Omsk: compartiendo vagón con unos militares"
+  - latitude: 56.88239
+    longitude: 60.473353
+  - latitude: 54.952632
+    longitude: 73.384809
+title: 'De Ekaterinburgo a Omsk: compartiendo vagón con unos militares'
+viaje:
+- Transmongoliano
 ---
+
 [Llegamos al tren limpios]({% post_url 2012-08-10-ekaterinburgo %}) y por tanto de buen humor. Como los de al lado sólo hablaban ruso nos pusimos a cenar educadamente sin molestarles ni nada, les ofrecimos cacahuetes pero no quisieron. Eran dos chicos, uno alto y rubio con un tatuaje en el bíceps izquierdo; el otro más joven, un poco achinado, pelo rapado y bolsa de militar con las botas puestas por fuera. Les dijimos que éramos españoles y se ve que lo estaban comentando con los otros con los que venían. Y se fueron, mientras Ceci y yo cenábamos tranquilamente.
 
 En estas llegó el rubio alto, vino solo. Se presentó: Sasha (diminutivo de Alexander). Traía dos o tres cervezas. Me ofreció una, acepté. Y ahí empezó todo.

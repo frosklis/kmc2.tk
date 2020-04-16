@@ -1,22 +1,39 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-07 21:00:38
-featured_picture: '21171556489'
+featured_picture: 20120807-115038
 layout: post
 mapping:
   locations:
-  - {country: Rusia, latitude: '55.753544', longitude: '37.634805', place: "Mosc\xFA",
-    time: '2012-08-07 11:12:02'}
-  - {country: Rusia, latitude: '55.752755', longitude: '37.622388', place: "Mosc\xFA",
-    time: '2012-08-07 11:50:38'}
-  - {country: Rusia, latitude: '55.754636', longitude: '37.621730', place: "Mosc\xFA",
-    time: '2012-08-07 12:10:37'}
-  - {country: Rusia, latitude: '55.751772', longitude: '37.612461', place: "Mosc\xFA",
-    time: '2012-08-07 13:55:22'}
-  - {country: Rusia, latitude: '55.709763', longitude: '37.558261', place: "Mosc\xFA",
-    time: '2012-08-07 18:24:47'}
-title: "Mosc\xFA"
+  - country: Rusia
+    latitude: '55.753544'
+    longitude: '37.634805'
+    place: Moscú
+    time: '2012-08-07 11:12:02'
+  - country: Rusia
+    latitude: '55.752755'
+    longitude: '37.622388'
+    place: Moscú
+    time: '2012-08-07 11:50:38'
+  - country: Rusia
+    latitude: '55.754636'
+    longitude: '37.621730'
+    place: Moscú
+    time: '2012-08-07 12:10:37'
+  - country: Rusia
+    latitude: '55.751772'
+    longitude: '37.612461'
+    place: Moscú
+    time: '2012-08-07 13:55:22'
+  - country: Rusia
+    latitude: '55.709763'
+    longitude: '37.558261'
+    place: Moscú
+    time: '2012-08-07 18:24:47'
+title: Moscú
+viaje:
+- Transmongoliano
 ---
+
 El día empezó un poco más tarde de lo que nos habría gustado por lo que hemos tenido que descartar la visita al Flea Market, que ha quedado pospuesta para mañana. Una de las tareas que quería hacer en el día era que nos registraran el visado porque es un trámite necesario. Lo malo es que al llegar al "hotel" se me olvidó y esta mañana no había nadie en recepción y ni siquiera cogían el teléfono, así que cuando llegamos por la noche lo hablamos y resulta que no pueden registrarnos el visado porque no les da tiempo (nos vamos mañana). Se supone que tienes que registrarte en los primeros 7 días que estás en Rusia (ellos dicen 7 business days, pero yo no sé si serán 7 días naturales) y como es una cosa que tarda no vamos a poder hacerlo hasta que lleguemos a Olkhon, donde vamos a estar unos días... pero a Olkhon llegaremos en más de 7 días así que puede que estemos de ilegales en el país. Luego hay una norma que leí por ahí que dice que si no estás más de 3 días en un sitio no hace falta registrarse y la propia del "hotel" nos dijo que ahora en los aeropuertos no preguntan nada y que simplemente con los registros de los hoteles vale, en fin, que no lo tienen claro ni los propios rusos.
 
 La primera visita del día fue un banco: la visa funciona perfectamente y el cajero no dio ningún problema. Ya con dinero, fuimos a desayunar a una cafetería donde comprobamos varias cosas: en Moscú el servicio es bueno, Moscú es una ciudad muy cara y siguen con una mentalidad comunista. La cafetería era muy bonita, dos pisos, el de arriba de fumadores y yo diría que unas 40 mesas de las que ocupadas no había más de 5. Aún así yo conté 14 personas trabajando más los que supongo que habría en la cocina... normal que fuera caro. Como no tenían gente a la que atender, los camareros de sobra se dedicaban a limpiar las vitrinas con los postres aunque había una limpiadora limpiando entre las mesas. Sobra gente. Hablando de limpiadoras, vimos a una por la calle, una barrendera, con uniforme de verano: era un mono pero con el pantalón corto, ¡todas las rusas van muy arregladas, hasta las barrenderas! (Comentario de Ceci: todas en taconazos y vestidas como de boda vayan a donde vayan, increíble. Encima todas guapísimas y ellos feos, es injusto!)
