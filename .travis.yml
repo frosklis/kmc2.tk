@@ -1,6 +1,6 @@
 language: generic
 os: linux
-distro: xenial
+dist: xenial
 
 # by default travis clones to depth 50, which is not needed. Could be only 1 maybe.
 git:
