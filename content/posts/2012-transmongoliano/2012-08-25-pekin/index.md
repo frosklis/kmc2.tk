@@ -1,4 +1,5 @@
 ---
+featured_picture: 20120825-170306
 viaje: [Transmongoliano]
 date: 2012-08-25 21:00:00
 layout: post

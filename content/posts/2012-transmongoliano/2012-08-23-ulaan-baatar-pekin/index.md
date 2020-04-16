@@ -1,19 +1,30 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-23 21:00:00
-featured_picture: '21171790030'
+featured_picture: 20120823-075142
 layout: post
 mapping:
   locations:
-  - {latitude: 47.92, longitude: 106.92}
-  - {latitude: 39.90403, longitude: 116.407526}
-  - {country: Mongolia, latitude: '46.358358', longitude: '108.356563', place: Choyr,
-    time: '2012-08-23 14:00:15'}
-  - {country: China, latitude: '43.664308', longitude: '111.972800', place: Eren Hot,
-    time: '2012-08-23 23:33:55'}
-tags: [tren]
-title: "Ulaan Baatar - Pekín"
+  - latitude: 47.92
+    longitude: 106.92
+  - latitude: 39.90403
+    longitude: 116.407526
+  - country: Mongolia
+    latitude: '46.358358'
+    longitude: '108.356563'
+    place: Choyr
+    time: '2012-08-23 14:00:15'
+  - country: China
+    latitude: '43.664308'
+    longitude: '111.972800'
+    place: Eren Hot
+    time: '2012-08-23 23:33:55'
+tags:
+- tren
+title: Ulaan Baatar - Pekín
+viaje:
+- Transmongoliano
 ---
+
 Como acordado, Zula nos acompañó a buscar un taxi por la mañana que nos dejó puntual en la estación de tren. Creo que es el lugar donde he visto mayor concentración de occidentales de todo el viaje. Da la sensación de que en el tren nos tienen organizados por continentes y no es broma, en nuestro vagón somos todos europeos y hay otros que son exclusivamente mongoles. Suponemos que lo hacen para facilitar los controles de pasaportes.
 
 {{% imgproc 21171790030 %}}

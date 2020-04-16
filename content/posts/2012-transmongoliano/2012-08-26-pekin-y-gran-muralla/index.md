@@ -1,19 +1,31 @@
 ---
-viaje: [Transmongoliano]
 date: 2012-08-26 21:00:00
-featured_picture: '26558983941'
+featured_picture: 20120826-143600
 layout: post
 mapping:
   locations:
-  - {country: China, latitude: '40.262371', longitude: '116.222625', place: Changping,
-    time: '2012-08-26 10:22:06'}
-  - {country: China, latitude: '40.432073', longitude: '116.564227', place: Sanduhe,
-    time: '2012-08-26 14:36:00'}
-  - {country: China, latitude: '40.431050', longitude: '116.564258', place: Sanduhe,
-    time: '2012-08-26 15:41:55'}
-tags: [Gran Muralla]
-title: "Pekín y Gran Muralla"
+  - country: China
+    latitude: '40.262371'
+    longitude: '116.222625'
+    place: Changping
+    time: '2012-08-26 10:22:06'
+  - country: China
+    latitude: '40.432073'
+    longitude: '116.564227'
+    place: Sanduhe
+    time: '2012-08-26 14:36:00'
+  - country: China
+    latitude: '40.431050'
+    longitude: '116.564258'
+    place: Sanduhe
+    time: '2012-08-26 15:41:55'
+tags:
+- Gran Muralla
+title: Pekín y Gran Muralla
+viaje:
+- Transmongoliano
 ---
+
 Bajamos a las 7 a hablar con el conserje y conseguimos reservar un tour para ese mismo día a Mutianyu y Paseo Sagrado. El tour nos iba a llevar la mayor parte del día.
 
 Nos recogió un autobús que amenazó con dejarnos en tierra porque Claudio que había ido a sacar dinero llegó un minuto tarde. La guía se llamaba Jenny (Chinchanli en chino, así sonaba en mi cabeza) que hablaba bastante bien inglés cuando hablabas con ella directamente, pero un poco difícil de seguir cuando hablaba con el micrófono. Tras recoger a varios turistas por sus hoteles nos pusimos en marcha hacia el Paseo Sagrado, previo paso por la ciudad Olímpica, con su famoso Bird's Nest (estadio), the Cube (piscinas) y el bosque olímpico. Ahora que lo hemos visto desde el bus, no creo que volvamos de noche. Casi se ve mejor desde cierta altura que a pie.
