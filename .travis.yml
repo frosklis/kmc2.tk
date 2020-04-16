@@ -1,4 +1,6 @@
 language: generic
+os: linux
+distro: xenial
 
 # by default travis clones to depth 50, which is not needed. Could be only 1 maybe.
 git:
@@ -16,7 +18,7 @@ script:
   - git clone --depth 1 https://gist.github.com/c53a4394e556720b10a3fcd9e1a89841.git ./publish_scripts
   - hugo --minify
 
-before-deploy:
+before_deploy:
   - git checkout master && git pull
   - git add -f resources/
   - git commit -m "[skip ci] generate resources commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
@@ -28,6 +30,6 @@ before-deploy:
 deploy:
   - provider: script
     script: bash ./publish_scripts/publish_to_ghpages.sh
-    skip_cleanup: true
+    cleanup: true
     on:
       branch: master
