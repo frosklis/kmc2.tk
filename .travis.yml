@@ -30,6 +30,6 @@ before_deploy:
 deploy:
   - provider: script
     script: bash ./publish_scripts/publish_to_ghpages.sh
-    cleanup: true
+    skip_cleanup: true
     on:
       branch: master
