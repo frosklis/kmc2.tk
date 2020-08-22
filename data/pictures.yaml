@@ -1390,13 +1390,6 @@
   latitude: '43.6643083333333'
   longitude: '111.9728'
   title: Cambiando los boggies
-20120824-145338-1.jpg:
-  datetime: 2012:08:24 14:53:38
-  description: '-'
-  directory: ./posts/2012-transmongoliano/2012-08-24-primer-dia-en-pekin
-  latitude: '-'
-  longitude: '-'
-  title: Coche italo-espa&ntilde;ol
 20120824-145338.jpg:
   datetime: 2012:08:24 14:53:38
   description: '-'
@@ -1404,26 +1397,12 @@
   latitude: '-'
   longitude: '-'
   title: Coche italo-espa&ntilde;ol
-20120824-152032-1.jpg:
-  datetime: 2012:08:24 15:20:32
-  description: '-'
-  directory: ./posts/2012-transmongoliano/2012-08-24-primer-dia-en-pekin
-  latitude: '-'
-  longitude: '-'
-  title: '-'
 20120824-152032.jpg:
   datetime: 2012:08:24 15:20:32
   description: '-'
   directory: ./posts/2012-transmongoliano/2012-08-24-primer-dia-en-pekin
   latitude: '-'
   longitude: '-'
-  title: '-'
-20120824-202459-1.jpg:
-  datetime: 2012:08:24 20:24:59
-  description: '-'
-  directory: ./posts/2012-transmongoliano/2012-08-24-primer-dia-en-pekin
-  latitude: '39.9061716666667'
-  longitude: '116.379685'
   title: '-'
 20120824-202459.jpg:
   datetime: 2012:08:24 20:24:59
@@ -5759,6 +5738,27 @@
   datetime: 2019:11:02 17:48:35
   description: '-'
   directory: ./posts/2019-india/2019-11-02-contaminacion-en-delhi
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20200821-111314.jpg:
+  datetime: 2020:08:21 11:13:14
+  description: '-'
+  directory: ./posts/2020-grecia/2020-08-21
+  latitude: '40.4901888888889'
+  longitude: '-3.59095277777778'
+  title: '-'
+20200821-191223.jpg:
+  datetime: 2020:08:21 19:12:23
+  description: '-'
+  directory: ./posts/2020-grecia/2020-08-21
+  latitude: '-'
+  longitude: '-'
+  title: '-'
+20200822-125837.jpg:
+  datetime: 2020:08:22 12:58:37
+  description: '-'
+  directory: ./posts/2020-grecia/2020-08-22
   latitude: '-'
   longitude: '-'
   title: '-'

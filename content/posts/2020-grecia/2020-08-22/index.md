@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2010-08-22
 layout: post
 title: "Naxos"
-featured_picture: 
+featured_picture: 20200822-1258
 ---
 
 Hoy ha sido nuestro primer día en las Cícladas. Hemos cogido el ferry de Atenas a Naxos, que son unas 4 horas y que sale a las 7 am (un poco paliza si se tiene en cuenta que aquí es una hora más y todavía no estamos hechos al horario). Una vez llegados a la isla fuimos a por nuestro coche de alquiler, recomendable para esta isla que es grande y se puede circular bien, y para nuestra sorpresa lo recogimos en un callejón donde la maniobra tenía altas probabilidades de acabar con el coche en el mar. 
