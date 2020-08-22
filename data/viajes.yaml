@@ -1,4 +1,13 @@
 # Viajes
+- name: Grecia
+  sanitized: "grecia"
+  featured_picture: 
+  description: Escapando del COVID
+  date: "Verano de 2020"
+  continent: europe
+  countries: [GRC]
+  regions: []
+
 - name: La India
   sanitized: "india"
   featured_picture: 20191022-074917
