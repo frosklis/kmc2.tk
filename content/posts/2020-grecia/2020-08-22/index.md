@@ -14,6 +14,8 @@ Dimos un paseo hasta el centro de Chora, capital de Naxos y comimos en el puerto
 
 La tarde la pasamos en Plaka Beach, una playa larga en una reserva natural muy bonita de arena dorada y aguas turquesas con varios accesos por caminos de tierra donde se pueden dejar el coche. Lo importante aquí es dar con la zona adecuada porque hay algunas que son más de piedras y peores para el baño mientras que otras tienen arena más fina.
 
-Para cerrar el día fuimos a ver el atardecer a la puerta del Templo de Apolo. Un lugar emblemático en la ciudad que curiosamente, es la puerta de un templo que nunca llegó a construirse. 
+Para cerrar el día fuimos a ver el atardecer a la puerta del Templo de Apolo. Un lugar emblemático en la ciudad que curiosamente, es la puerta de un templo que nunca llegó a construirse. No entendemos cómo es que se conserva la puerta, normalmente lo que ocurre con estas cosas es que se reutiliza la piedra para algo.
 
 Finalmente, tras un paseo hasta el castillo y la iglesia de la cima de Chora, fuimos a cenar a Doukato, un restaurante recomendado por la Lonely Planet y que nos gustó mucho también. Mañana nos tocan pueblecitos y más playas. 
+
+De momento, Grecia cumple expectativas.
