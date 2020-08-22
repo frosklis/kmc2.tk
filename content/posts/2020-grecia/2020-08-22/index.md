@@ -1,8 +1,8 @@
 ---
 viaje: [Grecia]
-date: 2010-08-22
+date: 2020-08-22
 layout: post
-title: "Naxos"
+title: Naxos
 featured_picture: 20200822-1258
 ---
 

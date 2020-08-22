@@ -1,6 +1,6 @@
 ---
 viaje: [Grecia]
-date: '2010-08-21'
+date: '2020-08-21'
 layout: post
 title: "Llegada a Atenas"
 featured_picture: 20200821-1113
