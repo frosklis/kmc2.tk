@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-09-01
 layout: post
 title: Monenvasia
-featured_picture: 
+featured_picture: 20200901-1001
 ---
 
 Hoy ha hecho mucho calor, 37 grados a nivel del mar y aún más importante, al lado del mar. Por la mañana hemos desayunado en una de las "tavernas" con vistas al mar de la ciudad baja de Monenvasia. Después hemos recorrido sus callejuelas, visitado desde fuera sus iglesias (abrían solo de viernes a lunes para el turismo), subido a la parte alta de la ciudad y contemplado la muralla. A diferencia de Mystras, Monemvasia está muy bien conservado/reconstruido y se aprecia muy bien cómo era la vida en este pueblo medieval.

@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-09-03
 layout: post
 title: Fortalezas y playa
-featured_picture: 
+featured_picture: 20200903-1152
 ---
 
 Menos piedras hoy que ayer. Nafplio tiene dos fortalezas, una pequeña y gratuita cerca de la propia ciudad (menos de diez minutos andando desde la plaza de la Constitución) y otra grande más alejada.

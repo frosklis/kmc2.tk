@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-31
 layout: post
 title: Mistras
-featured_picture: 
+featured_picture: 20200831-1422
 ---
 
 Seguimos en nuestro periplo por el Peloponeso, acabamode cenar en Monenvasia, donde vamos a pasar dos noches. Pero realmeente hemos llegado tarde y lo que hemos hecho en el día ha sido ver Mistras.

@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-09-02
 layout: post
 title: Mycenae, Argos, Nauplio
-featured_picture: 
+featured_picture: 20200902-1948
 ---
 
 Hoy ha sido un día de mucha piedra. Para visitar los lugares arqueológicos de la península de Argolis recomendamos sacar un billete múltiple que te permite acceso a los de Micenas, Tyrins, Argos, Nauplio...
