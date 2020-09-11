@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-25
 layout: post
 title: Lo típico de Santorini
-featured_picture: 
+featured_picture: 20200825-0819
 ---
 
 Hoy hemos dos de las tres cosas que "hay que hacer" en Santorini: ir caminando de Thira a Oia y dar una vuelta en barco por la caldera. Falta la tercera, que haremos mañana, que es ver la puesta de sol desde Oia.

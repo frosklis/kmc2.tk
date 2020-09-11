@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-09-05
 layout: post
 title: Un día en Atenas
-featured_picture: 
+featured_picture: 20200905-1922
 ---
 
 Hoy hemos hecho lo importante que hay que hacer desde un punto de vista turístico en Atenas, porque el tour de ayer la verdad es que no aportó gran cosa.

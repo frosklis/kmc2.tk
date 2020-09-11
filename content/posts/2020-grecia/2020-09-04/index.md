@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-09-04
 layout: post
 title: Epidauro
-featured_picture: 
+featured_picture: 20200904-1045
 ---
 
 Día intenso. Lo primero que visitamos fue Epidauro, donde lo más famoso es el teatro, el cual figura entre los mejores preservados de Grecia. Fue construido aprovechando la ladera de una montaña, con un diámetro de 112 metros y capacidad para 12000 espectadores y el proscenio. En la antigüedad era ya célebre por la armonía de sus proporciones. Además del teatro se pueden visitar el templo de Asclepio y de Artemisa. Epidauro tuvo su fama en el siglo IV antes de Cristo por los médicos que tenían e incluso en tiempos romanos acudían allí en busca de soluciones. En un pequeño museo se pueden ver algunos de los objetos médicos del momento.
