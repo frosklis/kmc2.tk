@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-28
 layout: post
 title: Monasterios de Meteora
-featured_picture: 
+featured_picture: 20200831-0943
 ---
 
 En Meteora hace mucho calor por eso por la mañana decidimos no sufrir y hacer una caminata corta (no más de una hora la ida y otra la vuelta) pero muy pendiente para subir por una ruta prácticamente toda en sombra a los monasterios de Gran Meteora, Varlaam y San Nicolás. A los otros dos que vimos, Roussanou/Santa Bárbara, Santísima trinidad y San Stefano, fuimos en coche. El principal problema de la caminata es encontrar el inicio y por eso tardamos algo en arrancar, sale a unos 250 metros del parking del monasterio de San Nicolás, justo en una curva pronunciada. El ascenso es pronunciado pero afortunadamente a la sombra y tras media hora de caminata llega a una bifurcación, a la izquierda se va al monasterio de Gran Meteora y a la derecha hacia Varlaam. Nos habían recomendado visitar primero Gran Meteora ya que tiene un acceso relativamente fácil en coche/autobús y además es esl más famoso y turístico. 

@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-26
 layout: post
 title: El día de lo que se iba a ver pero no se vio
-featured_picture: 
+featured_picture: 20200826-1736
 ---
 
 Por la mañana desayunamos en Firostefani de camino a Fira en una cafetería cualquiera. Recordemos una vez más el concepto slow food griego, donde mejor no tengas prisa, porque todo puede ir para largo (y tampoco pasa nada que estamos de vacaciones). Tras nuestro café y yogur griego fuimos paseando una vez más hasta Fira para dar un paseo por la ciudad. No añadimos mucho a lo que ya conocíamos, agradables hoteles y restaurantes intercalados con tiendas de souvenirs, más o menos originales. El museo de historia de Fira decidimos dejarlo para una próxima visita.

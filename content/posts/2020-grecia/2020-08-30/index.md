@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-30
 layout: post
 title: Somos olímpicos
-featured_picture: 
+featured_picture: 20200830-2010
 ---
 
 La mañana empezó bien, disfrutando de las buenas vistas desde la habitación, luego de la amabilidad durante el desayuno y finalmente con el entusiasmo con el bonito viaje que íbamos a hacer hasta Olimpia de la chica de la recepción del hotel: encantadores todos los empleados.

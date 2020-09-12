@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-27
 layout: post
 title: Vuelta al continente
-featured_picture: 
+featured_picture: 20200827-1947
 ---
 
 Hoy ha sido un día de transición bien aprovechado. Por la mañana, desayunamos por primera vez el desayuno del hotel. La excusa es el coronavirus pero, en cualquier caso, el desayuno es normal tirando a malo y, sobre todo, caro: no recomendable. Eso sí, disfrutar un poco de la mañana en el hotel con las vistas a la caldera estuvo bien.

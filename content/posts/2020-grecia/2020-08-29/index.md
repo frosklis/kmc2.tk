@@ -3,7 +3,7 @@ viaje: [Grecia]
 date: 2020-08-29
 layout: post
 title: Delphi
-featured_picture: 
+featured_picture: 20200829-1250
 ---
 
 Tres horas de viaje para empezar el día desde Kastraki hasta Delphi, destino de hoy. El Delphi moderno no es gran cosa, ni siquiera llegaría a calificarlo de ciudad; pueblo grande tal vez. El Delphi antiguo en cambio era el centro del mundo: ninguna decisión importante se tomaba sin antes ser consultada con el oráculo. Esto dotaba a Delphi de gran riqueza y hoy quedan sus ruinas. Aunque mucha gente se aloja en sitios alrededor de Delphi, nososros nos quedamos en la propia ciudad en el Hotel Nidimos, que recomendamos mucho por el buen trato y las habitaciones espaciosas y recientemente renovadas. Además tienen un parking donde pudimos dejar el coche y las maletas tranquilamente mientras visitábamos las ruinas antes del check-in oficial.
