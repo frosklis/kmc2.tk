@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kmc2.es
+Token: 420d18f7a436281030074ef7d94633d277d2b8dcd1790eb8549a8b0e84d6b007
